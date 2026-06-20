@@ -1,20 +1,25 @@
 {
-    "pools": [
-      {
-        "rolls": 1,
-        "entries": [
-          {
-            "type": "item",
-            "name": "minecraft:nether_star",
-            "functions": [
-                {
-                    "function": "minecraft:set_nbt",
-                    "tag": "{display:{Name:'{\"translate\":\"pl.item.name.relifestone\"}'},id:\"panling:relive_stone\"}"
-                    
-                }
-            ]
-          }
-        ]
-      }
-    ]
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "name": "minecraft:nether_star",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": "{\"translate\":\"pl.item.name.relifestone\"}"
+              }
+            },
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{id:\"panling:relive_stone\"}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
 }

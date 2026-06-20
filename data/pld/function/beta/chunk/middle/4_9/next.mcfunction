@@ -1,14 +1,14 @@
 
 #要做的事
-setblock 80 41 141 minecraft:command_block[custom_data={Command:"function pld:npcs/middle/te23"}] replace 
-setblock 89 44 142 minecraft:command_block[custom_data={Command:"function pld:npcs/middle/tong2"}] replace 
-setblock 89 42 142 minecraft:command_block[custom_data={Command:"function pld:npcs/middle/tong3"}] replace 
-setblock 86 42 149 minecraft:command_block[custom_data={Command:"function pld:npcs/middle/tong8"}] replace 
-setblock 83 44 149 minecraft:command_block[custom_data={Command:"function pld:npcs/middle/tong9"}] replace 
-setblock 83 42 149 minecraft:command_block[custom_data={Command:"function pld:npcs/middle/tong10"}] replace
-setblock 89 41 133 minecraft:command_block[custom_data={Command:"function pld:npcs/middle/chat16"}] replace 
-setblock 71 45 142 minecraft:command_block[custom_data={Command:"tp @p[x=76,y=47,z=142,distance=..3] 80 33 156 -90 0"}] replace 
-setblock 73 44 142 minecraft:repeating_command_block[custom_data={Command:"tp @e[x=76,y=47,z=142,distance=..3,type=!player] ~ ~-1000 ~"}] replace 
+setblock 80 41 141 minecraft:command_block{Command:"function pld:npcs/middle/te23"} replace 
+setblock 89 44 142 minecraft:command_block{Command:"function pld:npcs/middle/tong2"} replace 
+setblock 89 42 142 minecraft:command_block{Command:"function pld:npcs/middle/tong3"} replace 
+setblock 86 42 149 minecraft:command_block{Command:"function pld:npcs/middle/tong8"} replace 
+setblock 83 44 149 minecraft:command_block{Command:"function pld:npcs/middle/tong9"} replace 
+setblock 83 42 149 minecraft:command_block{Command:"function pld:npcs/middle/tong10"} replace
+setblock 89 41 133 minecraft:command_block{Command:"function pld:npcs/middle/chat16"} replace 
+setblock 71 45 142 minecraft:command_block{Command:"tp @p[x=76,y=47,z=142,distance=..3] 80 33 156 -90 0"} replace 
+setblock 73 44 142 minecraft:repeating_command_block{Command:"tp @e[x=76,y=47,z=142,distance=..3,type=!player] ~ ~-1000 ~"} replace 
 
 
 setblock 78 47 145 air

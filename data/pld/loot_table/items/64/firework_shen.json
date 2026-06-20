@@ -1,23 +1,37 @@
 {
-    "pools": [
-      {
-        "rolls": 1,
-        "entries": [
-          {
-            "type": "item",
-            "name": "minecraft:firework_rocket",
-            "functions": [
-              {
-                "function": "set_nbt",
-                "tag": "{id:\"panling:firework_shen\",CanPlaceOn:[\"#all\"],HideFlags:63,Fireworks:{Flight:1,Explosions:[{Type:1,Trail:0,Colors:[I;16777062],Flicker:0},{Type:0,Trail:1,Colors:[I;65535],FadeColors:[I;16777215],Flicker:0},{Type:2,Trail:1,Colors:[I;16744448],FadeColors:[I;16744448],Flicker:1}]},display:{Name:'[{\"translate\":\"pl.item.name.firework_shen\"}]',Lore:['{\"translate\":\"pl.item.lore.firework_shena\"}','{\"translate\":\"pl.item.lore.firework_shenb\"}','{\"translate\":\"\"}','{\"translate\":\"pl.item.lore.firework1\"}','{\"translate\":\"pl.item.lore.firework2\"}']}}"
-              },
-              {
-                "function": "set_count",
-                "count": 64
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "name": "minecraft:firework_rocket",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:hide_additional_tooltip": {},
+                "minecraft:custom_name": "[{\"translate\":\"pl.item.name.firework_shen\"}]",
+                "minecraft:lore": [
+                  "{\"translate\":\"pl.item.lore.firework_shena\"}",
+                  "{\"translate\":\"pl.item.lore.firework_shenb\"}",
+                  "{\"translate\":\"\"}",
+                  "{\"translate\":\"pl.item.lore.firework1\"}",
+                  "{\"translate\":\"pl.item.lore.firework2\"}"
+                ]
               }
-            ]
-          }
-        ]
-      }
-    ]
+            },
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{id:\"panling:firework_shen\",CanPlaceOn:[\"#all\"],Fireworks:{Flight:1,Explosions:[{Type:1,Trail:0,Colors:[I;16777062],Flicker:0},{Type:0,Trail:1,Colors:[I;65535],FadeColors:[I;16777215],Flicker:0},{Type:2,Trail:1,Colors:[I;16744448],FadeColors:[I;16744448],Flicker:1}]}}"
+            },
+            {
+              "function": "set_count",
+              "count": 64
+            }
+          ]
+        }
+      ]
+    }
+  ]
 }

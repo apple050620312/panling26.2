@@ -9,14 +9,14 @@ data merge block 208 54 -1787 {front_text:{messages:['{"translate":"pl.sign.reli
 setblock 209 53 -1789 air
 setblock 208 53 -1791 air
 setblock 208 53 -1788 hopper replace
-setblock 208 53 -1790 minecraft:repeating_command_block[custom_data={Command:"function pld:system/relife/rightcheck"}] replace 
+setblock 208 53 -1790 minecraft:repeating_command_block{Command:"function pld:system/relife/rightcheck"} replace 
 
-setblock 205 52 -1788 minecraft:command_block[custom_data={Command:"execute as @p[x=205,y=54,z=-1788,distance=..7] run function pld:system/relife/middle"}] replace 
+setblock 205 52 -1788 minecraft:command_block{Command:"execute as @p[x=205,y=54,z=-1788,distance=..7] run function pld:system/relife/middle"} replace 
 
 setblock 201 53 -1789 air
 setblock 202 53 -1791 air
 setblock 202 53 -1788 hopper replace
-setblock 202 53 -1790 minecraft:repeating_command_block[custom_data={Command:"function pld:system/relife/leftcheck"}] replace
+setblock 202 53 -1790 minecraft:repeating_command_block{Command:"function pld:system/relife/leftcheck"} replace
 
 #区块卸载
 forceload remove 203 -1786 210 -1786

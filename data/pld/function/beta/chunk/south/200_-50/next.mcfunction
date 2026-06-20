@@ -1,6 +1,6 @@
 
 #要做的事
-setblock 3216 143 -798 minecraft:command_block[custom_data={Command:"function pld:npcs/south/birdsoul"}] replace 
+setblock 3216 143 -798 minecraft:command_block{Command:"function pld:npcs/south/birdsoul"} replace 
 
 kill @e[type=villager,tag=!panling]
 execute positioned 3216 143 -798 run function pld:npcs/south/birdsoul

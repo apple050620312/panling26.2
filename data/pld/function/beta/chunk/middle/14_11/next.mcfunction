@@ -1,6 +1,6 @@
 
 #要做的事
-setblock 232 42 181 minecraft:command_block[custom_data={Command:"function pld:npcs/middle/chat72"}] replace 
+setblock 232 42 181 minecraft:command_block{Command:"function pld:npcs/middle/chat72"} replace 
 kill @e[type=villager,tag=!panling]
 execute positioned 232 42 181 run function pld:npcs/middle/chat72
 #区块卸载

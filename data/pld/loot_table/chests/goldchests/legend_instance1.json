@@ -1,105 +1,105 @@
 {
-    "type": "minecraft:generic",
-    "pools": [
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
         {
-            "rolls":1,
-            "entries": [
-                {
-                    "_comment":"金宝箱产物-混天绫",
-                    "weight": 1,
-                    "type": "minecraft:item",
-                    "name": "minecraft:diamond_helmet",
-                    "functions": [
-                        {
-                            "function": "minecraft:set_nbt",
-                            "tag": "{instance:1,chest:3,id:\"panling:helmet61\"}"
-                        }
-                    ],
-                    "conditions": [
-                        {
-                            "condition": "minecraft:inverted",
-                            "term": {
-                                "condition": "minecraft:entity_scores",
-                                "entity": "this",
-                                "scores": {
-                                    "gotten_helmet61":1
-                                }
-                            } 
-                        }
-                    ]
-                },
-                {
-                    "_comment":"金宝箱产物-九天玄羽",
-                    "weight": 1,
-                    "type": "minecraft:item",
-                    "name": "minecraft:diamond_boots",
-                    "functions": [
-                        {
-                            "function": "minecraft:set_nbt",
-                            "tag": "{instance:1,chest:3,id:\"panling:boots63\"}"
-                        }
-                    ],
-                    "conditions": [
-                        {
-                            "condition": "minecraft:inverted",
-                            "term": {
-                                "condition": "minecraft:entity_scores",
-                                "entity": "this",
-                                "scores": {
-                                    "gotten_boots63":1
-                                }
-                            } 
-                        }
-                    ]
-                },
-                {
-                    "_comment":"金宝箱产物-甲兵释司",
-                    "weight": 1,
-                    "type": "minecraft:item",
-                    "name": "minecraft:diamond_leggings",
-                    "functions": [
-                        {
-                            "function": "minecraft:set_nbt",
-                            "tag": "{instance:1,chest:3,id:\"panling:leggings62\"}"
-                        }
-                    ],
-                    "conditions": [
-                        {
-                            "condition": "minecraft:inverted",
-                            "term": {
-                                "condition": "minecraft:entity_scores",
-                                "entity": "this",
-                                "scores": {
-                                    "gotten_leg62":1
-                                }
-                            } 
-                        }
-                    ]
-                },
-                {
-                    "_comment":"金宝箱产物-神器替代物-千炼玉",
-                    "weight": 1,
-                    "type": "minecraft:item",
-                    "name": "minecraft:diamond",
-                    "functions": [
-                        {
-                            "function": "minecraft:set_nbt",
-                            "tag": "{instance:1,chest:3,id:\"panling:armor_core_52\"}"
-                        }
-                    ],
-                    "conditions": [
-                        {
-                            "condition": "minecraft:entity_scores",
-                            "entity": "this",
-                            "scores": {
-                                "gotten_helmet61":1,
-                                "gotten_boots63":1,
-                                "gotten_leg62":1
-                            }   
-                        }
-                    ]
+          "_comment": "金宝箱产物-混天绫",
+          "weight": 1,
+          "type": "minecraft:item",
+          "name": "minecraft:diamond_helmet",
+          "functions": [
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{instance:1,chest:3,id:\"panling:helmet61\"}"
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:inverted",
+              "term": {
+                "condition": "minecraft:entity_scores",
+                "entity": "this",
+                "scores": {
+                  "gotten_helmet61": 1
                 }
-            ]
+              }
+            }
+          ]
+        },
+        {
+          "_comment": "金宝箱产物-九天玄羽",
+          "weight": 1,
+          "type": "minecraft:item",
+          "name": "minecraft:diamond_boots",
+          "functions": [
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{instance:1,chest:3,id:\"panling:boots63\"}"
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:inverted",
+              "term": {
+                "condition": "minecraft:entity_scores",
+                "entity": "this",
+                "scores": {
+                  "gotten_boots63": 1
+                }
+              }
+            }
+          ]
+        },
+        {
+          "_comment": "金宝箱产物-甲兵释司",
+          "weight": 1,
+          "type": "minecraft:item",
+          "name": "minecraft:diamond_leggings",
+          "functions": [
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{instance:1,chest:3,id:\"panling:leggings62\"}"
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:inverted",
+              "term": {
+                "condition": "minecraft:entity_scores",
+                "entity": "this",
+                "scores": {
+                  "gotten_leg62": 1
+                }
+              }
+            }
+          ]
+        },
+        {
+          "_comment": "金宝箱产物-神器替代物-千炼玉",
+          "weight": 1,
+          "type": "minecraft:item",
+          "name": "minecraft:diamond",
+          "functions": [
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{instance:1,chest:3,id:\"panling:armor_core_52\"}"
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:entity_scores",
+              "entity": "this",
+              "scores": {
+                "gotten_helmet61": 1,
+                "gotten_boots63": 1,
+                "gotten_leg62": 1
+              }
+            }
+          ]
         }
-    ]
+      ]
+    }
+  ]
 }

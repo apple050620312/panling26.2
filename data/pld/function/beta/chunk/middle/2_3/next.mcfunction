@@ -1,8 +1,8 @@
 #要做的事
-setblock 33 44 52 minecraft:command_block[custom_data={Command:"function pld:npcs/middle/chat56"}] replace
-setblock 42 44 51 minecraft:command_block[custom_data={Command:"function pld:npcs/middle/tong21b"}] replace
-setblock 45 44 47 minecraft:command_block[custom_data={Command:"function pld:npcs/middle/chat60"}] replace
-setblock 38 43 56 minecraft:command_block[custom_data={Command:"function pld:npcs/middle/chat61"}] replace
+setblock 33 44 52 minecraft:command_block{Command:"function pld:npcs/middle/chat56"} replace
+setblock 42 44 51 minecraft:command_block{Command:"function pld:npcs/middle/tong21b"} replace
+setblock 45 44 47 minecraft:command_block{Command:"function pld:npcs/middle/chat60"} replace
+setblock 38 43 56 minecraft:command_block{Command:"function pld:npcs/middle/chat61"} replace
 data merge block 43 52 48 {front_text:{messages:['{"translate":""}','{"translate":"pl.sign.middle55.text2"}','{"translate":"pl.sign.middle55.text3"}','{"translate":""}']}}
 data merge block 42 52 48 {front_text:{messages:['{"translate":""}','{"translate":"pl.sign.middle52.text2"}','{"translate":"pl.sign.middle52.text3"}','{"translate":""}']}}
 data merge block 41 52 48 {front_text:{messages:['{"translate":""}','{"translate":"pl.sign.middle53.text2"}','{"translate":"pl.sign.middle53.text3"}','{"translate":""}']}}

@@ -11,7 +11,7 @@ scoreboard players reset @s instance3_floor
 tag @s remove sword_0
 tag @s remove sword_1
 #降低玩家的100%攻击力
-attribute @s generic.attack_damage modifier add 101-0-0-0-0 "近战傷害屏蔽" -0.99999 multiply
+attribute @s minecraft:generic.attack_damage modifier add panling:uuid_101_0_0_0_0 -0.99999 add_multiplied_total
 
 scoreboard players reset @s player_death
 execute if score @s parkour_middle_in matches 1 run function pld:system/parkour_middle/failed

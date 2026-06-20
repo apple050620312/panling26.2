@@ -1,9 +1,9 @@
 
 #要做的事
-setblock 3335 153 118 minecraft:command_block[custom_data={Command:"function pld:npcs/shen/shenmain2"}] replace 
+setblock 3335 153 118 minecraft:command_block{Command:"function pld:npcs/shen/shenmain2"} replace 
 
-setblock 3346 152 127 minecraft:command_block[custom_data={Command:"function pld:npcs/shen/guard"}] replace 
-setblock 3328 152 127 minecraft:command_block[custom_data={Command:"function pld:npcs/shen/guard"}] replace 
+setblock 3346 152 127 minecraft:command_block{Command:"function pld:npcs/shen/guard"} replace 
+setblock 3328 152 127 minecraft:command_block{Command:"function pld:npcs/shen/guard"} replace 
 
 kill @e[type=villager,tag=!panling]
 execute as @e[type=skeleton] run function pld:system/tp_and_kill_self

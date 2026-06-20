@@ -4,7 +4,7 @@ forceload add 1150 922
 data merge block 1151 23 923 {front_text:{messages:['{"text":""}','{"translate":"pl.sign.instance.a5.text2"}','{"translate":"pl.sign.instance2.text3"}','{"text":""}']}}
 data merge block 1149 23 923 {front_text:{messages:['{"translate":"pl.sign.instance.a6.text1"}','{"translate":"pl.sign.instance.a6.text2"}','{"translate":"pl.sign.instance.a6.text3"}','{"translate":"pl.sign.instance.a6.text4"}']}}
 
-setblock 1150 21 924 minecraft:command_block[custom_data={Command:"function pld:instances/instance2/check"}] replace 
+setblock 1150 21 924 minecraft:command_block{Command:"function pld:instances/instance2/check"} replace 
 
 #区块卸载
 forceload remove 1150 922

@@ -1,2 +1,2 @@
 tag @s remove fire_0_ring
-attribute @s generic.attack_damage modifier remove 12-3-4-0-0
+attribute @s minecraft:generic.attack_damage modifier remove panling:uuid_12_3_4_0_0

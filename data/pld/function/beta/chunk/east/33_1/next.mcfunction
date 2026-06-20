@@ -1,7 +1,7 @@
 #要做的事
 data merge block 535 33 29 {front_text:{messages:['{"text":""}','{"translate":"pl.sign.east2.text2"}','{"text":""}','{"text":""}']}}
 data merge block 534 33 36 {front_text:{messages:['{"text":""}','{"translate":"pl.sign.east3.text2"}','{"text":""}','{"text":""}']}}
-setblock 532 28 41 minecraft:command_block[custom_data={Command:"function pld:npcs/east/re1"}] replace 
+setblock 532 28 41 minecraft:command_block{Command:"function pld:npcs/east/re1"} replace 
 
 
 kill @e[type=villager,tag=!panling]

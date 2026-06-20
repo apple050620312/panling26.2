@@ -1,19 +1,35 @@
 {
-    "pools": [
-      {
-        "rolls": 1,
-        "entries": [
-          {
-            "type": "item",
-            "name": "minecraft:orange_dye",
-            "functions": [
-                {
-                    "function": "minecraft:set_nbt",
-                    "tag": "{HideFlags:63,Enchantments:[{id:\"minecraft:protection\",lvl:1s}],id:\"panling:instance2_collection\",display:{Name:'{\"translate\":\"pl.item.name.instance2_collection\"}',Lore:['{\"translate\":\"pl.item.lore.instance2_collectiona\"}','{\"translate\":\"pl.item.lore.instance2_collectionb\"}']}}"   
-                }
-            ]
-          }
-        ]
-      }
-    ]
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "name": "minecraft:orange_dye",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:hide_additional_tooltip": {},
+                "minecraft:enchantments": {
+                  "levels": {
+                    "minecraft:protection": 1
+                  }
+                },
+                "minecraft:custom_name": "{\"translate\":\"pl.item.name.instance2_collection\"}",
+                "minecraft:lore": [
+                  "{\"translate\":\"pl.item.lore.instance2_collectiona\"}",
+                  "{\"translate\":\"pl.item.lore.instance2_collectionb\"}"
+                ]
+              }
+            },
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{id:\"panling:instance2_collection\"}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
 }

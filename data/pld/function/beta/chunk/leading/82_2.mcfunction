@@ -10,9 +10,9 @@ data merge block 1314 64 40 {front_text:{messages:['{"translate":"pl.sign.select
 data merge block 1324 64 40 {front_text:{messages:['{"text":""}','{"translate":"pl.job0"}','{"translate":"pl.sign.job_lesson.text3"}','{"text":""}']}}
 data merge block 1324 64 42 {front_text:{messages:['{"text":""}','{"translate":"pl.job1"}','{"translate":"pl.sign.job_lesson.text3"}','{"text":""}']}}
 data merge block 1324 64 44 {front_text:{messages:['{"text":""}','{"translate":"pl.job2"}','{"translate":"pl.sign.job_lesson.text3"}','{"text":""}']}}
-setblock 1324 61 40 minecraft:command_block[custom_data={Command:"execute as @p[x=1324,y=63,z=40,distance=..2] run function pld:selections/job/select_job0"}] replace 
-setblock 1324 61 42 minecraft:command_block[custom_data={Command:"execute as @p[x=1324,y=63,z=42,distance=..2] run function pld:selections/job/select_job1"}] replace 
-setblock 1324 61 44 minecraft:command_block[custom_data={Command:"execute as @p[x=1324,y=63,z=44,distance=..2] run function pld:selections/job/select_job2"}] replace 
+setblock 1324 61 40 minecraft:command_block{Command:"execute as @p[x=1324,y=63,z=40,distance=..2] run function pld:selections/job/select_job0"} replace 
+setblock 1324 61 42 minecraft:command_block{Command:"execute as @p[x=1324,y=63,z=42,distance=..2] run function pld:selections/job/select_job1"} replace 
+setblock 1324 61 44 minecraft:command_block{Command:"execute as @p[x=1324,y=63,z=44,distance=..2] run function pld:selections/job/select_job2"} replace 
 
 #区块卸载
 forceload remove 1315 39 

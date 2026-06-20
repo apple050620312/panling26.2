@@ -1,9 +1,9 @@
 
 #要做的事
-setblock -197 61 -172 minecraft:command_block[custom_data={Command:"function pld:npcs/west/yaomain6"}] replace
-setblock -201 141 -177 minecraft:command_block[custom_data={Command:"function pld:npcs/west/yaomain7"}] replace
-setblock -222 62 -180 minecraft:command_block[custom_data={Command:"execute as @p[x=-221,y=64,z=-180,distance=..2] run function pld:system/intoyaomain7"}] replace
-setblock -202 64 -180 minecraft:command_block[custom_data={Command:"function pld:instances/instance3/in"}] destroy
+setblock -197 61 -172 minecraft:command_block{Command:"function pld:npcs/west/yaomain6"} replace
+setblock -201 141 -177 minecraft:command_block{Command:"function pld:npcs/west/yaomain7"} replace
+setblock -222 62 -180 minecraft:command_block{Command:"execute as @p[x=-221,y=64,z=-180,distance=..2] run function pld:system/intoyaomain7"} replace
+setblock -202 64 -180 minecraft:command_block{Command:"function pld:instances/instance3/in"} destroy
 
 data merge block -203 66 -180 {front_text:{messages:['{"translate":""}','{"translate":"pl.sign.instance.a5.text2"}','{"translate":"pl.sign.instance3.text3"}','{"translate":"pl.sign.instance3.text4"}']}}
 data merge block -202 66 -181 {front_text:{messages:['{"translate":""}','{"translate":"pl.sign.instance.a5.text2"}','{"translate":"pl.sign.instance3.text3"}','{"translate":"pl.sign.instance3.text4"}']}}

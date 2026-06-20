@@ -4,15 +4,15 @@ data merge block 1662 172 189 {front_text:{messages:['{"translate":"pl.sign.ren2
 data merge block 1661 171 189 {front_text:{messages:['{"translate":"pl.sign.ren27.text1"}','{"translate":"pl.sign.ren27.text2"}','{"translate":"pl.sign.ren27.text3"}','{"translate":"pl.sign.ren27.text4"}']}}
 data merge block 1662 182 187 {front_text:{messages:['{"translate":"pl.spsign.ren2.text1","clickEvent":{"action":"run_command","value":"/tellraw @p {\\"translate\\":\\"pl.spsign.ren2.reads\\",\\"color\\":\\"gold\\"}"}}','{"translate":"pl.spsign.ren2.text2"}','{"translate":"pl.spsign.ren2.text3"}','{"translate":""}']}}
 
-setblock 1663 180 187 minecraft:command_block[custom_data={Command:"execute as @p[x=1662,y=181,z=187,distance=..5] run function pld:pvp/2/pre/sign/player_check_atk"}] replace 
+setblock 1663 180 187 minecraft:command_block{Command:"execute as @p[x=1662,y=181,z=187,distance=..5] run function pld:pvp/2/pre/sign/player_check_atk"} replace 
 
-setblock 1662 171 181 minecraft:command_block[custom_data={Command:"tp @p[distance=..5] 1661 182 185 -117 10"}] replace 
+setblock 1662 171 181 minecraft:command_block{Command:"tp @p[distance=..5] 1661 182 185 -117 10"} replace 
 
-setblock 1662 171 191 minecraft:command_block[custom_data={Command:"execute as @p[x=1662,y=171,z=189,distance=..5] run function pld:pvp/2/pre/sign/sign_up_atk"}] replace 
+setblock 1662 171 191 minecraft:command_block{Command:"execute as @p[x=1662,y=171,z=189,distance=..5] run function pld:pvp/2/pre/sign/sign_up_atk"} replace 
 
-setblock 1664 176 184 minecraft:command_block[custom_data={Command:"function pld:npcs/ren/pvp2_atk"}] replace 
+setblock 1664 176 184 minecraft:command_block{Command:"function pld:npcs/ren/pvp2_atk"} replace 
 
-setblock 1653 174 181 minecraft:command_block[custom_data={Command:"function pld:npcs/ren/guard"}] replace 
+setblock 1653 174 181 minecraft:command_block{Command:"function pld:npcs/ren/guard"} replace 
 
 kill @e[type=villager,tag=!panling]
 execute as @e[type=skeleton] run function pld:system/tp_and_kill_self

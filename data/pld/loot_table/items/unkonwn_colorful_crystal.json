@@ -1,19 +1,29 @@
 {
-    "pools": [
-      {
-        "rolls": 1,
-        "entries": [
-          {
-            "type": "item",
-            "name": "minecraft:diamond_block",
-            "functions": [
-                {
-                    "function": "minecraft:set_nbt",
-                    "tag": "{id:\"panling:unkonwn_colorful_crystal\",display:{Name:'{\"translate\":\"pl.item.name.unkonwn_colorful_crystal\"}',Lore:['{\"translate\":\"pl.item.lore.unkonwn_colorful_crystal_a\"}','{\"translate\":\"pl.item.lore.unkonwn_colorful_crystal_b\"}']}}"
-                }
-            ]
-          }
-        ]
-      }
-    ]
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "name": "minecraft:diamond_block",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": "{\"translate\":\"pl.item.name.unkonwn_colorful_crystal\"}",
+                "minecraft:lore": [
+                  "{\"translate\":\"pl.item.lore.unkonwn_colorful_crystal_a\"}",
+                  "{\"translate\":\"pl.item.lore.unkonwn_colorful_crystal_b\"}"
+                ]
+              }
+            },
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{id:\"panling:unkonwn_colorful_crystal\"}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
 }

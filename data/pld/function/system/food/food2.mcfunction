@@ -3,6 +3,6 @@
 scoreboard players set @s food_tick 9000
 
 function pld:system/food/remove_attribute
-attribute @s generic.armor_toughness modifier add 0-0-4-0-2 "仙族食物效果" 1 add
+attribute @s minecraft:generic.armor_toughness modifier add panling:uuid_0_0_4_0_2 1 add_value
 effect give @s regeneration 600 0 false
 advancement revoke @s only pld:system/food/food2

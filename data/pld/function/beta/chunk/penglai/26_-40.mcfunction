@@ -1,7 +1,7 @@
 #区块强加载
 forceload add 418 -628
 #要做的事
-setblock 418 30 -629 minecraft:command_block[custom_data={Command:"execute as @p[x=417,y=32,z=-628,distance=..3] run function pld:system/outpenglai"}] replace 
+setblock 418 30 -629 minecraft:command_block{Command:"execute as @p[x=417,y=32,z=-628,distance=..3] run function pld:system/outpenglai"} replace 
 kill @e[type=villager,tag=!panling]
 
 #区块卸载

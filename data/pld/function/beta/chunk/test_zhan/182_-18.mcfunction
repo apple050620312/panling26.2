@@ -1,7 +1,7 @@
 #区块强加载
 forceload add 2916 -288
 #要做的事
-setblock 2916 46 -287 minecraft:command_block[custom_data={Command:"execute as @p[x=2916,y=48,z=-287,distance=..3] run function pld:test/zhan/power/out"}] replace 
+setblock 2916 46 -287 minecraft:command_block{Command:"execute as @p[x=2916,y=48,z=-287,distance=..3] run function pld:test/zhan/power/out"} replace 
 setblock 2916 46 -288 air
 
 #区块卸载

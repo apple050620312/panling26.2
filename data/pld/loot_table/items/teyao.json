@@ -1,19 +1,29 @@
 {
-    "pools": [
-      {
-        "rolls": 1,
-        "entries": [
-          {
-            "type": "item",
-            "name": "minecraft:orange_dye",
-            "functions": [
-                {
-                    "function": "minecraft:set_nbt",
-                    "tag": "{id:\"panling:teyao\",display:{Name:'{\"translate\":\"pl.item.name.teyao\"}',Lore:['{\"translate\":\"pl.item.lore.teyaoa\"}','{\"translate\":\"pl.item.lore.teyaob\"}']}}"                        
-                }
-            ]
-          }
-        ]
-      }
-    ]
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "name": "minecraft:orange_dye",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": "{\"translate\":\"pl.item.name.teyao\"}",
+                "minecraft:lore": [
+                  "{\"translate\":\"pl.item.lore.teyaoa\"}",
+                  "{\"translate\":\"pl.item.lore.teyaob\"}"
+                ]
+              }
+            },
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{id:\"panling:teyao\"}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
 }

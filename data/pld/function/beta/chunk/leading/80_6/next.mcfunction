@@ -9,7 +9,7 @@ data merge block 1289 77 100 {front_text:{messages:['{"translate":"pl.sign.leadi
 data merge block 1288 77 100 {front_text:{messages:['{"translate":"pl.sign.leading_xian8.text1"}','{"translate":"pl.sign.leading_xian8.text2"}','{"translate":"pl.sign.leading_xian8.text3"}','{"translate":"pl.sign.leading_xian8.text4"}']}}
 data merge block 1287 77 100 {front_text:{messages:['{"translate":"pl.sign.leading_xian9.text1"}','{"translate":"pl.sign.leading_xian9.text2"}','{"translate":"pl.sign.leading_xian9.text3"}','{"translate":"pl.sign.leading_xian9.text4"}']}}
 data merge block 1284 78 97 {front_text:{messages:['{"translate":"pl.sign.leading_xian10.text1"}','{"translate":"pl.sign.leading_xian10.text2"}','{"translate":"pl.sign.leading_xian10.text3"}','{"translate":"pl.sign.leading_xian10.text4"}']}}
-setblock 1285 74 97 minecraft:command_block[custom_data={Command:"function pld:npcs/select/leading_xian"}] replace 
+setblock 1285 74 97 minecraft:command_block{Command:"function pld:npcs/select/leading_xian"} replace 
 kill @e[type=villager,tag=!panling]
 execute positioned 1285 74 97 run function pld:npcs/select/leading_xian
 #区块卸载

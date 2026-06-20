@@ -1,7 +1,7 @@
 #区块强加载
 forceload add 837 -58
 #要做的事
-setblock 843 28 -56 minecraft:command_block[custom_data={Command:"function pld:system/ex_ren/summon_rabbit"}] replace 
+setblock 843 28 -56 minecraft:command_block{Command:"function pld:system/ex_ren/summon_rabbit"} replace 
 
 
 

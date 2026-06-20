@@ -1,7 +1,7 @@
 #区块强加载
 forceload add 2883 275
 #要做的事
-setblock 2883 31 275 minecraft:command_block[custom_data={Command:"execute as @p[x=2883,y=33,z=275,distance=..3] run function pld:test/shen/mountain/out"}] replace 
+setblock 2883 31 275 minecraft:command_block{Command:"execute as @p[x=2883,y=33,z=275,distance=..3] run function pld:test/shen/mountain/out"} replace 
 
 #区块卸载
 forceload remove 2883 275

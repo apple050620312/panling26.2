@@ -1,6 +1,6 @@
 
 #要做的事
-setblock 2727 75 824 minecraft:command_block[custom_data={Command:"function pld:npcs/yao/chat7"}] replace 
+setblock 2727 75 824 minecraft:command_block{Command:"function pld:npcs/yao/chat7"} replace 
 
 kill @e[type=villager,tag=!panling]
 execute positioned 2727 75 824 run function pld:npcs/yao/chat7

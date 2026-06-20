@@ -1,7 +1,7 @@
 #箭袋满了 提示
 execute if score @s arrowinpack matches 640.. run tellraw @s {"translate":"pl.info.arrowpack_full","color":"red"}
 #主手箭支数量获取
-execute store result score @s arrowselected run data get entity @s SelectedItem.Count
+execute store result score @s arrowselected run data get entity @s SelectedItem.count
 #箭支不足提示
 tellraw @s[scores={arrowselected=..31}] {"translate":"pl.info.arrowstoreresis","color":"red"}
 #存箭

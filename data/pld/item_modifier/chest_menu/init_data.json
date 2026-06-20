@@ -1,6 +1,6 @@
 [
-    {
-        "function":"minecraft:set_nbt",
-        "tag":"{has_data:1,data:{chest:[],mails:[]}}"
-    }
+  {
+    "function": "minecraft:set_custom_data",
+    "tag": "{has_data:1,data:{chest:[],mails:[]}}"
+  }
 ]

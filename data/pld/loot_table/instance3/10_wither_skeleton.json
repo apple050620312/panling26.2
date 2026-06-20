@@ -1,20 +1,30 @@
 {
-    "pools": [
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
         {
-            "rolls": 1,
-            "entries": [
-                {
-                    "type": "minecraft:item",
-                    "name": "cyan_dye",
-                    "weight": 1,
-                    "functions": [
-                        {
-                            "function": "minecraft:set_nbt",
-                            "tag": "{id:\"panling:instance3_1\",display:{Name:'{\"translate\": \"pl.item.name.instance3_1\"}',Lore:['{\"translate\": \"pl.item.lore.instance3_1a\"}','{\"translate\": \"pl.item.lore.instance3_1b\"}']}}"
-                        }
-                    ]
-                }
-            ]
+          "type": "minecraft:item",
+          "name": "cyan_dye",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": "{\"translate\": \"pl.item.name.instance3_1\"}",
+                "minecraft:lore": [
+                  "{\"translate\": \"pl.item.lore.instance3_1a\"}",
+                  "{\"translate\": \"pl.item.lore.instance3_1b\"}"
+                ]
+              }
+            },
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{id:\"panling:instance3_1\"}"
+            }
+          ]
         }
-    ]
+      ]
+    }
+  ]
 }

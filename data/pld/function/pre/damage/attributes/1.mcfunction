@@ -1,2 +1,2 @@
-attribute @s generic.max_health modifier add 100-0-0-0-1 "-0.01" -0.01 add
+attribute @s minecraft:generic.max_health modifier add panling:uuid_100_0_0_0_1 -0.01 add_value
 

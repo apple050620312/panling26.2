@@ -4,7 +4,7 @@ scoreboard players set @s armor_set_bonus_3_1_sprint 0
 scoreboard players set @s armor_set_bonus_3_1_crouch 0
 
 #移速提升20%
-attribute @s generic.movement_speed modifier add 12-3-4-0-0 "火四件套弓箭手移速" 0.2 multiply_base
+attribute @s minecraft:generic.movement_speed modifier add panling:uuid_12_3_4_0_0 0.2 add_multiplied_base
 
 #持续时间 10秒
 scoreboard players set @s armor_set_bonus_3_4_tick 400

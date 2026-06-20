@@ -1,8 +1,8 @@
 
 #要做的事
 data merge block 1728 161 175 {front_text:{messages:['{"translate":""}','{"translate":"pl.sign.ren22.text2"}','{"translate":"pl.sign.ren22.text3"}','{"translate":""}']}}
-setblock 1725 156 183 minecraft:command_block[custom_data={Command:"function pld:npcs/ren/guard"}] replace 
-setblock 1722 158 171 minecraft:command_block[custom_data={Command:"function pld:npcs/ren/tong17"}] replace 
+setblock 1725 156 183 minecraft:command_block{Command:"function pld:npcs/ren/guard"} replace 
+setblock 1722 158 171 minecraft:command_block{Command:"function pld:npcs/ren/tong17"} replace 
 data merge block 1729 161 174 {front_text:{messages:['{"translate":""}','{"translate":"pl.spsign.ren1.text2","clickEvent":{"action":"run_command","value":"/tellraw @p {\\"translate\\":\\"pl.spsign.ren1.reads\\",\\"color\\":\\"gold\\"}"}}','{"translate":""}','{"translate":""}']}}
 data merge block 1724 161 174 {front_text:{messages:['{"translate":""}','{"translate":"pl.spsign.ren1.text2","clickEvent":{"action":"run_command","value":"/tellraw @p {\\"translate\\":\\"pl.spsign.ren1.reads\\",\\"color\\":\\"gold\\"}"}}','{"translate":""}','{"translate":""}']}}
 

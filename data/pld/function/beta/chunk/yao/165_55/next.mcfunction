@@ -1,7 +1,7 @@
 
 #要做的事
-setblock 2655 86 896 minecraft:command_block[custom_data={Command:"function pld:npcs/yao/yaomain4"}] replace 
-setblock 2655 85 896 minecraft:command_block[custom_data={Command:"function pld:npcs/yao/yaotong4"}] replace 
+setblock 2655 86 896 minecraft:command_block{Command:"function pld:npcs/yao/yaomain4"} replace 
+setblock 2655 85 896 minecraft:command_block{Command:"function pld:npcs/yao/yaotong4"} replace 
 
 kill @e[type=villager,tag=!panling]
 execute as @e[type=skeleton] run function pld:system/tp_and_kill_self

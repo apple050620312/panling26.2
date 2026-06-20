@@ -5,7 +5,7 @@ data merge block 3279 146 97 {front_text:{messages:['{"translate":""}','{"transl
 data merge block 3267 147 109 {front_text:{messages:['{"translate":""}','{"translate":"pl.sign.shen17.text2"}','{"translate":"pl.sign.shen17.text3"}','{"translate":""}']}}
 data merge block 3281 147 110 {front_text:{messages:['{"translate":""}','{"translate":"pl.sign.shen17.text2"}','{"translate":"pl.sign.shen17.text3"}','{"translate":""}']}}
 
-setblock 3299 151 109 minecraft:command_block[custom_data={Command:"function pld:npcs/shen/guard"}] replace 
+setblock 3299 151 109 minecraft:command_block{Command:"function pld:npcs/shen/guard"} replace 
 
 kill @e[type=villager,tag=!panling]
 execute as @e[type=skeleton] run function pld:system/tp_and_kill_self

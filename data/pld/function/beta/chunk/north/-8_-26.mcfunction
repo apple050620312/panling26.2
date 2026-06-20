@@ -1,7 +1,7 @@
 #区块强加载
 forceload add -113 -401
 #要做的事
-setblock -114 2 -401 minecraft:command_block[custom_data={Command:"execute as @p[x=-114,y=4,z=-401,distance=..5,scores={turtle_incheck=1}] run function pld:system/altars/turtle/intoturtle"}] replace
+setblock -114 2 -401 minecraft:command_block{Command:"execute as @p[x=-114,y=4,z=-401,distance=..5,scores={turtle_incheck=1} run function pld:system/altars/turtle/intoturtle"}] replace
 
 #区块卸载
 forceload remove -113 -401

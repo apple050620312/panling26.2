@@ -1,6 +1,6 @@
 
 #要做的事
-setblock -397 107 152 minecraft:command_block[custom_data={Command:"function pld:npcs/west/travelling_trader"}] replace
+setblock -397 107 152 minecraft:command_block{Command:"function pld:npcs/west/travelling_trader"} replace
 kill @e[type=villager,tag=!panling]
 execute positioned -397 107 152 run function pld:npcs/west/travelling_trader
 #区块卸载

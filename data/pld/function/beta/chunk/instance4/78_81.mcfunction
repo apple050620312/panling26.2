@@ -1,7 +1,7 @@
 #区块强加载
 forceload add 1261 1305
 #要做的事
-fill 1261 70 1307 1259 70 1307 minecraft:command_block[custom_data={Command:"tp @p[distance=..3] 1063 74 1440"}] replace
+fill 1261 70 1307 1259 70 1307 minecraft:command_block{Command:"tp @p[distance=..3] 1063 74 1440"} replace
 
 #区块卸载
 forceload remove 1261 1305

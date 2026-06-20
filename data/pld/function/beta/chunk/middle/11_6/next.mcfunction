@@ -1,8 +1,8 @@
 
 #要做的事
-setblock 194 42 107 minecraft:command_block[custom_data={Command:"function pld:npcs/middle/chat33"}] replace 
-setblock 188 42 98 minecraft:command_block[custom_data={Command:"function pld:npcs/middle/chat34"}] replace 
-setblock 196 42 102 minecraft:command_block[custom_data={Command:"function pld:npcs/middle/chat35"}] replace 
+setblock 194 42 107 minecraft:command_block{Command:"function pld:npcs/middle/chat33"} replace 
+setblock 188 42 98 minecraft:command_block{Command:"function pld:npcs/middle/chat34"} replace 
+setblock 196 42 102 minecraft:command_block{Command:"function pld:npcs/middle/chat35"} replace 
 
 kill @e[type=villager,tag=!panling]
 execute positioned 194 42 107 run function pld:npcs/middle/chat33

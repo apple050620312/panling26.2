@@ -1,19 +1,36 @@
 {
-    "pools": [
-      {
-        "rolls": 1,
-        "entries": [
-          {
-            "type": "item",
-            "name": "minecraft:iron_nugget",
-            "functions": [
-                {
-                    "function": "minecraft:set_nbt",
-                    "tag": "{display:{Lore:['{\"translate\":\"pl.lore.rare5\"}','{\"translate\":\"pl.item.lore.acore5a\"}','{\"translate\":\"pl.item.lore.acore5b\"}'],Name:'{\"translate\":\"pl.item.name.acore5\"}'},id:\"panling:armor_core_5\",HideFlags:63,Enchantments:[{id:\"minecraft:protection\",lvl:1s}]}"
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "name": "minecraft:iron_nugget",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": "{\"translate\":\"pl.item.name.acore5\"}",
+                "minecraft:lore": [
+                  "{\"translate\":\"pl.lore.rare5\"}",
+                  "{\"translate\":\"pl.item.lore.acore5a\"}",
+                  "{\"translate\":\"pl.item.lore.acore5b\"}"
+                ],
+                "minecraft:hide_additional_tooltip": {},
+                "minecraft:enchantments": {
+                  "levels": {
+                    "minecraft:protection": 1
+                  }
                 }
-            ]
-          }
-        ]
-      }
-    ]
+              }
+            },
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{id:\"panling:armor_core_5\"}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
 }

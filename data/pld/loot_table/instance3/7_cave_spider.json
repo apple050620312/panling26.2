@@ -1,28 +1,33 @@
 {
-    "pools": [
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
         {
-            "rolls":1,
-            "entries": [
-
-                {
-                    "type": "minecraft:item",
-                    "name": "minecraft:string",
-                    "functions": [
-                        {
-                            "function": "minecraft:set_nbt",
-                            "tag": "{id:\"panling:water\",display:{Name:'{\"translate\":\"pl.item.name.water\"}'}}"
-                        },
-                        {
-                            "function": "minecraft:set_count",
-                            "count":{
-                                "type":"minecraft:uniform",
-                                "max": 2,
-                                "min": 0
-                            }
-                        }
-                    ]
-                }
-            ]
+          "type": "minecraft:item",
+          "name": "minecraft:string",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": "{\"translate\":\"pl.item.name.water\"}"
+              }
+            },
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{id:\"panling:water\"}"
+            },
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 2,
+                "min": 0
+              }
+            }
+          ]
         }
-    ]
+      ]
+    }
+  ]
 }

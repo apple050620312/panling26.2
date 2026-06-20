@@ -7,18 +7,18 @@ data merge block 3218 69 878 {front_text:{messages:['{"translate":""}','{"transl
 
 setblock 3230 54 874 structure_block{metadata: "",mirror: "NONE",ignoreEntities: 0b,powered: 0b,seed: 0L,author: "?",rotation: "NONE",posX: 0,mode: "LOAD",posY: 1,posZ: 0,integrity: 1.0f,showair: 0b,name: "pld:tjp2",showboundingbox: 1b}
 setblock 3230 55 874 redstone_block
-setblock 3240 63 875 minecraft:repeating_command_block[custom_data={Command:"tp @e[x=3240,y=64,z=876,distance=..5,type=!player] ~ ~-1000 ~"}] replace 
+setblock 3240 63 875 minecraft:repeating_command_block{Command:"tp @e[x=3240,y=64,z=876,distance=..5,type=!player] ~ ~-1000 ~"} replace 
 data merge block 3237 56 881 {CustomName:'{"translate":"pl.name.dzt"}'}
 
 #setblock 3235 64 881 minecraft:command_block{Command:"function pld:npcs/xian/xianmain3"} replace 
 #setblock 3235 64 882 minecraft:command_block{Command:"function pld:npcs/xian/xiantong1"} replace 
 #setblock 3235 64 880 minecraft:command_block{Command:"function pld:npcs/xian/xiantong2"} replace 
 #setblock 3234 64 881 minecraft:command_block{Command:"function pld:npcs/xian/xiantong3"} replace 
-setblock 3226 62 873 minecraft:command_block[custom_data={Command:"function pld:npcs/xian/chat3"}] replace 
+setblock 3226 62 873 minecraft:command_block{Command:"function pld:npcs/xian/chat3"} replace 
 #
 #setblock 3235 65 881 minecraft:command_block{Command:"function pld:npcs/xian/xh2"} replace 
 
-setblock 3240 54 878 minecraft:command_block[custom_data={Command:"tp @p[distance=..3] 3240 67 880 0 0"}] replace 
+setblock 3240 54 878 minecraft:command_block{Command:"tp @p[distance=..3] 3240 67 880 0 0"} replace 
 
 kill @e[type=villager,tag=!panling]
 execute as @e[type=skeleton] run function pld:system/tp_and_kill_self

@@ -1,10 +1,10 @@
 
 #要做的事
 data merge block 2647 95 870 {front_text:{messages:['{"translate":"pl.sign.yao12.text1"}','{"translate":"pl.sign.yao12.text2"}','{"translate":"pl.sign.yao12.text3"}','{"translate":""}']}}
-setblock 2645 93 864 minecraft:command_block[custom_data={Command:"function pld:npcs/yao/yaomain3"}] replace 
-setblock 2645 92 864 minecraft:command_block[custom_data={Command:"function pld:npcs/yao/yaotong1"}] replace 
-setblock 2644 92 864 minecraft:command_block[custom_data={Command:"function pld:npcs/yao/yaotong2"}] replace 
-setblock 2645 92 863 minecraft:command_block[custom_data={Command:"function pld:npcs/yao/yaotong3"}] replace 
+setblock 2645 93 864 minecraft:command_block{Command:"function pld:npcs/yao/yaomain3"} replace 
+setblock 2645 92 864 minecraft:command_block{Command:"function pld:npcs/yao/yaotong1"} replace 
+setblock 2644 92 864 minecraft:command_block{Command:"function pld:npcs/yao/yaotong2"} replace 
+setblock 2645 92 863 minecraft:command_block{Command:"function pld:npcs/yao/yaotong3"} replace 
 
 fill 2647 98 859 2647 96 859 air
 
@@ -15,8 +15,8 @@ setblock 2647 96 858 minecraft:stone_pressure_plate
 fill 2648 97 857 2648 96 857 minecraft:brown_mushroom_block
 setblock 2646 97 857 minecraft:brown_mushroom_block
 setblock 2647 95 858 minecraft:oak_planks
-setblock 2647 94 858 minecraft:command_block[custom_data={Command:"tp @p[distance=..3] 2647 84 861 0 0"}] replace 
-setblock 2647 95 857 minecraft:repeating_command_block[custom_data={Command:"tp @e[x=2647,y=96,z=858,distance=..3,type=!player] ~ ~-1000 ~"}] replace 
+setblock 2647 94 858 minecraft:command_block{Command:"tp @p[distance=..3] 2647 84 861 0 0"} replace 
+setblock 2647 95 857 minecraft:repeating_command_block{Command:"tp @e[x=2647,y=96,z=858,distance=..3,type=!player] ~ ~-1000 ~"} replace 
 
 setblock 2642 81 857 structure_block{metadata: "",mirror: "NONE",ignoreEntities: 0b,powered: 0b,seed: 0L,author: "?",rotation: "NONE",posX: 0,mode: "LOAD",posY: 1,posZ: 0,integrity: 1.0f,showair: 0b,name: "pld:tjp1",showboundingbox: 1b}
 setblock 2642 82 857 redstone_block

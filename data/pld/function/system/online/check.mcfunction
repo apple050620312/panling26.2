@@ -5,7 +5,7 @@ execute if score #version int = #newest_version int run tellraw @s {"translate":
 execute if score #updating int matches 1 run tellraw @s {"translate":"pl.info.updating"}
 
 #降低玩家的100%攻击力
-attribute @s generic.attack_damage modifier add 101-0-0-0-0 "近战傷害屏蔽" -0.99999 multiply
+attribute @s minecraft:generic.attack_damage modifier add panling:uuid_101_0_0_0_0 -0.99999 add_multiplied_total
 
 #检查玩家是否在大陆内
 #不在大陆内视为副本中途退出，移动至奈何桥，重置重生点 inpvp不等于1 in_final_battle不等于1 in_test_check不等于1 feather_mainland=-1

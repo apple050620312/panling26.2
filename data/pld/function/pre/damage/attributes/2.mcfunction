@@ -1,2 +1,2 @@
-attribute @s generic.max_health modifier add 100-0-0-0-2 "-0.02" -0.02 add
+attribute @s minecraft:generic.max_health modifier add panling:uuid_100_0_0_0_2 -0.02 add_value
 scoreboard players remove #max_hp_reduction damage 2

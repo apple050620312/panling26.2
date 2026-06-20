@@ -1,19 +1,40 @@
 {
-    "pools": [
-      {
-        "rolls": 1,
-        "entries": [
-          {
-            "type": "item",
-            "name": "minecraft:raw_gold",
-            "functions": [
-                {
-                    "function": "minecraft:set_nbt",
-                    "tag":"{HideFlags:63,Enchantments:[{id:\"minecraft:protection\",lvl:1s}],id:\"panling:core_iron_armor_boots\",display:{Name:'{\"translate\":\"pl.item.name.core_iron_armor_boots\"}',Lore:['{\"translate\":\"pl.lore.rare6\"}','{\"translate\":\"pl.lore.limit_lvl_50\"}','{\"translate\":\"pl.item.lore.core_iron_armor_boots.a\"}','{\"translate\":\"pl.item.lore.core_iron_armor_boots.b\"}','{\"translate\":\"pl.item.lore.core_iron_armor_boots.c\"}','{\"translate\":\"pl.item.lore.core_iron_armor_boots.d\"}','{\"translate\":\"pl.item.lore.core_iron_armor_boots.e\"}']}}"    
-                }
-            ]
-          }
-        ]
-      }
-    ]
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "name": "minecraft:raw_gold",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:hide_additional_tooltip": {},
+                "minecraft:enchantments": {
+                  "levels": {
+                    "minecraft:protection": 1
+                  }
+                },
+                "minecraft:custom_name": "{\"translate\":\"pl.item.name.core_iron_armor_boots\"}",
+                "minecraft:lore": [
+                  "{\"translate\":\"pl.lore.rare6\"}",
+                  "{\"translate\":\"pl.lore.limit_lvl_50\"}",
+                  "{\"translate\":\"pl.item.lore.core_iron_armor_boots.a\"}",
+                  "{\"translate\":\"pl.item.lore.core_iron_armor_boots.b\"}",
+                  "{\"translate\":\"pl.item.lore.core_iron_armor_boots.c\"}",
+                  "{\"translate\":\"pl.item.lore.core_iron_armor_boots.d\"}",
+                  "{\"translate\":\"pl.item.lore.core_iron_armor_boots.e\"}"
+                ]
+              }
+            },
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{id:\"panling:core_iron_armor_boots\"}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
 }

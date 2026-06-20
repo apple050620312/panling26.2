@@ -1,167 +1,178 @@
 {
-    "type": "minecraft:generic",
-    "pools": [
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
         {
-            "rolls":1,
-            "entries": [
-                {
-                    "_comment":"金宝箱产物-逐日",
-                    "weight": 1,
-                    "type": "minecraft:item",
-                    "name": "minecraft:bow",
-                    "functions": [
-                        {
-                            "function": "minecraft:set_nbt",
-                            "tag": "{instance:5,chest:1,id:\"panling:bow6\"}"
-                        }
-                    ],
-                    "conditions": [
-                        {
-                            "condition": "minecraft:inverted",
-                            "term": {
-                                "condition": "minecraft:entity_scores",
-                                "entity": "this",
-                                "scores": {
-                                    "gotten_bow6":1
-                                }
-                            } 
-                        },
-                        {
-                                "condition": "minecraft:entity_scores",
-                                "entity": "this",
-                                "scores": {
-                                    "job":1
-                                }
-                            
-                        }
-                    ]
-                },{
-                    "_comment":"金宝箱产物-混元神鼎",
-                    "weight": 1,
-                    "type": "minecraft:item",
-                    "name": "minecraft:carrot_on_a_stick",
-                    "functions": [
-                        {
-                            "function": "minecraft:set_nbt",
-                            "tag": "{CustomModelData:1,instance:5,chest:1,id:\"panling:furnace6\"}"
-                        }
-                    ],
-                    "conditions": [
-                        {
-                            "condition": "minecraft:inverted",
-                            "term": {
-                                "condition": "minecraft:entity_scores",
-                                "entity": "this",
-                                "scores": {
-                                    "gotten_furnace6":1
-                                }
-                            } 
-                        },
-                        {
-                                "condition": "minecraft:entity_scores",
-                                "entity": "this",
-                                "scores": {
-                                    "job":2
-                                }
-                            
-                        }
-                    ]
-                },{
-                    "_comment":"金宝箱产物-如意金箍棒",
-                    "weight": 1,
-                    "type": "minecraft:item",
-                    "name": "minecraft:wooden_sword",
-                    "functions": [
-                        {
-                            "function": "minecraft:set_nbt",
-                            "tag": "{CustomModelData:2,instance:5,chest:1,id:\"panling:sword6\"}"
-                        }
-                    ],
-                    "conditions": [
-                        {
-                            "condition": "minecraft:inverted",
-                            "term": {
-                                "condition": "minecraft:entity_scores",
-                                "entity": "this",
-                                "scores": {
-                                    "gotten_sword6":1
-                                }
-                            } 
-                        },
-                        {
-                                "condition": "minecraft:entity_scores",
-                                "entity": "this",
-                                "scores": {
-                                    "job":0
-                                }
-                            
-                        }
-                    ]
-                },
-                {
-                    "_comment":"金宝箱产物-神器替换-千炼玉",
-                    "weight": 1,
-                    "type": "minecraft:item",
-                    "name": "minecraft:diamond",
-                    "functions": [
-                        {
-                            "function": "minecraft:set_nbt",
-                            "tag": "{instance:5,chest:1,id:\"panling:armor_core_52\"}"
-                        }
-                    ],
-                    "conditions": [
-                        {
-                            "condition": "minecraft:entity_scores",
-                            "entity": "this",
-                            "scores": {
-                                "gotten_sword6":1
-                            }   
-                        }
-                    ]
-                },
-                {
-                    "_comment":"金宝箱产物-神器替换-千炼玉",
-                    "weight": 1,
-                    "type": "minecraft:item",
-                    "name": "minecraft:diamond",
-                    "functions": [
-                        {
-                            "function": "minecraft:set_nbt",
-                            "tag": "{instance:5,chest:1,id:\"panling:armor_core_52\"}"
-                        }
-                    ],
-                    "conditions": [
-                        {
-                            "condition": "minecraft:entity_scores",
-                            "entity": "this",
-                            "scores": {
-                                "gotten_furnace6":1
-                            }   
-                        }
-                    ]
-                },
-                {
-                    "_comment":"金宝箱产物-神器替换-千炼玉",
-                    "weight": 1,
-                    "type": "minecraft:item",
-                    "name": "minecraft:diamond",
-                    "functions": [
-                        {
-                            "function": "minecraft:set_nbt",
-                            "tag": "{instance:5,chest:1,id:\"panling:armor_core_52\"}"
-                        }
-                    ],
-                    "conditions": [
-                        {
-                            "condition": "minecraft:entity_scores",
-                            "entity": "this",
-                            "scores": {
-                                "gotten_bow6":1
-                            }   
-                        }
-                    ]
+          "_comment": "金宝箱产物-逐日",
+          "weight": 1,
+          "type": "minecraft:item",
+          "name": "minecraft:bow",
+          "functions": [
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{instance:5,chest:1,id:\"panling:bow6\"}"
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:inverted",
+              "term": {
+                "condition": "minecraft:entity_scores",
+                "entity": "this",
+                "scores": {
+                  "gotten_bow6": 1
                 }
-            ]
+              }
+            },
+            {
+              "condition": "minecraft:entity_scores",
+              "entity": "this",
+              "scores": {
+                "job": 1
+              }
+            }
+          ]
+        },
+        {
+          "_comment": "金宝箱产物-混元神鼎",
+          "weight": 1,
+          "type": "minecraft:item",
+          "name": "minecraft:carrot_on_a_stick",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_model_data": 1
+              }
+            },
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{instance:5,chest:1,id:\"panling:furnace6\"}"
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:inverted",
+              "term": {
+                "condition": "minecraft:entity_scores",
+                "entity": "this",
+                "scores": {
+                  "gotten_furnace6": 1
+                }
+              }
+            },
+            {
+              "condition": "minecraft:entity_scores",
+              "entity": "this",
+              "scores": {
+                "job": 2
+              }
+            }
+          ]
+        },
+        {
+          "_comment": "金宝箱产物-如意金箍棒",
+          "weight": 1,
+          "type": "minecraft:item",
+          "name": "minecraft:wooden_sword",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_model_data": 2
+              }
+            },
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{instance:5,chest:1,id:\"panling:sword6\"}"
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:inverted",
+              "term": {
+                "condition": "minecraft:entity_scores",
+                "entity": "this",
+                "scores": {
+                  "gotten_sword6": 1
+                }
+              }
+            },
+            {
+              "condition": "minecraft:entity_scores",
+              "entity": "this",
+              "scores": {
+                "job": 0
+              }
+            }
+          ]
+        },
+        {
+          "_comment": "金宝箱产物-神器替换-千炼玉",
+          "weight": 1,
+          "type": "minecraft:item",
+          "name": "minecraft:diamond",
+          "functions": [
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{instance:5,chest:1,id:\"panling:armor_core_52\"}"
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:entity_scores",
+              "entity": "this",
+              "scores": {
+                "gotten_sword6": 1
+              }
+            }
+          ]
+        },
+        {
+          "_comment": "金宝箱产物-神器替换-千炼玉",
+          "weight": 1,
+          "type": "minecraft:item",
+          "name": "minecraft:diamond",
+          "functions": [
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{instance:5,chest:1,id:\"panling:armor_core_52\"}"
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:entity_scores",
+              "entity": "this",
+              "scores": {
+                "gotten_furnace6": 1
+              }
+            }
+          ]
+        },
+        {
+          "_comment": "金宝箱产物-神器替换-千炼玉",
+          "weight": 1,
+          "type": "minecraft:item",
+          "name": "minecraft:diamond",
+          "functions": [
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{instance:5,chest:1,id:\"panling:armor_core_52\"}"
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:entity_scores",
+              "entity": "this",
+              "scores": {
+                "gotten_bow6": 1
+              }
+            }
+          ]
         }
-    ]
+      ]
+    }
+  ]
 }

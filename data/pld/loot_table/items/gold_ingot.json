@@ -1,19 +1,25 @@
 {
-    "pools": [
-      {
-        "rolls": 1,
-        "entries": [
-          {
-            "type": "item",
-            "name": "minecraft:gold_ingot",
-            "functions": [
-                {
-                    "function": "minecraft:set_nbt",
-                    "tag":"{id:\"panling:gold_ingot\",display:{Name:'{\"translate\":\"pl.item.name.gold\"}'}}"    
-                }
-            ]
-          }
-        ]
-      }
-    ]
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "name": "minecraft:gold_ingot",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": "{\"translate\":\"pl.item.name.gold\"}"
+              }
+            },
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{id:\"panling:gold_ingot\"}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
 }

@@ -1,7 +1,7 @@
 #区块强加载
 forceload add 1697 715 1695 723
 #要做的事
-setblock 1696 113 713 minecraft:command_block[custom_data={Command:"execute as @p[x=1697,y=118,z=713,distance=..3] run function pld:system/altars/dragon/intodragontest"}] replace 
+setblock 1696 113 713 minecraft:command_block{Command:"execute as @p[x=1697,y=118,z=713,distance=..3] run function pld:system/altars/dragon/intodragontest"} replace 
 setblock 1697 113 713 air
 
 data merge block 1695 116 723 {front_text:{messages:['{"translate":"pl.sign.east11.text1"}','{"text":""}','{"text":""}','{"text":""}']}}

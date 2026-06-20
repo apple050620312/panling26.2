@@ -1,19 +1,31 @@
 {
-    "pools": [
-      {
-        "rolls": 1,
-        "entries": [
-          {
-            "type": "item",
-            "name": "minecraft:brick",
-            "functions": [
-              {
-                "function": "set_nbt",
-                "tag": "{CustomModelData:5,id:\"panling:money4\",display:{Name:'{\"translate\":\"pl.item.name.money4\"}',Lore:['{\"translate\":\"pl.item.lore.money4a\"}','{\"translate\":\"pl.item.lore.money4b\"}','{\"translate\":\"pl.item.lore.money4c\"}']}}"
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "name": "minecraft:brick",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_model_data": 5,
+                "minecraft:custom_name": "{\"translate\":\"pl.item.name.money4\"}",
+                "minecraft:lore": [
+                  "{\"translate\":\"pl.item.lore.money4a\"}",
+                  "{\"translate\":\"pl.item.lore.money4b\"}",
+                  "{\"translate\":\"pl.item.lore.money4c\"}"
+                ]
               }
-            ]
-          }
-        ]
-      }
-    ]
+            },
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{id:\"panling:money4\"}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
 }

@@ -5,10 +5,10 @@ data merge block 3258 18 -264 {front_text:{messages:['{"translate":""}','{"trans
 data merge block 3249 21 -269 {front_text:{messages:['{"translate":""}','{"translate":"pl.sign.zhan6.text2"}','{"translate":"pl.sign.zhan2.text2"}','{"translate":""}']}}
 
 
-setblock 3274 15 -262 minecraft:command_block[custom_data={Command:"function pld:npcs/zhan/guard2"}] replace 
+setblock 3274 15 -262 minecraft:command_block{Command:"function pld:npcs/zhan/guard2"} replace 
 
-setblock 3259 18 -276 minecraft:command_block[custom_data={Command:"function pld:npcs/zhan/zhantong5"}] replace 
-setblock 3272 18 -278 minecraft:command_block[custom_data={Command:"function pld:npcs/zhan/zhantong6"}] replace 
+setblock 3259 18 -276 minecraft:command_block{Command:"function pld:npcs/zhan/zhantong5"} replace 
+setblock 3272 18 -278 minecraft:command_block{Command:"function pld:npcs/zhan/zhantong6"} replace 
 
 kill @e[type=villager,tag=!panling]
 execute as @e[type=skeleton] run function pld:system/tp_and_kill_self

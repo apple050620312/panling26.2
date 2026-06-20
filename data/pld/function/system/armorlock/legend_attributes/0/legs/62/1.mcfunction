@@ -1,2 +1,2 @@
-attribute @s generic.attack_damage modifier add 10-3-3-3-3 "神器-甲兵释司-基础攻击加成" 1.5 add
-attribute @s generic.attack_damage modifier add 9-3-3-3-3 "神器-甲兵释司-攻击加成" 0.05 multiply_base
+attribute @s minecraft:generic.attack_damage modifier add panling:uuid_10_3_3_3_3 1.5 add_value
+attribute @s minecraft:generic.attack_damage modifier add panling:uuid_9_3_3_3_3 0.05 add_multiplied_base

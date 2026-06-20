@@ -6,8 +6,8 @@ data merge block 3205 90 842 {front_text:{messages:['{"translate":""}','{"transl
 
 data merge block 3203 85 859 {front_text:{messages:['{"translate":""}','{"text":"？？？","clickEvent":{"action":"run_command","value":"/tellraw @p {\\"translate\\":\\"pl.spsign.ldp_hidden.reads\\",\\"color\\":\\"gray\\"}"}}','{"translate":""}','{"translate":""}']}}
 
-setblock 3206 83 864 minecraft:command_block[custom_data={Command:"function pld:npcs/xian/xianmain4"}] replace 
-setblock 3205 83 864 minecraft:command_block[custom_data={Command:"function pld:npcs/xian/xiantong4"}] replace
+setblock 3206 83 864 minecraft:command_block{Command:"function pld:npcs/xian/xianmain4"} replace 
+setblock 3205 83 864 minecraft:command_block{Command:"function pld:npcs/xian/xiantong4"} replace
 
 kill @e[type=villager,tag=!panling]
 execute as @e[type=skeleton] run function pld:system/tp_and_kill_self

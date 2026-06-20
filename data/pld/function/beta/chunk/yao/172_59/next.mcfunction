@@ -1,6 +1,6 @@
 
 #要做的事
-setblock 2766 85 959 minecraft:command_block[custom_data={Command:"function pld:npcs/yao/chat10"}] replace 
+setblock 2766 85 959 minecraft:command_block{Command:"function pld:npcs/yao/chat10"} replace 
 kill @e[type=villager,tag=!panling]
 execute positioned 2766 85 959 run function pld:npcs/yao/chat10
 #区块卸载

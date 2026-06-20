@@ -1,60 +1,62 @@
 {
-    "type": "minecraft:generic",
-    "pools": [
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
         {
-            "rolls":1,
-            "entries": [
-                {
-                    "type": "minecraft:item",
-                    "weight": 30,
-                    "name": "minecraft:potato",
-                    "functions": [
-                        {
-                            "function": "minecraft:set_nbt",
-                            "tag": "{instance:1,chest:2,id:\"panling:yy41\"}"
-                        },{
-                            "function": "minecraft:set_count",
-                            "count":5
-                        }
-                    ]
-                },
-                {
-                    "type": "minecraft:item",
-                    "weight": 30,
-                    "name": "minecraft:glistering_melon_slice",
-                    "functions": [
-                        {
-                            "function": "minecraft:set_nbt",
-                            "tag": "{instance:1,chest:2,id:\"panling:yy40\"}"
-                        },{
-                            "function": "minecraft:set_count",
-                            "count":5
-                        }
-                    ]
-                },
-                {
-                    "type": "minecraft:item",
-                    "weight": 10,
-                    "name": "minecraft:yellow_dye",
-                    "functions": [
-                        {
-                            "function": "minecraft:set_nbt",
-                            "tag": "{instance:1,chest:2,id:\"panling:goldkey\"}"
-                        }
-                    ]
-                },
-                {
-                    "type": "minecraft:item",
-                    "weight": 30,
-                    "name": "minecraft:light_gray_dye",
-                    "functions": [
-                        {
-                            "function": "minecraft:set_nbt",
-                            "tag": "{instance:1,chest:2,id:\"panling:enchant_stonepart\"}"
-                        }
-                    ]
-                }
-            ]
+          "type": "minecraft:item",
+          "weight": 30,
+          "name": "minecraft:potato",
+          "functions": [
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{instance:1,chest:2,id:\"panling:yy41\"}"
+            },
+            {
+              "function": "minecraft:set_count",
+              "count": 5
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 30,
+          "name": "minecraft:glistering_melon_slice",
+          "functions": [
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{instance:1,chest:2,id:\"panling:yy40\"}"
+            },
+            {
+              "function": "minecraft:set_count",
+              "count": 5
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 10,
+          "name": "minecraft:yellow_dye",
+          "functions": [
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{instance:1,chest:2,id:\"panling:goldkey\"}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 30,
+          "name": "minecraft:light_gray_dye",
+          "functions": [
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{instance:1,chest:2,id:\"panling:enchant_stonepart\"}"
+            }
+          ]
         }
-    ]
+      ]
+    }
+  ]
 }

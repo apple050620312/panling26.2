@@ -1,1 +1,1 @@
-execute unless data block ~ ~ ~ Items[{Slot:5b}] if block ~ ~ ~ minecraft:dispenser[custom_data={Items:[{Slot:3b,id:"minecraft:iron_nugget",Count:1b}]}] unless score @p dzsuccess matches 5 run function pld:system/dz/dz5armor/main
+execute unless data block ~ ~ ~ Items[{Slot:5b}] if block ~ ~ ~ minecraft:dispenser{Items:[{Slot:3b,id:"minecraft:iron_nugget",Count:1b}}] unless score @p dzsuccess matches 5 run function pld:system/dz/dz5armor/main
