@@ -1,7 +1,7 @@
 #要做的事
-setblock 183 42 193 minecraft:command_block[block_entity_data={Command:"function pld:npcs/middle/tong13b"}] replace 
-setblock 182 42 201 minecraft:command_block[block_entity_data={Command:"function pld:npcs/middle/chat01"}] replace 
-setblock 176 42 201 minecraft:command_block[block_entity_data={Command:"function pld:npcs/middle/chat02"}] replace 
+setblock 183 42 193 minecraft:command_block{Command:"function pld:npcs/middle/tong13b"} replace 
+setblock 182 42 201 minecraft:command_block{Command:"function pld:npcs/middle/chat01"} replace 
+setblock 176 42 201 minecraft:command_block{Command:"function pld:npcs/middle/chat02"} replace 
 
 
 kill @e[type=villager,tag=!panling]

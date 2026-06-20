@@ -3,9 +3,9 @@
 data merge block 3199 20 -346 {front_text:{messages:['{"translate":""}','{"translate":"pl.sign.zhan1.text2"}','{"translate":""}','{"translate":""}']}}
 data merge block 3200 20 -346 {front_text:{messages:['{"translate":""}','{"translate":"pl.sign.zhan2.text2"}','{"translate":""}','{"translate":""}']}}
 
-setblock 3204 17 -346 minecraft:command_block[block_entity_data={Command:"execute as @p[x=3200,y=19,z=-346,distance=..10] run function pld:system/race_tp/race3_out"}] destroy
-setblock 3191 15 -340 minecraft:command_block[block_entity_data={Command:"function pld:npcs/zhan/guard2"}] replace 
-setblock 3210 15 -340 minecraft:command_block[block_entity_data={Command:"function pld:npcs/zhan/guard2"}] replace 
+setblock 3204 17 -346 minecraft:command_block{Command:"execute as @p[x=3200,y=19,z=-346,distance=..10] run function pld:system/race_tp/race3_out"} destroy
+setblock 3191 15 -340 minecraft:command_block{Command:"function pld:npcs/zhan/guard2"} replace 
+setblock 3210 15 -340 minecraft:command_block{Command:"function pld:npcs/zhan/guard2"} replace 
 
 setblock 3200 17 -340 air
 kill @e[type=villager,tag=!panling]

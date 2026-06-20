@@ -9,7 +9,7 @@ tp @a[x=-382,y= 108,z=-1528,distance=..6] -374 108 -1520 135 0
 #替换方块，清理现有方块
 fill -372 118 -1518 -392 105 -1538 air replace diamond_block
 fill -382 113 -1528 -382 117 -1528 air
-setblock -384 106 -1530 minecraft:structure_block[block_entity_data={metadata:"",mirror:"NONE",ignoreEntities:0b,powered:0b,seed:0L,author:"?",rotation:"NONE",posX:0,mode:"LOAD",posY:1,posZ:0,integrity:1.0f,showair:0b,name:"pld:final_battle_zf",showboundingbox:1b}]
+setblock -384 106 -1530 minecraft:structure_block{metadata:"",mirror:"NONE",ignoreEntities:0b,powered:0b,seed:0L,author:"?",rotation:"NONE",posX:0,mode:"LOAD",posY:1,posZ:0,integrity:1.0f,showair:0b,name:"pld:final_battle_zf",showboundingbox:1b}
 setblock -384 105 -1530 minecraft:redstone_block
 setblock -384 106 -1530 minecraft:light_gray_wool
 setblock -384 105 -1530 minecraft:light_gray_wool

@@ -1,10 +1,10 @@
 #要做的事
 data merge block 317 46 -670 {front_text:{messages:['{"translate":""}','{"translate":"pl.sign.penglai9.text2"}','{"translate":"pl.sign.penglai9.text3"}','{"translate":""}']}}
 
-setblock 313 40 -685 minecraft:command_block[block_entity_data={Command:"function pld:npcs/penglai/shenmain6"}] replace 
-setblock 318 40 -691 minecraft:command_block[block_entity_data={Command:"function pld:npcs/penglai/zhanmain8"}] replace 
-setblock 318 40 -684 minecraft:command_block[block_entity_data={Command:"function pld:npcs/penglai/tong6"}] replace
-setblock 311 44 -689 minecraft:command_block[block_entity_data={Command:"function pld:system/spawnpoint/spawnpointset"}] replace 
+setblock 313 40 -685 minecraft:command_block{Command:"function pld:npcs/penglai/shenmain6"} replace 
+setblock 318 40 -691 minecraft:command_block{Command:"function pld:npcs/penglai/zhanmain8"} replace 
+setblock 318 40 -684 minecraft:command_block{Command:"function pld:npcs/penglai/tong6"} replace
+setblock 311 44 -689 minecraft:command_block{Command:"function pld:system/spawnpoint/spawnpointset"} replace 
 
 kill @e[type=villager,tag=!panling]
 execute positioned 313 40 -685 run function pld:npcs/penglai/shenmain6

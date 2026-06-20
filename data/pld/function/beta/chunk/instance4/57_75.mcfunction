@@ -78,11 +78,11 @@ fill 927 58 1250 929 58 1250 minecraft:black_wool
 fill 961 58 1250 959 58 1250 minecraft:black_wool
 setblock 960 58 1249 minecraft:black_wool
 setblock 960 58 1251 minecraft:black_wool
-setblock 937 57 1266 structure_block[block_entity_data={metadata: "", mirror: "NONE", ignoreEntities: 0b, powered: 0b, seed: 0L, author: "?", rotation: "NONE", posX: 0, mode: "LOAD", posY: 1, sizeX: 16, posZ: 0, integrity: 1.0f, showair: 0b, name: "pld:in4_1", sizeY: 14, sizeZ: 12, showboundingbox: 1b}]
+setblock 937 57 1266 structure_block{metadata: "", mirror: "NONE", ignoreEntities: 0b, powered: 0b, seed: 0L, author: "?", rotation: "NONE", posX: 0, mode: "LOAD", posY: 1, sizeX: 16, posZ: 0, integrity: 1.0f, showair: 0b, name: "pld:in4_1", sizeY: 14, sizeZ: 12, showboundingbox: 1b}
 setblock 936 57 1266 redstone_block
-setblock 932 57 1254 structure_block[block_entity_data={metadata: "", mirror: "NONE", ignoreEntities: 0b, powered: 0b, seed: 0L, author: "?", rotation: "NONE", posX: 0, mode: "LOAD", posY: 1, sizeX: 16, posZ: 0, integrity: 1.0f, showair: 0b, name: "pld:in4_2", sizeY: 14, sizeZ: 12, showboundingbox: 1b}]
+setblock 932 57 1254 structure_block{metadata: "", mirror: "NONE", ignoreEntities: 0b, powered: 0b, seed: 0L, author: "?", rotation: "NONE", posX: 0, mode: "LOAD", posY: 1, sizeX: 16, posZ: 0, integrity: 1.0f, showair: 0b, name: "pld:in4_2", sizeY: 14, sizeZ: 12, showboundingbox: 1b}
 setblock 931 57 1254 redstone_block
-setblock 930 57 1242 structure_block[block_entity_data={metadata: "", mirror: "NONE", ignoreEntities: 0b, powered: 0b, seed: 0L, author: "?", rotation: "NONE", posX: 0, mode: "LOAD", posY: 1, sizeX: 16, posZ: 0, integrity: 1.0f, showair: 0b, name: "pld:in4_3", sizeY: 14, sizeZ: 12, showboundingbox: 1b}]
+setblock 930 57 1242 structure_block{metadata: "", mirror: "NONE", ignoreEntities: 0b, powered: 0b, seed: 0L, author: "?", rotation: "NONE", posX: 0, mode: "LOAD", posY: 1, sizeX: 16, posZ: 0, integrity: 1.0f, showair: 0b, name: "pld:in4_3", sizeY: 14, sizeZ: 12, showboundingbox: 1b}
 setblock 929 57 1242 redstone_block
 
 fill 973 59 1283 913 59 1215 water replace air

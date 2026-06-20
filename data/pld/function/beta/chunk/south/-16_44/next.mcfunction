@@ -1,6 +1,6 @@
 
 #要做的事
-setblock -256 43 717 minecraft:command_block[block_entity_data={Command:"function pld:npcs/south/chat4"}] replace 
+setblock -256 43 717 minecraft:command_block{Command:"function pld:npcs/south/chat4"} replace 
 kill @e[type=villager,tag=!panling]
 execute positioned -256 43 717 run function pld:npcs/south/chat4
 #区块卸载

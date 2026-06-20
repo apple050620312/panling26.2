@@ -5,7 +5,7 @@ data merge block 228 60 -147 {front_text:{messages:['{"translate":""}','{"transl
 fill 249 59 -158 249 59 -160 air
 setblock 249 59 -160 minecraft:spruce_planks
 
-setblock 249 58 -160 minecraft:command_block[block_entity_data={Command:"function pld:npcs/middle/tong20"}] replace 
+setblock 249 58 -160 minecraft:command_block{Command:"function pld:npcs/middle/tong20"} replace 
 
 kill @e[type=villager,tag=!panling]
 execute positioned 249 58 -160 run function pld:npcs/middle/tong20

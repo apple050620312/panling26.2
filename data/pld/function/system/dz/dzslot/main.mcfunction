@@ -36,8 +36,8 @@ execute if score #system temp matches 1 run function pld:system/dz/dzslot/enchan
 
 
 
-#execute if block ~ ~ ~ minecraft:dispenser[block_entity_data={Items:[{Slot:6b,id:"minecraft:glowstone_dust",Count:1b,components:{"minecraft:custom_data":{id:"panling:material_helmet"}}}]}] run function pld:system/dz/dzslot/dzhelmet
-#execute if block ~ ~ ~ minecraft:dispenser[block_entity_data={Items:[{Slot:6b,id:"minecraft:glowstone_dust",Count:1b,components:{"minecraft:custom_data":{id:"panling:material_chestplate"}}}]}] run function pld:system/dz/dzslot/dzchestplate
-#execute if block ~ ~ ~ minecraft:dispenser[block_entity_data={Items:[{Slot:6b,id:"minecraft:glowstone_dust",Count:1b,components:{"minecraft:custom_data":{id:"panling:material_leggings"}}}]}] run function pld:system/dz/dzslot/dzleggings
-#execute if block ~ ~ ~ minecraft:dispenser[block_entity_data={Items:[{Slot:6b,id:"minecraft:glowstone_dust",Count:1b,components:{"minecraft:custom_data":{id:"panling:material_boots"}}}]}] run function pld:system/dz/dzslot/dzboots
+#execute if block ~ ~ ~ minecraft:dispenser{Items:[{Slot:6b,id:"minecraft:glowstone_dust",Count:1b,components:{"minecraft:custom_data":{id:"panling:material_helmet"}}}]} run function pld:system/dz/dzslot/dzhelmet
+#execute if block ~ ~ ~ minecraft:dispenser{Items:[{Slot:6b,id:"minecraft:glowstone_dust",Count:1b,components:{"minecraft:custom_data":{id:"panling:material_chestplate"}}}]} run function pld:system/dz/dzslot/dzchestplate
+#execute if block ~ ~ ~ minecraft:dispenser{Items:[{Slot:6b,id:"minecraft:glowstone_dust",Count:1b,components:{"minecraft:custom_data":{id:"panling:material_leggings"}}}]} run function pld:system/dz/dzslot/dzleggings
+#execute if block ~ ~ ~ minecraft:dispenser{Items:[{Slot:6b,id:"minecraft:glowstone_dust",Count:1b,components:{"minecraft:custom_data":{id:"panling:material_boots"}}}]} run function pld:system/dz/dzslot/dzboots
 

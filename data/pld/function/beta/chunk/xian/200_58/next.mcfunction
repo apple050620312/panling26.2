@@ -8,12 +8,12 @@ data merge block 3214 60 939 {front_text:{messages:['{"translate":"pl.sign.xian5
 data merge block 3213 59 941 {front_text:{messages:['{"translate":"pl.spsign.xian1.text1","clickEvent":{"action":"run_command","value":"/tellraw @p {\\"translate\\":\\"pl.spsign.xian1.reads\\",\\"color\\":\\"gold\\"}"}}','{"translate":""}','{"translate":""}','{"translate":""}']}}
 
 
-setblock 3218 56 944 minecraft:command_block[block_entity_data={Command:"function pld:npcs/xian/guard"}] replace 
-setblock 3218 56 938 minecraft:command_block[block_entity_data={Command:"function pld:npcs/xian/guard"}] replace 
-setblock 3226 56 944 minecraft:command_block[block_entity_data={Command:"function pld:npcs/xian/guard"}] replace 
-setblock 3226 56 938 minecraft:command_block[block_entity_data={Command:"function pld:npcs/xian/guard"}] replace 
+setblock 3218 56 944 minecraft:command_block{Command:"function pld:npcs/xian/guard"} replace 
+setblock 3218 56 938 minecraft:command_block{Command:"function pld:npcs/xian/guard"} replace 
+setblock 3226 56 944 minecraft:command_block{Command:"function pld:npcs/xian/guard"} replace 
+setblock 3226 56 938 minecraft:command_block{Command:"function pld:npcs/xian/guard"} replace 
 
-setblock 3225 56 939 minecraft:command_block[block_entity_data={Command:"function pld:npcs/xian/xh3"}] replace 
+setblock 3225 56 939 minecraft:command_block{Command:"function pld:npcs/xian/xh3"} replace 
 
 
 kill @e[type=villager,tag=!panling]

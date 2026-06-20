@@ -2,8 +2,8 @@
 data merge block 314 45 57 {front_text:{messages:['{"translate":"pl.sign.middle44.text1"}','{"translate":""}','{"translate":"pl.sign.middle44.text3"}','{"translate":"pl.sign.middle44.text4"}']}}
 data merge block 314 45 69 {front_text:{messages:['{"translate":"pl.sign.middle44.text1"}','{"translate":""}','{"translate":"pl.sign.middle44.text3"}','{"translate":"pl.sign.middle44.text4"}']}}
 
-setblock 324 39 67 minecraft:command_block[block_entity_data={Command:"function pld:npcs/middle/tong13a"}] replace 
-setblock 303 39 59 minecraft:command_block[block_entity_data={Command:"function pld:npcs/middle/chat55"}] replace 
+setblock 324 39 67 minecraft:command_block{Command:"function pld:npcs/middle/tong13a"} replace 
+setblock 303 39 59 minecraft:command_block{Command:"function pld:npcs/middle/chat55"} replace 
 
 kill @e[type=villager,tag=!panling]
 execute positioned 324 39 67 run function pld:npcs/middle/tong13a

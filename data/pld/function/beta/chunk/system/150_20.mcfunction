@@ -19,12 +19,12 @@ fill 2438 46 314 2402 46 329 air
 #data merge block 2428 45 334 {Text1:'{"translate":"pl.sign.lds2.text1"}',Text2:'{"translate":"pl.sign.lds2.text2"}',Text3:'{"translate":"pl.sign.lds2.text3"}'}
 #data merge block 2430 46 346 {Text2:'{"translate":"pl.sign.lds1.text2"}',Text3:'{"translate":"pl.sign.lds1.text3"}'}
 #data merge block 2428 45 347 {Text1:'{"translate":"pl.sign.lds2.text1"}',Text2:'{"translate":"pl.sign.lds2.text2"}',Text3:'{"translate":"pl.sign.lds2.text3"}'}
-#setblock 2432 46 347 minecraft:command_block[block_entity_data={Command:"function pld:system/ld/ldmain"}] replace 
-#setblock 2432 46 334 minecraft:command_block[block_entity_data={Command:"function pld:system/ld/ldmain"}] replace 
-#setblock 2410 46 347 minecraft:command_block[block_entity_data={Command:"function pld:system/ld/ldmain"}] replace 
-#setblock 2410 46 334 minecraft:command_block[block_entity_data={Command:"function pld:system/ld/ldmain"}] replace 
-#setblock 2429 43 340 minecraft:command_block[block_entity_data={Command:"tp @p[distance=..5] 252 49 24"}] replace 
-#setblock 2429 43 341 minecraft:command_block[block_entity_data={Command:"tp @p[distance=..5] 252 49 24"}] replace 
+#setblock 2432 46 347 minecraft:command_block{Command:"function pld:system/ld/ldmain"} replace 
+#setblock 2432 46 334 minecraft:command_block{Command:"function pld:system/ld/ldmain"} replace 
+#setblock 2410 46 347 minecraft:command_block{Command:"function pld:system/ld/ldmain"} replace 
+#setblock 2410 46 334 minecraft:command_block{Command:"function pld:system/ld/ldmain"} replace 
+#setblock 2429 43 340 minecraft:command_block{Command:"tp @p[distance=..5] 252 49 24"} replace 
+#setblock 2429 43 341 minecraft:command_block{Command:"tp @p[distance=..5] 252 49 24"} replace 
 #data merge block 2429 45 334 {CustomName:'{"translate":"pl.name.ldl"}'}
 #data merge block 2429 45 347 {CustomName:'{"translate":"pl.name.ldl"}'}
 #data merge block 2413 45 347 {CustomName:'{"translate":"pl.name.ldl"}'}

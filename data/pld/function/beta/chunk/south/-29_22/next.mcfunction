@@ -1,9 +1,9 @@
 
 #要做的事
-setblock -462 90 360 minecraft:command_block[block_entity_data={Command:"function pld:npcs/south/tezhan"}] replace 
-setblock -456 90 362 minecraft:command_block[block_entity_data={Command:"function pld:npcs/south/tezhan2"}] replace 
-setblock -452 90 356 minecraft:command_block[block_entity_data={Command:"function pld:npcs/south/tezhan3"}] replace 
-setblock -450 90 361 minecraft:command_block[block_entity_data={Command:"function pld:npcs/south/se3"}] replace 
+setblock -462 90 360 minecraft:command_block{Command:"function pld:npcs/south/tezhan"} replace 
+setblock -456 90 362 minecraft:command_block{Command:"function pld:npcs/south/tezhan2"} replace 
+setblock -452 90 356 minecraft:command_block{Command:"function pld:npcs/south/tezhan3"} replace 
+setblock -450 90 361 minecraft:command_block{Command:"function pld:npcs/south/se3"} replace 
 kill @e[type=villager,tag=!panling]
 execute positioned -462 90 360 run function pld:npcs/south/tezhan
 execute positioned -456 90 362 run function pld:npcs/south/tezhan2

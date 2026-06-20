@@ -13,20 +13,20 @@ data merge block 2748 32 872 {front_text:{messages:['{"translate":""}','{"transl
 data merge block 2742 32 872 {front_text:{messages:['{"translate":"pl.sign.yao14.text1"}','{"translate":"pl.sign.yao14.text2"}','{"translate":"pl.sign.yao14.text3"}','{"translate":"pl.sign.yao14.text4"}']}}
 data merge block 2742 31 871 {front_text:{messages:['{"translate":"pl.sign.yao15.text1"}','{"translate":"pl.sign.yao15.text2"}','{"translate":"pl.sign.yao15.text3"}','{"translate":"pl.sign.yao15.text4"}']}}
 
-setblock 2751 80 871 minecraft:command_block[block_entity_data={Command:"execute as @p[x=2750,y=81,z=871,distance=..3] run function pld:pvp/3/pre/sign/player_check_atk"}] replace 
-setblock 2740 31 872 minecraft:command_block[block_entity_data={Command:"execute as @p[x=2742,y=31,z=872,distance=..3] run function pld:pvp/3/pre/sign/sign_up_atk"}] replace
-setblock 2750 31 872 minecraft:command_block[block_entity_data={Command:"tp @p[x=2748,y=31,z=872,distance=..5] 2748 81 873 180 20"}] replace
+setblock 2751 80 871 minecraft:command_block{Command:"execute as @p[x=2750,y=81,z=871,distance=..3] run function pld:pvp/3/pre/sign/player_check_atk"} replace 
+setblock 2740 31 872 minecraft:command_block{Command:"execute as @p[x=2742,y=31,z=872,distance=..3] run function pld:pvp/3/pre/sign/sign_up_atk"} replace
+setblock 2750 31 872 minecraft:command_block{Command:"tp @p[x=2748,y=31,z=872,distance=..5] 2748 81 873 180 20"} replace
 
 
-setblock 2745 77 868 minecraft:command_block[block_entity_data={Command:"function pld:npcs/yao/pvp3_atk"}] replace 
-setblock 2750 39 869 minecraft:command_block[block_entity_data={Command:"function pld:npcs/yao/tong20"}] replace 
-setblock 2739 39 874 minecraft:command_block[block_entity_data={Command:"function pld:npcs/yao/chat5"}] replace 
-setblock 2731 70 873 minecraft:command_block[block_entity_data={Command:"function pld:npcs/yao/chat6"}] replace 
-setblock 2741 52 868 minecraft:command_block[block_entity_data={Command:"function pld:npcs/yao/yaomain5"}] replace 
+setblock 2745 77 868 minecraft:command_block{Command:"function pld:npcs/yao/pvp3_atk"} replace 
+setblock 2750 39 869 minecraft:command_block{Command:"function pld:npcs/yao/tong20"} replace 
+setblock 2739 39 874 minecraft:command_block{Command:"function pld:npcs/yao/chat5"} replace 
+setblock 2731 70 873 minecraft:command_block{Command:"function pld:npcs/yao/chat6"} replace 
+setblock 2741 52 868 minecraft:command_block{Command:"function pld:npcs/yao/yaomain5"} replace 
 fill 2748 44 867 2749 44 867 air
 setblock 2750 44 867 minecraft:bookshelf
-setblock 2755 49 874 minecraft:command_block[block_entity_data={Command:"function pld:npcs/yao/guard"}] replace 
-setblock 2755 49 869 minecraft:command_block[block_entity_data={Command:"function pld:npcs/yao/guard"}] replace 
+setblock 2755 49 874 minecraft:command_block{Command:"function pld:npcs/yao/guard"} replace 
+setblock 2755 49 869 minecraft:command_block{Command:"function pld:npcs/yao/guard"} replace 
 
 kill @e[type=villager,tag=!panling]
 execute as @e[type=skeleton] run function pld:system/tp_and_kill_self

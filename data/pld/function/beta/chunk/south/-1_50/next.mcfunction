@@ -2,9 +2,9 @@
 #要做的事
 data merge block 29 50 814 {front_text:{messages:['{"translate":"pl.sign.south1.text1"}','{"translate":"pl.sign.south4.text2"}','{"translate":""}','{"translate":""}']}}
 
-setblock 10 43 813 minecraft:command_block[block_entity_data={Command:"function pld:npcs/south/southmain2"}] replace 
-setblock -15 43 805 minecraft:command_block[block_entity_data={Command:"function pld:npcs/south/southmain1"}] replace 
-setblock 11 43 810 minecraft:command_block[block_entity_data={Command:"function pld:npcs/south/tong4"}] replace 
+setblock 10 43 813 minecraft:command_block{Command:"function pld:npcs/south/southmain2"} replace 
+setblock -15 43 805 minecraft:command_block{Command:"function pld:npcs/south/southmain1"} replace 
+setblock 11 43 810 minecraft:command_block{Command:"function pld:npcs/south/tong4"} replace 
 
 kill @e[type=villager,tag=!panling]
 execute positioned 10 43 813 run function pld:npcs/south/southmain2

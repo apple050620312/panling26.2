@@ -1,6 +1,6 @@
 
 #要做的事
-setblock 172 42 126 minecraft:command_block[block_entity_data={Command:"function pld:npcs/middle/chat32"}] replace 
+setblock 172 42 126 minecraft:command_block{Command:"function pld:npcs/middle/chat32"} replace 
 
 kill @e[type=villager,tag=!panling]
 execute positioned 172 42 126 run function pld:npcs/middle/chat32

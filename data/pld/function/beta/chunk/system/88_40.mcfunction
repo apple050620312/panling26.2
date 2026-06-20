@@ -8,11 +8,11 @@ data merge block 1412 43 648 {front_text:{messages:['{"translate":""}','{"transl
 data merge block 1404 43 648 {front_text:{messages:['{"translate":""}','{"translate":"pl.sign.story1.text2"}','{"translate":"pl.sign.story1.text3"}','{"translate":""}']}}
 data merge block 1396 43 648 {front_text:{messages:['{"translate":""}','{"translate":"pl.sign.story1.text2"}','{"translate":"pl.sign.story1.text3"}','{"translate":""}']}}
 
-setblock 1396 40 645 minecraft:command_block[block_entity_data={Command:"function pld:selections/stories/4_1"}] replace
-setblock 1404 40 645 minecraft:command_block[block_entity_data={Command:"function pld:selections/stories/4_2"}] replace
-setblock 1412 40 645 minecraft:command_block[block_entity_data={Command:"function pld:selections/stories/4_3"}] replace
+setblock 1396 40 645 minecraft:command_block{Command:"function pld:selections/stories/4_1"} replace
+setblock 1404 40 645 minecraft:command_block{Command:"function pld:selections/stories/4_2"} replace
+setblock 1412 40 645 minecraft:command_block{Command:"function pld:selections/stories/4_3"} replace
 
-setblock 1418 39 647 minecraft:command_block[block_entity_data={Command:"tp @p[x=1417,y=42,z=646,distance=..3] 1204 27 -381 -90 0"}] replace
+setblock 1418 39 647 minecraft:command_block{Command:"tp @p[x=1417,y=42,z=646,distance=..3] 1204 27 -381 -90 0"} replace
 
 #区块卸载
 forceload remove 1416 646 1396 648

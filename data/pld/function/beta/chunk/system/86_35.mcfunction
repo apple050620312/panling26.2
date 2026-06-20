@@ -8,9 +8,9 @@
 #data merge block 1383 42 569 {Text2:'{"translate":"pl.sign.training_job_6.text2"}',Text3:'{"translate":"pl.sign.training_job_6.text3"}'}
 #
 #
-#setblock 1389 38 574 minecraft:command_block[block_entity_data={Command:"effect give @a[distance=..3] minecraft:instant_health 1 10 true"}] replace
-#setblock 1385 42 576 minecraft:command_block[block_entity_data={Command:"function pld:selections/training/training_skeleton"}] replace
-#setblock 1382 39 568 minecraft:command_block[block_entity_data={Command:"tp @e[type=skeleton,distance=..3] ~ -1000 ~"}] replace
+#setblock 1389 38 574 minecraft:command_block{Command:"effect give @a[distance=..3] minecraft:instant_health 1 10 true"} replace
+#setblock 1385 42 576 minecraft:command_block{Command:"function pld:selections/training/training_skeleton"} replace
+#setblock 1382 39 568 minecraft:command_block{Command:"tp @e[type=skeleton,distance=..3] ~ -1000 ~"} replace
 #
 #
 #

@@ -1,7 +1,26 @@
 {
-    "function":"minecraft:set_lore",
-    "lore":[
-        [{"nbt":"Temp_the_mail.attached_items[1].tag.title","storage":"pld:system"},{"text":" x","color": "white","italic": false},{"score":{"name": "count","objective": "int"},"color": "white","italic": false}]
+    "function": "minecraft:set_lore",
+    "lore": [
+        [
+            {
+                "nbt": "Temp_the_mail.attached_items[1].tag.title",
+                "storage": "pld:system"
+            },
+            {
+                "text": " x",
+                "color": "white",
+                "italic": false
+            },
+            {
+                "score": {
+                    "name": "count",
+                    "objective": "int"
+                },
+                "color": "white",
+                "italic": false
+            }
+        ]
     ],
-    "entity":"this"
+    "entity": "this",
+    "mode": "replace_all"
 }

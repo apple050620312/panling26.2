@@ -5,7 +5,7 @@ function pld:equipment_lock/main
 function pld:system/attribute/clear/weapon
 
 #激活武器
-setblock ~ 255 ~ chest[block_entity_data={Items:[{Slot:0b,id:"minecraft:stone",Count:1}]}]
+setblock ~ 255 ~ chest{Items:[{Slot:0b,id:"minecraft:stone",Count:1}]}
 execute as @s at @s run function pld:equipment_lock/equipment/weapon/slotcheck
 setblock ~ 255 ~ air
 

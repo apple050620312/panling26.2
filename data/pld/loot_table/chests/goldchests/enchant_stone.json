@@ -1,267 +1,243 @@
 {
-  "type": "minecraft:generic",
-  "pools": [
-    {
-      "rolls": 1,
-      "entries": [
+    "type": "minecraft:generic",
+    "pools": [
         {
-          "weight": 1,
-          "type": "minecraft:item",
-          "name": "minecraft:blue_dye",
-          "functions": [
-            {
-              "function": "minecraft:set_components",
-              "components": {
-                "minecraft:custom_model_data": {
-                  "floats": [
-                    2
-                  ]
+            "rolls": 1,
+            "entries": [
+                {
+                    "weight": 1,
+                    "type": "minecraft:item",
+                    "name": "minecraft:blue_dye",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_components",
+                            "components": {
+                                "minecraft:custom_model_data": {
+                                    "floats": [
+                                        2
+                                    ]
+                                },
+                                "minecraft:custom_name": "{\"translate\": \"pl.item.name.enchant_stone1\"}",
+                                "minecraft:lore": [
+                                    "{\"translate\":\"pl.item.lore.enchant_stonea\"}",
+                                    "{\"translate\":\"pl.item.lore.enchant_stoneb\"}",
+                                    "{\"translate\":\"pl.item.lore.enchant_stonec\"}",
+                                    "{\"translate\":\"pl.item.lore.enchant_stoned1301\"}"
+                                ],
+                                "minecraft:enchantments": {
+                                    "minecraft:protection": 1
+                                }
+                            }
+                        },
+                        {
+                            "function": "minecraft:set_custom_data",
+                            "tag": "{id:\"panling:enchant_stone\",type:1,lvl:3,enchant_id:1}"
+                        }
+                    ]
                 },
-                "minecraft:custom_name": "{\"translate\": \"pl.item.name.enchant_stone1\"}",
-                "minecraft:lore": [
-                  "{\"translate\":\"pl.item.lore.enchant_stonea\"}",
-                  "{\"translate\":\"pl.item.lore.enchant_stoneb\"}",
-                  "{\"translate\":\"pl.item.lore.enchant_stonec\"}",
-                  "{\"translate\":\"pl.item.lore.enchant_stoned1301\"}"
-                ],
-                "minecraft:hide_additional_tooltip": {},
-                "minecraft:enchantments": {
-                  "levels": {
-                    "minecraft:protection": 1
-                  }
-                }
-              }
-            },
-            {
-              "function": "minecraft:set_custom_data",
-              "tag": "{id:\"panling:enchant_stone\",type:1,lvl:3,enchant_id:1}"
-            }
-          ]
-        },
-        {
-          "weight": 1,
-          "type": "minecraft:item",
-          "name": "minecraft:blue_dye",
-          "functions": [
-            {
-              "function": "minecraft:set_components",
-              "components": {
-                "minecraft:custom_model_data": {
-                  "floats": [
-                    2
-                  ]
+                {
+                    "weight": 1,
+                    "type": "minecraft:item",
+                    "name": "minecraft:blue_dye",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_components",
+                            "components": {
+                                "minecraft:custom_model_data": {
+                                    "floats": [
+                                        2
+                                    ]
+                                },
+                                "minecraft:custom_name": "{\"translate\": \"pl.item.name.enchant_stone1\"}",
+                                "minecraft:lore": [
+                                    "{\"translate\":\"pl.item.lore.enchant_stonea\"}",
+                                    "{\"translate\":\"pl.item.lore.enchant_stoneb\"}",
+                                    "{\"translate\":\"pl.item.lore.enchant_stonec\"}",
+                                    "{\"translate\":\"pl.item.lore.enchant_stoned1302\"}"
+                                ],
+                                "minecraft:enchantments": {
+                                    "minecraft:protection": 1
+                                }
+                            }
+                        },
+                        {
+                            "function": "minecraft:set_custom_data",
+                            "tag": "{id:\"panling:enchant_stone\",type:1,lvl:3,enchant_id:2}"
+                        }
+                    ]
                 },
-                "minecraft:custom_name": "{\"translate\": \"pl.item.name.enchant_stone1\"}",
-                "minecraft:lore": [
-                  "{\"translate\":\"pl.item.lore.enchant_stonea\"}",
-                  "{\"translate\":\"pl.item.lore.enchant_stoneb\"}",
-                  "{\"translate\":\"pl.item.lore.enchant_stonec\"}",
-                  "{\"translate\":\"pl.item.lore.enchant_stoned1302\"}"
-                ],
-                "minecraft:hide_additional_tooltip": {},
-                "minecraft:enchantments": {
-                  "levels": {
-                    "minecraft:protection": 1
-                  }
-                }
-              }
-            },
-            {
-              "function": "minecraft:set_custom_data",
-              "tag": "{id:\"panling:enchant_stone\",type:1,lvl:3,enchant_id:2}"
-            }
-          ]
-        },
-        {
-          "weight": 1,
-          "type": "minecraft:item",
-          "name": "minecraft:blue_dye",
-          "functions": [
-            {
-              "function": "minecraft:set_components",
-              "components": {
-                "minecraft:custom_model_data": {
-                  "floats": [
-                    2
-                  ]
+                {
+                    "weight": 1,
+                    "type": "minecraft:item",
+                    "name": "minecraft:blue_dye",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_components",
+                            "components": {
+                                "minecraft:custom_model_data": {
+                                    "floats": [
+                                        2
+                                    ]
+                                },
+                                "minecraft:custom_name": "{\"translate\": \"pl.item.name.enchant_stone1\"}",
+                                "minecraft:lore": [
+                                    "{\"translate\":\"pl.item.lore.enchant_stonea\"}",
+                                    "{\"translate\":\"pl.item.lore.enchant_stoneb\"}",
+                                    "{\"translate\":\"pl.item.lore.enchant_stonec\"}",
+                                    "{\"translate\":\"pl.item.lore.enchant_stoned1303\"}"
+                                ],
+                                "minecraft:enchantments": {
+                                    "minecraft:protection": 1
+                                }
+                            }
+                        },
+                        {
+                            "function": "minecraft:set_custom_data",
+                            "tag": "{id:\"panling:enchant_stone\",type:1,lvl:3,enchant_id:3}"
+                        }
+                    ]
                 },
-                "minecraft:custom_name": "{\"translate\": \"pl.item.name.enchant_stone1\"}",
-                "minecraft:lore": [
-                  "{\"translate\":\"pl.item.lore.enchant_stonea\"}",
-                  "{\"translate\":\"pl.item.lore.enchant_stoneb\"}",
-                  "{\"translate\":\"pl.item.lore.enchant_stonec\"}",
-                  "{\"translate\":\"pl.item.lore.enchant_stoned1303\"}"
-                ],
-                "minecraft:hide_additional_tooltip": {},
-                "minecraft:enchantments": {
-                  "levels": {
-                    "minecraft:protection": 1
-                  }
-                }
-              }
-            },
-            {
-              "function": "minecraft:set_custom_data",
-              "tag": "{id:\"panling:enchant_stone\",type:1,lvl:3,enchant_id:3}"
-            }
-          ]
-        },
-        {
-          "weight": 1,
-          "type": "minecraft:item",
-          "name": "minecraft:blue_dye",
-          "functions": [
-            {
-              "function": "minecraft:set_components",
-              "components": {
-                "minecraft:custom_model_data": {
-                  "floats": [
-                    2
-                  ]
+                {
+                    "weight": 1,
+                    "type": "minecraft:item",
+                    "name": "minecraft:blue_dye",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_components",
+                            "components": {
+                                "minecraft:custom_model_data": {
+                                    "floats": [
+                                        2
+                                    ]
+                                },
+                                "minecraft:custom_name": "{\"translate\": \"pl.item.name.enchant_stone1\"}",
+                                "minecraft:lore": [
+                                    "{\"translate\":\"pl.item.lore.enchant_stonea\"}",
+                                    "{\"translate\":\"pl.item.lore.enchant_stoneb\"}",
+                                    "{\"translate\":\"pl.item.lore.enchant_stonec\"}",
+                                    "{\"translate\":\"pl.item.lore.enchant_stoned1304\"}"
+                                ],
+                                "minecraft:enchantments": {
+                                    "minecraft:protection": 1
+                                }
+                            }
+                        },
+                        {
+                            "function": "minecraft:set_custom_data",
+                            "tag": "{id:\"panling:enchant_stone\",type:1,lvl:3,enchant_id:4}"
+                        }
+                    ]
                 },
-                "minecraft:custom_name": "{\"translate\": \"pl.item.name.enchant_stone1\"}",
-                "minecraft:lore": [
-                  "{\"translate\":\"pl.item.lore.enchant_stonea\"}",
-                  "{\"translate\":\"pl.item.lore.enchant_stoneb\"}",
-                  "{\"translate\":\"pl.item.lore.enchant_stonec\"}",
-                  "{\"translate\":\"pl.item.lore.enchant_stoned1304\"}"
-                ],
-                "minecraft:hide_additional_tooltip": {},
-                "minecraft:enchantments": {
-                  "levels": {
-                    "minecraft:protection": 1
-                  }
-                }
-              }
-            },
-            {
-              "function": "minecraft:set_custom_data",
-              "tag": "{id:\"panling:enchant_stone\",type:1,lvl:3,enchant_id:4}"
-            }
-          ]
-        },
-        {
-          "weight": 1,
-          "type": "minecraft:item",
-          "name": "minecraft:blue_dye",
-          "functions": [
-            {
-              "function": "minecraft:set_components",
-              "components": {
-                "minecraft:custom_model_data": {
-                  "floats": [
-                    2
-                  ]
+                {
+                    "weight": 1,
+                    "type": "minecraft:item",
+                    "name": "minecraft:blue_dye",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_components",
+                            "components": {
+                                "minecraft:custom_model_data": {
+                                    "floats": [
+                                        2
+                                    ]
+                                },
+                                "minecraft:custom_name": "{\"translate\": \"pl.item.name.enchant_stone1\"}",
+                                "minecraft:lore": [
+                                    "{\"translate\":\"pl.item.lore.enchant_stonea\"}",
+                                    "{\"translate\":\"pl.item.lore.enchant_stoneb\"}",
+                                    "{\"translate\":\"pl.item.lore.enchant_stonec\"}",
+                                    "{\"translate\":\"pl.item.lore.enchant_stoned1305\"}"
+                                ],
+                                "minecraft:enchantments": {
+                                    "minecraft:protection": 1
+                                }
+                            }
+                        },
+                        {
+                            "function": "minecraft:set_custom_data",
+                            "tag": "{id:\"panling:enchant_stone\",type:1,lvl:3,enchant_id:5}"
+                        }
+                    ]
                 },
-                "minecraft:custom_name": "{\"translate\": \"pl.item.name.enchant_stone1\"}",
-                "minecraft:lore": [
-                  "{\"translate\":\"pl.item.lore.enchant_stonea\"}",
-                  "{\"translate\":\"pl.item.lore.enchant_stoneb\"}",
-                  "{\"translate\":\"pl.item.lore.enchant_stonec\"}",
-                  "{\"translate\":\"pl.item.lore.enchant_stoned1305\"}"
-                ],
-                "minecraft:hide_additional_tooltip": {},
-                "minecraft:enchantments": {
-                  "levels": {
-                    "minecraft:protection": 1
-                  }
+                {
+                    "weight": 1,
+                    "type": "minecraft:item",
+                    "name": "minecraft:blue_dye",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_components",
+                            "components": {
+                                "minecraft:custom_name": "{\"translate\": \"pl.item.name.enchant_stone2\"}",
+                                "minecraft:lore": [
+                                    "{\"translate\":\"pl.item.lore.enchant_stonea\"}",
+                                    "{\"translate\":\"pl.item.lore.enchant_stoneb\"}",
+                                    "{\"translate\":\"pl.item.lore.enchant_stonec\"}",
+                                    "{\"translate\":\"pl.item.lore.enchant_stoned2301\"}"
+                                ],
+                                "minecraft:enchantments": {
+                                    "minecraft:protection": 1
+                                }
+                            }
+                        },
+                        {
+                            "function": "minecraft:set_custom_data",
+                            "tag": "{id:\"panling:enchant_stone\",type:2,lvl:3,enchant_id:1}"
+                        }
+                    ]
+                },
+                {
+                    "weight": 1,
+                    "type": "minecraft:item",
+                    "name": "minecraft:blue_dye",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_components",
+                            "components": {
+                                "minecraft:custom_name": "{\"translate\": \"pl.item.name.enchant_stone2\"}",
+                                "minecraft:lore": [
+                                    "{\"translate\":\"pl.item.lore.enchant_stonea\"}",
+                                    "{\"translate\":\"pl.item.lore.enchant_stoneb\"}",
+                                    "{\"translate\":\"pl.item.lore.enchant_stonec\"}",
+                                    "{\"translate\":\"pl.item.lore.enchant_stoned2302\"}"
+                                ],
+                                "minecraft:enchantments": {
+                                    "minecraft:protection": 1
+                                }
+                            }
+                        },
+                        {
+                            "function": "minecraft:set_custom_data",
+                            "tag": "{id:\"panling:enchant_stone\",type:2,lvl:3,enchant_id:2}"
+                        }
+                    ]
+                },
+                {
+                    "weight": 1,
+                    "type": "minecraft:item",
+                    "name": "minecraft:blue_dye",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_components",
+                            "components": {
+                                "minecraft:custom_name": "{\"translate\": \"pl.item.name.enchant_stone2\"}",
+                                "minecraft:lore": [
+                                    "{\"translate\":\"pl.item.lore.enchant_stonea\"}",
+                                    "{\"translate\":\"pl.item.lore.enchant_stoneb\"}",
+                                    "{\"translate\":\"pl.item.lore.enchant_stonec\"}",
+                                    "{\"translate\":\"pl.item.lore.enchant_stoned2303\"}"
+                                ],
+                                "minecraft:enchantments": {
+                                    "minecraft:protection": 1
+                                }
+                            }
+                        },
+                        {
+                            "function": "minecraft:set_custom_data",
+                            "tag": "{id:\"panling:enchant_stone\",type:2,lvl:3,enchant_id:3}"
+                        }
+                    ]
                 }
-              }
-            },
-            {
-              "function": "minecraft:set_custom_data",
-              "tag": "{id:\"panling:enchant_stone\",type:1,lvl:3,enchant_id:5}"
-            }
-          ]
-        },
-        {
-          "weight": 1,
-          "type": "minecraft:item",
-          "name": "minecraft:blue_dye",
-          "functions": [
-            {
-              "function": "minecraft:set_components",
-              "components": {
-                "minecraft:custom_name": "{\"translate\": \"pl.item.name.enchant_stone2\"}",
-                "minecraft:lore": [
-                  "{\"translate\":\"pl.item.lore.enchant_stonea\"}",
-                  "{\"translate\":\"pl.item.lore.enchant_stoneb\"}",
-                  "{\"translate\":\"pl.item.lore.enchant_stonec\"}",
-                  "{\"translate\":\"pl.item.lore.enchant_stoned2301\"}"
-                ],
-                "minecraft:hide_additional_tooltip": {},
-                "minecraft:enchantments": {
-                  "levels": {
-                    "minecraft:protection": 1
-                  }
-                }
-              }
-            },
-            {
-              "function": "minecraft:set_custom_data",
-              "tag": "{id:\"panling:enchant_stone\",type:2,lvl:3,enchant_id:1}"
-            }
-          ]
-        },
-        {
-          "weight": 1,
-          "type": "minecraft:item",
-          "name": "minecraft:blue_dye",
-          "functions": [
-            {
-              "function": "minecraft:set_components",
-              "components": {
-                "minecraft:custom_name": "{\"translate\": \"pl.item.name.enchant_stone2\"}",
-                "minecraft:lore": [
-                  "{\"translate\":\"pl.item.lore.enchant_stonea\"}",
-                  "{\"translate\":\"pl.item.lore.enchant_stoneb\"}",
-                  "{\"translate\":\"pl.item.lore.enchant_stonec\"}",
-                  "{\"translate\":\"pl.item.lore.enchant_stoned2302\"}"
-                ],
-                "minecraft:hide_additional_tooltip": {},
-                "minecraft:enchantments": {
-                  "levels": {
-                    "minecraft:protection": 1
-                  }
-                }
-              }
-            },
-            {
-              "function": "minecraft:set_custom_data",
-              "tag": "{id:\"panling:enchant_stone\",type:2,lvl:3,enchant_id:2}"
-            }
-          ]
-        },
-        {
-          "weight": 1,
-          "type": "minecraft:item",
-          "name": "minecraft:blue_dye",
-          "functions": [
-            {
-              "function": "minecraft:set_components",
-              "components": {
-                "minecraft:custom_name": "{\"translate\": \"pl.item.name.enchant_stone2\"}",
-                "minecraft:lore": [
-                  "{\"translate\":\"pl.item.lore.enchant_stonea\"}",
-                  "{\"translate\":\"pl.item.lore.enchant_stoneb\"}",
-                  "{\"translate\":\"pl.item.lore.enchant_stonec\"}",
-                  "{\"translate\":\"pl.item.lore.enchant_stoned2303\"}"
-                ],
-                "minecraft:hide_additional_tooltip": {},
-                "minecraft:enchantments": {
-                  "levels": {
-                    "minecraft:protection": 1
-                  }
-                }
-              }
-            },
-            {
-              "function": "minecraft:set_custom_data",
-              "tag": "{id:\"panling:enchant_stone\",type:2,lvl:3,enchant_id:3}"
-            }
-          ]
+            ]
         }
-      ]
-    }
-  ]
+    ]
 }

@@ -1,7 +1,7 @@
 #要做的事
-setblock 3258 100 383 minecraft:command_block[block_entity_data={Command:"function pld:npcs/shen/guard"}] replace 
+setblock 3258 100 383 minecraft:command_block{Command:"function pld:npcs/shen/guard"} replace 
 
-setblock 3259 111 376 minecraft:command_block[block_entity_data={Command:"function pld:npcs/shen/zh2"}] replace 
+setblock 3259 111 376 minecraft:command_block{Command:"function pld:npcs/shen/zh2"} replace 
 
 
 data merge block 3276 115 379 {front_text:{messages:['{"translate":""}','{"translate":"pl.sign.shen6.text2"}','{"translate":"pl.sign.shen6.text3"}','{"translate":"pl.sign.shen6.text4"}']}}

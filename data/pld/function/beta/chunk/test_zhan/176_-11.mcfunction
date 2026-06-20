@@ -1,7 +1,7 @@
 #区块强加载
 forceload add 2831 -160
 #要做的事
-setblock 2831 10 -160 minecraft:command_block[block_entity_data={Command:"function pld:test/zhan/speed/summon"}] replace 
+setblock 2831 10 -160 minecraft:command_block{Command:"function pld:test/zhan/speed/summon"} replace 
 #区块卸载
 forceload remove 2831 -160
 #记分板数值增加以及bossbar修改

@@ -2,7 +2,7 @@
 forceload add 231 -176 247 -198
 #要做的事
 
-setblock 225 22 -198 structure_block[block_entity_data={metadata: "", mirror: "NONE", ignoreEntities: 0b, powered: 0b, seed: 0L, author: "?", rotation: "NONE", posX: 0, mode: "LOAD", posY: 1, sizeX: 16, posZ: 0, integrity: 1.0f, showair: 0b, name: "pld:mirror", sizeY: 14, sizeZ: 12, showboundingbox: 1b}]
+setblock 225 22 -198 structure_block{metadata: "", mirror: "NONE", ignoreEntities: 0b, powered: 0b, seed: 0L, author: "?", rotation: "NONE", posX: 0, mode: "LOAD", posY: 1, sizeX: 16, posZ: 0, integrity: 1.0f, showair: 0b, name: "pld:mirror", sizeY: 14, sizeZ: 12, showboundingbox: 1b}
 setblock 224 22 -198 redstone_block
 setblock 236 41 -182 minecraft:oak_pressure_plate
 #区块卸载

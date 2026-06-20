@@ -1,17 +1,43 @@
 [
     {
-        "function":"minecraft:set_name",
-        "name":{"selector":"@s","italic": false},
-        "entity":"this"
+        "function": "minecraft:set_name",
+        "name": {
+            "selector": "@s",
+            "italic": false
+        },
+        "entity": "this"
     },
     {
-        "function":"minecraft:set_lore",
-        "lore":[
-            [{"translate":"pl.chest_menu.uid"},{"score":{"name":"@s","objective":"player_uid"},"italic": false,"color":"white"}],
-            [{"translate":"pl.chest_menu.lvl"},{"score":{"name":"@s","objective":"level"},"italic": false,"color":"white"}]    
-        ]
-        ,
-        "entity":"this",
-        "replace": true
+        "function": "minecraft:set_lore",
+        "lore": [
+            [
+                {
+                    "translate": "pl.chest_menu.uid"
+                },
+                {
+                    "score": {
+                        "name": "@s",
+                        "objective": "player_uid"
+                    },
+                    "italic": false,
+                    "color": "white"
+                }
+            ],
+            [
+                {
+                    "translate": "pl.chest_menu.lvl"
+                },
+                {
+                    "score": {
+                        "name": "@s",
+                        "objective": "level"
+                    },
+                    "italic": false,
+                    "color": "white"
+                }
+            ]
+        ],
+        "entity": "this",
+        "mode": "replace_all"
     }
 ]

@@ -1,6 +1,6 @@
 
 #要做的事
-setblock 3221 68 857 minecraft:command_block[block_entity_data={Command:"function pld:npcs/xian/guard"}] replace 
+setblock 3221 68 857 minecraft:command_block{Command:"function pld:npcs/xian/guard"} replace 
 
 execute as @e[type=skeleton] run function pld:system/tp_and_kill_self
 execute positioned 3221 68 857 run function pld:npcs/xian/guard

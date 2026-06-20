@@ -1,40 +1,37 @@
 {
-  "pools": [
-    {
-      "rolls": 1,
-      "entries": [
+    "pools": [
         {
-          "type": "item",
-          "name": "minecraft:raw_gold",
-          "functions": [
-            {
-              "function": "minecraft:set_components",
-              "components": {
-                "minecraft:hide_additional_tooltip": {},
-                "minecraft:enchantments": {
-                  "levels": {
-                    "minecraft:protection": 1
-                  }
-                },
-                "minecraft:custom_name": "{\"translate\":\"pl.item.name.core_iron_armor_helmet\"}",
-                "minecraft:lore": [
-                  "{\"translate\":\"pl.lore.rare6\"}",
-                  "{\"translate\":\"pl.lore.limit_lvl_50\"}",
-                  "{\"translate\":\"pl.item.lore.core_iron_armor_helmet.a\"}",
-                  "{\"translate\":\"pl.item.lore.core_iron_armor_helmet.b\"}",
-                  "{\"translate\":\"pl.item.lore.core_iron_armor_helmet.c\"}",
-                  "{\"translate\":\"pl.item.lore.core_iron_armor_helmet.d\"}",
-                  "{\"translate\":\"pl.item.lore.core_iron_armor_helmet.e\"}"
-                ]
-              }
-            },
-            {
-              "function": "minecraft:set_custom_data",
-              "tag": "{id:\"panling:core_iron_armor_helmet\"}"
-            }
-          ]
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "minecraft:raw_gold",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_components",
+                            "components": {
+                                "minecraft:enchantments": {
+                                    "minecraft:protection": 1
+                                },
+                                "minecraft:custom_name": "{\"translate\":\"pl.item.name.core_iron_armor_helmet\"}",
+                                "minecraft:lore": [
+                                    "{\"translate\":\"pl.lore.rare6\"}",
+                                    "{\"translate\":\"pl.lore.limit_lvl_50\"}",
+                                    "{\"translate\":\"pl.item.lore.core_iron_armor_helmet.a\"}",
+                                    "{\"translate\":\"pl.item.lore.core_iron_armor_helmet.b\"}",
+                                    "{\"translate\":\"pl.item.lore.core_iron_armor_helmet.c\"}",
+                                    "{\"translate\":\"pl.item.lore.core_iron_armor_helmet.d\"}",
+                                    "{\"translate\":\"pl.item.lore.core_iron_armor_helmet.e\"}"
+                                ]
+                            }
+                        },
+                        {
+                            "function": "minecraft:set_custom_data",
+                            "tag": "{id:\"panling:core_iron_armor_helmet\"}"
+                        }
+                    ]
+                }
+            ]
         }
-      ]
-    }
-  ]
+    ]
 }

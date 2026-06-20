@@ -3,7 +3,7 @@
 data merge block -671 113 407 {front_text:{messages:['{"translate":""}','{"translate":"pl.sign.qiansi4.text2"}','{"translate":""}','{"translate":""}']}}
 data merge block -652 115 409 {front_text:{messages:['{"translate":""}','{"translate":"pl.sign.qiansi3.text2"}','{"translate":""}','{"translate":""}']}}
 
-setblock -674 108 411 minecraft:command_block[block_entity_data={Command:"function pld:npcs/qiansi/chat6"}] replace 
+setblock -674 108 411 minecraft:command_block{Command:"function pld:npcs/qiansi/chat6"} replace 
 kill @e[type=villager,tag=!panling]
 execute positioned -674 108 411 run function pld:npcs/qiansi/chat6
 #区块卸载

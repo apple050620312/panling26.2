@@ -7,7 +7,7 @@ data merge block 1711 154 117 {front_text:{messages:['{"translate":""}','{"trans
 data merge block 1700 154 116 {front_text:{messages:['{"translate":""}','{"translate":"pl.sign.ren12.text2"}','{"translate":""}','{"translate":""}']}}
 data merge block 1703 154 119 {front_text:{messages:['{"translate":""}','{"translate":"pl.sign.ren6.text2"}','{"translate":""}','{"translate":""}']}}
 
-setblock 1716 147 112 minecraft:command_block[block_entity_data={Command:"function pld:npcs/ren/guard"}] replace 
+setblock 1716 147 112 minecraft:command_block{Command:"function pld:npcs/ren/guard"} replace 
 
 execute as @e[type=skeleton] run function pld:system/tp_and_kill_self
 execute positioned 1716 147 112 run function pld:npcs/ren/guard

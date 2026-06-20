@@ -1,35 +1,32 @@
 {
-  "pools": [
-    {
-      "rolls": 1,
-      "entries": [
+    "pools": [
         {
-          "type": "item",
-          "name": "minecraft:light_gray_dye",
-          "functions": [
-            {
-              "function": "minecraft:set_components",
-              "components": {
-                "minecraft:hide_additional_tooltip": {},
-                "minecraft:custom_name": "{\"translate\":\"pl.item.name.enchant_stonepart\"}",
-                "minecraft:lore": [
-                  "{\"translate\":\"pl.item.lore.enchant_stoneparta\"}",
-                  "{\"translate\":\"pl.item.lore.enchant_stonepartb\"}"
-                ],
-                "minecraft:enchantments": {
-                  "levels": {
-                    "minecraft:protection": 1
-                  }
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "minecraft:light_gray_dye",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_components",
+                            "components": {
+                                "minecraft:custom_name": "{\"translate\":\"pl.item.name.enchant_stonepart\"}",
+                                "minecraft:lore": [
+                                    "{\"translate\":\"pl.item.lore.enchant_stoneparta\"}",
+                                    "{\"translate\":\"pl.item.lore.enchant_stonepartb\"}"
+                                ],
+                                "minecraft:enchantments": {
+                                    "minecraft:protection": 1
+                                }
+                            }
+                        },
+                        {
+                            "function": "minecraft:set_custom_data",
+                            "tag": "{id:\"panling:enchant_stonepart\"}"
+                        }
+                    ]
                 }
-              }
-            },
-            {
-              "function": "minecraft:set_custom_data",
-              "tag": "{id:\"panling:enchant_stonepart\"}"
-            }
-          ]
+            ]
         }
-      ]
-    }
-  ]
+    ]
 }

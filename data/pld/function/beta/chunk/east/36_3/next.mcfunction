@@ -1,9 +1,9 @@
 #要做的事
-setblock 587 28 61 minecraft:command_block[block_entity_data={Command:"function pld:npcs/east/tong2"}] replace 
-setblock 587 28 59 minecraft:command_block[block_entity_data={Command:"function pld:npcs/east/tong3"}] replace 
-setblock 589 29 100 minecraft:command_block[block_entity_data={Command:"function pld:npcs/east/tong4"}] replace 
-setblock 585 28 68 minecraft:command_block[block_entity_data={Command:"function pld:npcs/east/tong5"}] replace 
-setblock 585 28 69 minecraft:command_block[block_entity_data={Command:"function pld:npcs/east/tong6"}] replace 
+setblock 587 28 61 minecraft:command_block{Command:"function pld:npcs/east/tong2"} replace 
+setblock 587 28 59 minecraft:command_block{Command:"function pld:npcs/east/tong3"} replace 
+setblock 589 29 100 minecraft:command_block{Command:"function pld:npcs/east/tong4"} replace 
+setblock 585 28 68 minecraft:command_block{Command:"function pld:npcs/east/tong5"} replace 
+setblock 585 28 69 minecraft:command_block{Command:"function pld:npcs/east/tong6"} replace 
 
 
 kill @e[type=villager,tag=!panling]

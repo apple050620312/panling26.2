@@ -2,9 +2,9 @@
 data merge block 3160 77 296 {front_text:{messages:['{"translate":""}','{"translate":"pl.sign.jitan.text2"}','{"translate":""}','{"translate":""}']}}
 data merge block 3161 77 300 {front_text:{messages:['{"translate":"pl.sign.shen2.text1"}','{"translate":"pl.sign.shen1.text2"}','{"translate":"pl.sign.shen2.text3"}','{"translate":""}']}}
 
-setblock 3165 77 278 minecraft:command_block[block_entity_data={Command:"function pld:npcs/shen/guard"}] replace 
+setblock 3165 77 278 minecraft:command_block{Command:"function pld:npcs/shen/guard"} replace 
 
-setblock 3162 75 296 minecraft:command_block[block_entity_data={Command:"function pld:system/rechoose/rechoose"}] replace 
+setblock 3162 75 296 minecraft:command_block{Command:"function pld:system/rechoose/rechoose"} replace 
 
 data merge block 3160 75 296 {Items:[]}
 execute as @e[type=skeleton] run function pld:system/tp_and_kill_self

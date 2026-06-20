@@ -26,11 +26,11 @@ setblock 288 42 69 air
 setblock 288 42 65 minecraft:redstone_block
 setblock 261 43 64 minecraft:redstone_block
 
-setblock 288 42 68 minecraft:command_block[block_entity_data={Command:"function pld:system/house/sky"}] replace 
-setblock 288 42 70 minecraft:command_block[block_entity_data={Command:"function pld:system/house/sky"}] replace 
+setblock 288 42 68 minecraft:command_block{Command:"function pld:system/house/sky"} replace 
+setblock 288 42 70 minecraft:command_block{Command:"function pld:system/house/sky"} replace 
 
-setblock 261 44 69 minecraft:command_block[block_entity_data={Command:"function pld:system/house/earth"}] replace 
-setblock 261 44 71 minecraft:command_block[block_entity_data={Command:"function pld:system/house/earth"}] replace 
+setblock 261 44 69 minecraft:command_block{Command:"function pld:system/house/earth"} replace 
+setblock 261 44 71 minecraft:command_block{Command:"function pld:system/house/earth"} replace 
 
 setblock 288 53 70 minecraft:stone_pressure_plate destroy
 setblock 261 54 70 minecraft:stone_pressure_plate destroy

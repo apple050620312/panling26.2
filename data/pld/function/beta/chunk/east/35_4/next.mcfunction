@@ -4,7 +4,7 @@ data merge block 568 34 76 {front_text:{messages:['{"text":""}','{"translate":"p
 data merge block 563 34 64 {front_text:{messages:['{"text":""}','{"translate":"pl.sign.east5.text2"}','{"text":""}','{"text":""}']}}
 
 
-setblock 561 27 71 minecraft:command_block[block_entity_data={Command:"function pld:npcs/east/xianmain6"}] replace 
+setblock 561 27 71 minecraft:command_block{Command:"function pld:npcs/east/xianmain6"} replace 
 
 kill @e[type=villager,tag=!panling]
 execute positioned 561 27 71 run function pld:npcs/east/xianmain6

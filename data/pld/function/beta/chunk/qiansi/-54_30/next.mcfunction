@@ -4,7 +4,7 @@ data merge block -853 168 486 {front_text:{messages:['{"translate":""}','{"trans
 data merge block -848 168 486 {front_text:{messages:['{"translate":""}','{"translate":"pl.sign.qiansi7.text2"}','{"translate":""}','{"translate":""}']}}
 
 
-setblock -849 191 481 minecraft:command_block[block_entity_data={Command:"function pld:npcs/qiansi/chat16"}] replace
+setblock -849 191 481 minecraft:command_block{Command:"function pld:npcs/qiansi/chat16"} replace
 setblock -848 192 480 air
 setblock -848 192 480 light_weighted_pressure_plate
 

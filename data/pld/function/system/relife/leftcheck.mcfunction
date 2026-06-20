@@ -1,2 +1,2 @@
-execute if block 202 53 -1788 hopper[block_entity_data={Items:[{Slot:0b,components:{"minecraft:custom_data":{id:"panling:relive_stone"}}}]}] as @p[x=202,y=54,z=-1788,distance=..7] run function pld:system/relife/stoneleft
+execute if block 202 53 -1788 hopper{Items:[{Slot:0b,components:{"minecraft:custom_data":{id:"panling:relive_stone"}}}]} as @p[x=202,y=54,z=-1788,distance=..7] run function pld:system/relife/stoneleft
 data merge block 202 53 -1788 {Items:[]}

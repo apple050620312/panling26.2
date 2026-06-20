@@ -1,8 +1,17 @@
 {
-    "function":"minecraft:set_lore",
-    "lore":[
-        [{"translate":"pl.chest_menu.info_pos"},{"translate":"pl.chest_menu.actionbar_default"}],
-        {"translate":"pl.chest_menu.switch_info.click"}
+    "function": "minecraft:set_lore",
+    "lore": [
+        [
+            {
+                "translate": "pl.chest_menu.info_pos"
+            },
+            {
+                "translate": "pl.chest_menu.actionbar_default"
+            }
+        ],
+        {
+            "translate": "pl.chest_menu.switch_info.click"
+        }
     ],
-    "replace": false
+    "mode": "replace_all"
 }

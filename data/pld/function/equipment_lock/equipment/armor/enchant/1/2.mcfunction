@@ -1,4 +1,4 @@
-execute if block ~ 255 ~ chest[block_entity_data={Items:[{Slot:0b,components:{"minecraft:custom_data":{limit:1}}}]}] run data modify block ~ 255 ~ Items[0].components."minecraft:enchantments"."minecraft:protection" set value 1
-execute if block ~ 255 ~ chest[block_entity_data={Items:[{Slot:0b,components:{"minecraft:custom_data":{limit:1}}}]}] run scoreboard players set @s equipment_all_protection_multiply_base 4
+execute if block ~ 255 ~ chest{Items:[{Slot:0b,components:{"minecraft:custom_data":{limit:1}}}]} run data modify block ~ 255 ~ Items[0].components."minecraft:enchantments"."minecraft:protection" set value 1
+execute if block ~ 255 ~ chest{Items:[{Slot:0b,components:{"minecraft:custom_data":{limit:1}}}]} run scoreboard players set @s equipment_all_protection_multiply_base 4
 execute unless block ~ 255 ~ chest{Items:[{Slot:0b,components:{"minecraft:custom_data":{limit:1}}}]} run data modify block ~ 255 ~ Items[0].components."minecraft:enchantments"."minecraft:protection" set value 2
 execute unless block ~ 255 ~ chest{Items:[{Slot:0b,components:{"minecraft:custom_data":{limit:1}}}]} run scoreboard players set @s equipment_all_protection_multiply_base 8

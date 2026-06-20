@@ -1,37 +1,36 @@
 {
-  "pools": [
-    {
-      "rolls": 1,
-      "entries": [
+    "pools": [
         {
-          "type": "item",
-          "name": "minecraft:firework_rocket",
-          "functions": [
-            {
-              "function": "minecraft:set_components",
-              "components": {
-                "minecraft:hide_additional_tooltip": {},
-                "minecraft:custom_name": "[{\"translate\":\"pl.item.name.firework_xian\"}]",
-                "minecraft:lore": [
-                  "{\"translate\":\"pl.item.lore.firework_xiana\"}",
-                  "{\"translate\":\"pl.item.lore.firework_xianb\"}",
-                  "{\"translate\":\"\"}",
-                  "{\"translate\":\"pl.item.lore.firework1\"}",
-                  "{\"translate\":\"pl.item.lore.firework2\"}"
-                ]
-              }
-            },
-            {
-              "function": "minecraft:set_custom_data",
-              "tag": "{id:\"panling:firework_xian\",CanPlaceOn:[\"#all\"],Fireworks:{Flight:1,Explosions:[{Type:1,Trail:0,Colors:[I;14361855],FadeColors:[I;16777215],Flicker:0},{Type:2,Trail:1,Colors:[I;9499135],Flicker:0},{Type:0,Trail:1,Colors:[I;16776960],FadeColors:[I;16777215],Flicker:0}]}}"
-            },
-            {
-              "function": "set_count",
-              "count": 64
-            }
-          ]
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "minecraft:firework_rocket",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_components",
+                            "components": {
+                                "minecraft:custom_name": "[{\"translate\":\"pl.item.name.firework_xian\"}]",
+                                "minecraft:lore": [
+                                    "{\"translate\":\"pl.item.lore.firework_xiana\"}",
+                                    "{\"translate\":\"pl.item.lore.firework_xianb\"}",
+                                    "{\"translate\":\"\"}",
+                                    "{\"translate\":\"pl.item.lore.firework1\"}",
+                                    "{\"translate\":\"pl.item.lore.firework2\"}"
+                                ]
+                            }
+                        },
+                        {
+                            "function": "minecraft:set_custom_data",
+                            "tag": "{id:\"panling:firework_xian\",CanPlaceOn:[\"#all\"],Fireworks:{Flight:1,Explosions:[{Type:1,Trail:0,Colors:[I;14361855],FadeColors:[I;16777215],Flicker:0},{Type:2,Trail:1,Colors:[I;9499135],Flicker:0},{Type:0,Trail:1,Colors:[I;16776960],FadeColors:[I;16777215],Flicker:0}]}}"
+                        },
+                        {
+                            "function": "set_count",
+                            "count": 64
+                        }
+                    ]
+                }
+            ]
         }
-      ]
-    }
-  ]
+    ]
 }

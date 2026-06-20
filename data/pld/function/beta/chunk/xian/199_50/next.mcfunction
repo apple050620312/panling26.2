@@ -8,10 +8,10 @@ data merge block 3179 100 818 {front_text:{messages:['{"translate":""}','{"trans
 data merge block 3179 95 806 {front_text:{messages:['{"translate":""}','{"translate":"pl.sign.xian3.text2"}','{"translate":"pl.sign.xian3.text3"}','{"translate":"pl.sign.xian3.text4"}']}}
 data merge block 3199 86 826 {front_text:{messages:['{"translate":"pl.sign.xian5.text1"}','{"translate":"pl.sign.xian5.text2"}','{"translate":"pl.sign.xian5.text3"}','{"translate":""}']}}
 
-setblock 3181 105 835 minecraft:command_block[block_entity_data={Command:"particle enchant ~ ~3 ~ 0.2 0.2 0.2 0.0 4"}] replace 
-setblock 3181 102 833 minecraft:command_block[block_entity_data={Command:"function pld:npcs/xian/xiantong7"}] replace 
-setblock 3172 89 808 minecraft:command_block[block_entity_data={Command:"function pld:npcs/xian/chat4"}] replace 
-setblock 3171 89 804 minecraft:command_block[block_entity_data={Command:"function pld:npcs/xian/chat5"}] replace 
+setblock 3181 105 835 minecraft:command_block{Command:"particle enchant ~ ~3 ~ 0.2 0.2 0.2 0.0 4"} replace 
+setblock 3181 102 833 minecraft:command_block{Command:"function pld:npcs/xian/xiantong7"} replace 
+setblock 3172 89 808 minecraft:command_block{Command:"function pld:npcs/xian/chat4"} replace 
+setblock 3171 89 804 minecraft:command_block{Command:"function pld:npcs/xian/chat5"} replace 
 
 
 kill @e[type=villager,tag=!panling]

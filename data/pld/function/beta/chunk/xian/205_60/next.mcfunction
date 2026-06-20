@@ -2,8 +2,8 @@
 #要做的事
 data merge block 3285 77 965 {front_text:{messages:['{"translate":""}','{"translate":"pl.sign.xian14.text2"}','{"translate":"pl.frame.bjc"}','{"translate":""}']}}
 
-setblock 3287 72 960 minecraft:command_block[block_entity_data={Command:"function pld:npcs/xian/guard"}] replace 
-setblock 3264 78 974 minecraft:command_block[block_entity_data={Command:"function pld:npcs/xian/guard"}] replace 
+setblock 3287 72 960 minecraft:command_block{Command:"function pld:npcs/xian/guard"} replace 
+setblock 3264 78 974 minecraft:command_block{Command:"function pld:npcs/xian/guard"} replace 
 
 kill @e[type=villager,tag=!panling]
 execute as @e[type=skeleton] run function pld:system/tp_and_kill_self

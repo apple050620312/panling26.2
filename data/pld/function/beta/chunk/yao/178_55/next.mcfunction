@@ -1,6 +1,6 @@
 
 #要做的事
-setblock 2849 44 886 minecraft:command_block[block_entity_data={Command:"function pld:npcs/yao/yaomain1"}] replace 
+setblock 2849 44 886 minecraft:command_block{Command:"function pld:npcs/yao/yaomain1"} replace 
 kill @e[type=villager,tag=!panling]
 execute as @e[type=skeleton] run function pld:system/tp_and_kill_self
 execute positioned 2849 44 886 run function pld:npcs/yao/yaomain1

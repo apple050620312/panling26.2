@@ -1,38 +1,35 @@
 {
-  "pools": [
-    {
-      "rolls": 1,
-      "entries": [
+    "pools": [
         {
-          "type": "item",
-          "name": "minecraft:cooked_beef",
-          "functions": [
-            {
-              "function": "minecraft:set_components",
-              "components": {
-                "minecraft:hide_additional_tooltip": {},
-                "minecraft:enchantments": {
-                  "levels": {
-                    "minecraft:protection": 1
-                  }
-                },
-                "minecraft:custom_name": "{\"translate\":\"pl.item.name.food3\"}",
-                "minecraft:lore": [
-                  "{\"translate\":\"pl.item.lore.food3a\"}",
-                  "{\"translate\":\"pl.item.lore.food_buff_confliction\"}",
-                  "{\"translate\":\"pl.item.lore.food3b\"}",
-                  "{\"translate\":\"pl.item.lore.food3c\"}",
-                  "{\"translate\":\"pl.item.lore.food3d\"}"
-                ]
-              }
-            },
-            {
-              "function": "minecraft:set_custom_data",
-              "tag": "{id:\"panling:food3\"}"
-            }
-          ]
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "minecraft:cooked_beef",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_components",
+                            "components": {
+                                "minecraft:enchantments": {
+                                    "minecraft:protection": 1
+                                },
+                                "minecraft:custom_name": "{\"translate\":\"pl.item.name.food3\"}",
+                                "minecraft:lore": [
+                                    "{\"translate\":\"pl.item.lore.food3a\"}",
+                                    "{\"translate\":\"pl.item.lore.food_buff_confliction\"}",
+                                    "{\"translate\":\"pl.item.lore.food3b\"}",
+                                    "{\"translate\":\"pl.item.lore.food3c\"}",
+                                    "{\"translate\":\"pl.item.lore.food3d\"}"
+                                ]
+                            }
+                        },
+                        {
+                            "function": "minecraft:set_custom_data",
+                            "tag": "{id:\"panling:food3\"}"
+                        }
+                    ]
+                }
+            ]
         }
-      ]
-    }
-  ]
+    ]
 }

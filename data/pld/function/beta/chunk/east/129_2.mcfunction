@@ -8,7 +8,7 @@ data merge block 2085 61 47 {front_text:{messages:['{"text":""}','{"text":""}','
 data merge block 2081 61 47 {front_text:{messages:['{"text":""}','{"text":""}','{"translate":"pl.sign.dragon.answer19c.text3"}','{"text":""}']}}
 data merge block 2079 61 47 {front_text:{messages:['{"text":""}','{"text":""}','{"translate":"pl.sign.dragon.answer19d.text3"}','{"text":""}']}}
 
-setblock 2083 57 43 minecraft:command_block[block_entity_data={Command:"tp @a[distance=..10] 2083 60 2"}] replace 
+setblock 2083 57 43 minecraft:command_block{Command:"tp @a[distance=..10] 2083 60 2"} replace 
 #区块卸载
 forceload remove 2078 41 2081 41
 #记分板数值增加以及bossbar修改

@@ -7,10 +7,10 @@ data merge block 82 48 116 {front_text:{messages:['{"translate":""}','{"translat
 data merge block 83 48 117 {front_text:{messages:['{"translate":""}','{"translate":"pl.sign.middle46.text2"}','{"translate":""}','{"translate":""}']}}
 data merge block 91 48 117 {front_text:{messages:['{"translate":""}','{"translate":"pl.sign.middle46.text2"}','{"translate":""}','{"translate":""}']}}
 data merge block 92 48 116 {front_text:{messages:['{"translate":""}','{"translate":"pl.sign.middle46.text2"}','{"translate":""}','{"translate":""}']}}
-setblock 87 43 110 minecraft:command_block[block_entity_data={Command:"function pld:npcs/middle/tong14"}] replace 
-setblock 87 44 109 minecraft:command_block[block_entity_data={Command:"function pld:npcs/middle/tong15"}] replace 
-setblock 87 45 110 minecraft:command_block[block_entity_data={Command:"function pld:npcs/middle/tong16"}] replace 
-setblock 77 42 102 minecraft:command_block[block_entity_data={Command:"function pld:npcs/middle/tong17"}] replace 
+setblock 87 43 110 minecraft:command_block{Command:"function pld:npcs/middle/tong14"} replace 
+setblock 87 44 109 minecraft:command_block{Command:"function pld:npcs/middle/tong15"} replace 
+setblock 87 45 110 minecraft:command_block{Command:"function pld:npcs/middle/tong16"} replace 
+setblock 77 42 102 minecraft:command_block{Command:"function pld:npcs/middle/tong17"} replace 
 
 execute positioned 87 43 110 run function pld:npcs/middle/tong14
 execute positioned 87 44 109 run function pld:npcs/middle/tong15

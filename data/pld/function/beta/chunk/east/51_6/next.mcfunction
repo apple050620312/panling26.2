@@ -3,7 +3,7 @@
 data merge block 823 41 110 {front_text:{messages:['{"translate":"pl.sign.east6.text1"}','{"translate":"pl.sign.east7.text2"}','{"text":""}','{"text":""}']}}
 data merge block 836 41 102 {front_text:{messages:['{"text":""}','{"translate":"pl.sign.east8.text2"}','{"text":""}','{"text":""}']}}
 
-setblock 837 35 109 minecraft:command_block[block_entity_data={Command:"function pld:npcs/east/teren"}] replace 
+setblock 837 35 109 minecraft:command_block{Command:"function pld:npcs/east/teren"} replace 
 kill @e[type=villager,tag=!panling]
 
 execute positioned 837 35 109 run function pld:npcs/east/teren

@@ -21,8 +21,8 @@ forceload add 1418 568 1405 576
 #
 #data merge block 1402 42 571 {Text2:'{"translate":"pl.sign.training_system15.text2"}',Text3:'{"translate":"pl.sign.training_system15.text3"}'}
 #
-#setblock 1418 37 568 minecraft:command_block[block_entity_data={Command:"function pld:npcs/select/example1"}] replace
-#setblock 1418 37 574 minecraft:command_block[block_entity_data={Command:"function pld:npcs/select/example2"}] replace
+#setblock 1418 37 568 minecraft:command_block{Command:"function pld:npcs/select/example1"} replace
+#setblock 1418 37 574 minecraft:command_block{Command:"function pld:npcs/select/example2"} replace
 #
 #data merge block 1416 40 577 {Items:[{Slot:13b,id:"minecraft:pink_dye",Count:1b,tag:{display:{Lore:['{"translate":"pl.item.lore.npcbubblea"}','{"translate":"pl.item.lore.npcbubbleb"}'],Name:'{"translate":"pl.item.name.npcbubble"}'},id:"panling:NPC_bubble"}}]}
 #data merge block 1416 41 574 {Items:[{Slot:13b,id:"minecraft:pink_dye",Count:1b,tag:{display:{Lore:['{"translate":"pl.item.lore.npcbubblea"}','{"translate":"pl.item.lore.npcbubbleb"}'],Name:'{"translate":"pl.item.name.npcbubble"}'},id:"panling:NPC_bubble"}}]}
@@ -31,28 +31,28 @@ setblock 1416 41 574 air
 setblock 1416 40 568 air
 #data merge block 1416 40 568 {Items:[]}
 #
-#setblock 1416 40 565 minecraft:command_block[block_entity_data={Command:"function pld:selections/training/example_item"}] replace
+#setblock 1416 40 565 minecraft:command_block{Command:"function pld:selections/training/example_item"} replace
 #
 setblock 1412 41 574 air
 #data merge block 1412 41 574 {Items:[{Slot:13b,id:"minecraft:nether_star",Count:1b,tag:{display:{Name:'{"translate":"pl.item.name.relifestone"}'},id:"panling:relive_stone"}}]}
-#setblock 1412 39 574 minecraft:command_block[block_entity_data={Command:'data merge block 1412 41 574 {Items:[{Slot:13b,id:"minecraft:nether_star",Count:1b,tag:{display:{Name:\'{"translate":"pl.item.name.relifestone"}\'},id:"panling:relive_stone"}}]}'}] replace
+#setblock 1412 39 574 minecraft:command_block{Command:'data merge block 1412 41 574 {Items:[{Slot:13b,id:"minecraft:nether_star",Count:1b,tag:{display:{Name:\'{"translate":"pl.item.name.relifestone"}\'},id:"panling:relive_stone"}}]}'} replace
 #data merge block 1410 41 574 {CustomName:'{"translate":"pl.sign.training_system6.text1"}'}
 #
 #data merge block 1410 40 574 {Items:[]}
 setblock 1410 40 574 air
 #setblock 1410 39 578 air
-#setblock 1410 40 577 minecraft:command_block[block_entity_data={Command:"function pld:selections/training/relive_stone"}] replace
-#setblock 1410 39 569 minecraft:command_block[block_entity_data={Command:"particle minecraft:happy_villager ~ ~3 ~ 0.2 2 0.2 0 200 force"}] replace
-#setblock 1410 38 569 minecraft:command_block[block_entity_data={Command:'tellraw @p[distance=..4] {"translate":"pl.info.training_system8"}'}] replace
+#setblock 1410 40 577 minecraft:command_block{Command:"function pld:selections/training/relive_stone"} replace
+#setblock 1410 39 569 minecraft:command_block{Command:"particle minecraft:happy_villager ~ ~3 ~ 0.2 2 0.2 0 200 force"} replace
+#setblock 1410 38 569 minecraft:command_block{Command:'tellraw @p[distance=..4] {"translate":"pl.info.training_system8"}'} replace
 #
 setblock 1406 41 568 air
 #data merge block 1406 41 568 {Items:[{Slot:4b,id:"minecraft:bone",Count:1b,tag:{id:"panling:wood",display:{Name:'{"translate":"pl.item.name.wood"}'}}},{Slot:13b,id:"minecraft:iron_nugget",Count:1b,tag:{id:"panling:example_core",display:{Name:'{"translate":"pl.item.name.example_core"}'}}},{Slot:22b,id:"minecraft:glowstone_dust",Count:1b,tag:{display:{Lore:['{"translate":"pl.item.lore.mhelmeta"}','{"translate":"pl.item.lore.mhelmetb"}'],Name:'{"translate":"pl.item.name.mhelmet"}'},id:"panling:material_helmet"}}]}
-#setblock 1406 39 568 minecraft:command_block[block_entity_data={Command:'data merge block 1406 41 568 {Items:[{Slot:4b,id:"minecraft:bone",Count:1b,tag:{id:"panling:wood",display:{Name:\'{"translate":"pl.item.name.wood"}\'}}},{Slot:13b,id:"minecraft:iron_nugget",Count:1b,tag:{id:"panling:example_core",display:{Name:\'{"translate":"pl.item.name.example_core"}\'}}},{Slot:22b,id:"minecraft:glowstone_dust",Count:1b,tag:{display:{Lore:[\'{"translate":"pl.item.lore.mhelmeta"}\',\'{"translate":"pl.item.lore.mhelmetb"}\'],Name:\'{"translate":"pl.item.name.mhelmet"}\'},id:"panling:material_helmet"}}]}'}] replace
+#setblock 1406 39 568 minecraft:command_block{Command:'data merge block 1406 41 568 {Items:[{Slot:4b,id:"minecraft:bone",Count:1b,tag:{id:"panling:wood",display:{Name:\'{"translate":"pl.item.name.wood"}\'}}},{Slot:13b,id:"minecraft:iron_nugget",Count:1b,tag:{id:"panling:example_core",display:{Name:\'{"translate":"pl.item.name.example_core"}\'}}},{Slot:22b,id:"minecraft:glowstone_dust",Count:1b,tag:{display:{Lore:[\'{"translate":"pl.item.lore.mhelmeta"}\',\'{"translate":"pl.item.lore.mhelmetb"}\'],Name:\'{"translate":"pl.item.name.mhelmet"}\'},id:"panling:material_helmet"}}]}'} replace
 #fill 1405 42 577 1405 42 578 air
 #
-#setblock 1405 42 576 minecraft:command_block[block_entity_data={Command:"function pld:selections/training/dz"}] replace
+#setblock 1405 42 576 minecraft:command_block{Command:"function pld:selections/training/dz"} replace
 #
-#setblock 1401 39 571 minecraft:command_block[block_entity_data={Command:"execute as @p[x=1401,y=41,z=571,distance=..3] run function pld:selections/training/tp_to_story"}] replace
+#setblock 1401 39 571 minecraft:command_block{Command:"execute as @p[x=1401,y=41,z=571,distance=..3] run function pld:selections/training/tp_to_story"} replace
 #
 #data merge block 1394 42 568 {Text2:'{"translate":"pl.sign.training_job_1.text2"}',Text3:'{"translate":"pl.sign.training_job_1.text3"}',Text4:'{"translate":"pl.sign.training_job_1.text4"}'}
 #data merge block 1396 42 574 {Text1:'{"translate":"pl.sign.training_job0_1.text1"}',Text2:'{"translate":"pl.sign.training_job0_1.text2"}',Text3:'{"translate":"pl.sign.training_job0_1.text3"}',Text4:'{"translate":"pl.sign.training_job0_1.text4"}'}

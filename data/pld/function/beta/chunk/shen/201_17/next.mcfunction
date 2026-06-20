@@ -1,7 +1,7 @@
 
 #要做的事
-setblock 3232 96 281 minecraft:command_block[block_entity_data={Command:"function pld:npcs/shen/guard"}] replace 
-setblock 3231 95 272 minecraft:command_block[block_entity_data={Command:"function pld:npcs/shen/chat8"}] replace 
+setblock 3232 96 281 minecraft:command_block{Command:"function pld:npcs/shen/guard"} replace 
+setblock 3231 95 272 minecraft:command_block{Command:"function pld:npcs/shen/chat8"} replace 
 
 kill @e[type=villager,tag=!panling]
 execute as @e[type=skeleton] run function pld:system/tp_and_kill_self

@@ -1,11 +1,35 @@
 [
     {
-        "function":"minecraft:set_lore",
-        "lore":[
-            [{"translate":"pl.chest_menu.adv_point"},{"score":{"name":"@s","objective":"achievement_point"},"italic": false,"color":"white"}],
-            [{"translate":"pl.chest_menu.honor"},{"score":{"name":"@s","objective":"honor"},"italic": false,"color":"white"}]    
-        ]
-        ,
-        "entity":"this"
+        "function": "minecraft:set_lore",
+        "lore": [
+            [
+                {
+                    "translate": "pl.chest_menu.adv_point"
+                },
+                {
+                    "score": {
+                        "name": "@s",
+                        "objective": "achievement_point"
+                    },
+                    "italic": false,
+                    "color": "white"
+                }
+            ],
+            [
+                {
+                    "translate": "pl.chest_menu.honor"
+                },
+                {
+                    "score": {
+                        "name": "@s",
+                        "objective": "honor"
+                    },
+                    "italic": false,
+                    "color": "white"
+                }
+            ]
+        ],
+        "entity": "this",
+        "mode": "replace_all"
     }
 ]

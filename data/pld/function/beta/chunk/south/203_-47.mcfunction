@@ -1,7 +1,7 @@
 #区块强加载
 forceload add 3249 -743
 #要做的事
-setblock 3249 97 -743 minecraft:command_block[block_entity_data={Command:"tp @p[distance=..5] 239 20 692 0 10"}] replace 
+setblock 3249 97 -743 minecraft:command_block{Command:"tp @p[distance=..5] 239 20 692 0 10"} replace 
 #区块卸载
 forceload remove 3249 -743
 #记分板数值增加以及bossbar修改

@@ -1,7 +1,7 @@
 
 #要做的事
 data merge block 415 36 -644 {front_text:{messages:['{"translate":""}','{"translate":"pl.sign.penglai1.text2"}','{"translate":""}','{"translate":""}']}}
-setblock 418 32 -652 minecraft:command_block[block_entity_data={Command:"function pld:npcs/penglai/chat1"}] replace 
+setblock 418 32 -652 minecraft:command_block{Command:"function pld:npcs/penglai/chat1"} replace 
 data merge block 401 41 -654 {front_text:{messages:['{"translate":"pl.sign.penglai2.text1"}','{"translate":"pl.sign.penglai2.text2"}','{"translate":""}','{"translate":"pl.sign.penglai2.text4"}']}}
 
 kill @e[type=villager,tag=!panling]

@@ -1,7 +1,10 @@
 {
-    "function":"minecraft:set_lore",
-    "lore":[
-        {"translate":"pl.chest_menu.job0"}
+    "function": "minecraft:set_lore",
+    "lore": [
+        {
+            "translate": "pl.chest_menu.job0"
+        }
     ],
-    "entity":"this"
+    "entity": "this",
+    "mode": "replace_all"
 }

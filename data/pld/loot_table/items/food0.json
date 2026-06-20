@@ -1,38 +1,35 @@
 {
-  "pools": [
-    {
-      "rolls": 1,
-      "entries": [
+    "pools": [
         {
-          "type": "item",
-          "name": "minecraft:cooked_salmon",
-          "functions": [
-            {
-              "function": "minecraft:set_components",
-              "components": {
-                "minecraft:hide_additional_tooltip": {},
-                "minecraft:enchantments": {
-                  "levels": {
-                    "minecraft:protection": 1
-                  }
-                },
-                "minecraft:custom_name": "{\"translate\":\"pl.item.name.food0\"}",
-                "minecraft:lore": [
-                  "{\"translate\":\"pl.item.lore.food0a\"}",
-                  "{\"translate\":\"pl.item.lore.food_buff_confliction\"}",
-                  "{\"translate\":\"pl.item.lore.food0b\"}",
-                  "{\"translate\":\"pl.item.lore.food0c\"}",
-                  "{\"translate\":\"pl.item.lore.food0d\"}"
-                ]
-              }
-            },
-            {
-              "function": "minecraft:set_custom_data",
-              "tag": "{id:\"panling:food0\"}"
-            }
-          ]
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "minecraft:cooked_salmon",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_components",
+                            "components": {
+                                "minecraft:enchantments": {
+                                    "minecraft:protection": 1
+                                },
+                                "minecraft:custom_name": "{\"translate\":\"pl.item.name.food0\"}",
+                                "minecraft:lore": [
+                                    "{\"translate\":\"pl.item.lore.food0a\"}",
+                                    "{\"translate\":\"pl.item.lore.food_buff_confliction\"}",
+                                    "{\"translate\":\"pl.item.lore.food0b\"}",
+                                    "{\"translate\":\"pl.item.lore.food0c\"}",
+                                    "{\"translate\":\"pl.item.lore.food0d\"}"
+                                ]
+                            }
+                        },
+                        {
+                            "function": "minecraft:set_custom_data",
+                            "tag": "{id:\"panling:food0\"}"
+                        }
+                    ]
+                }
+            ]
         }
-      ]
-    }
-  ]
+    ]
 }
