@@ -1,5 +1,5 @@
 #将 pld:system temp_mail_taken1 里的项保留前 temp int 个
-data modify storage pld:system temp_mails set value 
+data modify storage pld:system temp_mails set value []
 execute if score temp int matches 1.. run data modify storage pld:system temp_mails append from storage pld:system temp_mail_taken1[0]
 execute if score temp int matches 2.. run data modify storage pld:system temp_mails append from storage pld:system temp_mail_taken1[1]
 execute if score temp int matches 3.. run data modify storage pld:system temp_mails append from storage pld:system temp_mail_taken1[2]

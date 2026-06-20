@@ -1,6 +1,6 @@
 #将玩家的末影箱内容储存到箱子菜单的首个箱子中
 data modify storage pld:system enderitems_temp1 set from entity @s EnderItems
-data modify storage pld:system enderitems_temp2 set value 
+data modify storage pld:system enderitems_temp2 set value []
 data modify storage pld:system enderitems_temp2 append from storage pld:system enderitems_temp1[{Slot:0b}]
 data modify storage pld:system enderitems_temp2 append from storage pld:system enderitems_temp1[{Slot:8b}]
 data modify storage pld:system enderitems_temp2 append from storage pld:system enderitems_temp1[{Slot:9b}]

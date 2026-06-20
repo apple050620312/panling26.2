@@ -20,8 +20,8 @@
                     {
                         "condition": "minecraft:entity_properties",
                         "predicate": {
-                            "type": "minecraft:skeleton",
-                            "nbt": "{Tags:[\"east_skeleton\"]}"
+                            "nbt": "{Tags:[\"east_skeleton\"]}",
+                            "entity_type": "minecraft:skeleton"
                         },
                         "entity": "this"
                     }
@@ -35,8 +35,8 @@
                     {
                         "condition": "minecraft:entity_properties",
                         "predicate": {
-                            "type": "minecraft:zombie",
-                            "nbt": "{Tags:[\"east_zombie\"]}"
+                            "nbt": "{Tags:[\"east_zombie\"]}",
+                            "entity_type": "minecraft:zombie"
                         },
                         "entity": "this"
                     }
@@ -50,8 +50,8 @@
                     {
                         "condition": "minecraft:entity_properties",
                         "predicate": {
-                            "type": "minecraft:spider",
-                            "nbt": "{Tags:[\"east_spider\"]}"
+                            "nbt": "{Tags:[\"east_spider\"]}",
+                            "entity_type": "minecraft:spider"
                         },
                         "entity": "this"
                     }
@@ -65,8 +65,8 @@
                     {
                         "condition": "minecraft:entity_properties",
                         "predicate": {
-                            "type": "minecraft:spider",
-                            "nbt": "{Tags:[\"east_boss\"]}"
+                            "nbt": "{Tags:[\"east_boss\"]}",
+                            "entity_type": "minecraft:spider"
                         },
                         "entity": "this"
                     }
@@ -80,8 +80,8 @@
                     {
                         "condition": "minecraft:entity_properties",
                         "predicate": {
-                            "type": "minecraft:skeleton",
-                            "nbt": "{Tags:[\"north_skeleton\"]}"
+                            "nbt": "{Tags:[\"north_skeleton\"]}",
+                            "entity_type": "minecraft:skeleton"
                         },
                         "entity": "this"
                     }
@@ -95,8 +95,8 @@
                     {
                         "condition": "minecraft:entity_properties",
                         "predicate": {
-                            "type": "minecraft:zombie",
-                            "nbt": "{Tags:[\"north_zombie\"]}"
+                            "nbt": "{Tags:[\"north_zombie\"]}",
+                            "entity_type": "minecraft:zombie"
                         },
                         "entity": "this"
                     }
@@ -110,8 +110,8 @@
                     {
                         "condition": "minecraft:entity_properties",
                         "predicate": {
-                            "type": "minecraft:spider",
-                            "nbt": "{Tags:[\"north_spider\"]}"
+                            "nbt": "{Tags:[\"north_spider\"]}",
+                            "entity_type": "minecraft:spider"
                         },
                         "entity": "this"
                     }
@@ -125,8 +125,8 @@
                     {
                         "condition": "minecraft:entity_properties",
                         "predicate": {
-                            "type": "minecraft:cave_spider",
-                            "nbt": "{Tags:[\"north_cave_spider\"]}"
+                            "nbt": "{Tags:[\"north_cave_spider\"]}",
+                            "entity_type": "minecraft:cave_spider"
                         },
                         "entity": "this"
                     }
@@ -140,8 +140,8 @@
                     {
                         "condition": "minecraft:entity_properties",
                         "predicate": {
-                            "type": "minecraft:skeleton",
-                            "nbt": "{Tags:[\"north_boss\"]}"
+                            "nbt": "{Tags:[\"north_boss\"]}",
+                            "entity_type": "minecraft:skeleton"
                         },
                         "entity": "this"
                     }
@@ -155,8 +155,8 @@
                     {
                         "condition": "minecraft:entity_properties",
                         "predicate": {
-                            "type": "minecraft:blaze",
-                            "nbt": "{Tags:[\"south_blaze\"]}"
+                            "nbt": "{Tags:[\"south_blaze\"]}",
+                            "entity_type": "minecraft:blaze"
                         },
                         "entity": "this"
                     }
@@ -170,8 +170,8 @@
                     {
                         "condition": "minecraft:entity_properties",
                         "predicate": {
-                            "type": "minecraft:wither_skeleton",
-                            "nbt": "{Tags:[\"south_wither_skeleton\"]}"
+                            "nbt": "{Tags:[\"south_wither_skeleton\"]}",
+                            "entity_type": "minecraft:wither_skeleton"
                         },
                         "entity": "this"
                     }
@@ -185,8 +185,8 @@
                     {
                         "condition": "minecraft:entity_properties",
                         "predicate": {
-                            "type": "minecraft:zombie",
-                            "nbt": "{Tags:[\"south_zombie\"]}"
+                            "nbt": "{Tags:[\"south_zombie\"]}",
+                            "entity_type": "minecraft:zombie"
                         },
                         "entity": "this"
                     }
@@ -200,8 +200,8 @@
                     {
                         "condition": "minecraft:entity_properties",
                         "predicate": {
-                            "type": "minecraft:skeleton",
-                            "nbt": "{Tags:[\"south_skeleton\"]}"
+                            "nbt": "{Tags:[\"south_skeleton\"]}",
+                            "entity_type": "minecraft:skeleton"
                         },
                         "entity": "this"
                     }
@@ -215,8 +215,8 @@
                     {
                         "condition": "minecraft:entity_properties",
                         "predicate": {
-                            "type": "minecraft:magma_cube",
-                            "nbt": "{Tags:[\"south_magma_cube\"]}"
+                            "nbt": "{Tags:[\"south_magma_cube\"]}",
+                            "entity_type": "minecraft:magma_cube"
                         },
                         "entity": "this"
                     }
@@ -230,8 +230,8 @@
                     {
                         "condition": "minecraft:entity_properties",
                         "predicate": {
-                            "type": "minecraft:husk",
-                            "nbt": "{Tags:[\"south_husk\"]}"
+                            "nbt": "{Tags:[\"south_husk\"]}",
+                            "entity_type": "minecraft:husk"
                         },
                         "entity": "this"
                     }
@@ -245,8 +245,8 @@
                     {
                         "condition": "minecraft:entity_properties",
                         "predicate": {
-                            "type": "minecraft:magma_cube",
-                            "nbt": "{Tags:[\"south_boss\"]}"
+                            "nbt": "{Tags:[\"south_boss\"]}",
+                            "entity_type": "minecraft:magma_cube"
                         },
                         "entity": "this"
                     }
@@ -260,8 +260,8 @@
                     {
                         "condition": "minecraft:entity_properties",
                         "predicate": {
-                            "type": "minecraft:husk",
-                            "nbt": "{Tags:[\"south_boss\"]}"
+                            "nbt": "{Tags:[\"south_boss\"]}",
+                            "entity_type": "minecraft:husk"
                         },
                         "entity": "this"
                     }
@@ -275,8 +275,8 @@
                     {
                         "condition": "minecraft:entity_properties",
                         "predicate": {
-                            "type": "minecraft:wither_skeleton",
-                            "nbt": "{Tags:[\"west_boss\"]}"
+                            "nbt": "{Tags:[\"west_boss\"]}",
+                            "entity_type": "minecraft:wither_skeleton"
                         },
                         "entity": "this"
                     }
@@ -290,8 +290,8 @@
                     {
                         "condition": "minecraft:entity_properties",
                         "predicate": {
-                            "type": "minecraft:zombie",
-                            "nbt": "{Tags:[\"west_zombie\"]}"
+                            "nbt": "{Tags:[\"west_zombie\"]}",
+                            "entity_type": "minecraft:zombie"
                         },
                         "entity": "this"
                     }
@@ -305,8 +305,8 @@
                     {
                         "condition": "minecraft:entity_properties",
                         "predicate": {
-                            "type": "minecraft:skeleton",
-                            "nbt": "{Tags:[\"west_skeleton\"]}"
+                            "nbt": "{Tags:[\"west_skeleton\"]}",
+                            "entity_type": "minecraft:skeleton"
                         },
                         "entity": "this"
                     }
@@ -320,8 +320,8 @@
                     {
                         "condition": "minecraft:entity_properties",
                         "predicate": {
-                            "type": "minecraft:cave_spider",
-                            "nbt": "{Tags:[\"west_cave_spider\"]}"
+                            "nbt": "{Tags:[\"west_cave_spider\"]}",
+                            "entity_type": "minecraft:cave_spider"
                         },
                         "entity": "this"
                     }
@@ -335,8 +335,8 @@
                     {
                         "condition": "minecraft:entity_properties",
                         "predicate": {
-                            "type": "minecraft:skeleton",
-                            "nbt": "{Tags:[\"te17_skeleton\"]}"
+                            "nbt": "{Tags:[\"te17_skeleton\"]}",
+                            "entity_type": "minecraft:skeleton"
                         },
                         "entity": "this"
                     }
@@ -350,8 +350,8 @@
                     {
                         "condition": "minecraft:entity_properties",
                         "predicate": {
-                            "type": "minecraft:zombie",
-                            "nbt": "{Tags:[\"te17_zombie\"]}"
+                            "nbt": "{Tags:[\"te17_zombie\"]}",
+                            "entity_type": "minecraft:zombie"
                         },
                         "entity": "this"
                     }
@@ -365,8 +365,8 @@
                     {
                         "condition": "minecraft:entity_properties",
                         "predicate": {
-                            "type": "minecraft:wither_skeleton",
-                            "nbt": "{Tags:[\"te17_wither_skeleton\"]}"
+                            "nbt": "{Tags:[\"te17_wither_skeleton\"]}",
+                            "entity_type": "minecraft:wither_skeleton"
                         },
                         "entity": "this"
                     }

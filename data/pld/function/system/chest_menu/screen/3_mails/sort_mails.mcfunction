@@ -1,6 +1,6 @@
 #对玩家的信件进行分类排序
-data modify storage pld:system temp_mail_taken0 set value 
-data modify storage pld:system temp_mail_taken1 set value 
+data modify storage pld:system temp_mail_taken0 set value []
+data modify storage pld:system temp_mail_taken1 set value []
 data modify storage pld:system temp_mail_taken0 set from entity @s EnderItems[0].tag.data.mails
 data remove storage pld:system temp_mail_taken0[{is_taked:1b}]
 data modify storage pld:system temp_mail_taken1 set from entity @s EnderItems[0].tag.data.mails

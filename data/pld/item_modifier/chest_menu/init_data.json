@@ -1,6 +1,6 @@
 [
   {
     "function": "minecraft:set_custom_data",
-    "tag": "{has_data:1,data:{chest:,mails:}}"
+    "tag": "{has_data:1,data:{chest:[],mails:[]}}"
   }
 ]

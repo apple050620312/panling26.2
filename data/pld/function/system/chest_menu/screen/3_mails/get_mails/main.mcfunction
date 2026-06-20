@@ -16,7 +16,7 @@ scoreboard players operation @s player_mail_id = temp_max_id int
 
 
 #获取已有的邮件数据
-data modify storage pld:system Temp_new_mails set value 
+data modify storage pld:system Temp_new_mails set value []
 data modify storage pld:system Temp_new_mails set from entity @s EnderItems[0].tag.data.mails
 
 
@@ -28,8 +28,8 @@ item modify entity @s enderchest.0 pld:chest_menu/mail/get_mails
 item modify entity @s enderchest.9 pld:chest_menu/mail/get_mails
 
 #清空缓存
-data modify storage pld:system Temp_player_new_mails set value 
-data modify storage pld:system Temp_system_mails set value 
+data modify storage pld:system Temp_player_new_mails set value []
+data modify storage pld:system Temp_system_mails set value []
 
 #新邮件提醒
 execute if score new_mail_success int matches 1 run tellraw @s {"translate":"pl.chest_menu.new_mails"}

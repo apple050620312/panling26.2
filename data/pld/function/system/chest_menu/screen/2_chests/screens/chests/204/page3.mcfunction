@@ -17,7 +17,7 @@ item replace entity @s enderchest.17 with minecraft:black_stained_glass_pane[cus
 item replace entity @s enderchest.26 with minecraft:clock[custom_name='{"translate":"pl.chest_menu.to_pre_screen"}',lore=['{"translate":"pl.chest_menu.pre_menu.lore"}'],custom_data={clickable:1,to_screen:2}]
 
 #将pld:system Temp_chest中的数据读取到中当前页中
-data modify block 0 -1 0 Items set value 
+data modify block 0 -1 0 Items set value []
 data modify block 0 -1 0 Items set from storage pld:system Temp_ender_data.chests[{Slot:4b}].pages.page3_Items
 function pld:system/chest_menu/screen/2_chests/screens/chests/chest_cover
 

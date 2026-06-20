@@ -1,7 +1,7 @@
 #清空storage
 execute if score @s screen matches 0.. run data modify storage pld:system Temp set value {}
 execute if score @s screen matches 0.. run data modify storage pld:system Temp_ender_data set value {}
-execute if score @s screen matches 0.. run data modify storage pld:system Temp_chest set value 
+execute if score @s screen matches 0.. run data modify storage pld:system Temp_chest set value []
 #抛出玩家数据
 execute if score @s screen matches 0.. run data modify storage pld:system Temp set from entity @s {}
 #抛出储存数据到Temp_ender_data

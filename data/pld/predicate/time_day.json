@@ -3,7 +3,7 @@
     "value": {
         "max": 12000,
         "min": 0
-        
     },
-    "period":24000
+    "period": 24000,
+    "clock": "minecraft:overworld"
 }

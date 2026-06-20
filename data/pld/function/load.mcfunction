@@ -71,4 +71,4 @@ forceload add 0 0
 kill @e[x=0,y=0,z=0,distance=..5,type=minecraft:marker,tag=rot_marker]
 summon minecraft:marker 0.0 0.0 0.0 {Tags:["rot_marker"]}
 setblock 0 -1 0 minecraft:shulker_box
-data modify storage pld:system empty_list set value 
+data modify storage pld:system empty_list set value []

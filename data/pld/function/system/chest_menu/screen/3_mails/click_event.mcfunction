@@ -3,7 +3,7 @@
 #   pld:system Temp_ender_data 玩家菜单数据
 scoreboard players reset @s temp2
 #本screen 需要检查的按钮表
-data modify storage pld:system Temp_ender_data_mails set value 
+data modify storage pld:system Temp_ender_data_mails set value []
 data modify storage pld:system Temp_ender_data_mails set from storage pld:system Temp_ender_data.mails
 execute store result score player_mail_count int run data get storage pld:system Temp_ender_data_mails
 execute unless score @s temp2 matches 1 store success score @s temp2 unless data storage pld:system Temp.EnderItems[{components:{custom_data:{to_screen:0}}}] run function pld:system/chest_menu/screen/0_main_menu/main

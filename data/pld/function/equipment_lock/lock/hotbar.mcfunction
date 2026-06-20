@@ -1,4 +1,4 @@
-data modify storage pld:system Temp set value 
+data modify storage pld:system Temp set value []
 data modify storage pld:system Temp append from entity @s Inventory[{Slot:0b}]
 data modify storage pld:system Temp append from entity @s Inventory[{Slot:1b}]
 data modify storage pld:system Temp append from entity @s Inventory[{Slot:2b}]

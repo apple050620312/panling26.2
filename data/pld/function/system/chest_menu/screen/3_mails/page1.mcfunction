@@ -11,7 +11,7 @@ scoreboard players set @s screen 3
 scoreboard players set @s screen_mail_page 1
 
 #抓取列表
-data modify storage pld:system Temp_ender_data_mails set value 
+data modify storage pld:system Temp_ender_data_mails set value []
 data modify storage pld:system Temp_ender_data_mails set from storage pld:system Temp_ender_data.mails
 execute store result score player_mail_count int run data get storage pld:system Temp_ender_data_mails
 #
