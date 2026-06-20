@@ -1,8 +1,8 @@
 #核心处是核心、部位材料处是裝備
-execute unless data block ~ ~ ~ Items[{Slot:5b}] if block ~ ~ ~ minecraft:dispenser{Items:[{Slot:3b,id:"minecraft:raw_gold",Count:1b,components:{"minecraft:custom_data":{id:"panling:core_iron_armor_helmet"}}] run function pld:system/dz/dzlegend/slot/head/check
-execute unless data block ~ ~ ~ Items[{Slot:5b}] if block ~ ~ ~ minecraft:dispenser{Items:[{Slot:3b,id:"minecraft:raw_gold",Count:1b,components:{"minecraft:custom_data":{id:"panling:core_iron_armor_chestplate"}}] run function pld:system/dz/dzlegend/slot/chest/check
-execute unless data block ~ ~ ~ Items[{Slot:5b}] if block ~ ~ ~ minecraft:dispenser{Items:[{Slot:3b,id:"minecraft:raw_gold",Count:1b,components:{"minecraft:custom_data":{id:"panling:core_iron_armor_leggings"}}] run function pld:system/dz/dzlegend/slot/legs/check
-execute unless data block ~ ~ ~ Items[{Slot:5b}] if block ~ ~ ~ minecraft:dispenser{Items:[{Slot:3b,id:"minecraft:raw_gold",Count:1b,components:{"minecraft:custom_data":{id:"panling:core_iron_armor_boots"}}] run function pld:system/dz/dzlegend/slot/feet/check
+execute unless data block ~ ~ ~ Items[{Slot:5b}] if block ~ ~ ~ minecraft:dispenser{Items:[{Slot:3b,id:"minecraft:raw_gold",Count:1b,components:{"minecraft:custom_data":{id:"panling:core_iron_armor_helmet"}}}]} run function pld:system/dz/dzlegend/slot/head/check
+execute unless data block ~ ~ ~ Items[{Slot:5b}] if block ~ ~ ~ minecraft:dispenser{Items:[{Slot:3b,id:"minecraft:raw_gold",Count:1b,components:{"minecraft:custom_data":{id:"panling:core_iron_armor_chestplate"}}}]} run function pld:system/dz/dzlegend/slot/chest/check
+execute unless data block ~ ~ ~ Items[{Slot:5b}] if block ~ ~ ~ minecraft:dispenser{Items:[{Slot:3b,id:"minecraft:raw_gold",Count:1b,components:{"minecraft:custom_data":{id:"panling:core_iron_armor_leggings"}}}]} run function pld:system/dz/dzlegend/slot/legs/check
+execute unless data block ~ ~ ~ Items[{Slot:5b}] if block ~ ~ ~ minecraft:dispenser{Items:[{Slot:3b,id:"minecraft:raw_gold",Count:1b,components:{"minecraft:custom_data":{id:"panling:core_iron_armor_boots"}}}]} run function pld:system/dz/dzlegend/slot/feet/check
 
 
 #如果有洗炼石

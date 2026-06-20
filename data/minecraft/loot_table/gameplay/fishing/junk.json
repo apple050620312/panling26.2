@@ -10,8 +10,17 @@
           "weight": 10,
           "functions": [
             {
-              "function": "minecraft:set_nbt",
-              "tag": "{id:\"panling:rotten_bamboo\",display:{Name:'{\"translate\":\"pl.item.name.rotten_bamboo\"}',Lore:['{\"translate\":\"pl.item.lore.rotten_bamboo\"}']}}"
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": "{\"translate\":\"pl.item.name.rotten_bamboo\"}",
+                "minecraft:lore": [
+                  "{\"translate\":\"pl.item.lore.rotten_bamboo\"}"
+                ]
+              }
+            },
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{id:\"panling:rotten_bamboo\"}"
             }
           ]
         },
@@ -21,8 +30,18 @@
           "weight": 10,
           "functions": [
             {
-              "function": "minecraft:set_nbt",
-              "tag": "{HideFlags:2,id:\"panling:boot\",display:{Name:'{\"translate\":\"pl.item.name.boot\"}',Lore:['{\"translate\":\"pl.item.lore.boot\"}']}}"
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:hide_additional_tooltip": {},
+                "minecraft:custom_name": "{\"translate\":\"pl.item.name.boot\"}",
+                "minecraft:lore": [
+                  "{\"translate\":\"pl.item.lore.boot\"}"
+                ]
+              }
+            },
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{id:\"panling:boot\"}"
             }
           ]
         },
@@ -32,8 +51,14 @@
           "weight": 10,
           "functions": [
             {
-              "function": "minecraft:set_nbt",
-              "tag": "{id:\"panling:leather\",display:{Name:'{\"translate\":\"pl.item.name.leather\"}'}}"
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": "{\"translate\":\"pl.item.name.leather\"}"
+              }
+            },
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{id:\"panling:leather\"}"
             }
           ]
         },
@@ -43,8 +68,14 @@
           "weight": 10,
           "functions": [
             {
-              "function": "minecraft:set_nbt",
-              "tag": "{id:\"panling:spider_eye\",display:{Name:'{\"translate\":\"pl.item.name.spidereye\"}'}}"
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": "{\"translate\":\"pl.item.name.spidereye\"}"
+              }
+            },
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{id:\"panling:spider_eye\"}"
             }
           ]
         },

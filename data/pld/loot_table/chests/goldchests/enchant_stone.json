@@ -12,7 +12,11 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:custom_model_data": 2,
+                "minecraft:custom_model_data": {
+                  "floats": [
+                    2
+                  ]
+                },
                 "minecraft:custom_name": "{\"translate\": \"pl.item.name.enchant_stone1\"}",
                 "minecraft:lore": [
                   "{\"translate\":\"pl.item.lore.enchant_stonea\"}",
@@ -42,7 +46,11 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:custom_model_data": 2,
+                "minecraft:custom_model_data": {
+                  "floats": [
+                    2
+                  ]
+                },
                 "minecraft:custom_name": "{\"translate\": \"pl.item.name.enchant_stone1\"}",
                 "minecraft:lore": [
                   "{\"translate\":\"pl.item.lore.enchant_stonea\"}",
@@ -72,7 +80,11 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:custom_model_data": 2,
+                "minecraft:custom_model_data": {
+                  "floats": [
+                    2
+                  ]
+                },
                 "minecraft:custom_name": "{\"translate\": \"pl.item.name.enchant_stone1\"}",
                 "minecraft:lore": [
                   "{\"translate\":\"pl.item.lore.enchant_stonea\"}",
@@ -102,7 +114,11 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:custom_model_data": 2,
+                "minecraft:custom_model_data": {
+                  "floats": [
+                    2
+                  ]
+                },
                 "minecraft:custom_name": "{\"translate\": \"pl.item.name.enchant_stone1\"}",
                 "minecraft:lore": [
                   "{\"translate\":\"pl.item.lore.enchant_stonea\"}",
@@ -132,7 +148,11 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:custom_model_data": 2,
+                "minecraft:custom_model_data": {
+                  "floats": [
+                    2
+                  ]
+                },
                 "minecraft:custom_name": "{\"translate\": \"pl.item.name.enchant_stone1\"}",
                 "minecraft:lore": [
                   "{\"translate\":\"pl.item.lore.enchant_stonea\"}",

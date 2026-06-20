@@ -20,17 +20,17 @@ data modify block ~ ~ ~ Items[{Slot:3b}].tag.display.Lore append value '{"transl
 #增加锻造者条目
 data modify block ~ ~ ~ Items[{Slot:3b}].tag.display.Lore append from storage pld:system dzTemp
 #增加封印条目
-execute if block ~ ~ ~ minecraft:dispenser{Items:[{Slot:3b,components:{"minecraft:custom_data":{type:1}}] run data modify block ~ ~ ~ Items[{Slot:3b}].tag.display.Lore append value '{"translate":"pl.lore.weaponinfo2a"}'
-execute if block ~ ~ ~ minecraft:dispenser{Items:[{Slot:3b,components:{"minecraft:custom_data":{type:2}}] run data modify block ~ ~ ~ Items[{Slot:3b}].tag.display.Lore append value '{"translate":"pl.lore.armorinfo2a"}'
+execute if block ~ ~ ~ minecraft:dispenser{Items:[{Slot:3b,components:{"minecraft:custom_data":{type:1}}}]} run data modify block ~ ~ ~ Items[{Slot:3b}].tag.display.Lore append value '{"translate":"pl.lore.weaponinfo2a"}'
+execute if block ~ ~ ~ minecraft:dispenser{Items:[{Slot:3b,components:{"minecraft:custom_data":{type:2}}}]} run data modify block ~ ~ ~ Items[{Slot:3b}].tag.display.Lore append value '{"translate":"pl.lore.armorinfo2a"}'
 
 
-execute if block ~ ~ ~ minecraft:dispenser{Items:[{Slot:3b,components:{"minecraft:custom_data":{id:"panling:furnace3",enchant_lvl:1}}] run function pld:system/dz/enchant/furnace/3
-execute if block ~ ~ ~ minecraft:dispenser{Items:[{Slot:3b,components:{"minecraft:custom_data":{id:"panling:furnace4",enchant_lvl:1}}] run function pld:system/dz/enchant/furnace/4_1
-execute if block ~ ~ ~ minecraft:dispenser{Items:[{Slot:3b,components:{"minecraft:custom_data":{id:"panling:furnace4",enchant_lvl:2}}] run function pld:system/dz/enchant/furnace/4_2
-execute if block ~ ~ ~ minecraft:dispenser{Items:[{Slot:3b,components:{"minecraft:custom_data":{id:"panling:furnace5",enchant_lvl:1}}] run function pld:system/dz/enchant/furnace/5_1
-execute if block ~ ~ ~ minecraft:dispenser{Items:[{Slot:3b,components:{"minecraft:custom_data":{id:"panling:furnace5",enchant_lvl:2}}] run function pld:system/dz/enchant/furnace/5_2
-execute if block ~ ~ ~ minecraft:dispenser{Items:[{Slot:3b,components:{"minecraft:custom_data":{id:"panling:furnace5",enchant_lvl:3}}] run function pld:system/dz/enchant/furnace/5_3
-execute if block ~ ~ ~ minecraft:dispenser{Items:[{Slot:3b,components:{"minecraft:custom_data":{id:"panling:furnace6",enchant_lvl:1}}] run function pld:system/dz/enchant/furnace/6_1
-execute if block ~ ~ ~ minecraft:dispenser{Items:[{Slot:3b,components:{"minecraft:custom_data":{id:"panling:furnace6",enchant_lvl:2}}] run function pld:system/dz/enchant/furnace/6_2
-execute if block ~ ~ ~ minecraft:dispenser{Items:[{Slot:3b,components:{"minecraft:custom_data":{id:"panling:furnace6",enchant_lvl:3}}] run function pld:system/dz/enchant/furnace/6_3
+execute if block ~ ~ ~ minecraft:dispenser{Items:[{Slot:3b,components:{"minecraft:custom_data":{id:"panling:furnace3",enchant_lvl:1}}}]} run function pld:system/dz/enchant/furnace/3
+execute if block ~ ~ ~ minecraft:dispenser{Items:[{Slot:3b,components:{"minecraft:custom_data":{id:"panling:furnace4",enchant_lvl:1}}}]} run function pld:system/dz/enchant/furnace/4_1
+execute if block ~ ~ ~ minecraft:dispenser{Items:[{Slot:3b,components:{"minecraft:custom_data":{id:"panling:furnace4",enchant_lvl:2}}}]} run function pld:system/dz/enchant/furnace/4_2
+execute if block ~ ~ ~ minecraft:dispenser{Items:[{Slot:3b,components:{"minecraft:custom_data":{id:"panling:furnace5",enchant_lvl:1}}}]} run function pld:system/dz/enchant/furnace/5_1
+execute if block ~ ~ ~ minecraft:dispenser{Items:[{Slot:3b,components:{"minecraft:custom_data":{id:"panling:furnace5",enchant_lvl:2}}}]} run function pld:system/dz/enchant/furnace/5_2
+execute if block ~ ~ ~ minecraft:dispenser{Items:[{Slot:3b,components:{"minecraft:custom_data":{id:"panling:furnace5",enchant_lvl:3}}}]} run function pld:system/dz/enchant/furnace/5_3
+execute if block ~ ~ ~ minecraft:dispenser{Items:[{Slot:3b,components:{"minecraft:custom_data":{id:"panling:furnace6",enchant_lvl:1}}}]} run function pld:system/dz/enchant/furnace/6_1
+execute if block ~ ~ ~ minecraft:dispenser{Items:[{Slot:3b,components:{"minecraft:custom_data":{id:"panling:furnace6",enchant_lvl:2}}}]} run function pld:system/dz/enchant/furnace/6_2
+execute if block ~ ~ ~ minecraft:dispenser{Items:[{Slot:3b,components:{"minecraft:custom_data":{id:"panling:furnace6",enchant_lvl:3}}}]} run function pld:system/dz/enchant/furnace/6_3
 scoreboard players set @p success 1

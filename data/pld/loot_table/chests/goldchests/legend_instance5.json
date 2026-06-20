@@ -44,7 +44,11 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:custom_model_data": 1
+                "minecraft:custom_model_data": {
+                  "floats": [
+                    1
+                  ]
+                }
               }
             },
             {
@@ -81,7 +85,11 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:custom_model_data": 2
+                "minecraft:custom_model_data": {
+                  "floats": [
+                    2
+                  ]
+                }
               }
             },
             {

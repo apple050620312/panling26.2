@@ -39,7 +39,11 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:custom_model_data": 1,
+                "minecraft:custom_model_data": {
+                  "floats": [
+                    1
+                  ]
+                },
                 "minecraft:custom_name": "{\"translate\":\"pl.item.name.figurines\"}",
                 "minecraft:lore": [
                   "{\"translate\":\"pl.item.lore.figurine_1\"}",
@@ -62,7 +66,11 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:custom_model_data": 2,
+                "minecraft:custom_model_data": {
+                  "floats": [
+                    2
+                  ]
+                },
                 "minecraft:custom_name": "{\"translate\":\"pl.item.name.figurines\"}",
                 "minecraft:lore": [
                   "{\"translate\":\"pl.item.lore.figurine_2\"}",
@@ -85,7 +93,11 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:custom_model_data": 3,
+                "minecraft:custom_model_data": {
+                  "floats": [
+                    3
+                  ]
+                },
                 "minecraft:custom_name": "{\"translate\":\"pl.item.name.figurines\"}",
                 "minecraft:lore": [
                   "{\"translate\":\"pl.item.lore.figurine_3\"}",
@@ -108,7 +120,11 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:custom_model_data": 4,
+                "minecraft:custom_model_data": {
+                  "floats": [
+                    4
+                  ]
+                },
                 "minecraft:custom_name": "{\"translate\":\"pl.item.name.figurines\"}",
                 "minecraft:lore": [
                   "{\"translate\":\"pl.item.lore.figurine_4\"}",
@@ -131,7 +147,11 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:custom_model_data": 5,
+                "minecraft:custom_model_data": {
+                  "floats": [
+                    5
+                  ]
+                },
                 "minecraft:custom_name": "{\"translate\":\"pl.item.name.figurines\"}",
                 "minecraft:lore": [
                   "{\"translate\":\"pl.item.lore.figurine_5\"}",
@@ -154,7 +174,11 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:custom_model_data": 6,
+                "minecraft:custom_model_data": {
+                  "floats": [
+                    6
+                  ]
+                },
                 "minecraft:custom_name": "{\"translate\":\"pl.item.name.figurines\"}",
                 "minecraft:lore": [
                   "{\"translate\":\"pl.item.lore.figurine_6\"}",
@@ -177,7 +201,11 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:custom_model_data": 7,
+                "minecraft:custom_model_data": {
+                  "floats": [
+                    7
+                  ]
+                },
                 "minecraft:custom_name": "{\"translate\":\"pl.item.name.figurines\"}",
                 "minecraft:lore": [
                   "{\"translate\":\"pl.item.lore.figurine_7\"}",
@@ -200,7 +228,11 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:custom_model_data": 8,
+                "minecraft:custom_model_data": {
+                  "floats": [
+                    8
+                  ]
+                },
                 "minecraft:custom_name": "{\"translate\":\"pl.item.name.figurines\"}",
                 "minecraft:lore": [
                   "{\"translate\":\"pl.item.lore.figurine_8\"}",
@@ -224,7 +256,11 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:custom_model_data": 9,
+                "minecraft:custom_model_data": {
+                  "floats": [
+                    9
+                  ]
+                },
                 "minecraft:custom_name": "{\"translate\":\"pl.item.name.figurines\"}",
                 "minecraft:lore": [
                   "{\"translate\":\"pl.item.lore.figurine_9\"}",
@@ -247,7 +283,11 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:custom_model_data": 10,
+                "minecraft:custom_model_data": {
+                  "floats": [
+                    10
+                  ]
+                },
                 "minecraft:custom_name": "{\"translate\":\"pl.item.name.figurines\"}",
                 "minecraft:lore": [
                   "{\"translate\":\"pl.item.lore.figurine_10\"}",
@@ -270,7 +310,11 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:custom_model_data": 11,
+                "minecraft:custom_model_data": {
+                  "floats": [
+                    11
+                  ]
+                },
                 "minecraft:custom_name": "{\"translate\":\"pl.item.name.figurines\"}",
                 "minecraft:lore": [
                   "{\"translate\":\"pl.item.lore.figurine_11\"}",
@@ -293,7 +337,11 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:custom_model_data": 12,
+                "minecraft:custom_model_data": {
+                  "floats": [
+                    12
+                  ]
+                },
                 "minecraft:custom_name": "{\"translate\":\"pl.item.name.figurines\"}",
                 "minecraft:lore": [
                   "{\"translate\":\"pl.item.lore.figurine_12\"}",
@@ -316,7 +364,11 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:custom_model_data": 13,
+                "minecraft:custom_model_data": {
+                  "floats": [
+                    13
+                  ]
+                },
                 "minecraft:custom_name": "{\"translate\":\"pl.item.name.figurines\"}",
                 "minecraft:lore": [
                   "{\"translate\":\"pl.item.lore.figurine_13\"}",

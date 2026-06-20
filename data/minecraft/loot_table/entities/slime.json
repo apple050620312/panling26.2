@@ -1,23 +1,33 @@
 {
-    "pools": [
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
         {
-            "rolls": 1,
-            "entries": [
-                {
-                  "type": "minecraft:item",
-                  "name": "minecraft:slime_ball",
-                  "functions": [
-                      {
-                          "function": "minecraft:set_nbt",
-                          "tag": "{id:\"panling:instance5_dirt\",display:{Name:'{\"translate\":\"pl.item.name.instance5_dirt\"}',Lore:['{\"translate\":\"pl.item.lore.instance5_dirta\"}','{\"translate\":\"pl.item.lore.instance5_dirtb\"}']}}"
-                      },
-                      {
-                          "function": "minecraft:set_count",
-                          "count":1
-                      }
-                  ]
-                }
-            ]
+          "type": "minecraft:item",
+          "name": "minecraft:slime_ball",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": "{\"translate\":\"pl.item.name.instance5_dirt\"}",
+                "minecraft:lore": [
+                  "{\"translate\":\"pl.item.lore.instance5_dirta\"}",
+                  "{\"translate\":\"pl.item.lore.instance5_dirtb\"}"
+                ]
+              }
+            },
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{id:\"panling:instance5_dirt\"}"
+            },
+            {
+              "function": "minecraft:set_count",
+              "count": 1
+            }
+          ]
         }
-    ]
+      ]
+    }
+  ]
 }

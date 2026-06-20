@@ -10,8 +10,17 @@
           "weight": 10,
           "functions": [
             {
-              "function": "minecraft:set_nbt",
-              "tag": "{id:\"panling:enchanted_book\",display:{Name:'{\"translate\":\"pl.item.name.enchanted_book\"}',Lore:['{\"translate\":\"pl.item.lore.enchanted_book\"}']}}"
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": "{\"translate\":\"pl.item.name.enchanted_book\"}",
+                "minecraft:lore": [
+                  "{\"translate\":\"pl.item.lore.enchanted_book\"}"
+                ]
+              }
+            },
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{id:\"panling:enchanted_book\"}"
             }
           ]
         },
@@ -21,8 +30,17 @@
           "weight": 10,
           "functions": [
             {
-              "function": "minecraft:set_nbt",
-              "tag": "{id:\"panling:old_lock\",display:{Name:'{\"translate\":\"pl.item.name.old_lock\"}',Lore:['{\"translate\":\"pl.item.lore.old_lock\"}']}}"
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": "{\"translate\":\"pl.item.name.old_lock\"}",
+                "minecraft:lore": [
+                  "{\"translate\":\"pl.item.lore.old_lock\"}"
+                ]
+              }
+            },
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{id:\"panling:old_lock\"}"
             }
           ]
         },
@@ -32,8 +50,17 @@
           "weight": 10,
           "functions": [
             {
-              "function": "minecraft:set_nbt",
-              "tag": "{id:\"panling:old_key\",display:{Name:'{\"translate\":\"pl.item.name.old_key\"}',Lore:['{\"translate\":\"pl.item.lore.old_key\"}']}}"
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": "{\"translate\":\"pl.item.name.old_key\"}",
+                "minecraft:lore": [
+                  "{\"translate\":\"pl.item.lore.old_key\"}"
+                ]
+              }
+            },
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{id:\"panling:old_key\"}"
             }
           ]
         },
@@ -43,8 +70,25 @@
           "weight": 10,
           "functions": [
             {
-              "function": "minecraft:set_nbt",
-              "tag": "{display:{Lore:['{\"translate\":\"pl.lore.rare3\"}','{\"translate\":\"pl.item.lore.acore3a\"}','{\"translate\":\"pl.item.lore.acore3b\"}'],Name:'{\"translate\":\"pl.item.name.acore3\"}'},id:\"panling:armor_core_3\",HideFlags:63,Enchantments:[{id:\"minecraft:protection\",lvl:1s}]}"
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": "{\"translate\":\"pl.item.name.acore3\"}",
+                "minecraft:lore": [
+                  "{\"translate\":\"pl.lore.rare3\"}",
+                  "{\"translate\":\"pl.item.lore.acore3a\"}",
+                  "{\"translate\":\"pl.item.lore.acore3b\"}"
+                ],
+                "minecraft:hide_additional_tooltip": {},
+                "minecraft:enchantments": {
+                  "levels": {
+                    "minecraft:protection": 1
+                  }
+                }
+              }
+            },
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{id:\"panling:armor_core_3\"}"
             }
           ]
         }

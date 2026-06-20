@@ -1,31 +1,31 @@
 {
-    "pools": [
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
         {
-            "rolls":1,
-            "entries": [
-                {
-                    "type": "minecraft:item",
-                    "name": "minecraft:white_wool",
-                    "weight": 1,
-                    "functions": [
-                        {
-                            "function": "minecraft:set_nbt",
-                            "tag": "{instance:1}"
-                        }
-                    ]
-                },
-                {
-                    "type": "minecraft:item",
-                    "name": "minecraft:red_wool",
-                    "weight": 1,
-                    "functions": [
-                        {
-                            "function": "minecraft:set_nbt",
-                            "tag": "{instance:1}"
-                        }
-                    ]
-                }
-            ]
+          "type": "minecraft:item",
+          "name": "minecraft:white_wool",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{instance:1}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:red_wool",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{instance:1}"
+            }
+          ]
         }
-    ]
+      ]
+    }
+  ]
 }

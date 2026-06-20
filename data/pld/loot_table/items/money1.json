@@ -10,7 +10,11 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:custom_model_data": 2,
+                "minecraft:custom_model_data": {
+                  "floats": [
+                    2
+                  ]
+                },
                 "minecraft:custom_name": "{\"translate\":\"pl.item.name.money1\"}",
                 "minecraft:lore": [
                   "{\"translate\":\"pl.item.lore.money1a\"}",
