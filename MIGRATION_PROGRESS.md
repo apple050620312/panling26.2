@@ -20,7 +20,7 @@
 | `pld/function/equipment_lock` | 已完成 | 已轉換 | 已轉換 | 不適用 | 大量 NBT 已透過腳本轉為物品組件 |
 | `pld/function/instances` | 已完成 | 已轉換 | 已轉換 | 不適用 | `summon` 等指令之裝備 NBT 已更新為新版物品組件，中文提示已轉繁 |
 | `pld/function/monsters` | 已完成 | 已轉換 | 已轉換 | 不適用 | `summon` 之裝備 NBT 已升級，且繁體中文已套用 |
-| `pld/function/npcs` | 待處理 | 待處理 | 待處理 | 待處理 | |
+| `pld/function/npcs` | 已完成 | 已轉換 | 已轉換 | 不適用 | 大量村民交易 `Offers` 與 `CustomName` NBT 升級為新版物品組件格式，中文轉繁 |
 | `pld/function/pre` | 待處理 | 待處理 | 待處理 | 待處理 | |
 | `pld/function/pvp` | 待處理 | 待處理 | 待處理 | 待處理 | |
 | `pld/function/selections` | 待處理 | 待處理 | 待處理 | 待處理 | |

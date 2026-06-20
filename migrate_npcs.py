@@ -4,101 +4,120 @@ import re
 directory = r'c:\panling26.2\data\pld\function\npcs'
 
 def process_tag_content(tag_str):
-    # This function takes the INNER content of tag:{...}
-    # and converts it to the INNER content of components:{...}
     components = []
     
-    # CustomModelData
-    cmd_match = re.search(r'CustomModelData:(\d+)', tag_str)
+    # Simple replaces first
+    cmd_match = re.search(r'CustomModelData:\s*(\d+)', tag_str)
     if cmd_match:
         components.append(f'"minecraft:custom_model_data":{cmd_match.group(1)}')
-        tag_str = re.sub(r'CustomModelData:\d+,?', '', tag_str)
+        tag_str = tag_str.replace(cmd_match.group(0), '')
         
-    # Unbreakable
-    unb_match = re.search(r'Unbreakable:1b?', tag_str)
+    unb_match = re.search(r'Unbreakable:\s*1b?', tag_str)
     if unb_match:
         components.append(f'"minecraft:unbreakable":{{}}')
-        tag_str = re.sub(r'Unbreakable:1b?,?', '', tag_str)
+        tag_str = tag_str.replace(unb_match.group(0), '')
         
-    # HideFlags
-    hf_match = re.search(r'HideFlags:(\d+)', tag_str)
+    hf_match = re.search(r'HideFlags:\s*(\d+)', tag_str)
     if hf_match:
-        components.append(f'"minecraft:hide_additional_tooltip":{{}}') # Simplified mapping for HideFlags in 1.20.5
-        tag_str = re.sub(r'HideFlags:\d+,?', '', tag_str)
+        components.append(f'"minecraft:hide_additional_tooltip":{{}}')
+        tag_str = tag_str.replace(hf_match.group(0), '')
         
-    # display:{Name:'...',Lore:['...'],color:...}
-    display_match = re.search(r'display:\{([^}]+)\}', tag_str)
-    if display_match:
-        disp_inner = display_match.group(1)
-        name_match = re.search(r'Name:(\'[^\']+\'|"[^"]+")', disp_inner)
-        if name_match:
-            components.append(f'"minecraft:custom_name":{name_match.group(1)}')
+    # We must carefully extract `display:{...}` and `Enchantments:[...]` using balanced matching
+    
+    def extract_balanced(s, start_pattern, open_char='{', close_char='}'):
+        match = re.search(start_pattern, s)
+        if not match: return None, s
         
-        lore_match = re.search(r'Lore:(\[[^\]]+\])', disp_inner)
-        if lore_match:
-            components.append(f'"minecraft:lore":{lore_match.group(1)}')
+        start_idx = match.end() - 1 # points to the open_char
+        if s[start_idx] != open_char: return None, s
+        
+        stack = 0
+        end_idx = -1
+        for j in range(start_idx, len(s)):
+            if s[j] == open_char: stack += 1
+            elif s[j] == close_char:
+                stack -= 1
+                if stack == 0:
+                    end_idx = j
+                    break
+                    
+        if end_idx != -1:
+            full_match = s[match.start():end_idx+1]
+            inner_content = s[start_idx+1:end_idx]
+            s_without = s.replace(full_match, '')
+            return inner_content, s_without
+        return None, s
+
+    disp_inner, tag_str = extract_balanced(tag_str, r'display:\s*\{', '{', '}')
+    if disp_inner:
+        name_inner, disp_inner = extract_balanced(disp_inner, r'Name:\s*\'', "'", "'")
+        if not name_inner:
+            name_inner, disp_inner = extract_balanced(disp_inner, r'Name:\s*"', '"', '"')
+        if name_inner is not None:
+            # name_inner doesn't include the quotes, so add them back
+            if '{"translate' in name_inner:
+                components.append(f'"minecraft:custom_name":\'' + name_inner + '\'')
+            else:
+                components.append(f'"minecraft:custom_name":"' + name_inner + '"')
+                
+        lore_inner, disp_inner = extract_balanced(disp_inner, r'Lore:\s*\[', '[', ']')
+        if lore_inner is not None:
+            components.append(f'"minecraft:lore":[' + lore_inner + ']')
             
-        color_match = re.search(r'color:(\d+)', disp_inner)
+        color_match = re.search(r'color:\s*(\d+)', disp_inner)
         if color_match:
             components.append(f'"minecraft:dyed_color":{{rgb:{color_match.group(1)}}}')
             
-        tag_str = tag_str.replace(display_match.group(0), '')
-        # remove trailing commas
-        tag_str = re.sub(r',\s*,', ',', tag_str)
-        
-    # Enchantments:[{id:"...",lvl:...},...]
-    ench_match = re.search(r'Enchantments:\[([^\]]+)\]', tag_str)
-    if ench_match:
-        ench_inner = ench_match.group(1)
-        # Parse individual enchantments {id:"...",lvl:...}
+    ench_inner, tag_str = extract_balanced(tag_str, r'Enchantments:\s*\[', '[', ']')
+    if ench_inner:
         enchs = re.findall(r'\{id:"([^"]+)",lvl:(\d+)s?\}', ench_inner)
+        if not enchs:
+            enchs = re.findall(r'\{id:([^,]+),lvl:(\d+)s?\}', ench_inner)
         if enchs:
             levels = []
             for eid, lvl in enchs:
-                # remove "minecraft:" if present, then add it back to normalize
-                eid = eid.replace("minecraft:", "")
+                eid = eid.replace("minecraft:", "").replace('"', '').strip()
                 levels.append(f'"{eid}":{lvl}')
             components.append(f'"minecraft:enchantments":{{levels:{{{",".join(levels)}}}}}')
-        tag_str = tag_str.replace(ench_match.group(0), '')
-        
-    # CustomPotionEffects
-    # We will just map the entire remaining tag_str to custom_data if there is any left
+
+    # Remove extra commas
+    tag_str = re.sub(r',\s*,', ',', tag_str).strip().strip(',')
     
-    # AttributeModifiers
-    attr_match = re.search(r'AttributeModifiers:\[([^\]]+)\]', tag_str)
-    if attr_match:
-        # In 1.21 this is complicated. We'll skip complex attribute modifiers conversion for now and let custom_data catch it, 
-        # or do a basic conversion. Actually, we'll just remove it and put it in custom data for now since it's just visual in trades.
-        pass
-        
-    # Clean up tag_str
-    tag_str = re.sub(r',+', ',', tag_str).strip(',')
-    
-    if tag_str.strip():
-        # What remains goes into custom_data
+    if tag_str:
         components.append(f'"minecraft:custom_data":{{{tag_str}}}')
         
     return ",".join(components)
 
 def replace_tags(line):
     # Find all tag:{...} blocks using balanced parenthesis matching
+    # But carefully avoid replacing tag:{ inside tag:{ (already handled by extracting inner content)
+    # Actually, if we just find tag:{ and do process_tag_content, we must only match the top-level tag:{
+    
     result = []
     i = 0
     while i < len(line):
         if line[i:i+4] == 'tag:':
-            # find the opening brace
             brace_idx = line.find('{', i)
-            if brace_idx != -1:
-                # Find matching closing brace
+            if brace_idx != -1 and brace_idx - i < 10: # ensure it's tag:{
                 stack = 0
                 end_idx = -1
+                in_str = False
+                str_char = ''
                 for j in range(brace_idx, len(line)):
-                    if line[j] == '{': stack += 1
-                    elif line[j] == '}':
-                        stack -= 1
-                        if stack == 0:
-                            end_idx = j
-                            break
+                    if not in_str:
+                        if line[j] in ("'", '"'):
+                            in_str = True
+                            str_char = line[j]
+                        elif line[j] == '{': stack += 1
+                        elif line[j] == '}':
+                            stack -= 1
+                            if stack == 0:
+                                end_idx = j
+                                break
+                    else:
+                        if line[j] == str_char and line[j-1] != '\\':
+                            in_str = False
+                            
                 if end_idx != -1:
                     inner_tag = line[brace_idx+1:end_idx]
                     new_inner = process_tag_content(inner_tag)
@@ -130,7 +149,10 @@ def process_dir(d):
                 
                 new_lines = []
                 for line in lines:
-                    line = replace_tags(line)
+                    try:
+                        line = replace_tags(line)
+                    except Exception as e:
+                        print(f"Error parsing line in {path}: {e}")
                     for s, t in s2t.items():
                         line = line.replace(s, t)
                     new_lines.append(line)
@@ -138,6 +160,7 @@ def process_dir(d):
                 if new_lines != lines:
                     with open(path, 'w', encoding='utf-8') as file:
                         file.writelines(new_lines)
+                    print(f"Updated: {path}")
                     count += 1
     print(f"Migration completed. Updated {count} files.")
 
