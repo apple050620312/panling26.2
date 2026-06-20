@@ -1,6 +1,6 @@
 #金四件套战士效果
 #移速+20%
-attribute @s generic.movement_speed modifier add 12-0-4-0-0 "金四件套效果" 0.2 multiply_base
+attribute @s movement_speed modifier add 12-0-4-0-0 "金四件套效果" 0.2 multiply_base
 #重置速度时间
 scoreboard players set @s armor_set_bonus_0_4_tick 100
 

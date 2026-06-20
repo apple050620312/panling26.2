@@ -1,8 +1,8 @@
 #盔甲傷害减免
 
 #获取盔甲值
-execute store result score @s entity_2armor run attribute @s generic.armor get 100
-execute store result score @s entity_2toughness run attribute @s generic.armor_toughness get 100
+execute store result score @s entity_2armor run attribute @s armor get 100
+execute store result score @s entity_2toughness run attribute @s armor_toughness get 100
 
 #输入 
 # #temp entity_hurt_temp 

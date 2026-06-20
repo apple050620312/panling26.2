@@ -31,7 +31,7 @@
                         },
                         {
                             "function": "minecraft:set_custom_data",
-                            "tag": "{id:\"panling:feather\",lvl:1,AttributeModifiers:[{Slot:\"mainhand\",UUID:[I;5,5,5,5],Operation:2,AttributeName:\"minecraft:generic.max_health\",Amount:-0.5d,Name:\"\"},{Slot:\"mainhand\",UUID:[I;5,5,5,5],Operation:1,AttributeName:\"minecraft:generic.movement_speed\",Amount:0.2d,Name:\"\"}]}"
+                            "tag": "{id:\"panling:feather\",lvl:1,AttributeModifiers:[{Slot:\"mainhand\",UUID:[I;5,5,5,5],Operation:2,AttributeName:\"minecraft:max_health\",Amount:-0.5d,Name:\"\"},{Slot:\"mainhand\",UUID:[I;5,5,5,5],Operation:1,AttributeName:\"minecraft:movement_speed\",Amount:0.2d,Name:\"\"}]}"
                         }
                     ]
                 }

@@ -8,7 +8,7 @@
 
 #后续处理
 #获取玩家近战傷害值
-execute store result score @s player_2atk run attribute @s generic.attack_damage get 100
+execute store result score @s player_2atk run attribute @s attack_damage get 100
 
 #本次玩家造成的傷害
 scoreboard players operation #temp player_cause_1damage = @s player_cause_1damage

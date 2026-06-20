@@ -1,4 +1,4 @@
-data modify storage pld:system Temp set value []
+data modify storage pld:system Temp set value 
 data modify storage pld:system Temp set from entity @s Inventory
 data remove storage pld:system Temp[{Slot:0b}]
 data remove storage pld:system Temp[{Slot:1b}]

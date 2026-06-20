@@ -1,7 +1,7 @@
 scoreboard players set @s instance5_mt 1
 bossbar set pl:instance5_mountain visible true
 tellraw @a[x=2992,y=0,z=-2000,dx=271,dy=255,dz=303] {"translate": "pl.info.instance5.mt"}
-summon minecraft:slime 3074 142 -1867 {Team:"monster",Tags:["panling","not_undead","monster","core"],Size:8,PersistenceRequired:1,CanPickUpLoot:false,ArmorDropChances:[0f,0f,0f,0f],HandDropChances:[0f,0f],CustomNameVisible:1b,CustomName:'{"translate":"pl.monster.instance5.mt_core"}',DeathLootTable:"pld:instance5/core",Health:1000.0f,Attributes:[ {Name:"generic.max_health",Base:1000d}, {Name:"generic.follow_range",Base:0d}, {Name:"generic.movement_speed",Base:0d}, {Name:"generic.attack_damage",Base:0d}, {Name:"generic.knockback_resistance",Base:1d} ],ArmorItems:[{},{},{},{}],HandItems:[{},{}]}
+summon minecraft:slime 3074 142 -1867 {Team:"monster",Tags:["panling","not_undead","monster","core"],Size:8,PersistenceRequired:1,CanPickUpLoot:false,ArmorDropChances:[0f,0f,0f,0f],HandDropChances:[0f,0f],CustomNameVisible:1b,CustomName:'{"translate":"pl.monster.instance5.mt_core"}',DeathLootTable:"pld:instance5/core",Health:1000.0f,Attributes:[ {Name:"max_health",Base:1000d}, {Name:"follow_range",Base:0d}, {Name:"movement_speed",Base:0d}, {Name:"attack_damage",Base:0d}, {Name:"knockback_resistance",Base:1d} ],ArmorItems:[{},{},{},{}],HandItems:[{},{}]}
 playsound entity.minecart.inside ambient @a 3120 164 -1840 15 1 0
 clone 3141 99 -1853 3138 100 -1856 3164 129 -1832
 clone 3141 99 -1853 3138 100 -1856 3151 129 -1811

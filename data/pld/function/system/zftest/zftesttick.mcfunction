@@ -1,6 +1,6 @@
 scoreboard players remove @s[scores={element_time=1..}] element_time 1
 
-#execute if entity @s[scores={element_time=6700}] run summon creeper 1373 135 436 {Fuse:383s,ExplosionRadius:0,NoAI:0,CustomName:"",CustomNameVisible:0,Health:0.5f,Attributes:[{Name:"generic.max_health",Base:1},{Name:"generic.movement_speed",Base:0},{Name:"generic.attack_damage",Base:0},{Name:"generic.follow_range",Base:10},{Name:"generic.knockback_resistance",Base:1}],DeathLootTable:"pld:empty"}
+#execute if entity @s[scores={element_time=6700}] run summon creeper 1373 135 436 {Fuse:383s,ExplosionRadius:0,NoAI:0,CustomName:"",CustomNameVisible:0,Health:0.5f,Attributes:[{Name:"max_health",Base:1},{Name:"movement_speed",Base:0},{Name:"attack_damage",Base:0},{Name:"follow_range",Base:10},{Name:"knockback_resistance",Base:1}],DeathLootTable:"pld:empty"}
 #execute if entity @s[scores={element_time=6400}] run execute as @e[type=creeper,x=1373,y=135,z=436,distance=..3] run function pld:system/tp_and_kill_self
 #execute if entity @s[scores={element_time=4500}] run setblock 1373 135 436 chest 
 #execute if entity @s[scores={element_time=4500}] run playsound block.anvil.use ambient @s 1373 135 436 1.0
@@ -15,7 +15,7 @@ scoreboard players remove @s[scores={element_time=1..}] element_time 1
 #execute if entity @s[scores={element_time=1400}] run tellraw @s[scores={element_time=1400}] {"translate": "pl.info.laojun_df_test"}
 #execute if entity @s[scores={element_time=1..500}] run particle cloud 1367 138 436 1 0 1 0 10
 #异步
-execute if score @s element_time matches 1675 run summon creeper 1373 135 436 {Tags:["panling"],Fuse:383s,ExplosionRadius:0,NoAI:0,CustomName:"",CustomNameVisible:0,Health:0.5f,Attributes:[{Name:"generic.max_health",Base:1},{Name:"generic.movement_speed",Base:0},{Name:"generic.attack_damage",Base:0},{Name:"generic.follow_range",Base:10},{Name:"generic.knockback_resistance",Base:1}],DeathLootTable:"pld:empty"}
+execute if score @s element_time matches 1675 run summon creeper 1373 135 436 {Tags:["panling"],Fuse:383s,ExplosionRadius:0,NoAI:0,CustomName:"",CustomNameVisible:0,Health:0.5f,Attributes:[{Name:"max_health",Base:1},{Name:"movement_speed",Base:0},{Name:"attack_damage",Base:0},{Name:"follow_range",Base:10},{Name:"knockback_resistance",Base:1}],DeathLootTable:"pld:empty"}
 execute if score @s element_time matches 1600 run execute as @e[type=creeper,x=1373,y=135,z=436,distance=..3] run function pld:system/tp_and_kill_self
 execute if score @s element_time matches 1125 run setblock 1373 135 436 chest 
 execute if score @s element_time matches 1125 run playsound block.anvil.use ambient @s 1373 135 436 1.0

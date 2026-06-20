@@ -1,5 +1,5 @@
 #血爆粒子效果
-execute at @s run particle dust 1 0 0 1 ~ ~1 ~ 0.5 0.5 0.5 1 20
+execute at @s run particle minecraft:dust{color:[1, 0, 0], scale:1} ~ ~1 ~ 0.5 0.5 0.5 1 20
 
 #根据pld:system blooding_temp[0]造成一次傷害
 execute store result score #temp entity_hurt_temp run data get storage pld:system blooding_temp[0].damage 100

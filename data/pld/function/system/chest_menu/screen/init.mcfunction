@@ -32,13 +32,13 @@ item replace entity @s enderchest.24 with air
 item replace entity @s enderchest.25 with air
 item replace entity @s enderchest.26 with air
 
-item replace entity @s enderchest.0 with minecraft:gray_stained_glass_pane[hide_additional_tooltip={},custom_name='{"translate":"pl.chest_menu.nothing"}',custom_data={clickable:1,reset_self_id:1}]
-item replace entity @s enderchest.9 with minecraft:gray_stained_glass_pane[hide_additional_tooltip={},custom_name='{"translate":"pl.chest_menu.nothing"}',custom_data={clickable:1,reset_self_id:2}]
-item replace entity @s enderchest.18 with minecraft:gray_stained_glass_pane[hide_additional_tooltip={},custom_name='{"translate":"pl.chest_menu.nothing"}',custom_data={clickable:1,reset_self_id:3}]
+item replace entity @s enderchest.0 with minecraft:gray_stained_glass_pane[custom_name='{"translate":"pl.chest_menu.nothing"}',custom_data={clickable:1,reset_self_id:1}]
+item replace entity @s enderchest.9 with minecraft:gray_stained_glass_pane[custom_name='{"translate":"pl.chest_menu.nothing"}',custom_data={clickable:1,reset_self_id:2}]
+item replace entity @s enderchest.18 with minecraft:gray_stained_glass_pane[custom_name='{"translate":"pl.chest_menu.nothing"}',custom_data={clickable:1,reset_self_id:3}]
 
-item replace entity @s enderchest.8 with minecraft:gray_stained_glass_pane[hide_additional_tooltip={},custom_name='{"translate":"pl.chest_menu.nothing"}',custom_data={clickable:1,reset_self_id:4}]
-item replace entity @s enderchest.17 with minecraft:gray_stained_glass_pane[hide_additional_tooltip={},custom_name='{"translate":"pl.chest_menu.nothing"}',custom_data={clickable:1,reset_self_id:5}]
-item replace entity @s enderchest.26 with minecraft:gray_stained_glass_pane[hide_additional_tooltip={},custom_name='{"translate":"pl.chest_menu.nothing"}',custom_data={clickable:1,reset_self_id:6}]
+item replace entity @s enderchest.8 with minecraft:gray_stained_glass_pane[custom_name='{"translate":"pl.chest_menu.nothing"}',custom_data={clickable:1,reset_self_id:4}]
+item replace entity @s enderchest.17 with minecraft:gray_stained_glass_pane[custom_name='{"translate":"pl.chest_menu.nothing"}',custom_data={clickable:1,reset_self_id:5}]
+item replace entity @s enderchest.26 with minecraft:gray_stained_glass_pane[custom_name='{"translate":"pl.chest_menu.nothing"}',custom_data={clickable:1,reset_self_id:6}]
 
 #初始化储存数据 左一 左二
 execute unless score temp_count int matches 1.. run item modify entity @s enderchest.0 pld:chest_menu/init_data

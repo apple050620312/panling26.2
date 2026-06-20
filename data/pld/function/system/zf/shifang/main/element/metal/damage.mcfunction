@@ -37,7 +37,7 @@ function pld:system/zf/shifang/killcount/main
 effect give @e[tag=metaltag] instant_damage 1 31 false
 effect give @e[tag=metaltag] instant_health 1 31 false
 #命中粒子效果
-#execute at @s run particle dust 1 0 0 1 ^-1 ^2 ^ 0.2 0.2 0.2 0 100 force @a
+#execute at @s run particle minecraft:dust{color:[1, 0, 0], scale:1} ^-1 ^2 ^ 0.2 0.2 0.2 0 100 force @a
 #execute at @s positioned ^ ^1 ^ facing entity @e[tag=metaltag] eyes run function pld:system/zf/shifang/main/element/metal/particle
 
 

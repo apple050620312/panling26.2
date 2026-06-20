@@ -1,5 +1,5 @@
 #计算所需要减少的最大生命值
-execute store result score #max_health damage run attribute @s generic.max_health get 100
+execute store result score #max_health damage run attribute @s max_health get 100
 scoreboard players operation #max_hp_reduction damage = #max_health damage
 scoreboard players operation #max_hp_reduction damage -= #health damage
 tellraw @a {"score":{"name":"#max_hp_reduction","objective":"damage"}}
@@ -25,7 +25,7 @@ execute if score #max_hp_reduction damage matches 1.. run function pld:pre/damag
 
 # tellraw @a {"score":{"name":#health","objective":"temp"}}
 #execute store result score #health temp run data get entity @s Health 100
-#execute store result score #health temp2 run attribute @s generic.max_health get 100
+#execute store result score #health temp2 run attribute @s max_health get 100
 #tellraw @a [{"score":{"name":"#health","objective":"temp"}}]
 #tellraw @a [{"score":{"name":"#health","objective":"temp2"}}]
 

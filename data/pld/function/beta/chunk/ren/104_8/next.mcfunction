@@ -15,7 +15,7 @@ setblock 1667 143 127 minecraft:command_block{Command:"function pld:npcs/ren/cha
 setblock 1664 142 131 minecraft:command_block{Command:"function pld:npcs/ren/chat2"} replace 
 setblock 1677 131 138 minecraft:command_block{Command:"function pld:npcs/ren/renmain1"} replace 
 setblock 1670 144 126 minecraft:command_block{Command:"function pld:npcs/ren/guard"} replace 
-data merge block 1668 136 141 {Items:[]}
+data merge block 1668 136 141 {Items:}
 kill @e[type=villager,tag=!panling]
 execute as @e[type=skeleton] run function pld:system/tp_and_kill_self
 execute positioned 1670 144 126 run function pld:npcs/ren/guard

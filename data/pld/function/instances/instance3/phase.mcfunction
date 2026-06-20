@@ -2,8 +2,8 @@
 execute as @e[x=2695,y=68,z=-905,dx=40,dy=10,dz=40,tag=panling] run function pld:system/tp_and_kill_self
 
 #清理箱子
-data merge block 2715 67 -895 {Items:[]}
-data merge block 2715 67 -875 {Items:[]}
+data merge block 2715 67 -895 {Items:}
+data merge block 2715 67 -875 {Items:}
 #重置长老时间
 scoreboard players set #system instance3_tick 3000
 #随机产生长老施法种类

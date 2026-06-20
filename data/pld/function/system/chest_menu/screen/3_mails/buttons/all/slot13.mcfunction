@@ -1,7 +1,7 @@
 # 语境 被抓取的邮件 pld:system Temp_the_mail
 #物品&标题
-execute if data storage pld:system Temp_the_mail{is_taked:0b} run item replace entity @s enderchest.13 with experience_bottle[hide_additional_tooltip={},custom_data={clickable:1,take_id:13}]
-execute if data storage pld:system Temp_the_mail{is_taked:1b} run item replace entity @s enderchest.13 with paper[hide_additional_tooltip={},custom_data={clickable:1,take_id:13}]
+execute if data storage pld:system Temp_the_mail{is_taked:0b} run item replace entity @s enderchest.13 with experience_bottle[custom_data={clickable:1,take_id:13}]
+execute if data storage pld:system Temp_the_mail{is_taked:1b} run item replace entity @s enderchest.13 with paper[custom_data={clickable:1,take_id:13}]
 
 #邮件标题
 execute if data storage pld:system Temp_the_mail{is_taked:0b} run item modify entity @s enderchest.13 pld:chest_menu/mail/title0

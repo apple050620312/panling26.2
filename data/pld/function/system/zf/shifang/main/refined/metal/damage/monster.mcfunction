@@ -1,6 +1,6 @@
 #获取血量
 execute store result score @s monster_health run data get entity @s Health
-execute store result score @s monster_max_health run attribute @s generic.max_health get
+execute store result score @s monster_max_health run attribute @s max_health get
 
 #获取怪物抗性
 scoreboard players set @s monster_resis 0

@@ -41,8 +41,8 @@ setblock 1870 44 -1817 minecraft:oak_planks
 
 setblock 1870 44 -1785 air
 setblock 1870 44 -1792 minecraft:stone_bricks
-execute as @a[team=attack] run attribute @s generic.attack_damage modifier add 101-0-0-0-0 "近战傷害屏蔽" -0.99999 multiply
-execute as @a[team=defence] run attribute @s generic.attack_damage modifier add 101-0-0-0-0 "近战傷害屏蔽" -0.99999 multiply
+execute as @a[team=attack] run attribute @s attack_damage modifier add 101-0-0-0-0 "近战傷害屏蔽" -0.99999 multiply
+execute as @a[team=defence] run attribute @s attack_damage modifier add 101-0-0-0-0 "近战傷害屏蔽" -0.99999 multiply
 
 
 team join normal @a[team=attack]

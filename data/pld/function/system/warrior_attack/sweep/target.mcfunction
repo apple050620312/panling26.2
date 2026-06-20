@@ -3,7 +3,7 @@ execute store result score @s target_motion_4x run data get entity @s Motion[0] 
 execute store result score @s target_motion_4z run data get entity @s Motion[2] 10000
 
 #根据抗击退率减少被击退量
-execute store result score @s temp run attribute @s generic.knockback_resistance get 100
+execute store result score @s temp run attribute @s knockback_resistance get 100
 scoreboard players set @s temp2 100
 scoreboard players operation @s temp2 -= @s temp
 scoreboard players operation #temp knock_motion_4x *= @s temp2

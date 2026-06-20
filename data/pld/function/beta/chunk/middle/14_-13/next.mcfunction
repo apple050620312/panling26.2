@@ -42,8 +42,8 @@ setblock 243 44 -213 minecraft:command_block{Command:"tp @p[distance=..5] 234 64
 
 setblock 232 44 -213 air
 setblock 232 43 -213 air
-data merge block 233 43 -213 {Items:[]}
-setblock 233 43 -211 minecraft:repeating_command_block{Command:"execute as @p[x=235,y=45,z=-213,distance=..5] unless block 233 43 -213 hopper{Items:[]} run function pld:system/legend_unseal/check"} replace 
+data merge block 233 43 -213 {Items:}
+setblock 233 43 -211 minecraft:repeating_command_block{Command:"execute as @p[x=235,y=45,z=-213,distance=..5] unless block 233 43 -213 hopper{Items:} run function pld:system/legend_unseal/check"} replace 
 
 setblock 237 40 -210 structure_block{metadata: "", mirror: "NONE", ignoreEntities: 1b, powered: 0b, seed: 0L, author: "yl_jiu_qiu", rotation: "NONE", posX: 0, mode: "LOAD", posY: 1, sizeX: 23, posZ: 0, integrity: 1.0f, showair: 0b, name: "pld:npc_legend", sizeY: 32, sizeZ: 23, showboundingbox: 1b}
 setblock 236 40 -210 redstone_block

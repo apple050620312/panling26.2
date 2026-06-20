@@ -7,7 +7,7 @@ setblock -112 29 132 minecraft:command_block{Command:"function pld:npcs/west/rh4
 setblock -121 44 133 minecraft:command_block{Command:"execute as @p[x=-121,y=46,z=135,distance=..1] run function pld:system/into_shennongdf"} replace 
 setblock -120 26 141 minecraft:command_block{Command:"tp @p[x=-120,y=28,z=140,distance=..2] -122 47 135 ~ ~"} replace 
 
-data merge block -117 45 140 {Items:[]}
+data merge block -117 45 140 {Items:}
 setblock -115 45 140 minecraft:repeating_command_block{Command:"function pld:system/truth/ren/4/check_in_room"} replace 
 
 fill -115 34 136 -115 33 136 air

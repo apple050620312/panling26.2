@@ -3,5 +3,5 @@
 scoreboard players set @s food_tick 9000
 
 function pld:system/food/remove_attribute
-attribute @s generic.armor modifier add 0-0-4-0-4 "人族食物效果" 2 add
+attribute @s armor modifier add 0-0-4-0-4 "人族食物效果" 2 add
 advancement revoke @s only pld:system/food/food4

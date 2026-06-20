@@ -1,26 +1,26 @@
-execute store result score @s armor2 run attribute @s generic.armor get 100
+execute store result score @s armor2 run attribute @s armor get 100
 scoreboard players operation @s armor_display_int_part = @s armor2
 scoreboard players operation @s armor_display_int_part /= 100 int
 scoreboard players operation @s armor_display_fraction_part = @s armor2
 scoreboard players operation @s armor_display_fraction_part %= 100 int
 
-execute store result score @s armor_toughness2 run attribute @s generic.armor_toughness get 100
+execute store result score @s armor_toughness2 run attribute @s armor_toughness get 100
 scoreboard players operation @s armor_toughness_display_int_part = @s armor_toughness2
 scoreboard players operation @s armor_toughness_display_int_part /= 100 int
 scoreboard players operation @s armor_toughness_display_fraction_part = @s armor_toughness2
 scoreboard players operation @s armor_toughness_display_fraction_part %= 100 int
 
-execute store result score @s max_health2 run attribute @s generic.max_health get 100
+execute store result score @s max_health2 run attribute @s max_health get 100
 scoreboard players operation @s max_health_display_int_part = @s max_health2
 scoreboard players operation @s max_health_display_int_part /= 100 int
 scoreboard players operation @s max_health_display_fraction_part = @s max_health2
 scoreboard players operation @s max_health_display_fraction_part %= 100 int
 
-execute store result score @s movement_speed4 run attribute @s generic.movement_speed get 10000
+execute store result score @s movement_speed4 run attribute @s movement_speed get 10000
 scoreboard players operation @s movement_speed_percent = @s movement_speed4
 scoreboard players operation @s movement_speed_percent /= 10 int
 
-execute store result score @s knockback_resistance_percent run attribute @s generic.knockback_resistance get 100
+execute store result score @s knockback_resistance_percent run attribute @s knockback_resistance get 100
 
 
 
@@ -52,7 +52,7 @@ scoreboard players operation @s magic_protection_percent = @s all_protection_per
 function pld:system/warrior_attack/attribute/update
 function pld:system/warrior_attack/attribute/atk_sp/update
 
-execute store result score @s attack_damage_display2 run attribute @s generic.attack_damage get 100
+execute store result score @s attack_damage_display2 run attribute @s attack_damage get 100
 scoreboard players operation @s attack_damage_display2 = @s attack_damage1
 scoreboard players operation @s attack_damage_display2 *= 10 int
 scoreboard players operation @s attack_damage_display_int_part = @s attack_damage_display2

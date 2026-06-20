@@ -2,7 +2,7 @@
 execute at @s run summon armor_stand ~ ~1 ~ {Tags: ["entity_tick","weapon_skill_tag","not_onground"], Invulnerable:1b,ShowArms:1b,DisabledSlots: 4144896,Pose:{LeftArm: [0.0f, 0.0f, 0.0f]}, Invisible: 1b, Small: 0b, Rotation: [-180.0f, 0.0f], HandItems: [{}, {id: "minecraft:diamond_sword", Count: 1b, components:{"minecraft:custom_model_data":1,"minecraft:custom_data":{ Damage: 0}}}], ArmorItems: [{}, {}, {}, {}], NoBasePlate: 1b}
 
 #获取玩家血量的50%
-execute store result score #temp temp run attribute @s generic.max_health get 30
+execute store result score #temp temp run attribute @s max_health get 30
 scoreboard players operation #temp temp2 = @s player_uid
 
 #为幻剑赋予基础屬性

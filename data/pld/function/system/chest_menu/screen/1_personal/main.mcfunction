@@ -13,7 +13,7 @@ function pld:system/chest_menu/screen/1_personal/buttons/100
 function pld:system/chest_menu/screen/1_personal/buttons/101
 
 #外观
-item replace entity @s enderchest.14 with minecraft:diamond_chestplate[hide_additional_tooltip={},custom_name='{"translate":"pl.chest_menu.appearance"}',lore=['{"translate":"pl.chest_menu.sub_menu.lore"}'],custom_data={clickable:1,to_screen:102}]
+item replace entity @s enderchest.14 with minecraft:diamond_chestplate[custom_name='{"translate":"pl.chest_menu.appearance"}',lore=['{"translate":"pl.chest_menu.sub_menu.lore"}'],custom_data={clickable:1,to_screen:102}]
 
 
 #职业技
@@ -21,7 +21,7 @@ item replace entity @s enderchest.14 with minecraft:diamond_chestplate[hide_addi
 
 
 #设置返回按键
-item replace entity @s enderchest.26 with minecraft:clock[hide_additional_tooltip={},custom_name='{"translate":"pl.chest_menu.to_pre_screen"}',lore=['{"translate":"pl.chest_menu.pre_menu.lore"}'],custom_data={clickable:1,to_screen:0}]
+item replace entity @s enderchest.26 with minecraft:clock[custom_name='{"translate":"pl.chest_menu.to_pre_screen"}',lore=['{"translate":"pl.chest_menu.pre_menu.lore"}'],custom_data={clickable:1,to_screen:0}]
 
 #将储存数据储存到俩个按钮中 
 #从 pld:system 的 Temp_chest 到 物品的 data

@@ -5,4 +5,4 @@ execute if block 161 11 139 hopper{Items:[{components:{"minecraft:custom_data":{
 playsound random.levelup ambient @s[scores={ex_sunday=3}]
 advancement grant @s[scores={ex_sunday=3}] only pld:exploration/ex_sunday
 
-data merge block 161 11 139 {Items:[]}
+data merge block 161 11 139 {Items:}

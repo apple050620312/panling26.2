@@ -1,4 +1,4 @@
-data modify storage pld:system Temp_player_new_mails append value {sent:"§b补给品管理人-简方",is_taked:0b,title:'{"translate":"pl.mail.supply.name"}',content:['{"translate":"pl.mail.supply_plus.lore.a"}','{"translate":"pl.mail.supply_plus.lore.b"}','{"translate":"pl.mail.supply_plus.lore.c"}'],attached_items:[]}
+data modify storage pld:system Temp_player_new_mails append value {sent:"§b补给品管理人-简方",is_taked:0b,title:'{"translate":"pl.mail.supply.name"}',content:['{"translate":"pl.mail.supply_plus.lore.a"}','{"translate":"pl.mail.supply_plus.lore.b"}','{"translate":"pl.mail.supply_plus.lore.c"}'],attached_items:}
 loot replace block 0 -1 0 container.0 loot pld:items/money4
 data modify block 0 -1 0 Items[0].Count set value 2b
 

@@ -19,5 +19,5 @@ data modify block ~3 ~-1 ~ Items[{Slot:5b}].tag.named set value 1
 
 #重置方块
 setblock ~ ~2 ~ air
-data merge block ~ ~1 ~ {Items:[]}
+data merge block ~ ~1 ~ {Items:}
 

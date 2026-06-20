@@ -3,7 +3,7 @@
 data merge block 122 50 795 {front_text:{messages:['{"translate":"pl.sign.south1.text1"}','{"translate":"pl.sign.south4.text2"}','{"translate":""}','{"translate":"pl.sign.south8.text4"}']}}
 setblock 122 44 805 minecraft:command_block{Command:"function pld:npcs/south/texian"} replace
 setblock 122 28 814 minecraft:command_block{Command:"function pld:npcs/south/sh4"} replace
-data merge block 121 47 811 {Items:[]}
+data merge block 121 47 811 {Items:}
 setblock 121 47 809 minecraft:repeating_command_block{Command:"function pld:system/truth/shen/4/check_in_room"} replace 
 
 data merge block 124 33 817 {front_text:{messages:['{"translate":""}','{"translate":"pl.sign.sh4.text2"}','{"translate":"pl.sign.sh4.text3"}','{"translate":""}']}}

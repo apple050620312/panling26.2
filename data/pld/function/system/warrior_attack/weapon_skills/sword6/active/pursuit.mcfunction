@@ -1,5 +1,5 @@
 #输入傷害值
-execute store result score #temp entity_hurt_temp run attribute @s generic.max_health get 20
+execute store result score #temp entity_hurt_temp run attribute @s max_health get 20
 
 #受伤函数
 tag @s add if_death_count

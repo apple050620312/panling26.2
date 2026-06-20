@@ -87,16 +87,16 @@ scoreboard players set @s test_cool -1
 #重生点标记
 scoreboard players set @s spwanpoint 8
 #给予支线任务屬性奖励
-attribute @s[scores={race=0,ex_shen=1}] minecraft:generic.max_health modifier add 0-0-0-2-0 "神族支线奖励-生命" 2 add 
-attribute @s[scores={race=0,ex_shen=1}] minecraft:generic.armor_toughness modifier add 0-0-0-2-0 "神族支线奖励-韧性" 1 add
-attribute @s[scores={race=1,ex_yao=1}] minecraft:generic.max_health modifier add 0-0-0-2-1 "妖族支线奖励-生命" 2 add 
-attribute @s[scores={race=1,ex_yao=1}] minecraft:generic.movement_speed modifier add 0-0-0-2-1 "妖族支线奖励-速度" 0.05 multiply_base
-attribute @s[scores={race=2,ex_xian=1}] minecraft:generic.max_health modifier add 0-0-0-2-2 "仙族支线奖励-生命" 2 add 
-attribute @s[scores={race=2,ex_xian=1}] minecraft:generic.knockback_resistance modifier add 0-0-0-2-2 "仙族支线奖励-抗性" 0.2 add
-attribute @s[scores={race=3,ex_zhan=1}] minecraft:generic.armor modifier add 0-0-0-2-3 "战神族支线奖励-護甲" 2 add 
-attribute @s[scores={race=3,ex_zhan=1}] minecraft:generic.attack_damage modifier add 0-0-0-2-3 "战神族支线奖励-近战攻击" 1 add
-attribute @s[scores={race=4,ex_ren=1}] minecraft:generic.max_health modifier add 0-0-0-2-4 "人族支线奖励-生命" 2 add 
-attribute @s[scores={race=4,ex_ren=1}] minecraft:generic.armor_toughness modifier add 0-0-0-2-4 "人族支线奖励-韧性" 1 add
+attribute @s[scores={race=0,ex_shen=1}] minecraft:max_health modifier add 0-0-0-2-0 "神族支线奖励-生命" 2 add 
+attribute @s[scores={race=0,ex_shen=1}] minecraft:armor_toughness modifier add 0-0-0-2-0 "神族支线奖励-韧性" 1 add
+attribute @s[scores={race=1,ex_yao=1}] minecraft:max_health modifier add 0-0-0-2-1 "妖族支线奖励-生命" 2 add 
+attribute @s[scores={race=1,ex_yao=1}] minecraft:movement_speed modifier add 0-0-0-2-1 "妖族支线奖励-速度" 0.05 multiply_base
+attribute @s[scores={race=2,ex_xian=1}] minecraft:max_health modifier add 0-0-0-2-2 "仙族支线奖励-生命" 2 add 
+attribute @s[scores={race=2,ex_xian=1}] minecraft:knockback_resistance modifier add 0-0-0-2-2 "仙族支线奖励-抗性" 0.2 add
+attribute @s[scores={race=3,ex_zhan=1}] minecraft:armor modifier add 0-0-0-2-3 "战神族支线奖励-護甲" 2 add 
+attribute @s[scores={race=3,ex_zhan=1}] minecraft:attack_damage modifier add 0-0-0-2-3 "战神族支线奖励-近战攻击" 1 add
+attribute @s[scores={race=4,ex_ren=1}] minecraft:max_health modifier add 0-0-0-2-4 "人族支线奖励-生命" 2 add 
+attribute @s[scores={race=4,ex_ren=1}] minecraft:armor_toughness modifier add 0-0-0-2-4 "人族支线奖励-韧性" 1 add
 #设置补给时间
 scoreboard players set @s supply5ticks 36000
 

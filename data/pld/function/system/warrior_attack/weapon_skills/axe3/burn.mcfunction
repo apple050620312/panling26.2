@@ -7,7 +7,7 @@ data merge entity @s {Fire:100s}
 #损失10%最大生命值的血量
 
 #获取最大血量值
-execute store result score @s entity_4max_health run attribute @s generic.max_health get 10000 
+execute store result score @s entity_4max_health run attribute @s max_health get 10000 
 scoreboard players set #temp temp 10
 scoreboard players operation @s entity_hurt_final = @s entity_4max_health
 scoreboard players operation @s entity_hurt_final /= #temp temp

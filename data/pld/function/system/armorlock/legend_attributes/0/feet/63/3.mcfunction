@@ -1,1 +1,1 @@
-attribute @s generic.attack_damage modifier add 10-4-4-4-4 "神器-九天玄羽-基础攻击加成" 2 add
+attribute @s attack_damage modifier add 10-4-4-4-4 "神器-九天玄羽-基础攻击加成" 2 add

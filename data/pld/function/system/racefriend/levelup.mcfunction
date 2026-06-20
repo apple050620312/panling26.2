@@ -3,5 +3,5 @@ execute if block 53 6 21 hopper{Items:[{components:{"minecraft:custom_data":{id:
 execute if block 53 6 21 hopper{Items:[{components:{"minecraft:custom_data":{id:"panling:yh2"}}}]} run function pld:system/racefriend/level_ups/levelup2
 execute if block 53 6 21 hopper{Items:[{components:{"minecraft:custom_data":{id:"panling:yh3"}}}]} run function pld:system/racefriend/level_ups/levelup3
 execute if block 53 6 21 hopper{Items:[{components:{"minecraft:custom_data":{id:"panling:yh4"}}}]} run function pld:system/racefriend/level_ups/levelup4
-data merge block 53 6 21 {Items:[]}
-data merge block 53 7 21 {Items:[]}
+data merge block 53 6 21 {Items:}
+data merge block 53 7 21 {Items:}

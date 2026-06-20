@@ -13,7 +13,7 @@ setblock -329 98 -415 minecraft:spawner{SpawnPotentials:[{data:{entity:{id:"mine
 setblock -334 98 -425 minecraft:spawner{SpawnPotentials:[{data:{entity:{id:"minecraft:falling_block",NoGravity:1,Pos:[-333.5,104.0,-424.5],Tags:["te17","wither_skeleton"],Silent:1b,DropItem:0b,HurtEntities:0b,BlockState:{Name:"barrier"}}},weight:1}],MaxNearbyEntities:2s,RequiredPlayerRange:18s,SpawnCount:1s,MaxSpawnDelay:1000s,MinSpawnDelay:400s,SpawnRange:4s,Delay:10s} destroy
 setblock -335 98 -428 minecraft:spawner{SpawnPotentials:[{data:{entity:{id:"minecraft:falling_block",NoGravity:1,Pos:[-334.5,104.0,-427.5],Tags:["te17","skeleton"],Silent:1b,DropItem:0b,HurtEntities:0b,BlockState:{Name:"barrier"}}},weight:1}],MaxNearbyEntities:2s,RequiredPlayerRange:18s,SpawnCount:1s,MaxSpawnDelay:1000s,MinSpawnDelay:400s,SpawnRange:4s,Delay:10s} destroy
 
-data merge block -321 114 -424 {Items:[]}
+data merge block -321 114 -424 {Items:}
 kill @e[type=villager,tag=!panling]
 execute positioned -319 110 -423 run function pld:npcs/north/te16
 execute positioned -324 92 -424 run function pld:npcs/north/te18

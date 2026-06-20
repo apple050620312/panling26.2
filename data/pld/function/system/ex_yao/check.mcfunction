@@ -1,3 +1,3 @@
 execute if block 9 47 827 hopper{Items:[{Slot:0b,components:{"minecraft:custom_data":{id:"panling:ye"}}}]} as @p[x=9,y=48,z=827,distance=..5,scores={race=1}] unless entity @s[scores={ex_yao=1}] run tp @s 5 35 823 -90 0
 execute if block 9 47 827 hopper{Items:[{Slot:0b,components:{"minecraft:custom_data":{id:"panling:ye"}}}]} as @p[x=9,y=48,z=827,distance=..5,scores={race=1,ex_yao=1}] run tellraw @s {"translate": "pl.info.ye_in_resistance"}
-data merge block 9 47 827 {Items:[]}
+data merge block 9 47 827 {Items:}

@@ -6,4 +6,4 @@ scoreboard players operation temp int -= mail_count0 int
 function pld:system/chest_menu/screen/3_mails/delete_mails/select_mails
 
 #合并
-data modify storage pld:system temp_mail_taken0 append from storage pld:system temp_mails[]
+data modify storage pld:system temp_mail_taken0 append from storage pld:system temp_mails

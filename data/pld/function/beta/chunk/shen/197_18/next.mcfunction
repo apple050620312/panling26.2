@@ -6,7 +6,7 @@ setblock 3165 77 278 minecraft:command_block{Command:"function pld:npcs/shen/gua
 
 setblock 3162 75 296 minecraft:command_block{Command:"function pld:system/rechoose/rechoose"} replace 
 
-data merge block 3160 75 296 {Items:[]}
+data merge block 3160 75 296 {Items:}
 execute as @e[type=skeleton] run function pld:system/tp_and_kill_self
 execute positioned 3165 77 278 run function pld:npcs/shen/guard
 

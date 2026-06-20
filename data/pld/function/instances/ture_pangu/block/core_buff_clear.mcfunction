@@ -1,1 +1,1 @@
-attribute @s generic.movement_speed modifier remove 10-0-0-0-0
+attribute @s movement_speed modifier remove 10-0-0-0-0

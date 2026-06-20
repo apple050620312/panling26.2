@@ -4,7 +4,7 @@ data merge block 851 59 -82 {front_text:{messages:['{"translate":"pl.sign.east6.
 setblock 807 21 -70 minecraft:command_block{Command:"function pld:npcs/east/re2"} replace 
 
 setblock 803 24 -70 minecraft:repeating_command_block{Command:"function pld:system/ex_ren/re_check"} replace 
-data merge block 805 24 -70 {Items:[]}
+data merge block 805 24 -70 {Items:}
 
 setblock 816 25 -76 minecraft:command_block{Command:"execute as @p[x=796,y=18,z=-99,dx=41,dy=27,dz=57,scores={re_kill_bunny=1..}] run function pld:system/ex_ren/kill_rabbit"} replace 
 kill @e[type=villager,tag=!panling]

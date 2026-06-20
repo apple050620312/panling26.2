@@ -5,5 +5,5 @@ execute if block -321 114 -424 minecraft:dropper{Items:[{Slot:0b,components:{"mi
 
 
 
-data merge block -321 114 -424 {Items:[]}
-data merge block -321 115 -424 {Items:[]}
+data merge block -321 114 -424 {Items:}
+data merge block -321 115 -424 {Items:}

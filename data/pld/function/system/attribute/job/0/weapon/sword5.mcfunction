@@ -1,4 +1,4 @@
-attribute @s minecraft:generic.max_health modifier add 1-5-5-5-5 "武器屬性-最终生命" 0.2 multiply
-attribute @s minecraft:generic.armor modifier add 1-5-5-5-5 "武器屬性-盔甲" 2 add
-attribute @s minecraft:generic.armor_toughness modifier add 1-5-5-5-5 "武器屬性-盔甲韧性" 2 add
-attribute @s minecraft:generic.knockback_resistance modifier add 1-5-5-5-5 "武器屬性-抗击退率" 0.4 add
+attribute @s minecraft:max_health modifier add 1-5-5-5-5 "武器屬性-最终生命" 0.2 multiply
+attribute @s minecraft:armor modifier add 1-5-5-5-5 "武器屬性-盔甲" 2 add
+attribute @s minecraft:armor_toughness modifier add 1-5-5-5-5 "武器屬性-盔甲韧性" 2 add
+attribute @s minecraft:knockback_resistance modifier add 1-5-5-5-5 "武器屬性-抗击退率" 0.4 add

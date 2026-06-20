@@ -1,4 +1,4 @@
-data modify storage pld:system Temp_player_new_mails append value {sent:"天道",is_taked:0b,title:'{"translate":"pl.chest_menu.system_lost.name"}',content:['{"translate":"pl.chest_menu.system_lost.lore.a"}','{"translate":"pl.chest_menu.system_lost.lore.b"}'],attached_items:[]}
+data modify storage pld:system Temp_player_new_mails append value {sent:"天道",is_taked:0b,title:'{"translate":"pl.chest_menu.system_lost.name"}',content:['{"translate":"pl.chest_menu.system_lost.lore.a"}','{"translate":"pl.chest_menu.system_lost.lore.b"}'],attached_items:}
 
 loot replace block 0 -1 0 container.0 loot pld:items/metal
 data modify block 0 -1 0 Items[0].Count set value 5b

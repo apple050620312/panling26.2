@@ -5,7 +5,7 @@ execute if score #updated int matches 1 unless data block ~ 255 ~ Items[0].tag.P
 execute if block ~ 255 ~ chest{Items:[{id:"minecraft:wooden_pickaxe",components:{"minecraft:custom_data":{is_bow:1b}}}]} run data modify block ~ 255 ~ Items[0].id set value "minecraft:bow"
 execute if block ~ 255 ~ chest{Items:[{id:"minecraft:wooden_pickaxe",components:{"minecraft:custom_data":{is_crossbow:1b}}}]} run data modify block ~ 255 ~ Items[0].id set value "minecraft:crossbow"
 #清理待激活裝備的附魔
-data modify block ~ 255 ~ Items[0].tag.Enchantments set value []
+data modify block ~ 255 ~ Items[0].tag.Enchantments set value 
 
 #弩附魔
 execute if block ~ 255 ~ chest{Items:[{id:"minecraft:crossbow"}]} run data modify block ~ 255 ~ Items[0].components."minecraft:enchantments"."minecraft:quick_charge" set value 2
