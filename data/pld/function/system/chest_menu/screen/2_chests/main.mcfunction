@@ -6,7 +6,8 @@ scoreboard players set @s screen 2
 execute unless score @s chests_enabled matches 1.. run scoreboard players set @s chests_enabled 1
 
 #功能按键
-execute if score @s chests_enabled matches 1..21 store result storage pld:macro id int 1 run scoreboard players get @s chests_enabled\nexecute if score @s chests_enabled matches 1..21 run function pld:system/chest_menu/screen/2_chests/screens/macro_call with storage pld:macro\n
+execute if score @s chests_enabled matches 1..21 store result storage pld:macro id int 1 run scoreboard players get @s chests_enabled
+execute if score @s chests_enabled matches 1..21 run function pld:system/chest_menu/screen/2_chests/screens/macro_call with storage pld:macro
 #设置返回按键
 item replace entity @s enderchest.8 with minecraft:gray_stained_glass_pane[custom_name='{"translate":"pl.chest_menu.nothing"}',custom_data={clickable:1,reset_self_i:4}]
 item replace entity @s enderchest.17 with minecraft:gray_stained_glass_pane[custom_name='{"translate":"pl.chest_menu.nothing"}',custom_data={clickable:1,reset_self_i:5}]
