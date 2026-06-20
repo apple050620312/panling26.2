@@ -23,7 +23,7 @@ execute as @e[type=villager,tag=core_npc] if score @s npc_health matches 141..16
 execute as @e[type=villager,tag=core_npc] if score @s npc_health matches 161..180 run data merge entity @s {CustomName:'{"translate":"pl.npc.name.final_battle.npc_health9"}'}
 #execute as @e[type=villager,tag=core_npc,distance=..3] if score @s npc_health matches 91..100 run data merge entity @s {CustomName:'{"translate":"pl.npc.name.final_battle.npc_health10"}'}
 
-#如果村民血量降到0以及以下 护送失败 重置流程
+#如果村民血量降到0以及以下 护送失敗 重置流程
 execute as @e[type=villager,tag=core_npc] if score @s npc_health matches ..0 if score #system final_battle_stage matches 1 run function pld:instances/ture_pangu/stage/1/p2_fail
 execute as @e[type=villager,tag=core_npc] if score @s npc_health matches ..0 if score #system final_battle_stage matches 2 run function pld:instances/ture_pangu/stage/2/p2_fail
 execute as @e[type=villager,tag=core_npc] if score @s npc_health matches ..0 if score #system final_battle_stage matches 3 run function pld:instances/ture_pangu/stage/3/p2_fail

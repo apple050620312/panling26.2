@@ -25,7 +25,7 @@ execute if score #system in3_-1f_phase matches 2 if score #system in3_boss1_skil
 #检查傀儡被击杀，过关
 execute if score #system in3_-1f_phase matches 2 if entity @e[type=armor_stand,tag=in30_-1] unless entity @e[tag=in30_boss1,x=2791,y=30,z=-763,distance=..21] run function pld:instances/instance3_0/floors/-1/success
 
-#时间到 没有击杀傀儡 则失败
+#时间到 没有击杀傀儡 则失敗
 execute if score #system in3_-1f_phase matches 1.. if score #system in3_-1f_time matches 0.. run scoreboard players remove #system in3_-1f_time 1
 execute if score #system in3_-1f_phase matches 1.. if score #system in3_-1f_time matches 0 run function pld:instances/instance3_0/floors/-1/fail
 

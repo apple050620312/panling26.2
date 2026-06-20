@@ -1,6 +1,6 @@
 #副本计时
 execute if score #system instance1_tick matches 0.. run scoreboard players remove #system instance1_tick 1
-#失败判定
+#失敗判定
 execute if score #system instance1_phase matches 2 unless score #system instance1_fail2 matches 1 if score #system instance1_tick matches 0 run function pld:instances/instance1/phase2_fail
 
 #阶段一tick

@@ -1,20 +1,20 @@
 #播放入场动画倒计时
-scoreboard objectives add instance5_intick dummy ["假盘古入场倒计时"]
+scoreboard objectives add instance5_intick dummy ["假盤古入场倒计时"]
 
 #进本缓冲
-scoreboard objectives add instance5_reset dummy ["假盘古缓冲阶段判定"]
+scoreboard objectives add instance5_reset dummy ["假盤古缓冲阶段判定"]
 
 
 #阶段判定
-scoreboard objectives add instance5_phase dummy ["假盘古阶段标记"]
+scoreboard objectives add instance5_phase dummy ["假盤古阶段标记"]
 #长老帮助计时
-scoreboard objectives add instance5_helptk dummy ["假盘古长老帮助标记"]
+scoreboard objectives add instance5_helptk dummy ["假盤古长老帮助标记"]
 #盘古血量
-scoreboard objectives add instance5_bosshp dummy ["假盘古血量"]
+scoreboard objectives add instance5_bosshp dummy ["假盤古血量"]
 #破阵数量
 scoreboard objectives add instance5_skillx dummy ["破阵数量"]
 #玩家复活次数
-scoreboard objectives add instance5_relife dummy ["假盘古玩家复活次数"]
+scoreboard objectives add instance5_relife dummy ["假盤古玩家复活次数"]
 
 #bossbar
 bossbar add pl:instance5_boss {"translate": "pl.bossbar.instance5_boss"}

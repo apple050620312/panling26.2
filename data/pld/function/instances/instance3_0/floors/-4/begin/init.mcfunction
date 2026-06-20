@@ -37,7 +37,7 @@ function pld:instances/instance3_0/floors/-4/skill/double_sword/clear
 #重置场地方块
 function pld:instances/instance3_0/floors/-4/skill/explode/eye/clear
 
-#全体进入镇妖塔地下四层
+#全体进入鎮妖塔地下四层
 scoreboard players set @a[x=2761,y=31,z=-761,distance=..6,limit=5] instance3_floor -4
 #scoreboard players remove @a[x=2761,y=31,z=-761,distance=..6,limit=5] racefriend2 4
 scoreboard players remove @a[x=2761,y=31,z=-761,distance=..6,limit=5] instance3_kill 0

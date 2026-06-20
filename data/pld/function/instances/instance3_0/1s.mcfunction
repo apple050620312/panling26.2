@@ -1,4 +1,4 @@
-#镇妖塔地下层bossbar
+#鎮妖塔地下層bossbar
 bossbar set pld:instance3_0_floor1 players @a[x=2791,y=30,z=-763,distance=..21]
 bossbar set pld:instance3_0_boss1hp players @a[x=2791,y=30,z=-763,distance=..21]
 

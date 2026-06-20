@@ -15,7 +15,7 @@ scoreboard players set #system in3_-1f_sumt 100
 bossbar set pld:instance3_0_floor1 visible true
 bossbar set pld:instance3_0_boss1hp visible false
 
-#全体进入镇妖塔地下一层
+#全体进入鎮妖塔地下一层
 scoreboard players set @a[x=-200,y=52,z=-185,distance=..6,level=40..] instance3_floor -1
 #scoreboard players remove @a[x=-200,y=52,z=-185,distance=..6,level=40..] racefriend2 2
 scoreboard players remove @a[x=-200,y=52,z=-185,distance=..6,level=40..] instance3_kill 0

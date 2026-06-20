@@ -1,4 +1,4 @@
-#失败判定
+#失敗判定
 execute unless score #system instance1_fail1 matches 1 if score #system instance1_tick matches 0 run function pld:instances/instance1/phase1_fail
 
 #检测阶段1杀怪

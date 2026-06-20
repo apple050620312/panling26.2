@@ -18,12 +18,12 @@ tag @a remove eye_1
 execute positioned 2834.5 31 -858.5 if block 2834 30 -859 end_stone run tag @a[distance=..3.5] add eye_1
 execute positioned 2834.5 31 -838.5 if block 2834 30 -839 bedrock run tag @a[distance=..3.5] add eye_0
 #如果检查到掉落物品 就把对应位置染色
-execute positioned 2834.5 31 -858.5 if entity @e[distance=..4.5,type=item,nbt={Item:{tag:{instance:30}}}] run function pld:instances/instance3_0/floors/-4/skill/explode/eye/0/0
-execute positioned 2834.5 31 -858.5 if entity @e[distance=..4.5,type=item,nbt={Item:{tag:{instance:31}}}] run function pld:instances/instance3_0/floors/-4/skill/explode/eye/0/1
-execute positioned 2834.5 31 -838.5 if entity @e[distance=..4.5,type=item,nbt={Item:{tag:{instance:30}}}] run function pld:instances/instance3_0/floors/-4/skill/explode/eye/1/0
-execute positioned 2834.5 31 -838.5 if entity @e[distance=..4.5,type=item,nbt={Item:{tag:{instance:31}}}] run function pld:instances/instance3_0/floors/-4/skill/explode/eye/1/1
-execute as @e[type=item,nbt={Item:{tag:{instance:31}}}] run kill @s
-execute as @e[type=item,nbt={Item:{tag:{instance:30}}}] run kill @s
+execute positioned 2834.5 31 -858.5 if entity @e[distance=..4.5,type=item,nbt={Item:{components:{"minecraft:custom_data":{instance:30}}}}] run function pld:instances/instance3_0/floors/-4/skill/explode/eye/0/0
+execute positioned 2834.5 31 -858.5 if entity @e[distance=..4.5,type=item,nbt={Item:{components:{"minecraft:custom_data":{instance:31}}}}] run function pld:instances/instance3_0/floors/-4/skill/explode/eye/0/1
+execute positioned 2834.5 31 -838.5 if entity @e[distance=..4.5,type=item,nbt={Item:{components:{"minecraft:custom_data":{instance:30}}}}] run function pld:instances/instance3_0/floors/-4/skill/explode/eye/1/0
+execute positioned 2834.5 31 -838.5 if entity @e[distance=..4.5,type=item,nbt={Item:{components:{"minecraft:custom_data":{instance:31}}}}] run function pld:instances/instance3_0/floors/-4/skill/explode/eye/1/1
+execute as @e[type=item,nbt={Item:{components:{"minecraft:custom_data":{instance:31}}}}] run kill @s
+execute as @e[type=item,nbt={Item:{components:{"minecraft:custom_data":{instance:30}}}}] run kill @s
 execute as @a[nbt={Inventory:[{tag:{instance:30}}]}] run function pld:instances/instance3_0/floors/-4/skill/explode/eye/player/0
 execute as @a[nbt={Inventory:[{tag:{instance:31}}]}] run function pld:instances/instance3_0/floors/-4/skill/explode/eye/player/1
 #bossbar

@@ -20,7 +20,7 @@ scoreboard players set @a kill_green 0
 scoreboard players set @a kill_red 0
 scoreboard players set @a kill_white 0
 
-#重置副本失败判定
+#重置副本失敗判定
 scoreboard players set #system instance1_failed 0
 #玩家进图
 tp @a[x=2841,y=28,z=-416,dx=2,dy=5,dz=4,limit=5] 2839 70 -414

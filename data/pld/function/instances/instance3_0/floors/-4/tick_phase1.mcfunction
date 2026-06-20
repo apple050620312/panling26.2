@@ -32,7 +32,7 @@ execute store result bossbar pld:instance3_0_boss4hp value run scoreboard player
 #检查boss被击杀，过关
 execute if entity @e[type=armor_stand,tag=in30_-4] unless entity @e[tag=in30_boss4] run function pld:instances/instance3_0/floors/-4/success
 
-#时间到 没有击杀boss 则失败
+#时间到 没有击杀boss 则失敗
 execute if score #system in3_-4f_time matches 0.. run scoreboard players remove #system in3_-4f_time 1
 execute if score #system in3_-4f_time matches 0 run function pld:instances/instance3_0/floors/-4/fail
 

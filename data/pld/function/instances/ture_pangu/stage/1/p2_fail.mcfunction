@@ -1,4 +1,4 @@
-#失败信息
+#失敗信息
 tellraw @a {"translate":"pl.info.final_battle.p2_fail"}
 
 #重置p2:

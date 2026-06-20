@@ -15,7 +15,7 @@ scoreboard objectives add instance2_armor dummy
 scoreboard objectives add instance2_tick dummy
 #火焰魔王-动画倒计时
 scoreboard objectives add instance2_partic dummy
-#火焰魔王-失败累计次数
+#火焰魔王-失敗累计次数
 scoreboard objectives add instance2_failed dummy
 #火焰魔王-灼焰伤害等级
 scoreboard objectives add instance2_firelv dummy
