@@ -1,4 +1,4 @@
-# 当前已加载版本 #version int 10003
+# 當前已加載版本 #version int 10003
 function pld:beta/loadscb
 function pld:system/dz/load
 function pld:pre/load
@@ -53,14 +53,14 @@ function pld:system/rechoose/load
 function pld:ticks/5s
 function pld:ticks/15s
 
-scoreboard objectives add test_cool dummy ["试炼重进冷却"]
+scoreboard objectives add test_cool dummy ["試煉重進冷卻"]
 #姜太公
 scoreboard objectives add count_jiang_tai_gong dummy
 
-#强加载位置
-#假盘强加载
+#強加載位置
+#假盤強加載
 forceload add 3191 -1877 3059 -1895
-#神族领地皇城点
+#神族領地皇城點
 forceload add 3162 106
 forceload add 3167 939
 forceload add 1598 122
