@@ -4,7 +4,7 @@ execute if score @s process_xian_hide matches 2 run function pld:system/truth/xi
 execute unless score @s process_xian_hide matches 1.. run function pld:system/truth/xian/1/check/check_pos
 
 #回收书本
-clear @s written_book{id:"panling:book_xh1"}
+clear @s written_book[custom_data={id:"panling:book_xh1"}]
 
 #重置激活记分板
 scoreboard players set @s trigger_xian_hide 0

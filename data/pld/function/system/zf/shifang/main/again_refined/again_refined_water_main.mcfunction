@@ -14,7 +14,7 @@ execute as @s[scores={zf_lvl=4}] store success score @s zfsuccess run effect giv
 
 #扣除元素
 function pld:system/zf/l6_check
-clear @s[scores={zfsuccess=1,ldl6success=1}] minecraft:wheat_seeds{id:"panling:again_refined_water"} 1
+clear @s[scores={zfsuccess=1,ldl6success=1}] minecraft:wheat_seeds[custom_data={id:"panling:again_refined_water"}] 1
 
 #信息
 #execute at @s[scores={zfsuccess=1}] run tellraw @a[distance=..10] {"text":"","extra":[{"text":"☯☯☯","color":"blue"},{"selector":"@s","color":"yellow"},{"translate":"pl.info.zfwater3","color":"blue"}]}

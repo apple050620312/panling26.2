@@ -2,7 +2,7 @@
 #要做的事
 data merge block 260 45 52 {front_text:{messages:['{"translate":""}','{"translate":"pl.sign.middle42.text2"}','{"translate":"pl.sign.middle42.text3"}','{"translate":""}']}}
 data merge block 263 45 52 {front_text:{messages:['{"translate":""}','{"translate":"pl.sign.middle42.text2"}','{"translate":"pl.sign.middle42.text3"}','{"translate":""}']}}
-setblock 257 46 32 minecraft:command_block{Command:"function pld:npcs/middle/tong12"} replace 
+setblock 257 46 32 minecraft:command_block[custom_data={Command:"function pld:npcs/middle/tong12"}] replace 
 setblock 265 25 32 structure_block{metadata: "", mirror: "NONE", ignoreEntities: 1b, powered: 0b, seed: 0L, author: "yl_jiu_qiu", rotation: "NONE", posX: 0, mode: "LOAD", posY: 1, sizeX: 23, posZ: 0, integrity: 1.0f, showair: 0b,  name: "pld:ldf", sizeY: 11, sizeZ: 22, showboundingbox: 1b}
 setblock 265 26 32 minecraft:redstone_block
 

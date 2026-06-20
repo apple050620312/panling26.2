@@ -1,6 +1,6 @@
 #要做的事
 data merge block 327 39 -655 {front_text:{messages:['{"translate":""}','{"translate":"pl.sign.penglai6.text2"}','{"translate":""}','{"translate":""}']}}
-setblock 330 40 -662 minecraft:command_block{Command:"function pld:npcs/penglai/yaomain8"} replace 
+setblock 330 40 -662 minecraft:command_block[custom_data={Command:"function pld:npcs/penglai/yaomain8"}] replace 
 kill @e[type=villager,tag=!panling]
 execute positioned 330 40 -662 run function pld:npcs/penglai/yaomain8
 #区块卸载

@@ -17,14 +17,14 @@ execute store result score player_mail_count int run data get storage pld:system
 function pld:system/chest_menu/screen/3_mails/buttons/page2/check
 
 #上翻页
-item replace entity @s enderchest.8 with minecraft:wooden_axe{clickable:1,to_page:1,CustomModelData:5,HideFlags:63,display:{Name:'{"translate":"pl.chest_menu.page_up"}'}}
+item replace entity @s enderchest.8 with minecraft:wooden_axe[custom_model_data=5,hide_additional_tooltip={},custom_name='{"translate":"pl.chest_menu.page_up"}',custom_data={clickable:1,to_page:1}]
 #下翻页-占位符
-execute if score player_mail_count int matches ..42 run item replace entity @s enderchest.17 with minecraft:black_stained_glass_pane{clickable:1,reset_self_id:8,HideFlags:63,display:{Name:'{"translate":"pl.chest_menu.invalid_page_down"}'}}
+execute if score player_mail_count int matches ..42 run item replace entity @s enderchest.17 with minecraft:black_stained_glass_pane[hide_additional_tooltip={},custom_name='{"translate":"pl.chest_menu.invalid_page_down"}',custom_data={clickable:1,reset_self_id:8}]
 #下翻页
-execute if score player_mail_count int matches 43.. run item replace entity @s enderchest.17 with minecraft:wooden_axe{clickable:1,to_page:3,CustomModelData:6,HideFlags:63,display:{Name:'{"translate":"pl.chest_menu.page_down"}'}}
+execute if score player_mail_count int matches 43.. run item replace entity @s enderchest.17 with minecraft:wooden_axe[custom_model_data=6,hide_additional_tooltip={},custom_name='{"translate":"pl.chest_menu.page_down"}',custom_data={clickable:1,to_page:3}]
 
 #设置返回按键
-item replace entity @s enderchest.26 with minecraft:clock{clickable:1,to_screen:0,HideFlags:63,display:{Name:'{"translate":"pl.chest_menu.to_pre_screen"}',Lore:['{"translate":"pl.chest_menu.pre_menu.lore"}']}}
+item replace entity @s enderchest.26 with minecraft:clock[hide_additional_tooltip={},custom_name='{"translate":"pl.chest_menu.to_pre_screen"}',lore=['{"translate":"pl.chest_menu.pre_menu.lore"}'],custom_data={clickable:1,to_screen:0}]
 
 #将储存数据储存到俩个按钮中 
 #从 pld:system 的 Temp_chest 到 物品的 data

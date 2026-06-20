@@ -13,7 +13,7 @@ execute as @s[scores={zfsuccess=1,zf_lvl=4}] run effect give @p[distance=..5,lim
 
 #扣除元素
 function pld:system/zf/l6_check
-clear @s[scores={zfsuccess=1,ldl6success=1}] minecraft:bone{id:"panling:wood"} 1
+clear @s[scores={zfsuccess=1,ldl6success=1}] minecraft:bone[custom_data={id:"panling:wood"}] 1
 
 #信息
 #execute at @s[scores={zfsuccess=1}] run tellraw @a[distance=..5] {"text":"","extra":[{"text":"☯","color":"green"},{"selector":"@s","color":"yellow"},{"translate":"pl.info.zfwood1","color":"green"}]}

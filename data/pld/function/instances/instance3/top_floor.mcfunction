@@ -12,8 +12,8 @@ scoreboard players set #system instance3_bosshp 10
 tp @a[x=2664,y=70,z=-939,distance=..10,limit=5] 2715 69 -885
 scoreboard players set @a[x=2695,y=68,z=-905,dx=40,dy=10,dz=40] instance3_floor 10
 
-clear @a[x=2695,y=68,z=-905,dx=40,dy=10,dz=40] gray_dye{id:"panling:instance3_0"}
-clear @a[x=2695,y=68,z=-905,dx=40,dy=10,dz=40] cyan_dye{id:"panling:instance3_1"}
+clear @a[x=2695,y=68,z=-905,dx=40,dy=10,dz=40] gray_dye[custom_data={id:"panling:instance3_0"}]
+clear @a[x=2695,y=68,z=-905,dx=40,dy=10,dz=40] cyan_dye[custom_data={id:"panling:instance3_1"}]
 
 #好感度移除
 #tellraw @a[x=2695,y=68,z=-905,dx=40,dy=10,dz=40] {"translate": "pl.info.instance3.top_friend"}

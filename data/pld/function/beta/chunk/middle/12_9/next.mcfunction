@@ -1,8 +1,8 @@
 #要做的事
-setblock 202 41 156 minecraft:command_block{Command:"function pld:npcs/middle/chat36"} replace 
+setblock 202 41 156 minecraft:command_block[custom_data={Command:"function pld:npcs/middle/chat36"}] replace 
 kill @e[type=villager,tag=!panling]
 execute positioned 202 41 156 run function pld:npcs/middle/chat36
-setblock 196 44 174 minecraft:command_block{Command:"tp @p[distance=..3] 1351 38 537 -180 0"} replace 
+setblock 196 44 174 minecraft:command_block[custom_data={Command:"tp @p[distance=..3] 1351 38 537 -180 0"}] replace 
 
 #区块卸载
 forceload remove 203 153 196 174

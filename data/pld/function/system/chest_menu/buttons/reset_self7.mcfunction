@@ -1,8 +1,8 @@
 #返还此位置的物品，如果有
 data merge block 0 -1 0 {Items:[]}
 item replace block 0 -1 0 container.0 from entity @s enderchest.8
-execute unless data block 0 -1 0 Items[0].tag.clickable run loot give @s mine 0 -1 0 minecraft:diamond_pickaxe{isShulkerMarker:1b}
+execute unless data block 0 -1 0 Items[0].tag.clickable run loot give @s mine 0 -1 0 minecraft:diamond_pickaxe[custom_data={isShulkerMarker:1b}]
 
-item replace entity @s enderchest.8 with minecraft:black_stained_glass_pane{clickable:1,reset_self_id:7,HideFlags:63,display:{Name:'{"translate":"pl.chest_menu.invalid_page_up"}'}}
+item replace entity @s enderchest.8 with minecraft:black_stained_glass_pane[hide_additional_tooltip={},custom_name='{"translate":"pl.chest_menu.invalid_page_up"}',custom_data={clickable:1,reset_self_id:7}]
 
 

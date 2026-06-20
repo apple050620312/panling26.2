@@ -12,8 +12,8 @@ data merge block 1363 57 -1818 {front_text:{messages:['{"translate":""}','{"tran
 data merge block 1354 57 -1826 {front_text:{messages:['{"translate":"pl.sign.pvp_leave.text1"}','{"translate":"pl.sign.pvp_leave.text2"}','{"translate":"pl.sign.pvp_leave.text3"}','{"translate":"pl.sign.pvp_leave.text4"}']}}
 data merge block 1361 57 -1826 {front_text:{messages:['{"translate":"pl.sign.pvp1_def_in.text1"}','{"translate":"pl.sign.pvp1_def_in.text2"}','{"translate":"pl.sign.pvp1_def_in.text3"}','{"translate":"pl.sign.pvp1_def_in.text4"}']}}
 
-setblock 1366 54 -1826 minecraft:command_block{Command:"execute as @p[x=1366,y=56,z=-1826,distance=..3] run function pld:pvp/1/ing/def/check"} replace 
-setblock 1352 54 -1826 minecraft:command_block{Command:"execute as @p[x=1352,y=56,z=-1826,distance=..2] run function pld:pvp/1/end/def/reward"} replace 
+setblock 1366 54 -1826 minecraft:command_block[custom_data={Command:"execute as @p[x=1366,y=56,z=-1826,distance=..3] run function pld:pvp/1/ing/def/check"}] replace 
+setblock 1352 54 -1826 minecraft:command_block[custom_data={Command:"execute as @p[x=1352,y=56,z=-1826,distance=..2] run function pld:pvp/1/end/def/reward"}] replace 
 
 #区块卸载
 forceload remove 1365 -1816 1354 -1826

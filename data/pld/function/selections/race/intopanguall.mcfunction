@@ -1,15 +1,15 @@
 #包子10个
-give @s minecraft:bread{display:{Name:'{"translate":"pl.item.name.baozi"}'},id:"panling:baozi"} 10
+give @s minecraft:bread[custom_name='{"translate":"pl.item.name.baozi"}',custom_data={id:"panling:baozi"}] 10
 #铜钱15枚
-give @s minecraft:gold_nugget{display:{Name:'{"translate":"pl.item.name.copper"}'},id:"panling:copper_cash"} 15
+give @s minecraft:gold_nugget[custom_name='{"translate":"pl.item.name.copper"}',custom_data={id:"panling:copper_cash"}] 15
 #鹤顶丹
-give @s minecraft:potion{id:"panling:killpotion",CustomPotionColor:4393481,CustomPotionEffects:[{Id:7b,Amplifier:19b,Duration:20}],display:{Lore:['{"translate":"pl.item.lore.killpotiona"}','{"translate":"pl.item.lore.killpotionb"}'],Name:'{"translate":"pl.item.name.killpotion"}'}}
+give @s minecraft:potion[custom_name='{"translate":"pl.item.name.killpotion"}',lore=['{"translate":"pl.item.lore.killpotiona"}','{"translate":"pl.item.lore.killpotionb"}'],custom_data={id:"panling:killpotion",CustomPotionColor:4393481,CustomPotionEffects:[{Id:7b,Amplifier:19b,Duration:20}]}]
 #NPC对话泡泡
-give @s minecraft:pink_dye{display:{Lore:['{"translate":"pl.item.lore.npcbubblea"}','{"translate":"pl.item.lore.npcbubbleb"}'],Name:'{"translate":"pl.item.name.npcbubble"}'},id:"panling:NPC_bubble"} 3
+give @s minecraft:pink_dye[custom_name='{"translate":"pl.item.name.npcbubble"}',lore=['{"translate":"pl.item.lore.npcbubblea"}','{"translate":"pl.item.lore.npcbubbleb"}'],custom_data={id:"panling:NPC_bubble"}] 3
 #盘古大陆通则【修订版】
-give @s minecraft:written_book{title:"§6盘古大陆通则【修订版】",author:"§6天道",pages:['{"translate":"pl.book.t0.page1"}','{"translate":"pl.book.t0.page2"}','{"translate":"pl.book.t0.page3"}','{"translate":"pl.book.t0.page4"}','{"translate":"pl.book.t0.page5"}','{"translate":"pl.book.t0.page6"}']}
+give @s minecraft:written_book[custom_data={title:"§6盘古大陆通则【修订版】",author:"§6天道",pages:['{"translate":"pl.book.t0.page1"}','{"translate":"pl.book.t0.page2"}','{"translate":"pl.book.t0.page3"}','{"translate":"pl.book.t0.page4"}','{"translate":"pl.book.t0.page5"}','{"translate":"pl.book.t0.page6"}']}]
 #屬性介绍书
-give @s minecraft:written_book{title:"§6扩展包新增屬性介绍",author:"§6天道",pages:['{"translate":"pl.book.t1.page1"}','{"translate":"pl.book.t1.page2"}','{"translate":"pl.book.t1.page3"}']}
+give @s minecraft:written_book[custom_data={title:"§6扩展包新增屬性介绍",author:"§6天道",pages:['{"translate":"pl.book.t1.page1"}','{"translate":"pl.book.t1.page2"}','{"translate":"pl.book.t1.page3"}']}]
 #菜单书
 function pld:system/menubook/update/main
 
@@ -23,15 +23,15 @@ advancement grant @s[scores={job=1}] only pld:experience/job/1/base
 advancement grant @s[scores={job=2}] only pld:experience/job/2/base
 
 #战士特供道具 额外五个包子
-give @s[scores={job=0}] minecraft:bread{display:{Name:'{"translate":"pl.item.name.baozi"}'},id:"panling:baozi"} 5
+give @s[scores={job=0}] minecraft:bread[custom_name='{"translate":"pl.item.name.baozi"}',custom_data={id:"panling:baozi"}] 5
 
 #弓箭手特供道具 一组箭
 give @s[scores={job=1}] minecraft:arrow 64
 
 #炼丹师特供道具 初级药引一枚、木元素五枚、金元素五枚
-give @s[scores={job=2}] minecraft:poisonous_potato{display:{Lore:['{"translate":"pl.item.lore.yy"}'],Name:'{"translate":"pl.item.name.yy1"}'},id:"panling:yy1"}
-give @s[scores={job=2}] minecraft:bone{id:"panling:wood",display:{Name:'{"translate":"pl.item.name.wood"}'}} 5
-give @s[scores={job=2}] minecraft:emerald{id:"panling:metal",display:{Name:'{"translate":"pl.item.name.metal"}'}} 5
+give @s[scores={job=2}] minecraft:poisonous_potato[custom_name='{"translate":"pl.item.name.yy1"}',lore=['{"translate":"pl.item.lore.yy"}'],custom_data={id:"panling:yy1"}]
+give @s[scores={job=2}] minecraft:bone[custom_name='{"translate":"pl.item.name.wood"}',custom_data={id:"panling:wood"}] 5
+give @s[scores={job=2}] minecraft:emerald[custom_name='{"translate":"pl.item.name.metal"}',custom_data={id:"panling:metal"}] 5
 
 #清除等级奖励
 function pld:system/rechoose/lvl_reset

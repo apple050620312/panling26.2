@@ -1,2 +1,2 @@
-give @s minecraft:emerald{id:"panling:metal",display:{Name:'{"translate":"pl.item.name.metal"}'}} 5
-give @s minecraft:string{id:"panling:water",display:{Name:'{"translate":"pl.item.name.water"}'}} 5
+give @s minecraft:emerald[custom_name='{"translate":"pl.item.name.metal"}',custom_data={id:"panling:metal"}] 5
+give @s minecraft:string[custom_name='{"translate":"pl.item.name.water"}',custom_data={id:"panling:water"}] 5

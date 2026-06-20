@@ -15,7 +15,7 @@ execute if score @s player_open_enderchest_delay matches 0 run function pld:syst
 execute if score @s player_open_enderchest_delay matches 0.. run scoreboard players remove @s player_open_enderchest_delay 1
 
 #点击检查
-execute if score @s screen matches 0.. store result score @s click run clear @s #pld:click{clickable:1} 0
+execute if score @s screen matches 0.. store result score @s click run clear @s #pld:click[custom_data={clickable:1}] 0
 execute if score @s click matches 1.. at @s run function pld:system/chest_menu/check_click
 
 #玩家打开末影箱检查并 抛出玩家数据

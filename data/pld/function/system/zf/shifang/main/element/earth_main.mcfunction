@@ -6,7 +6,7 @@ execute as @s[scores={zf_lvl=3,zfsuccess=0}] at @s store success score @s[scores
 execute as @s[scores={zf_lvl=4,zfsuccess=0}] at @s store success score @s[scores={zfsuccess=0}] zfsuccess run effect give @p[distance=..5,limit=5] absorption 1800 3
 #扣除元素
 function pld:system/zf/l6_check
-clear @s[scores={zfsuccess=1,ldl6success=1}] minecraft:magma_cream{id:"panling:earth"} 1
+clear @s[scores={zfsuccess=1,ldl6success=1}] minecraft:magma_cream[custom_data={id:"panling:earth"}] 1
 
 #信息
 #execute at @s[scores={zfsuccess=1}] run tellraw @a[distance=..5] {"text":"","extra":[{"text":"☯","color":"gold"},{"selector":"@s","color":"yellow"},{"translate":"pl.info.zfearth1","color":"gold"}]}

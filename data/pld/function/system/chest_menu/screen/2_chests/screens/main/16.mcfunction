@@ -1,23 +1,23 @@
 #未解鎖
-item replace entity @s enderchest.21 with minecraft:chest{clickable:1,unlock_screen:216,HideFlags:63,display:{Name:'{"translate":"pl.chest_menu.unlock_screen216"}',Lore:['{"translate":"pl.chest_menu.unlock_screen216.lore.a"}','{"translate":"pl.chest_menu.unlock_screen216.lore.b"}']}}
+item replace entity @s enderchest.21 with minecraft:chest[hide_additional_tooltip={},custom_name='{"translate":"pl.chest_menu.unlock_screen216"}',lore=['{"translate":"pl.chest_menu.unlock_screen216.lore.a"}','{"translate":"pl.chest_menu.unlock_screen216.lore.b"}'],custom_data={clickable:1,unlock_screen:216}]
 
 #已解鎖
-item replace entity @s enderchest.1 with minecraft:chest{clickable:1,to_screen:200,HideFlags:63,display:{Name:'{"translate":"pl.chest_menu.to_screen200"}',Lore:['{"translate":"pl.chest_menu.to_screen200.lore"}']}}
-item replace entity @s enderchest.2 with minecraft:chest{clickable:1,to_screen:201,HideFlags:63,display:{Name:'{"translate":"pl.chest_menu.to_screen201"}',Lore:['{"translate":"pl.chest_menu.to_screen201.lore"}']}}
-item replace entity @s enderchest.3 with minecraft:chest{clickable:1,to_screen:202,HideFlags:63,display:{Name:'{"translate":"pl.chest_menu.to_screen202"}',Lore:['{"translate":"pl.chest_menu.to_screen202.lore"}']}}
-item replace entity @s enderchest.4 with minecraft:chest{clickable:1,to_screen:203,HideFlags:63,display:{Name:'{"translate":"pl.chest_menu.to_screen203"}',Lore:['{"translate":"pl.chest_menu.to_screen203.lore"}']}}
-item replace entity @s enderchest.5 with minecraft:chest{clickable:1,to_screen:204,HideFlags:63,display:{Name:'{"translate":"pl.chest_menu.to_screen204"}',Lore:['{"translate":"pl.chest_menu.to_screen204.lore"}']}}
-item replace entity @s enderchest.6 with minecraft:chest{clickable:1,to_screen:205,HideFlags:63,display:{Name:'{"translate":"pl.chest_menu.to_screen205"}',Lore:['{"translate":"pl.chest_menu.to_screen205.lore"}']}}
-item replace entity @s enderchest.7 with minecraft:chest{clickable:1,to_screen:206,HideFlags:63,display:{Name:'{"translate":"pl.chest_menu.to_screen206"}',Lore:['{"translate":"pl.chest_menu.to_screen206.lore"}']}}
+item replace entity @s enderchest.1 with minecraft:chest[hide_additional_tooltip={},custom_name='{"translate":"pl.chest_menu.to_screen200"}',lore=['{"translate":"pl.chest_menu.to_screen200.lore"}'],custom_data={clickable:1,to_screen:200}]
+item replace entity @s enderchest.2 with minecraft:chest[hide_additional_tooltip={},custom_name='{"translate":"pl.chest_menu.to_screen201"}',lore=['{"translate":"pl.chest_menu.to_screen201.lore"}'],custom_data={clickable:1,to_screen:201}]
+item replace entity @s enderchest.3 with minecraft:chest[hide_additional_tooltip={},custom_name='{"translate":"pl.chest_menu.to_screen202"}',lore=['{"translate":"pl.chest_menu.to_screen202.lore"}'],custom_data={clickable:1,to_screen:202}]
+item replace entity @s enderchest.4 with minecraft:chest[hide_additional_tooltip={},custom_name='{"translate":"pl.chest_menu.to_screen203"}',lore=['{"translate":"pl.chest_menu.to_screen203.lore"}'],custom_data={clickable:1,to_screen:203}]
+item replace entity @s enderchest.5 with minecraft:chest[hide_additional_tooltip={},custom_name='{"translate":"pl.chest_menu.to_screen204"}',lore=['{"translate":"pl.chest_menu.to_screen204.lore"}'],custom_data={clickable:1,to_screen:204}]
+item replace entity @s enderchest.6 with minecraft:chest[hide_additional_tooltip={},custom_name='{"translate":"pl.chest_menu.to_screen205"}',lore=['{"translate":"pl.chest_menu.to_screen205.lore"}'],custom_data={clickable:1,to_screen:205}]
+item replace entity @s enderchest.7 with minecraft:chest[hide_additional_tooltip={},custom_name='{"translate":"pl.chest_menu.to_screen206"}',lore=['{"translate":"pl.chest_menu.to_screen206.lore"}'],custom_data={clickable:1,to_screen:206}]
 
-item replace entity @s enderchest.10 with minecraft:chest{clickable:1,to_screen:207,HideFlags:63,display:{Name:'{"translate":"pl.chest_menu.to_screen207"}',Lore:['{"translate":"pl.chest_menu.to_screen207.lore"}']}}
-item replace entity @s enderchest.11 with minecraft:chest{clickable:1,to_screen:208,HideFlags:63,display:{Name:'{"translate":"pl.chest_menu.to_screen208"}',Lore:['{"translate":"pl.chest_menu.to_screen208.lore"}']}}
-item replace entity @s enderchest.12 with minecraft:chest{clickable:1,to_screen:209,HideFlags:63,display:{Name:'{"translate":"pl.chest_menu.to_screen209"}',Lore:['{"translate":"pl.chest_menu.to_screen209.lore"}']}}
-item replace entity @s enderchest.13 with minecraft:chest{clickable:1,to_screen:210,HideFlags:63,display:{Name:'{"translate":"pl.chest_menu.to_screen210"}',Lore:['{"translate":"pl.chest_menu.to_screen210.lore"}']}}
-item replace entity @s enderchest.14 with minecraft:chest{clickable:1,to_screen:211,HideFlags:63,display:{Name:'{"translate":"pl.chest_menu.to_screen211"}',Lore:['{"translate":"pl.chest_menu.to_screen211.lore"}']}}
-item replace entity @s enderchest.15 with minecraft:chest{clickable:1,to_screen:212,HideFlags:63,display:{Name:'{"translate":"pl.chest_menu.to_screen212"}',Lore:['{"translate":"pl.chest_menu.to_screen212.lore"}']}}
-item replace entity @s enderchest.16 with minecraft:chest{clickable:1,to_screen:213,HideFlags:63,display:{Name:'{"translate":"pl.chest_menu.to_screen213"}',Lore:['{"translate":"pl.chest_menu.to_screen213.lore"}']}}
+item replace entity @s enderchest.10 with minecraft:chest[hide_additional_tooltip={},custom_name='{"translate":"pl.chest_menu.to_screen207"}',lore=['{"translate":"pl.chest_menu.to_screen207.lore"}'],custom_data={clickable:1,to_screen:207}]
+item replace entity @s enderchest.11 with minecraft:chest[hide_additional_tooltip={},custom_name='{"translate":"pl.chest_menu.to_screen208"}',lore=['{"translate":"pl.chest_menu.to_screen208.lore"}'],custom_data={clickable:1,to_screen:208}]
+item replace entity @s enderchest.12 with minecraft:chest[hide_additional_tooltip={},custom_name='{"translate":"pl.chest_menu.to_screen209"}',lore=['{"translate":"pl.chest_menu.to_screen209.lore"}'],custom_data={clickable:1,to_screen:209}]
+item replace entity @s enderchest.13 with minecraft:chest[hide_additional_tooltip={},custom_name='{"translate":"pl.chest_menu.to_screen210"}',lore=['{"translate":"pl.chest_menu.to_screen210.lore"}'],custom_data={clickable:1,to_screen:210}]
+item replace entity @s enderchest.14 with minecraft:chest[hide_additional_tooltip={},custom_name='{"translate":"pl.chest_menu.to_screen211"}',lore=['{"translate":"pl.chest_menu.to_screen211.lore"}'],custom_data={clickable:1,to_screen:211}]
+item replace entity @s enderchest.15 with minecraft:chest[hide_additional_tooltip={},custom_name='{"translate":"pl.chest_menu.to_screen212"}',lore=['{"translate":"pl.chest_menu.to_screen212.lore"}'],custom_data={clickable:1,to_screen:212}]
+item replace entity @s enderchest.16 with minecraft:chest[hide_additional_tooltip={},custom_name='{"translate":"pl.chest_menu.to_screen213"}',lore=['{"translate":"pl.chest_menu.to_screen213.lore"}'],custom_data={clickable:1,to_screen:213}]
 
-item replace entity @s enderchest.19 with minecraft:chest{clickable:1,to_screen:214,HideFlags:63,display:{Name:'{"translate":"pl.chest_menu.to_screen214"}',Lore:['{"translate":"pl.chest_menu.to_screen214.lore"}']}}
-item replace entity @s enderchest.20 with minecraft:chest{clickable:1,to_screen:215,HideFlags:63,display:{Name:'{"translate":"pl.chest_menu.to_screen215"}',Lore:['{"translate":"pl.chest_menu.to_screen215.lore"}']}}
+item replace entity @s enderchest.19 with minecraft:chest[hide_additional_tooltip={},custom_name='{"translate":"pl.chest_menu.to_screen214"}',lore=['{"translate":"pl.chest_menu.to_screen214.lore"}'],custom_data={clickable:1,to_screen:214}]
+item replace entity @s enderchest.20 with minecraft:chest[hide_additional_tooltip={},custom_name='{"translate":"pl.chest_menu.to_screen215"}',lore=['{"translate":"pl.chest_menu.to_screen215.lore"}'],custom_data={clickable:1,to_screen:215}]
 

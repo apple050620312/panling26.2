@@ -1,6 +1,6 @@
 #重置按钮
-clear @s leather_boots{id:"panling:pvp_boots_uped"}
-item replace entity @s inventory.25 with leather_boots{button:1,Enchantments:[{id:"protection",lvl:1s}],id:"panling:pvp_boots_uped",display:{Name:'{"translate":"pl.pvp.button.name.boots_up"}',Lore:['{"translate":"pl.pvp.button.lore.uped"}','{"translate":"pl.pvp.button.lore.boots_uped"}',]},HideFlags:63}
+clear @s leather_boots[custom_data={id:"panling:pvp_boots_uped"}]
+item replace entity @s inventory.25 with leather_boots[enchantments={levels:{"minecraft:protection":1}},custom_name='{"translate":"pl.pvp.button.name.boots_up"}',lore=['{"translate":"pl.pvp.button.lore.uped"}','{"translate":"pl.pvp.button.lore.boots_uped"}',],hide_additional_tooltip={},custom_data={button:1,id:"panling:pvp_boots_uped"}]
 
 tellraw @s {"translate":"pl.info.uped"}
 

@@ -44,7 +44,7 @@ scoreboard players set @s zfsuccess 1
 
 #扣除元素
 function pld:system/zf/l6_check
-clear @s[scores={zfsuccess=1,ldl6success=1}] minecraft:emerald{id:"panling:refined_metal"} 1
+clear @s[scores={zfsuccess=1,ldl6success=1}] minecraft:emerald[custom_data={id:"panling:refined_metal"}] 1
 #信息
 #execute at @s[scores={zfsuccess=1}] run tellraw @a[distance=..10] {"text":"","extra":[{"text":"☯☯","color":"yellow"},{"selector":"@s","color":"yellow"},{"translate":"pl.info.zfmetal2","color":"yellow"}]}
 

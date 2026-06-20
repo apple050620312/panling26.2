@@ -6,7 +6,7 @@ execute unless score @s process_xian_hide matches 6.. run function pld:system/tr
 
 
 #回收书本
-clear @s written_book{id:"panling:book_xh4"}
+clear @s written_book[custom_data={id:"panling:book_xh4"}]
 
 #重置激活记分板
 scoreboard players set @s trigger_xian_hide 0

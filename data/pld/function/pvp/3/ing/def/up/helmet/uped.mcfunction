@@ -1,6 +1,6 @@
 #重置按钮
-clear @s leather_helmet{id:"panling:pvp_helmet_uped"}
-item replace entity @s inventory.22 with leather_helmet{button:1,Enchantments:[{id:"protection",lvl:1s}],id:"panling:pvp_helmet_uped",display:{Name:'{"translate":"pl.pvp.button.name.helmet_up"}',Lore:['{"translate":"pl.pvp.button.lore.uped"}','{"translate":"pl.pvp.button.lore.helmet_uped"}',]},HideFlags:63}
+clear @s leather_helmet[custom_data={id:"panling:pvp_helmet_uped"}]
+item replace entity @s inventory.22 with leather_helmet[enchantments={levels:{"minecraft:protection":1}},custom_name='{"translate":"pl.pvp.button.name.helmet_up"}',lore=['{"translate":"pl.pvp.button.lore.uped"}','{"translate":"pl.pvp.button.lore.helmet_uped"}',],hide_additional_tooltip={},custom_data={button:1,id:"panling:pvp_helmet_uped"}]
 
 tellraw @s {"translate":"pl.info.uped"}
 

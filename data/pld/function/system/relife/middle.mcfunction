@@ -1,7 +1,7 @@
 #中间-惩罚
 #鹤顶丹补充
-clear @s potion{id:"panling:killpotion"}
-give @s minecraft:potion{id:"panling:killpotion",CustomPotionColor:4393481,CustomPotionEffects:[{Id:7b,Amplifier:19b,Duration:20}],display:{Lore:['{"translate":"pl.item.lore.killpotiona"}','{"translate":"pl.item.lore.killpotionb"}'],Name:'{"translate":"pl.item.name.killpotion"}'}}
+clear @s potion[custom_data={id:"panling:killpotion"}]
+give @s minecraft:potion[custom_name='{"translate":"pl.item.name.killpotion"}',lore=['{"translate":"pl.item.lore.killpotiona"}','{"translate":"pl.item.lore.killpotionb"}'],custom_data={id:"panling:killpotion",CustomPotionColor:4393481,CustomPotionEffects:[{Id:7b,Amplifier:19b,Duration:20}]}]
 #等级惩罚
 xp set @s 0 points
 tellraw @s {"translate":"pl.info.relifemiddle","color":"gray"}

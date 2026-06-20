@@ -6,7 +6,7 @@
 scoreboard players reset @s click
 scoreboard players reset @s temp
 ##Actual clear
-clear @s #pld:click{clickable:1}
+clear @s #pld:click[custom_data={clickable:1}]
 
 #左侧按钮检查
 function pld:system/chest_menu/screen/click_events_left

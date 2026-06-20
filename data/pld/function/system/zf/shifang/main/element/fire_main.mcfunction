@@ -5,7 +5,7 @@ execute as @s[scores={zf_lvl=3,zfsuccess=0}] at @s store success score @s[scores
 execute as @s[scores={zf_lvl=4..,zfsuccess=0}] at @s store success score @s[scores={zfsuccess=0}] zfsuccess run effect give @p[distance=..5,limit=5] fire_resistance 30
 #扣除元素
 function pld:system/zf/l6_check
-clear @s[scores={zfsuccess=1,ldl6success=1}] minecraft:blaze_rod{id:"panling:fire"} 1
+clear @s[scores={zfsuccess=1,ldl6success=1}] minecraft:blaze_rod[custom_data={id:"panling:fire"}] 1
 
 #信息
 #execute at @s[scores={zfsuccess=1}] run tellraw @a[distance=..5] {"text":"","extra":[{"text":"☯","color":"red"},{"selector":"@s","color":"yellow"},{"translate":"pl.info.zffire1","color":"red"}]}

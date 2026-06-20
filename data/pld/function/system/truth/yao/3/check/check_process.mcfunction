@@ -5,7 +5,7 @@ execute if score @s process_yao_hide matches 4..5 run function pld:system/truth/
 execute unless score @s process_yao_hide matches 4.. run function pld:system/truth/yao/3/chat
 
 #回收书本
-clear @s written_book{id:"panling:book_yh3"}
+clear @s written_book[custom_data={id:"panling:book_yh3"}]
 
 #重置激活记分板
 scoreboard players set @s trigger_yao_hide 0

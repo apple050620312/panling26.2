@@ -1,6 +1,6 @@
 
 #要做的事
-setblock 3223 102 767 minecraft:command_block{Command:"function pld:npcs/xian/chat6"} replace 
+setblock 3223 102 767 minecraft:command_block[custom_data={Command:"function pld:npcs/xian/chat6"}] replace 
 kill @e[type=villager,tag=!panling]
 execute positioned 3223 102 767 run function pld:npcs/xian/chat6
 #区块卸载

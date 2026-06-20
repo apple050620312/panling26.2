@@ -1,1 +1,1 @@
-give @s minecraft:poisonous_potato{display:{Lore:['{"translate":"pl.item.lore.yy"}'],Name:'{"translate":"pl.item.name.yy2"}'},id:"panling:yy2"}
+give @s minecraft:poisonous_potato[custom_name='{"translate":"pl.item.name.yy2"}',lore=['{"translate":"pl.item.lore.yy"}'],custom_data={id:"panling:yy2"}]

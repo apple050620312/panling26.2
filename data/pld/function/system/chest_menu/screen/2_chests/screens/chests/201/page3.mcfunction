@@ -10,11 +10,11 @@ scoreboard players set @s screen 201
 scoreboard players set @s screen_chest_page 3
 #功能按键
 #上翻页
-item replace entity @s enderchest.8 with minecraft:wooden_axe{clickable:1,to_page:2,CustomModelData:5,HideFlags:63,display:{Name:'{"translate":"pl.chest_menu.page_up"}'}}
+item replace entity @s enderchest.8 with minecraft:wooden_axe[custom_model_data=5,hide_additional_tooltip={},custom_name='{"translate":"pl.chest_menu.page_up"}',custom_data={clickable:1,to_page:2}]
 #下翻页-占位符
-item replace entity @s enderchest.17 with minecraft:black_stained_glass_pane{clickable:1,reset_self_id:8,HideFlags:63,display:{Name:'{"translate":"pl.chest_menu.invalid_page_down"}'}}
+item replace entity @s enderchest.17 with minecraft:black_stained_glass_pane[hide_additional_tooltip={},custom_name='{"translate":"pl.chest_menu.invalid_page_down"}',custom_data={clickable:1,reset_self_id:8}]
 #返回
-item replace entity @s enderchest.26 with minecraft:clock{clickable:1,to_screen:2,HideFlags:63,display:{Name:'{"translate":"pl.chest_menu.to_pre_screen"}',Lore:['{"translate":"pl.chest_menu.pre_menu.lore"}']}}
+item replace entity @s enderchest.26 with minecraft:clock[hide_additional_tooltip={},custom_name='{"translate":"pl.chest_menu.to_pre_screen"}',lore=['{"translate":"pl.chest_menu.pre_menu.lore"}'],custom_data={clickable:1,to_screen:2}]
 
 #将pld:system Temp_chest中的数据读取到中当前页中
 data modify block 0 -1 0 Items set value []

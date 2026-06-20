@@ -1,4 +1,4 @@
-clear @s blaze_rod{id:"panling:zf_fire_mark"}
+clear @s blaze_rod[custom_data={id:"panling:zf_fire_mark"}]
 #effect give @s instant_damage 1 31
 scoreboard players add @s zf_fire_tick 25
 

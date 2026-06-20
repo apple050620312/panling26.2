@@ -1,4 +1,4 @@
-execute store success score @s success run clear @s[scores={gold_chest=1..}] yellow_dye{id:"panling:goldkey"} 1
+execute store success score @s success run clear @s[scores={gold_chest=1..}] yellow_dye[custom_data={id:"panling:goldkey"}] 1
 kill @e[type=item,limit=1,sort=nearest,nbt={Item:{components:{"minecraft:custom_data":{instance:5,chest:1}}}}]
 loot spawn ~ ~ ~ loot pld:chests/goldchests/instance5
 execute as @e[limit=1,type=item,sort=nearest,nbt={Item:{components:{"minecraft:custom_data":{instance:5,chest:1}}}}] run function pld:system/chests/goldchests/instance5/judge

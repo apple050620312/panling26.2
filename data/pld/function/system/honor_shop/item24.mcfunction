@@ -2,7 +2,7 @@ execute unless score @s honor matches 300.. run tellraw @s {"translate":"pl.info
 execute if score @s honor matches 300.. run function pld:system/test_inv/invmain
 execute if score @s honor matches 300.. if score @s inv_remain matches 0 run tellraw @s {"translate": "pl.info.not_enough_inv_honor"}
 execute if score @s honor matches 300.. if score @s inv_remain matches 1.. run tag @s add buy_success
-give @s[tag=buy_success] minecraft:redstone{id:"panling:PGcoin",display:{Name:'[{"translate":"pl.item.name.PGcoin"}]',Lore:['{"translate":"pl.item.lore.PGcoina"}','{"translate":"pl.item.lore.PGcoinb"}','{"translate":""}','{"translate":"pl.item.lore.PGcoinc"}']}}
+give @s[tag=buy_success] minecraft:redstone[custom_name='[{"translate":"pl.item.name.PGcoin"}]',lore=['{"translate":"pl.item.lore.PGcoina"}','{"translate":"pl.item.lore.PGcoinb"}','{"translate":""}','{"translate":"pl.item.lore.PGcoinc"}'],custom_data={id:"panling:PGcoin"}]
 scoreboard players remove @s[tag=buy_success] honor 300
 tellraw @s[tag=buy_success] [{"translate":"pl.info.enough_honor1"},{"score":{"name": "@p","objective": "honor"},"color":"gold"},{"translate":"pl.info.enough_honor2"}]
 tag @s remove buy_success

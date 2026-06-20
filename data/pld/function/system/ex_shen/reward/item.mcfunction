@@ -1,1 +1,1 @@
-give @s minecraft:gold_ingot{display:{Name:'{"translate":"pl.item.name.gold"}'},id:"panling:gold_ingot"} 11
+give @s minecraft:gold_ingot[custom_name='{"translate":"pl.item.name.gold"}',custom_data={id:"panling:gold_ingot"}] 11

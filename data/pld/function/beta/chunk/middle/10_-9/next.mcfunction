@@ -1,7 +1,7 @@
 
-setblock 173 63 -159 minecraft:command_block{Command:"function pld:npcs/middle/renmain5"} replace 
-setblock 178 63 -164 minecraft:command_block{Command:"function pld:npcs/middle/shenmain5"} replace 
-setblock 186 61 -158 minecraft:command_block{Command:"function pld:npcs/middle/xianmain5"} replace 
+setblock 173 63 -159 minecraft:command_block[custom_data={Command:"function pld:npcs/middle/renmain5"}] replace 
+setblock 178 63 -164 minecraft:command_block[custom_data={Command:"function pld:npcs/middle/shenmain5"}] replace 
+setblock 186 61 -158 minecraft:command_block[custom_data={Command:"function pld:npcs/middle/xianmain5"}] replace 
 setblock 181 67 -166 minecraft:red_wool
 setblock 181 67 -168 air
 kill @e[type=villager,tag=!panling]

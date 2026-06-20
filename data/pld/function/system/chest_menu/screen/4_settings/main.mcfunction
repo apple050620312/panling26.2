@@ -12,7 +12,7 @@ function pld:system/chest_menu/screen/4_settings/buttons/401
 function pld:system/chest_menu/screen/4_settings/buttons/402
 
 #设置返回按键
-item replace entity @s enderchest.26 with minecraft:clock{clickable:1,to_screen:0,HideFlags:63,display:{Name:'{"translate":"pl.chest_menu.to_pre_screen"}',Lore:['{"translate":"pl.chest_menu.pre_menu.lore"}']}}
+item replace entity @s enderchest.26 with minecraft:clock[hide_additional_tooltip={},custom_name='{"translate":"pl.chest_menu.to_pre_screen"}',lore=['{"translate":"pl.chest_menu.pre_menu.lore"}'],custom_data={clickable:1,to_screen:0}]
 
 #将储存数据储存到俩个按钮中 
 #从 pld:system 的 Temp_chest 到 物品的 data

@@ -1,2 +1,2 @@
-clear @s carrot_on_a_stick{id:"panling:shen_test_bless"}
-give @s minecraft:totem_of_undying{HideFlags:63,Enchantments:[{id:"minecraft:protection",lvl:1s}],id:"panling:shen_test_bless",display:{Name:'{"translate":"pl.item.name.shen_test_bless"}',Lore:['{"translate":"pl.item.lore.shen_test_blessa"}','{"translate":"pl.item.lore.shen_test_blessb"}','{"translate":"pl.item.lore.shen_test_blessc"}','{"translate":"pl.item.lore.shen_test_blessd"}']}}
+clear @s carrot_on_a_stick[custom_data={id:"panling:shen_test_bless"}]
+give @s minecraft:totem_of_undying[hide_additional_tooltip={},enchantments={levels:{"minecraft:protection":1}},custom_name='{"translate":"pl.item.name.shen_test_bless"}',lore=['{"translate":"pl.item.lore.shen_test_blessa"}','{"translate":"pl.item.lore.shen_test_blessb"}','{"translate":"pl.item.lore.shen_test_blessc"}','{"translate":"pl.item.lore.shen_test_blessd"}'],custom_data={id:"panling:shen_test_bless"}]

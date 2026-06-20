@@ -6,7 +6,7 @@ execute unless score @s process_shen_hide matches 4.. run function pld:system/tr
 
 
 #回收书本
-clear @s written_book{id:"panling:book_sh3"}
+clear @s written_book[custom_data={id:"panling:book_sh3"}]
 
 #重置激活记分板
 scoreboard players set @s trigger_shen_hide 0

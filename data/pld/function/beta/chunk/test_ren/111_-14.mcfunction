@@ -2,7 +2,7 @@
 forceload add 1780 -215
 #要做的事
 
-setblock 1776 17 -220 minecraft:command_block{Command:"execute as @p[x=1776,y=19,z=-220,distance=..3] run function pld:test/ren/water/out"} replace 
+setblock 1776 17 -220 minecraft:command_block[custom_data={Command:"execute as @p[x=1776,y=19,z=-220,distance=..3] run function pld:test/ren/water/out"}] replace 
 setblock 1778 17 -220 air
 
 #区块卸载

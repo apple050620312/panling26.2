@@ -30,7 +30,7 @@ effect give @p[limit=3,distance=..10] fire_resistance 20 0 false
 
 #扣除元素
 function pld:system/zf/l6_check
-clear @s[scores={zfsuccess=1,ldl6success=1}] minecraft:string{id:"panling:refined_water"} 1
+clear @s[scores={zfsuccess=1,ldl6success=1}] minecraft:string[custom_data={id:"panling:refined_water"}] 1
 
 #信息
 #execute at @s[scores={zfsuccess=1}] run tellraw @a[distance=..10] {"text":"","extra":[{"text":"☯☯","color":"blue"},{"selector":"@s","color":"yellow"},{"translate":"pl.info.zfwater2","color":"blue"}]}

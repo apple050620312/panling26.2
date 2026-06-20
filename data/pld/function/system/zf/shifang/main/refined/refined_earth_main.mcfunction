@@ -49,7 +49,7 @@ function pld:system/zf/shifang/main/refined/earth/main
 
 #扣除元素
 function pld:system/zf/l6_check
-clear @s[scores={zfsuccess=1,ldl6success=1}] minecraft:magma_cream{id:"panling:refined_earth"} 1
+clear @s[scores={zfsuccess=1,ldl6success=1}] minecraft:magma_cream[custom_data={id:"panling:refined_earth"}] 1
 #信息
 #execute at @s[scores={zfsuccess=1}] run tellraw @a[distance=..10] {"text":"","extra":[{"text":"☯☯","color":"gold"},{"selector":"@s","color":"yellow"},{"translate":"pl.info.zfearth2","color":"gold"}]}
 

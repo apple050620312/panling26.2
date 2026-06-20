@@ -21,7 +21,7 @@ execute as @s[scores={zf_lvl=4}] run effect give @a[distance=..50] regeneration 
 
 #扣除元素
 function pld:system/zf/l6_check
-clear @s[scores={zfsuccess=1,ldl6success=1}] minecraft:melon_seeds{id:"panling:again_refined_wood"} 1
+clear @s[scores={zfsuccess=1,ldl6success=1}] minecraft:melon_seeds[custom_data={id:"panling:again_refined_wood"}] 1
 
 #信息
 #execute at @s[scores={zfsuccess=1}] run tellraw @a[distance=..10] {"text":"","extra":[{"text":"☯☯☯","color":"green"},{"selector":"@s","color":"yellow"},{"translate":"pl.info.zfwood3","color":"green"}]}

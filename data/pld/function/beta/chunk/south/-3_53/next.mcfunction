@@ -1,6 +1,6 @@
 #要做的事
-setblock -44 43 858 minecraft:command_block{Command:"function pld:npcs/south/tong7"} replace 
-setblock -45 46 859 minecraft:command_block{Command:"/particle enchant ~ ~3 ~ 0.2 0.2 0.2 0.0 4"} replace 
+setblock -44 43 858 minecraft:command_block[custom_data={Command:"function pld:npcs/south/tong7"}] replace 
+setblock -45 46 859 minecraft:command_block[custom_data={Command:"/particle enchant ~ ~3 ~ 0.2 0.2 0.2 0.0 4"}] replace 
 
 
 kill @e[type=villager,tag=!panling]

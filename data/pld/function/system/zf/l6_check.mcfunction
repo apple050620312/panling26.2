@@ -2,7 +2,7 @@
 #输出 @s ldl6success 1消耗 0不消耗
 scoreboard players set @s ldl6success 0
 
-setblock ~ 255 ~ minecraft:chest{Items:[{Slot:0b,id:"minecraft:stone",Count:1b}]}
+setblock ~ 255 ~ minecraft:chest[custom_data={Items:[{Slot:0b,id:"minecraft:stone",Count:1b}]}]
 item modify block ~ 255 ~ container.0 pld:100random
 execute store result score #temp temp run data get block ~ 255 ~ Items[0].tag.AttributeModifiers[0].Amount 1
 setblock ~ 255 ~ air

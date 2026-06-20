@@ -12,7 +12,7 @@ data merge block 1323 59 454 {front_text:{messages:['{"translate":"pl.sign.thank
 data merge block 1319 58 454 {front_text:{messages:['{"translate":"pl.sign.thanks9.text1"}','{"translate":"pl.sign.thanks9.text2"}','{"translate":"pl.sign.thanks9.text3"}','{"translate":"pl.sign.thanks9.text4"}']}}
 data merge block 1320 58 454 {front_text:{messages:['{"translate":"pl.sign.thanks10.text1"}','{"translate":"pl.sign.thanks10.text2"}','{"translate":"pl.sign.thanks10.text3"}','{"translate":"pl.sign.thanks10.text4"}']}}
 data merge block 1325 59 456 {front_text:{messages:['{"translate":"pl.sign.begin.text1"}','{"translate":"pl.sign.begin.text2"}','{"translate":"pl.sign.begin.text3"}','{"translate":"pl.sign.begin.text4"}']}}
-setblock 1326 56 456 minecraft:command_block{Command:"execute as @p[x=1326,y=58,z=456,distance=..5] run function pld:selections/intopangu"}
+setblock 1326 56 456 minecraft:command_block[custom_data={Command:"execute as @p[x=1326,y=58,z=456,distance=..5] run function pld:selections/intopangu"}]
 
 #区块卸载
 forceload remove 1318 457 

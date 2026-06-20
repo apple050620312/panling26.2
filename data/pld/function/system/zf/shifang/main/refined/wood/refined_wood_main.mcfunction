@@ -43,7 +43,7 @@ execute if entity @p[tag=!sfwj,distance=..8] run function pld:system/zf/shifang/
 
 #扣除元素
 function pld:system/zf/l6_check
-clear @s[scores={zfsuccess=1,ldl6success=1}] minecraft:bone{id:"panling:refined_wood"} 1
+clear @s[scores={zfsuccess=1,ldl6success=1}] minecraft:bone[custom_data={id:"panling:refined_wood"}] 1
 
 #信息
 #execute at @s[scores={zfsuccess=1}] run tellraw @a[distance=..10] {"text":"","extra":[{"text":"☯☯","color":"green"},{"selector":"@s","color":"yellow"},{"translate":"pl.info.zfwood2","color":"green"}]}

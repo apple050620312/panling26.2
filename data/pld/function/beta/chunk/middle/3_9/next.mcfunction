@@ -1,7 +1,7 @@
 #要做的事
 data merge block 71 47 158 {front_text:{messages:['{"translate":""}','{"translate":"pl.sign.stand1.text2"}','{"translate":"pl.sign.stand1.text3"}','{"translate":""}']}}
-setblock 48 41 155 minecraft:command_block{Command:"function pld:npcs/middle/chat23"} replace 
-setblock 64 40 154 minecraft:command_block{Command:'tellraw @a[distance=..6] {"translate":"pl.info.armor_stand4"}'} replace 
+setblock 48 41 155 minecraft:command_block[custom_data={Command:"function pld:npcs/middle/chat23"}] replace 
+setblock 64 40 154 minecraft:command_block[custom_data={Command:'tellraw @a[distance=..6] {"translate":"pl.info.armor_stand4"}'}] replace 
 
 
 data merge block 53 47 135 {front_text:{messages:['{"translate":""}','{"translate":"pl.sign.middle69.text2"}','{"translate":""}','{"translate":""}']}}

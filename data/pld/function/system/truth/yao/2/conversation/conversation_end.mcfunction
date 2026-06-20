@@ -6,7 +6,7 @@ tellraw @s {"translate":"pl.info.yao.hide.conversation2_9"}
 function pld:system/truth/conversation_end_sound
 
 #清理书本
-clear @s minecraft:written_book{id:"panling:book_yh_all1"}
+clear @s minecraft:written_book[custom_data={id:"panling:book_yh_all1"}]
 
 #给予书本
 function pld:system/truth/yao/2/book

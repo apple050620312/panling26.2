@@ -9,7 +9,7 @@ function pld:system/zf/shifang/main/again_refined/metal/again_refined_metal_dama
 
 #扣除元素
 function pld:system/zf/l6_check
-clear @s[scores={zfsuccess=1,ldl6success=1}] minecraft:flint{id:"panling:again_refined_metal"} 1
+clear @s[scores={zfsuccess=1,ldl6success=1}] minecraft:flint[custom_data={id:"panling:again_refined_metal"}] 1
 
 #重置标记
 tag @e[tag=metaltag] remove metaltag

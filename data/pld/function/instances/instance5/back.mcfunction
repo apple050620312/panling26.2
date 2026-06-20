@@ -1,11 +1,11 @@
-execute as @s store result score @s instance5_relife_stone_count run clear @s nether_star{id:"panling:relive_stone"} 0
+execute as @s store result score @s instance5_relife_stone_count run clear @s nether_star[custom_data={id:"panling:relive_stone"}] 0
 
-execute as @s[scores={instance5_relife=0}] if score @s instance5_relife_stone_count matches 1.. store success score @s success run clear @s nether_star{id:"panling:relive_stone"} 1
-execute as @s[scores={instance5_relife=1}] if score @s instance5_relife_stone_count matches 2.. store success score @s success run clear @s nether_star{id:"panling:relive_stone"} 2
-execute as @s[scores={instance5_relife=2}] if score @s instance5_relife_stone_count matches 4.. store success score @s success run clear @s nether_star{id:"panling:relive_stone"} 4
-execute as @s[scores={instance5_relife=3}] if score @s instance5_relife_stone_count matches 8.. store success score @s success run clear @s nether_star{id:"panling:relive_stone"} 8
-execute as @s[scores={instance5_relife=4}] if score @s instance5_relife_stone_count matches 16.. store success score @s success run clear @s nether_star{id:"panling:relive_stone"} 16
-execute as @s[scores={instance5_relife=5..}] if score @s instance5_relife_stone_count matches 32.. store success score @s success run clear @s nether_star{id:"panling:relive_stone"} 32
+execute as @s[scores={instance5_relife=0}] if score @s instance5_relife_stone_count matches 1.. store success score @s success run clear @s nether_star[custom_data={id:"panling:relive_stone"}] 1
+execute as @s[scores={instance5_relife=1}] if score @s instance5_relife_stone_count matches 2.. store success score @s success run clear @s nether_star[custom_data={id:"panling:relive_stone"}] 2
+execute as @s[scores={instance5_relife=2}] if score @s instance5_relife_stone_count matches 4.. store success score @s success run clear @s nether_star[custom_data={id:"panling:relive_stone"}] 4
+execute as @s[scores={instance5_relife=3}] if score @s instance5_relife_stone_count matches 8.. store success score @s success run clear @s nether_star[custom_data={id:"panling:relive_stone"}] 8
+execute as @s[scores={instance5_relife=4}] if score @s instance5_relife_stone_count matches 16.. store success score @s success run clear @s nether_star[custom_data={id:"panling:relive_stone"}] 16
+execute as @s[scores={instance5_relife=5..}] if score @s instance5_relife_stone_count matches 32.. store success score @s success run clear @s nether_star[custom_data={id:"panling:relive_stone"}] 32
 
 
 scoreboard players add @s[scores={success=1}] instance5_relife 1

@@ -8,4 +8,4 @@ scoreboard players set @s tick_xian_hide 8
 scoreboard players add @s conversation_xian_hide 1
 
 #清理道具-蓝图
-clear @s nether_wart{id:"panling:xian_hide_item1"}
+clear @s nether_wart[custom_data={id:"panling:xian_hide_item1"}]

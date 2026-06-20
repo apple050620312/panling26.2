@@ -3,8 +3,8 @@ data merge block 3217 70 827 {front_text:{messages:['{"translate":""}','{"transl
 
 data merge block 3221 69 830 {front_text:{messages:['{"translate":"pl.sign.xian6.text1"}','{"translate":"pl.sign.xian6.text2"}','{"translate":"pl.sign.xian6.text4"}','{"translate":""}']}}
 
-setblock 3223 66 815 minecraft:command_block{Command:"function pld:npcs/xian/tong5"} replace 
-setblock 3217 66 815 minecraft:command_block{Command:"function pld:npcs/xian/tong6"} replace
+setblock 3223 66 815 minecraft:command_block[custom_data={Command:"function pld:npcs/xian/tong5"}] replace 
+setblock 3217 66 815 minecraft:command_block[custom_data={Command:"function pld:npcs/xian/tong6"}] replace
 
 setblock 3219 70 819 oak_door[half=lower] destroy
 setblock 3219 71 819 oak_door[half=upper] destroy
