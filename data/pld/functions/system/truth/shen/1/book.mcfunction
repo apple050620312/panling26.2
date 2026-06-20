@@ -1,0 +1,1 @@
+execute unless entity @s[nbt={Inventory:[{tag:{id:"panling:book_sh_all1"}}]}] run give @s minecraft:written_book{id:"panling:book_sh_all1",title:"§9妖族究竟从何而来？",author:"§9神族专属任务",pages:['{"extra":[{"translate":"pl.book.hide_title"},{"translate":"pl.book.shen_hide1_finish"},{"translate":"pl.book.hide_talked"}],"text": ""}']}

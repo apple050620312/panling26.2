@@ -1,0 +1,2 @@
+execute if entity @e[type=blaze,tag=instance2_fire,x=1052,y=3,z=864,dx=82,dy=55,dz=64] run function pld:instances/instance2/damage/main
+execute if entity @e[type=blaze,tag=instance2_fire,x=1052,y=3,z=864,dx=82,dy=55,dz=64] run schedule function pld:instances/instance2/damage/delay 10s

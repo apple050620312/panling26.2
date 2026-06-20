@@ -1,0 +1,2 @@
+data modify block ~ 255 ~ Items[0].tag.AttributeModifiers set value [{Slot:"feet",UUID:[I;4,4,4,4],Operation:0,AttributeName:"minecraft:generic.armor",Amount:3},{Slot:"feet",UUID:[I;4,4,4,4],Operation:0,AttributeName:"minecraft:generic.max_health",Amount:3.5},{Slot:"feet",UUID:[I;4,4,4,4],Operation:0,AttributeName:"minecraft:generic.attack_damage",Amount:0.5},{Slot:"feet",UUID:[I;4,4,4,4],Operation:0,AttributeName:"minecraft:generic.knockback_resistance",Amount:0.05},{Slot:"feet",UUID:[I;4,4,4,4],Operation:1,AttributeName:"minecraft:generic.attack_speed",Amount:0}]
+

@@ -1,0 +1,16 @@
+{
+    "criteria": {
+        "ren_main_4":{
+            "trigger": "minecraft:villager_trade",
+            "conditions": {
+                "item": {
+                    "items": ["minecraft:written_book"],
+                    "nbt":"{id:\"panling:book_sm8\"}"
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "pld:adv/system/mission_guide/shen/main/tpstone"
+    }
+}

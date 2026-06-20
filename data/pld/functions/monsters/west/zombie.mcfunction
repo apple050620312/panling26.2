@@ -1,0 +1,4 @@
+execute store result score @s monster_count run execute if entity @e[tag=panling,tag=monster,distance=..20]
+
+execute if score @s monster_count matches ..9 run summon minecraft:zombie ~ ~ ~ {Team:"monster",Tags:["panling","undead","monster","west_zombie"],CanPickUpLoot:false,ArmorDropChances:[0f,0f,0f,0f],HandDropChances:[0f,0f],CustomNameVisible:1b,CustomName:'{"translate":"pl.monster.west.zombie"}',DeathLootTable:"pld:west/entity/zombie",Health:52.0f,Attributes:[{Name:"generic.max_health",Base:52d},{Name:"generic.follow_range",Base:20d},{Name:"generic.movement_speed",Base:0.2d},{Name:"generic.attack_damage",Base:2d},{Name:"generic.knockback_resistance",Base:1d}],ArmorItems:[{},{},{},{id:"minecraft:leather_helmet", Count:1b,tag:{Unbreakable:1b}}],HandItems:[{id:"iron_sword",Count:1b,tag:{Unbreakable:1b,Enchantments:[{id:"knockback",lvl:1}]}},{}]}
+kill @s

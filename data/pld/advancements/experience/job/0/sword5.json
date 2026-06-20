@@ -1,0 +1,35 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:diamond_sword"
+        },
+        "title":  {"translate": "pl.adv.sword5.title"},
+        "description":  {"translate": "pl.adv.sword5.description"},
+        "announce_to_chat": false
+    },
+    "parent": "pld:experience/job/0/sword4",
+    "criteria": {
+        "sword0":{
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:carrot_on_a_stick",
+                        "nbt": "{id:\"panling:sword5\"}"
+                    }
+                ],
+                "player": {
+                    "type_specific": {
+                        "type":"player",
+                        "advancements":{
+                            "pld:experience/job/0/base":"true"
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "pld:adv/gameplay/experience/job/0/sword5"
+    }
+}

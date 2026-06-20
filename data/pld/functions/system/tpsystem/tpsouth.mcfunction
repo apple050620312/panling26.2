@@ -1,0 +1,1 @@
+execute positioned ~ ~2 ~ run tp @p[distance=..3] 234 41 -187

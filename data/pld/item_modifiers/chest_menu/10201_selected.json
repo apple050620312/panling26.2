@@ -1,0 +1,7 @@
+{
+    "function":"minecraft:set_lore",
+    "lore":[
+        {"translate":"pl.chest_menu.tail_selected"}
+    ],
+    "entity":"this"
+}

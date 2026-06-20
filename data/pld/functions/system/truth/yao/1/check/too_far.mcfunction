@@ -1,0 +1,1 @@
+tellraw @s {"translate":"pl.info.npc_too_far"}

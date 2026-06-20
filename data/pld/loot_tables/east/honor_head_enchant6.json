@@ -1,0 +1,31 @@
+{
+    "type": "minecraft:generic",
+    "pools": [
+        {
+            "rolls":1,
+            "conditions": [
+                {
+                    "condition": "minecraft:random_chance",
+                    "chance": 0.4
+                },
+                {
+                    "condition": "minecraft:entity_properties",
+                    "entity": "killer",
+                    "predicate": {
+                        "equipment": {
+                            "head": {
+                                "nbt": "{id:\"panling:honor_head\",enchanted:6}"
+                            }
+                        }
+                    }
+                }
+            ],
+            "entries": [
+                {
+                    "type": "minecraft:loot_table",
+                    "name": "pld:east/bonus_loot"
+                }
+            ]
+        }
+    ]
+}

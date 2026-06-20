@@ -1,0 +1,3 @@
+give @s minecraft:orange_dye{HideFlags:63,Enchantments:[{id:"minecraft:protection",lvl:1s}],id:"panling:instance4_collection",display:{Name:'{"translate":"pl.item.name.instance4_collection"}',Lore:['{"translate":"pl.item.lore.instance4_collectiona"}','{"translate":"pl.item.lore.instance4_collectionb"}']}} 2
+give @s minecraft:iron_nugget{display:{Lore:['{"translate":"pl.lore.rare5"}','{"translate":"pl.item.lore.acore5a"}','{"translate":"pl.item.lore.acore5b"}'],Name:'{"translate":"pl.item.name.acore5"}'},id:"panling:armor_core_5",HideFlags:63,Enchantments:[{id:"minecraft:protection",lvl:1s}]}
+give @s minecraft:string{id:"panling:water",display:{Name:'{"translate":"pl.item.name.water"}'}} 20

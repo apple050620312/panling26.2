@@ -1,0 +1,14 @@
+{
+    "function":"minecraft:copy_nbt",
+    "source":{
+        "type":"storage",
+        "source":"pld:system"
+    },
+    "ops":[
+        {
+            "source":"Temp_ender_data",
+            "target":"data",
+            "op":"replace"
+        }
+    ]
+}

@@ -1,0 +1,16 @@
+{
+    "criteria": {
+        "eat0":{
+           "trigger": "consume_item",
+           "conditions": {
+                "item": {
+                    "items": ["minecraft:baked_potato"],
+                    "nbt": "{id:\"panling:food4\"}"
+                }
+           }
+        }
+    },
+    "rewards": {
+        "function": "pld:system/food/food4"
+    }
+}

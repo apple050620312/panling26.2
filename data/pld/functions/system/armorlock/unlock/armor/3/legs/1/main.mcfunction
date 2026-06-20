@@ -1,0 +1,1 @@
+data modify block ~ 255 ~ Items[0].tag.AttributeModifiers set value [{Slot:"legs",UUID:[I;3,3,3,3],Operation:0,AttributeName:"minecraft:generic.armor",Amount:2},{Slot:"legs",UUID:[I;3,3,3,3],Operation:0,AttributeName:"minecraft:generic.max_health",Amount:2}]

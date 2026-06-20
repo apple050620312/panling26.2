@@ -1,0 +1,2 @@
+execute if score @s tail_id matches 1 unless score @s inpvp matches 1 at @s run particle minecraft:happy_villager ~ ~0.5 ~ 0 0 0 0 1 force @a
+execute if entity @s[level=101..] run scoreboard players set @s tail_id1_unlocked 1

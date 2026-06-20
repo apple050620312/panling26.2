@@ -1,0 +1,28 @@
+{
+    "replace": false,
+    "values": [
+        "pld:system/dz/dzweapon/recipes/200",
+        "pld:system/dz/dzweapon/recipes/201",
+        "pld:system/dz/dzweapon/recipes/210",
+        "pld:system/dz/dzweapon/recipes/211",
+        "pld:system/dz/dzweapon/recipes/300",
+        "pld:system/dz/dzweapon/recipes/301",
+        "pld:system/dz/dzweapon/recipes/310",
+        "pld:system/dz/dzweapon/recipes/311",
+        "pld:system/dz/dzweapon/recipes/400",
+        "pld:system/dz/dzweapon/recipes/401",
+        "pld:system/dz/dzweapon/recipes/410",
+        "pld:system/dz/dzweapon/recipes/411",
+        "pld:system/dz/dzweapon/recipes/420",
+        "pld:system/dz/dzweapon/recipes/500",
+        "pld:system/dz/dzweapon/recipes/501",
+        "pld:system/dz/dzweapon/recipes/510",
+        "pld:system/dz/dzweapon/recipes/511",
+        "pld:system/dz/dzweapon/recipes/520",
+        "pld:system/dz/dzweapon/recipes/600",
+        "pld:system/dz/dzweapon/recipes/610",
+        "pld:system/dz/dzweapon/recipes/620"
+
+
+    ]
+}

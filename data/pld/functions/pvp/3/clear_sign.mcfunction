@@ -1,0 +1,1 @@
+scoreboard players set @a[scores={pvp_team=5..6}] pvp_team 0

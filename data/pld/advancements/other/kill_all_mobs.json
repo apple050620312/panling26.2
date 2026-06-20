@@ -1,0 +1,473 @@
+{
+    "parent": "pld:other/kill_a_mob",
+    "display": {
+        "icon": {
+            "item": "minecraft:nether_brick"
+        },
+        "title": {"translate": "pl.adv.kill_all_mobs.title"},
+        "description": {"translate": "pl.adv.kill_all_mobs.description"},
+        "announce_to_chat": false
+    },
+    "criteria": {
+        "east_skeleton": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+              "entity": [
+                {
+                  "condition": "minecraft:entity_properties",
+                  "predicate": {
+                    "type": "minecraft:skeleton",
+                    "nbt":"{Tags:[\"east_skeleton\"]}"
+                    
+                  },
+                  "entity": "this"
+                }
+              ]
+            }
+        },
+        "east_zombie": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+              "entity": [
+                {
+                  "condition": "minecraft:entity_properties",
+                  "predicate": {
+                    "type": "minecraft:zombie",
+                    "nbt":"{Tags:[\"east_zombie\"]}"
+                    
+                  },
+                  "entity": "this"
+                }
+              ]
+            }
+        },
+        "east_spider": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+              "entity": [
+                {
+                  "condition": "minecraft:entity_properties",
+                  "predicate": {
+                    "type": "minecraft:spider",
+                    "nbt":"{Tags:[\"east_spider\"]}"
+                    
+                  },
+                  "entity": "this"
+                }
+              ]
+            }
+        },
+        "east_boss": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+              "entity": [
+                {
+                  "condition": "minecraft:entity_properties",
+                  "predicate": {
+                    "type": "minecraft:spider",
+                    "nbt":"{Tags:[\"east_boss\"]}"
+                    
+                  },
+                  "entity": "this"
+                }
+              ]
+            }
+        },
+        "north_skeleton": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+              "entity": [
+                {
+                  "condition": "minecraft:entity_properties",
+                  "predicate": {
+                    "type": "minecraft:skeleton",
+                    "nbt":"{Tags:[\"north_skeleton\"]}"
+                    
+                  },
+                  "entity": "this"
+                }
+              ]
+            }
+        },
+        "north_zombie": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+              "entity": [
+                {
+                  "condition": "minecraft:entity_properties",
+                  "predicate": {
+                    "type": "minecraft:zombie",
+                    "nbt":"{Tags:[\"north_zombie\"]}"
+                    
+                  },
+                  "entity": "this"
+                }
+              ]
+            }
+        },
+        "north_spider": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+              "entity": [
+                {
+                  "condition": "minecraft:entity_properties",
+                  "predicate": {
+                    "type": "minecraft:spider",
+                    "nbt":"{Tags:[\"north_spider\"]}"
+                    
+                  },
+                  "entity": "this"
+                }
+              ]
+            }
+        },
+        "north_cave_spider": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+              "entity": [
+                {
+                  "condition": "minecraft:entity_properties",
+                  "predicate": {
+                    "type": "minecraft:cave_spider",
+                    "nbt":"{Tags:[\"north_cave_spider\"]}"
+                    
+                  },
+                  "entity": "this"
+                }
+              ]
+            }
+        },
+        "north_boss": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+              "entity": [
+                {
+                  "condition": "minecraft:entity_properties",
+                  "predicate": {
+                    "type": "minecraft:skeleton",
+                    "nbt":"{Tags:[\"north_boss\"]}"
+                    
+                  },
+                  "entity": "this"
+                }
+              ]
+            }
+        },
+        "south_blaze": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+              "entity": [
+                {
+                  "condition": "minecraft:entity_properties",
+                  "predicate": {
+                    "type": "minecraft:blaze",
+                    "nbt":"{Tags:[\"south_blaze\"]}"
+                    
+                  },
+                  "entity": "this"
+                }
+              ]
+            }
+        },
+        "south_wither_skeleton": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+              "entity": [
+                {
+                  "condition": "minecraft:entity_properties",
+                  "predicate": {
+                    "type": "minecraft:wither_skeleton",
+                    "nbt":"{Tags:[\"south_wither_skeleton\"]}"
+                    
+                  },
+                  "entity": "this"
+                }
+              ]
+            }
+        },
+        "south_zombie": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+              "entity": [
+                {
+                  "condition": "minecraft:entity_properties",
+                  "predicate": {
+                    "type": "minecraft:zombie",
+                    "nbt":"{Tags:[\"south_zombie\"]}"
+                    
+                  },
+                  "entity": "this"
+                }
+              ]
+            }
+        },
+        "south_skeleton": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+              "entity": [
+                {
+                  "condition": "minecraft:entity_properties",
+                  "predicate": {
+                    "type": "minecraft:skeleton",
+                    "nbt":"{Tags:[\"south_skeleton\"]}"
+                    
+                  },
+                  "entity": "this"
+                }
+              ]
+            }
+        },
+        "south_magma_cube": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+              "entity": [
+                {
+                  "condition": "minecraft:entity_properties",
+                  "predicate": {
+                    "type": "minecraft:magma_cube",
+                    "nbt":"{Tags:[\"south_magma_cube\"]}"
+                    
+                  },
+                  "entity": "this"
+                }
+              ]
+            }
+        },
+        "south_husk": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+              "entity": [
+                {
+                  "condition": "minecraft:entity_properties",
+                  "predicate": {
+                    "type": "minecraft:husk",
+                    "nbt":"{Tags:[\"south_husk\"]}"
+                    
+                  },
+                  "entity": "this"
+                }
+              ]
+            }
+        },
+        "south_bosscube": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+              "entity": [
+                {
+                  "condition": "minecraft:entity_properties",
+                  "predicate": {
+                    "type": "minecraft:magma_cube",
+                    "nbt":"{Tags:[\"south_boss\"]}"
+                    
+                  },
+                  "entity": "this"
+                }
+              ]
+            }
+        },
+        "south_bosshusk": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+              "entity": [
+                {
+                  "condition": "minecraft:entity_properties",
+                  "predicate": {
+                    "type": "minecraft:husk",
+                    "nbt":"{Tags:[\"south_boss\"]}"
+                    
+                  },
+                  "entity": "this"
+                }
+              ]
+            }
+        },
+        "west_boss": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+              "entity": [
+                {
+                  "condition": "minecraft:entity_properties",
+                  "predicate": {
+                    "type": "minecraft:wither_skeleton",
+                    "nbt":"{Tags:[\"west_boss\"]}"
+                    
+                  },
+                  "entity": "this"
+                }
+              ]
+            }
+        },
+        "west_zombie": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+              "entity": [
+                {
+                  "condition": "minecraft:entity_properties",
+                  "predicate": {
+                    "type": "minecraft:zombie",
+                    "nbt":"{Tags:[\"west_zombie\"]}"
+                    
+                  },
+                  "entity": "this"
+                }
+              ]
+            }
+        },
+        "west_skeleton": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+              "entity": [
+                {
+                  "condition": "minecraft:entity_properties",
+                  "predicate": {
+                    "type": "minecraft:skeleton",
+                    "nbt":"{Tags:[\"west_skeleton\"]}"
+                    
+                  },
+                  "entity": "this"
+                }
+              ]
+            }
+        },
+        "west_cave_spider": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+              "entity": [
+                {
+                  "condition": "minecraft:entity_properties",
+                  "predicate": {
+                    "type": "minecraft:cave_spider",
+                    "nbt":"{Tags:[\"west_cave_spider\"]}"
+                    
+                  },
+                  "entity": "this"
+                }
+              ]
+            }
+        },
+        "te17_skeleton": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+              "entity": [
+                {
+                  "condition": "minecraft:entity_properties",
+                  "predicate": {
+                    "type": "minecraft:skeleton",
+                    "nbt":"{Tags:[\"te17_skeleton\"]}"
+                    
+                  },
+                  "entity": "this"
+                }
+              ]
+            }
+        },
+        "te17_zombie": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+              "entity": [
+                {
+                  "condition": "minecraft:entity_properties",
+                  "predicate": {
+                    "type": "minecraft:zombie",
+                    "nbt":"{Tags:[\"te17_zombie\"]}"
+                    
+                  },
+                  "entity": "this"
+                }
+              ]
+            }
+        },
+        "te17_wither_skeleton": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+              "entity": [
+                {
+                  "condition": "minecraft:entity_properties",
+                  "predicate": {
+                    "type": "minecraft:wither_skeleton",
+                    "nbt":"{Tags:[\"te17_wither_skeleton\"]}"
+                    
+                  },
+                  "entity": "this"
+                }
+              ]
+            }
+        }
+        
+    },
+    "requirements": [
+        [
+            "east_skeleton"
+        ],
+        [
+            "east_zombie"
+        ],
+        [
+            "east_spider"
+        ],
+        [
+            "east_boss"
+        ],
+        [
+            "north_skeleton"
+        ],
+        [
+            "north_zombie"
+        ],
+        [
+            "north_spider"
+        ],
+        [
+            "north_cave_spider"
+        ],
+        [
+            "north_boss"
+        ],
+        [
+            "west_skeleton"
+        ],
+        [
+            "west_zombie"
+        ],
+        [
+            "west_cave_spider"
+        ],
+        [
+            "west_boss"
+        ],
+        [
+            "south_skeleton"
+        ],
+        [
+            "south_zombie"
+        ],
+        [
+            "south_wither_skeleton"
+        ],
+        [
+            "south_husk"
+        ],
+        [
+            "south_blaze"
+        ],
+        [
+            "south_magma_cube"
+        ],
+        [
+            "south_bosscube","south_bosshusk"
+        ],
+        [
+            "te17_zombie"
+        ],
+        [
+            "te17_skeleton"
+        ],
+        [
+            "te17_wither_skeleton"
+        ]
+
+    ],
+    "rewards": {
+        "function": "pld:adv/gameplay/other/kill_all_mobs"
+    }
+}

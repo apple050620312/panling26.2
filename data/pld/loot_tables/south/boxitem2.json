@@ -1,0 +1,29 @@
+{
+    "pools": [
+        {
+            "rolls":1,
+            "conditions": [
+                {
+                    "condition": "minecraft:random_chance",
+                    "chance":0.4
+                }
+            ],
+            "entries": [
+                {
+                    "type": "minecraft:loot_table",
+                    "name": "pld:items/texian",
+                    "functions": [
+                        {
+                            "function":"minecraft:set_count",
+                            "count":{
+                                "type":"minecraft:uniform",
+                                "max": 2,
+                                "min": 0
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

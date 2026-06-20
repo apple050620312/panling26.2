@@ -1,0 +1,19 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "item",
+            "name": "minecraft:clay_ball",
+            "functions": [
+                {
+                    "function":"minecraft:set_nbt",
+                    "tag": "{display:{Lore:['{\"translate\":\"pl.lore.rare3\"}','{\"translate\":\"pl.item.lore.wcore3a\"}','{\"translate\":\"pl.item.lore.wcoreb\"}'],Name:'{\"translate\":\"pl.item.name.wcore3\"}'},id:\"panling:weapon_core_3\",HideFlags:63,Enchantments:[{id:\"minecraft:protection\",lvl:1s}]}"                            
+                }
+            ]
+          }
+        ]
+      }
+    ]
+}

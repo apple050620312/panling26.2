@@ -1,0 +1,36 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:carrot_on_a_stick",
+            "nbt": "{CustomModelData:1}"
+        },
+        "title":  {"translate": "pl.adv.furnace3.title"},
+        "description":  {"translate": "pl.adv.furnace3.description"},
+        "announce_to_chat": false
+    },
+    "parent": "pld:experience/job/2/base",
+    "criteria": {
+        "sword0":{
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:carrot_on_a_stick",
+                        "nbt": "{id:\"panling:furnace3\"}"
+}
+                ],
+                "player": {
+                    "type_specific": {
+                        "type":"player",
+                        "advancements":{
+                            "pld:experience/job/2/base":"true"
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "pld:adv/gameplay/experience/job/2/furnace3"
+    }
+}

@@ -1,0 +1,60 @@
+{
+    "type": "minecraft:entity",
+    "pools": [
+        {
+            "rolls":1,
+            "entries": [
+                {   
+                    "weight":5,
+                    "type": "minecraft:loot_table",
+                    "name": "pld:items/armor_core_4"
+                                  
+                },
+                {
+                    "weight":3,
+                    "type": "minecraft:loot_table",
+                    "name": "pld:items/weapon_core_4"
+                },
+                {   
+                    "weight":10,
+                    "type": "minecraft:loot_table",
+                    "name": "pld:items/yy2"
+                },
+                {
+                    "weight": 5,
+                    "type": "minecraft:loot_table",
+                    "name": "pld:items/yy40",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count":2
+                        }
+                    ]
+                },
+                {
+                    "weight": 5,
+                    "type": "minecraft:loot_table",
+                    "name": "pld:items/yy41",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count":2
+                        }
+                    ]
+                },
+                {
+                    "weight": 6,
+                    "type": "minecraft:loot_table",
+                    "name": "pld:items/enchant_stonepart",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count":2
+                        }
+                    ]
+                }
+            
+            ]
+        }
+    ]
+}

@@ -1,0 +1,1 @@
+effect give @s absorption 6000 2

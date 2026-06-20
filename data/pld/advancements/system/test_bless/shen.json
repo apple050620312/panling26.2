@@ -1,0 +1,17 @@
+{
+
+    "criteria": {
+      "used_totem": {
+        "trigger": "minecraft:used_totem",
+        "conditions": {
+          "item": {
+            "items": ["minecraft:totem_of_undying"],
+            "nbt":"{id:\"panling:shen_test_bless\"}"
+          }
+        }
+      }
+    },
+    "rewards": {
+        "function": "pld:system/test_bless/shen/main"
+    }
+  }

@@ -1,0 +1,8 @@
+#兑泽时常效果
+execute if score #system instance5_phase matches 1 if score @e[tag=instance5_skill,limit=1] instance5_swamp matches 1 as @a[x=2992,y=0,z=-2000,dx=271,dy=255,dz=303] at @s if block ~ ~ ~ soul_sand run effect give @s poison 5 1
+execute if score #system instance5_phase matches 1 if score @e[tag=instance5_skill,limit=1] instance5_swamp matches 1 as @e[type=slime,nbt={CustomName:'{"translate":"pl.monster.instance5.slime1"}'}] at @s run effect give @a[distance=..5] poison 5 1
+execute if score #system instance5_phase matches 1 if score @e[tag=instance5_skill,limit=1] instance5_swamp matches 1 as @e[type=slime,nbt={CustomName:'{"translate":"pl.monster.instance5.slime2"}'}] at @s run effect give @a[distance=..5] poison 5 1
+execute if score #system instance5_phase matches 1 if score @e[tag=instance5_skill,limit=1] instance5_swamp matches 1 as @e[type=slime,nbt={CustomName:'{"translate":"pl.monster.instance5.slime3"}'}] at @s run effect give @a[distance=..5] poison 5 1
+execute if score #system instance5_phase matches 1 if score @e[tag=instance5_skill,limit=1] instance5_swamp matches 1 as @e[type=slime,nbt={CustomName:'{"translate":"pl.monster.instance5.slime1b"}'}] at @s run effect give @a[distance=..5] poison 5 1
+execute if score #system instance5_phase matches 1 if score @e[tag=instance5_skill,limit=1] instance5_swamp matches 1 as @e[type=slime,nbt={CustomName:'{"translate":"pl.monster.instance5.slime2b"}'}] at @s run effect give @a[distance=..5] poison 5 1
+execute if entity @e[tag=instance5_skill,scores={instance5_swamp=1}] run schedule function pld:instances/instance5/swamp/effect 2s

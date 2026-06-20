@@ -1,0 +1,22 @@
+{
+    "pools": [
+        {
+            "rolls":1,
+            "entries": [
+                {
+                    "type": "minecraft:loot_table",
+                    "name": "pld:south/husk_base"
+                }
+            ]
+        },
+        {
+            "rolls":1,
+            "entries": [
+                {
+                    "type": "minecraft:loot_table",
+                    "name":"pld:south/boxitem2"
+                }
+            ]
+        }
+    ]
+}

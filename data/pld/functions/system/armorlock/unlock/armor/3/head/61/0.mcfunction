@@ -1,0 +1,4 @@
+data modify block ~ 255 ~ Items[0].tag.AttributeModifiers set value [{Slot:"head",UUID:[I;1,1,1,1],Operation:0,AttributeName:"minecraft:generic.armor",Amount:3},{Slot:"head",UUID:[I;1,1,1,1],Operation:0,AttributeName:"minecraft:generic.max_health",Amount:3},{Slot:"head",UUID:[I;1,1,1,1],Operation:0,AttributeName:"minecraft:generic.armor_toughness",Amount:0.5},{Slot:"head",UUID:[I;1,1,1,1],Operation:1,AttributeName:"minecraft:generic.movement_speed",Amount:0.025},{Slot:"head",UUID:[I;1,1,1,1],Operation:0,AttributeName:"minecraft:generic.knockback_resistance",Amount:0.075}]
+scoreboard players set @s armor_rare_head 61
+scoreboard players set @s armor6_awake_head 0
+

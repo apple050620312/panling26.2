@@ -1,0 +1,18 @@
+[
+    {
+        "function":"minecraft:set_lore",
+        "lore":[
+            [{"translate":"pl.chest_menu.max_health"},{"score":{"name":"@s","objective":"max_health_display_int_part"},"italic": false,"color":"white"},{"text":".","italic": false,"color":"white"},{"score":{"name":"@s","objective":"max_health_display_fraction_part"},"italic": false,"color":"white"}],
+            [{"translate":"pl.chest_menu.armor"},{"score":{"name":"@s","objective":"armor_display_int_part"},"italic": false,"color":"white"},{"text":".","italic": false,"color":"white"},{"score":{"name":"@s","objective":"armor_display_fraction_part"},"italic": false,"color":"white"}],    
+            [{"translate":"pl.chest_menu.armor_toughness"},{"score":{"name":"@s","objective":"armor_toughness_display_int_part"},"italic": false,"color":"white"},{"text":".","italic": false,"color":"white"},{"score":{"name":"@s","objective":"armor_toughness_display_fraction_part"},"italic": false,"color":"white"}],    
+            [{"translate":"pl.chest_menu.movement_speed"},{"score":{"name":"@s","objective":"movement_speed_percent"},"italic": false,"color":"white"},{"text":"%","italic": false,"color":"white"}],    
+            [{"translate":"pl.chest_menu.konckback_resistance"},{"score":{"name":"@s","objective":"knockback_resistance_percent"},"italic": false,"color":"white"},{"text":"%","italic": false,"color":"white"}],    
+            [{"translate":"pl.chest_menu.damage_reduce"},{"score":{"name":"@s","objective":"all_protection_percent"},"italic": false,"color":"white"},{"text":"%","italic": false,"color":"white"}],     
+            [{"translate":"pl.chest_menu.arrow_reduce"},{"score":{"name":"@s","objective":"arrow_protection_percent"},"italic": false,"color":"white"},{"text":"%","italic": false,"color":"white"}],    
+            [{"translate":"pl.chest_menu.fire_reduce"},{"score":{"name":"@s","objective":"fire_protection_percent"},"italic": false,"color":"white"},{"text":"%","italic": false,"color":"white"}],    
+            [{"translate":"pl.chest_menu.magic_reduce"},{"score":{"name":"@s","objective":"magic_protection_percent"},"italic": false,"color":"white"},{"text":"%","italic": false,"color":"white"}]
+        ]
+        ,
+        "entity":"this"
+    }
+]

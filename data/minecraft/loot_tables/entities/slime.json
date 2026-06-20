@@ -1,0 +1,23 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                  "type": "minecraft:item",
+                  "name": "minecraft:slime_ball",
+                  "functions": [
+                      {
+                          "function": "minecraft:set_nbt",
+                          "tag": "{id:\"panling:instance5_dirt\",display:{Name:'{\"translate\":\"pl.item.name.instance5_dirt\"}',Lore:['{\"translate\":\"pl.item.lore.instance5_dirta\"}','{\"translate\":\"pl.item.lore.instance5_dirtb\"}']}}"
+                      },
+                      {
+                          "function": "minecraft:set_count",
+                          "count":1
+                      }
+                  ]
+                }
+            ]
+        }
+    ]
+}

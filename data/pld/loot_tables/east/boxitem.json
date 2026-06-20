@@ -1,0 +1,29 @@
+{
+    "pools": [
+        {
+            "rolls":1,
+            "entries": [
+                {
+                    "conditions": [
+                        {
+                            "condition": "minecraft:random_chance",
+                            "chance":0.8
+                        }
+                    ],
+                    "type": "minecraft:loot_table",
+                    "name": "pld:items/teren",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count":{
+                                "type":"minecraft:uniform",
+                                "max": 2,
+                                "min": 0
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

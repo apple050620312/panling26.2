@@ -1,0 +1,22 @@
+
+execute if score player_mail_count int matches 1.. run function pld:system/chest_menu/screen/3_mails/buttons/page2/slot1
+execute if score player_mail_count int matches 2.. run function pld:system/chest_menu/screen/3_mails/buttons/page2/slot2
+execute if score player_mail_count int matches 3.. run function pld:system/chest_menu/screen/3_mails/buttons/page2/slot3
+execute if score player_mail_count int matches 4.. run function pld:system/chest_menu/screen/3_mails/buttons/page2/slot4
+execute if score player_mail_count int matches 5.. run function pld:system/chest_menu/screen/3_mails/buttons/page2/slot5
+execute if score player_mail_count int matches 6.. run function pld:system/chest_menu/screen/3_mails/buttons/page2/slot6
+execute if score player_mail_count int matches 7.. run function pld:system/chest_menu/screen/3_mails/buttons/page2/slot7
+execute if score player_mail_count int matches 8.. run function pld:system/chest_menu/screen/3_mails/buttons/page2/slot10
+execute if score player_mail_count int matches 9.. run function pld:system/chest_menu/screen/3_mails/buttons/page2/slot11
+execute if score player_mail_count int matches 10.. run function pld:system/chest_menu/screen/3_mails/buttons/page2/slot12
+execute if score player_mail_count int matches 11.. run function pld:system/chest_menu/screen/3_mails/buttons/page2/slot13
+execute if score player_mail_count int matches 12.. run function pld:system/chest_menu/screen/3_mails/buttons/page2/slot14
+execute if score player_mail_count int matches 13.. run function pld:system/chest_menu/screen/3_mails/buttons/page2/slot15
+execute if score player_mail_count int matches 14.. run function pld:system/chest_menu/screen/3_mails/buttons/page2/slot16
+execute if score player_mail_count int matches 15.. run function pld:system/chest_menu/screen/3_mails/buttons/page2/slot19
+execute if score player_mail_count int matches 16.. run function pld:system/chest_menu/screen/3_mails/buttons/page2/slot20
+execute if score player_mail_count int matches 17.. run function pld:system/chest_menu/screen/3_mails/buttons/page2/slot21
+execute if score player_mail_count int matches 18.. run function pld:system/chest_menu/screen/3_mails/buttons/page2/slot22
+execute if score player_mail_count int matches 19.. run function pld:system/chest_menu/screen/3_mails/buttons/page2/slot23
+execute if score player_mail_count int matches 20.. run function pld:system/chest_menu/screen/3_mails/buttons/page2/slot24
+execute if score player_mail_count int matches 21.. run function pld:system/chest_menu/screen/3_mails/buttons/page2/slot25

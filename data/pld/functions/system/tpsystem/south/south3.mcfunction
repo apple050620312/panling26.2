@@ -1,0 +1,2 @@
+execute positioned ~ ~2 ~ run tellraw @p[distance=..3,scores={tp_south3=0}] {"translate":"pl.info.tp_resisted","color":"gray"}
+execute positioned ~ ~2 ~ run tp @p[distance=..3,scores={tp_south3=1}] -30 48 806 -50 0

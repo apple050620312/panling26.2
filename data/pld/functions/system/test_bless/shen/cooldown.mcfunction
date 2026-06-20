@@ -1,0 +1,2 @@
+clear @s carrot_on_a_stick{id:"panling:shen_test_bless"}
+give @s minecraft:totem_of_undying{HideFlags:63,Enchantments:[{id:"minecraft:protection",lvl:1s}],id:"panling:shen_test_bless",display:{Name:'{"translate":"pl.item.name.shen_test_bless"}',Lore:['{"translate":"pl.item.lore.shen_test_blessa"}','{"translate":"pl.item.lore.shen_test_blessb"}','{"translate":"pl.item.lore.shen_test_blessc"}','{"translate":"pl.item.lore.shen_test_blessd"}']}}

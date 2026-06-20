@@ -1,0 +1,3 @@
+data modify block ~ 255 ~ Items[0].tag.AttributeModifiers set value [{Slot:"chest",UUID:[I;2,2,2,2],Operation:0,AttributeName:"minecraft:generic.armor",Amount:5},{Slot:"chest",UUID:[I;2,2,2,2],Operation:0,AttributeName:"minecraft:generic.max_health",Amount:7},{Slot:"chest",UUID:[I;2,2,2,2],Operation:0,AttributeName:"minecraft:generic.armor_toughness",Amount:2},{Slot:"chest",UUID:[I;2,2,2,2],Operation:1,AttributeName:"minecraft:generic.movement_speed",Amount:0.1},{Slot:"chest",UUID:[I;2,2,2,2],Operation:0,AttributeName:"minecraft:generic.knockback_resistance",Amount:0.25},{Slot:"chest",UUID:[I;9,2,2,2],Operation:1,AttributeName:"minecraft:generic.max_health",Amount:0.2d}]
+scoreboard players set @s armor_rare_chest 61
+scoreboard players set @s armor6_awake_chest 3

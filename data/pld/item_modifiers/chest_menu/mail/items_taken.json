@@ -1,0 +1,8 @@
+{
+    "function":"minecraft:set_lore",
+    "lore":[
+        {"text":""},
+        {"translate":"pl.chest_menu.items_taken"}
+    ],
+    "entity":"this"
+}

@@ -1,0 +1,19 @@
+{
+    "criteria": {
+        "hurt_player":{
+            "trigger": "minecraft:entity_hurt_player",
+            "conditions": {
+                "damage": {
+                    "blocked": false,
+                    "source_entity": {
+                        "type":"wither_skeleton",
+                        "nbt":"{Tags:[\"panling\",\"undead\",\"monster\",\"west_boss\"]}"
+                    }
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "pld:monsters/west/boss_skill/check"
+    }
+}

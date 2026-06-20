@@ -1,0 +1,19 @@
+{
+    "parent": "pld:exploration/race",
+    "display": {
+        "icon": {
+            "item": "minecraft:green_dye"
+        },
+        "title": {"translate": "pl.adv.shen.title"},
+        "description": {"translate": "pl.adv.shen.description"},
+        "announce_to_chat": false
+    },
+    "criteria": {
+        "impossibe":{
+        "trigger": "minecraft:impossible"
+        }
+    },
+    "rewards": {
+        "function": "pld:adv/gameplay/exploration/race_shen"
+    }
+}

@@ -1,0 +1,72 @@
+{
+    "type":"minecraft:entity",
+    "pools": [
+        {
+            "rolls":1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:arrow",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count":{
+                                "type":"minecraft:uniform",
+                                "max": 2,
+                                "min": 0
+                            }
+                        }
+                    ]
+                }
+
+            ]
+        },
+        {
+            "rolls": 1,
+            "functions":[
+                {
+                    "function": "minecraft:set_count",
+                    "count":{
+                        "min": 1,
+                        "max": 2
+                    }
+                }
+            ],
+            "entries": [
+                {
+                    "type": "minecraft:loot_table",
+                    "name": "pld:items/water"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "name": "pld:items/wood"
+                }
+                
+            ]
+        },
+        {
+            "rolls":1, 
+            "conditions": [
+                {
+                    "condition": "minecraft:random_chance",
+                    "chance": 0.4643
+                }
+            ],
+            "entries": [
+                {
+                    "type": "minecraft:loot_table",
+                    "name": "pld:north/money"
+                }
+            ]
+        },
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:loot_table",
+                    "name": "pld:north/redname"
+                }
+            ]
+        }
+    ]
+}

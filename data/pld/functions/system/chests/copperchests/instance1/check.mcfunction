@@ -1,0 +1,5 @@
+execute unless score @s copper_chest matches 1.. run tellraw @s {"translate": "pl.info.copperchest_opened"}
+execute if score @s copper_chest matches 1.. run function pld:system/test_inv/invmain
+execute if score @s copper_chest matches 1.. if score @s inv_remain matches 0 run tellraw @s {"translate": "pl.info.chest_inv_0"}
+execute if score @s copper_chest matches 1.. if score @s inv_remain matches 1.. unless entity @s[nbt={SelectedItem:{tag:{id:"panling:copperkey"}}}] run tellraw @s {"translate":"pl.info.copperkey_lack"}
+execute if score @s copper_chest matches 1.. if score @s inv_remain matches 1.. if entity @s[nbt={SelectedItem:{tag:{id:"panling:copperkey"}}}] run function pld:system/chests/copperchests/instance1/loot

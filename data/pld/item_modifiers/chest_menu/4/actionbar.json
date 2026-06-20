@@ -1,0 +1,8 @@
+{
+    "function":"minecraft:set_lore",
+    "lore":[
+        [{"translate":"pl.chest_menu.info_pos"},{"translate":"pl.chest_menu.actionbar"}],
+        {"translate":"pl.chest_menu.switch_info.click"}
+    ],
+    "replace": false
+}

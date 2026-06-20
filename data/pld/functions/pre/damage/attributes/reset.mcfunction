@@ -1,0 +1,17 @@
+attribute @s generic.max_health modifier remove 100-0-0-0-65536
+attribute @s generic.max_health modifier remove 100-0-0-0-32768
+attribute @s generic.max_health modifier remove 100-0-0-0-16384
+attribute @s generic.max_health modifier remove 100-0-0-0-8192 
+attribute @s generic.max_health modifier remove 100-0-0-0-4096 
+attribute @s generic.max_health modifier remove 100-0-0-0-2048 
+attribute @s generic.max_health modifier remove 100-0-0-0-1024 
+attribute @s generic.max_health modifier remove 100-0-0-0-512
+attribute @s generic.max_health modifier remove 100-0-0-0-256
+attribute @s generic.max_health modifier remove 100-0-0-0-128
+attribute @s generic.max_health modifier remove 100-0-0-0-64
+attribute @s generic.max_health modifier remove 100-0-0-0-32
+attribute @s generic.max_health modifier remove 100-0-0-0-16
+attribute @s generic.max_health modifier remove 100-0-0-0-8
+attribute @s generic.max_health modifier remove 100-0-0-0-4
+attribute @s generic.max_health modifier remove 100-0-0-0-2
+attribute @s generic.max_health modifier remove 100-0-0-0-1

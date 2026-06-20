@@ -1,0 +1,87 @@
+{
+    "type":"minecraft:entity",
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:loot_table",
+                    "name": "pld:items/wood",
+                    "weight": 1,
+                    "functions":[
+                      {
+                          "function": "minecraft:set_count",
+                          "count":2
+                      }
+                    ]
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "name":"pld:east/bosselement",
+                    "weight": 1
+                }
+            ]
+        },
+        {
+            "rolls":1,
+            "entries": [
+                {
+                    "type": "minecraft:loot_table",
+                    "name":"pld:east/bossrareitem"
+                }
+            ]
+        },
+        {
+            "rolls":1, 
+            "entries": [
+                    {
+                        "type": "minecraft:loot_table",
+                        "name": "pld:items/spider_eye",
+                        "weight":80
+                    },
+                    {
+                        "type": "minecraft:loot_table",
+                        "name": "pld:items/unkonwn_colorful_crystal",
+                        "weight":3
+                    }
+                ]
+        },
+        {
+            "rolls":1,
+            "entries": [
+                {
+                    "type": "minecraft:loot_table",
+                    "name": "pld:items/relive_stone"
+                }
+            ]
+        },
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:loot_table",
+                    "name": "pld:east/job2"
+                }
+            ]
+        },
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:loot_table",
+                    "name": "pld:east/honor_head_enchant6"
+                }
+            ]
+        },
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:loot_table",
+                    "name": "pld:east/earth_set_bonus_4b"
+                }
+            ]
+        }
+
+    ]
+}

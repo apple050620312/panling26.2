@@ -1,0 +1,17 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:stone"
+        },
+        "title": {"translate": "pl.adv.other_root.title"},
+        "description": {"translate": "pl.adv.other_root.description"},
+        "background": "panling:other.png",
+        "announce_to_chat": false,
+        "show_toast": false
+    },
+    "criteria": {
+        "impossibe":{
+        "trigger": "minecraft:impossible"
+        }
+    }
+}

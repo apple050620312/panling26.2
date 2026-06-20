@@ -1,0 +1,19 @@
+{
+    "parent": "pld:l6/root",
+    "display": {
+        "icon": {
+            "item": "minecraft:bow"
+        },
+        "title": {"translate": "pl.adv.bow6.title"},
+        "description": {"translate": "pl.adv.bow6.description"},
+        "announce_to_chat": false
+    },
+    "criteria": {
+        "impossibe":{
+        "trigger": "minecraft:impossible"
+        }
+    },
+    "rewards": {
+        "function": "pld:adv/l6/bow6"
+    }
+}

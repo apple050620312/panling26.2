@@ -1,0 +1,10 @@
+advancement revoke @s only pld:system/lvl_reward/10
+advancement revoke @s only pld:system/lvl_reward/20
+advancement revoke @s only pld:system/lvl_reward/30
+advancement revoke @s only pld:system/lvl_reward/40
+advancement revoke @s only pld:system/lvl_reward/50
+advancement revoke @s only pld:system/lvl_reward/60
+advancement revoke @s only pld:system/lvl_reward/70
+advancement revoke @s only pld:system/lvl_reward/80
+advancement revoke @s only pld:system/lvl_reward/90
+advancement revoke @s only pld:system/lvl_reward/100

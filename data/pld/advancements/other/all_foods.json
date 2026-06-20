@@ -1,0 +1,454 @@
+{
+    "parent": "pld:other/food1",
+    "display": {
+        "icon": {
+            "item": "minecraft:cooked_beef"
+        },
+        "title": {"translate": "pl.adv.all_foods.title"},
+        "description": {"translate": "pl.adv.all_foods.description"},
+        "announce_to_chat": false
+    },
+    "criteria": {
+        "apple": {
+            "trigger": "minecraft:consume_item",
+            "conditions": {
+              "item": {
+                "items": [
+                  "minecraft:apple"
+                ]
+              }
+            }
+        },
+        "cooked_beef": {
+            "trigger": "minecraft:consume_item",
+            "conditions": {
+              "item": {
+                "items": [
+                  "minecraft:cooked_beef"
+                ]
+              }
+            }
+        },
+        "cooked_porkchop": {
+            "trigger": "minecraft:consume_item",
+            "conditions": {
+              "item": {
+                "items": [
+                  "minecraft:cooked_porkchop"
+                ]
+              }
+            }
+        },
+        "cooked_chicken": {
+            "trigger": "minecraft:consume_item",
+            "conditions": {
+              "item": {
+                "items": [
+                  "minecraft:cooked_chicken"
+                ]
+              }
+            }
+        },
+        "cooked_mutton": {
+            "trigger": "minecraft:consume_item",
+            "conditions": {
+              "item": {
+                "items": [
+                  "minecraft:cooked_mutton"
+                ]
+              }
+            }
+        },
+        "cooked_salmon": {
+            "trigger": "minecraft:consume_item",
+            "conditions": {
+              "item": {
+                "items": [
+                  "minecraft:cooked_salmon"
+                ]
+              }
+            }
+        },
+        "cooked_rabbit": {
+            "trigger": "minecraft:consume_item",
+            "conditions": {
+              "item": {
+                "items": [
+                  "minecraft:cooked_rabbit"
+                ]
+              }
+            }
+        },
+        "baozi": {
+            "trigger": "minecraft:consume_item",
+            "conditions": {
+              "item": {
+                "items": [
+                  "minecraft:bread"
+                ],
+                "nbt":"{id:\"panling:baozi\"}"
+              }
+            }
+        },
+        "fotiaoqiang": {
+            "trigger": "minecraft:consume_item",
+            "conditions": {
+              "item": {
+                "items": [
+                  "minecraft:mushroom_stew"
+                ],
+                "nbt":"{id:\"panling:fotiaoqiang\"}"
+              }
+            }
+        },
+        "xibing": {
+            "trigger": "minecraft:consume_item",
+            "conditions": {
+              "item": {
+                "items": [
+                  "minecraft:pumpkin_pie"
+                ],
+                "nbt":"{id:\"panling:xibing\"}"
+              }
+            }
+        },
+        "baked_potato": {
+            "trigger": "minecraft:consume_item",
+            "conditions": {
+              "item": {
+                "items": [
+                  "minecraft:baked_potato"
+                ],
+                "nbt":"{id:\"panling:baked_potato\"}"
+              }
+            }
+        },
+        "cooked_cod": {
+            "trigger": "minecraft:consume_item",
+            "conditions": {
+              "item": {
+                "items": [
+                  "minecraft:cooked_cod"
+                ],
+                "nbt":"{id:\"panling:cooked_cod\"}"
+              }
+            }
+        },
+        "rabbit": {
+            "trigger": "minecraft:consume_item",
+            "conditions": {
+              "item": {
+                "items": [
+                  "minecraft:rabbit"
+                ],
+                "nbt":"{id:\"panling:rabbit\"}"
+              }
+            }
+        },
+        "fish": {
+            "trigger": "minecraft:consume_item",
+            "conditions": {
+              "item": {
+                "items": [
+                  "minecraft:cod"
+                ],
+                "nbt":"{id:\"panling:fish\"}"
+              }
+            }
+        },
+        "salmon": {
+            "trigger": "minecraft:consume_item",
+            "conditions": {
+              "item": {
+                "items": [
+                  "minecraft:salmon"
+                ],
+                "nbt":"{id:\"panling:salmon\"}"
+              }
+            }
+        },
+        "medicinal_liquor": {
+            "trigger": "minecraft:consume_item",
+            "conditions": {
+              "item": {
+                "items": [
+                  "minecraft:pufferfish"
+                ],
+                "nbt":"{id:\"panling:medicinal_liquor\"}"
+              }
+            }
+        },
+        "food2": {
+            "trigger": "minecraft:consume_item",
+            "conditions": {
+              "item": {
+                "items": [
+                  "minecraft:mushroom_stew"
+                ],
+                "nbt":"{id:\"panling:food2\"}"
+              }
+            }
+        },
+        "food3": {
+            "trigger": "minecraft:consume_item",
+            "conditions": {
+              "item": {
+                "items": [
+                  "minecraft:cooked_beef"
+                ],
+                "nbt":"{id:\"panling:food3\"}"
+              }
+            }
+        },
+        "food0": {
+            "trigger": "minecraft:consume_item",
+            "conditions": {
+              "item": {
+                "items": [
+                  "minecraft:cooked_salmon"
+                ],
+                "nbt":"{id:\"panling:food0\"}"
+              }
+            }
+        },
+        "food1": {
+            "trigger": "minecraft:consume_item",
+            "conditions": {
+              "item": {
+                "items": [
+                  "minecraft:dried_kelp"
+                ],
+                "nbt":"{id:\"panling:food1\"}"
+              }
+            }
+        },
+        "food4": {
+            "trigger": "minecraft:consume_item",
+            "conditions": {
+              "item": {
+                "items": [
+                  "minecraft:baked_potato"
+                ],
+                "nbt":"{id:\"panling:food4\"}"
+              }
+            }
+        },
+        "job1food1": {
+            "trigger": "minecraft:consume_item",
+            "conditions": {
+              "item": {
+                "items": [
+                  "minecraft:cooked_rabbit"
+                ],
+                "nbt":"{id:\"panling:job1food1\"}"
+              }
+            }
+        },
+        "job2food1": {
+            "trigger": "minecraft:consume_item",
+            "conditions": {
+              "item": {
+                "items": [
+                  "minecraft:cooked_cod"
+                ],
+                "nbt":"{id:\"panling:job2food1\"}"
+              }
+            }
+        },
+        "job2food2": {
+            "trigger": "minecraft:consume_item",
+            "conditions": {
+              "item": {
+                "items": [
+                  "minecraft:cooked_salmon"
+                ],
+                "nbt":"{id:\"panling:job2food2\"}"
+              }
+            }
+        },
+        "tea1": {
+            "trigger": "minecraft:consume_item",
+            "conditions": {
+              "item": {
+                "items": [
+                  "minecraft:melon_slice"
+                ],
+                "nbt":"{id:\"panling:tea1\"}"
+              }
+            }
+        },
+        "tea2": {
+            "trigger": "minecraft:consume_item",
+            "conditions": {
+              "item": {
+                "items": [
+                  "minecraft:melon_slice"
+                ],
+                "nbt":"{id:\"panling:tea2\"}"
+              }
+            }
+        },
+        "tea3": {
+            "trigger": "minecraft:consume_item",
+            "conditions": {
+              "item": {
+                "items": [
+                  "minecraft:melon_slice"
+                ],
+                "nbt":"{id:\"panling:tea3\"}"
+              }
+            }
+        },
+        "tea4": {
+            "trigger": "minecraft:consume_item",
+            "conditions": {
+              "item": {
+                "items": [
+                  "minecraft:melon_slice"
+                ],
+                "nbt":"{id:\"panling:tea4\"}"
+              }
+            }
+        },
+        "tea5": {
+            "trigger": "minecraft:consume_item",
+            "conditions": {
+              "item": {
+                "items": [
+                  "minecraft:melon_slice"
+                ],
+                "nbt":"{id:\"panling:tea5\"}"
+              }
+            }
+        },
+        "tea6": {
+            "trigger": "minecraft:consume_item",
+            "conditions": {
+              "item": {
+                "items": [
+                  "minecraft:melon_slice"
+                ],
+                "nbt":"{id:\"panling:tea6\"}"
+              }
+            }
+        },
+        "wine1": {
+            "trigger": "minecraft:consume_item",
+            "conditions": {
+              "item": {
+                "items": [
+                  "minecraft:honey_bottle"
+                ],
+                "nbt":"{id:\"panling:wine1\"}"
+              }
+            }
+        },
+        "wine2": {
+            "trigger": "minecraft:consume_item",
+            "conditions": {
+              "item": {
+                "items": [
+                  "minecraft:honey_bottle"
+                ],
+                "nbt":"{id:\"panling:wine2\"}"
+              }
+            }
+        },
+        "wine3": {
+            "trigger": "minecraft:consume_item",
+            "conditions": {
+              "item": {
+                "items": [
+                  "minecraft:honey_bottle"
+                ],
+                "nbt":"{id:\"panling:wine3\"}"
+              }
+            }
+        },
+        "wine4": {
+            "trigger": "minecraft:consume_item",
+            "conditions": {
+              "item": {
+                "items": [
+                  "minecraft:honey_bottle"
+                ],
+                "nbt":"{id:\"panling:wine4\"}"
+              }
+            }
+        },
+        "rabbit_stew": {
+            "trigger": "minecraft:consume_item",
+            "conditions": {
+              "item": {
+                "items": [
+                  "minecraft:rabbit_stew"
+                ],
+                "nbt":"{id:\"panling:rabbit_stew\"}"
+              }
+            }
+        },
+        "honey": {
+            "trigger": "minecraft:consume_item",
+            "conditions": {
+              "item": {
+                "items": [
+                  "minecraft:honey_bottle"
+                ],
+                "nbt":"{id:\"panling:honey\"}"
+              }
+            }
+        },
+        "peach": {
+            "trigger": "minecraft:consume_item",
+            "conditions": {
+              "item": {
+                "items": [
+                  "minecraft:golden_carrot"
+                ],
+                "nbt":"{id:\"panling:peach\"}"
+              }
+            }
+        }
+    },
+    "requirements": [  
+            ["apple"],
+            ["cooked_beef"],
+            ["cooked_chicken"],
+            ["cooked_mutton"],
+            ["cooked_salmon"],
+            ["cooked_rabbit"],["cooked_porkchop"],
+            ["baozi"],
+            ["fotiaoqiang"],
+            ["xibing"],
+            ["baked_potato"],
+            ["cooked_cod"],
+            ["rabbit"],
+            ["fish"],
+            ["salmon"],
+            ["medicinal_liquor"],
+            ["food0"],
+            ["food1"],
+            ["food2"],
+            ["food3"],
+            ["food4"],
+            ["job1food1"],
+            ["job2food1"],
+            ["job2food2"],
+            ["tea1"],
+            ["tea2"],
+            ["tea3"],
+            ["tea4"],
+            ["tea5"],
+            ["tea6"],
+            ["wine1"],
+            ["wine2"],
+            ["wine3"],
+            ["wine4"],
+            ["rabbit_stew"],
+            ["honey"],
+            ["peach"]
+    ],
+    "rewards": {
+        "function": "pld:adv/gameplay/other/all_foods"
+    }
+}

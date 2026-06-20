@@ -1,0 +1,14 @@
+{
+    "function":"minecraft:copy_nbt",
+    "source":{
+        "type":"storage",
+        "source":"pld:system"
+    },
+    "ops":[
+        {
+            "source":"Temp_new_mails",
+            "target":"data.mails",
+            "op":"replace"
+        }
+    ]
+}

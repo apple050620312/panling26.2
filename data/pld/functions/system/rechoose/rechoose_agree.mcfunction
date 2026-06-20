@@ -1,0 +1,1 @@
+tellraw @s [{"translate":"pl.info.rechoose_info"},{"translate":"pl.info.rechoose_click","clickEvent": {"action":"run_command","value": "/trigger rechoose_trigger set 1"}}]

@@ -1,0 +1,19 @@
+{
+    "parent": "pld:other/use_tp_stone",
+    "display": {
+        "icon": {
+            "item": "minecraft:warped_fungus_on_a_stick"
+        },
+        "title": {"translate": "pl.adv.tp_stone_all_unlock.title"},
+        "description": {"translate": "pl.adv.tp_stone_all_unlock.description"},
+        "announce_to_chat": false
+    },
+    "criteria": {
+        "impossibe":{
+        "trigger": "minecraft:impossible"
+        }
+    },
+    "rewards": {
+        "function": "pld:adv/gameplay/other/tp_stone_all_unlock"
+    }
+}

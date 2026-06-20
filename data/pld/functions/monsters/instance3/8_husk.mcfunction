@@ -1,0 +1,4 @@
+execute store result score @s monster_count run execute if entity @e[tag=panling,tag=monster,distance=..20]
+
+execute if score @s monster_count matches ..9 run summon minecraft:husk ~ ~ ~ {Team:"monster",Tags:["panling","undead","monster"],CanPickUpLoot:false,ArmorDropChances:[0f,0f,0f,0f],HandDropChances:[0f,0f],CustomNameVisible:1b,CustomName:'{"translate":"pl.monster.instance3.husk"}',ActiveEffects:[{Id:12b,Duration:10000000,ShowParticles:false}],DeathLootTable:"pld:instance3/8_husk",Health:100.0f,Attributes:[ {Name:"generic.max_health",Base:100}, {Name:"generic.movement_speed",Base:0.3d}, {Name:"generic.attack_damage",Base:5d},  {Name:"generic.follow_range",Base:15d}, {Name:"generic.knockback_resistance",Base:0d} ],ArmorItems:[{},{},{},{}],HandItems:[{id:"minecraft:iron_sword",Count:1b},{}]}
+kill @s

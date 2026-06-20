@@ -1,0 +1,4 @@
+execute store result score @s monster_count run execute if entity @e[tag=panling,tag=monster,distance=..20]
+
+execute if score @s monster_count matches ..9 run summon minecraft:magma_cube ~ ~ ~ {Team:"monster",Tags:["panling","not_undead","monster"],CanPickUpLoot:false,ArmorDropChances:[0f,0f,0f,0f],HandDropChances:[0f,0f],CustomNameVisible:1b,CustomName:'{"translate":"pl.monster.south.bird_magma_cube"}',Size:2,ActiveEffects:[{Id:11b,Amplifier:1b,Duration:100000000}],DeathLootTable:"pld:south/bird",Health:30.0f,Attributes:[{Name:"generic.max_health",Base:30d},{Name:"generic.follow_range",Base:15d},{Name:"generic.movement_speed",Base:0.2d},{Name:"generic.attack_damage",Base:4d}],ArmorItems:[{},{},{},{}],HandItems:[{},{}]}
+kill @s

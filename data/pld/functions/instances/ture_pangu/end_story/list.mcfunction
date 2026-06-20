@@ -1,0 +1,110 @@
+execute if score #system conversation_end_story matches 99 run function pld:instances/ture_pangu/end_story/99
+execute if score #system conversation_end_story matches 98 run function pld:instances/ture_pangu/end_story/98
+execute if score #system conversation_end_story matches 97 run function pld:instances/ture_pangu/end_story/97
+execute if score #system conversation_end_story matches 96 run function pld:instances/ture_pangu/end_story/96
+execute if score #system conversation_end_story matches 95 run function pld:instances/ture_pangu/end_story/95
+execute if score #system conversation_end_story matches 94 run function pld:instances/ture_pangu/end_story/94
+execute if score #system conversation_end_story matches 93 run function pld:instances/ture_pangu/end_story/93
+execute if score #system conversation_end_story matches 92 run function pld:instances/ture_pangu/end_story/92
+execute if score #system conversation_end_story matches 91 run function pld:instances/ture_pangu/end_story/91
+execute if score #system conversation_end_story matches 90 run function pld:instances/ture_pangu/end_story/90
+
+execute if score #system conversation_end_story matches 89 run function pld:instances/ture_pangu/end_story/89
+execute if score #system conversation_end_story matches 88 run function pld:instances/ture_pangu/end_story/88
+execute if score #system conversation_end_story matches 87 run function pld:instances/ture_pangu/end_story/87
+execute if score #system conversation_end_story matches 86 run function pld:instances/ture_pangu/end_story/86
+execute if score #system conversation_end_story matches 85 run function pld:instances/ture_pangu/end_story/85
+execute if score #system conversation_end_story matches 84 run function pld:instances/ture_pangu/end_story/84
+execute if score #system conversation_end_story matches 83 run function pld:instances/ture_pangu/end_story/83
+execute if score #system conversation_end_story matches 82 run function pld:instances/ture_pangu/end_story/82
+execute if score #system conversation_end_story matches 81 run function pld:instances/ture_pangu/end_story/81
+execute if score #system conversation_end_story matches 80 run function pld:instances/ture_pangu/end_story/80
+
+execute if score #system conversation_end_story matches 79 run function pld:instances/ture_pangu/end_story/79
+execute if score #system conversation_end_story matches 78 run function pld:instances/ture_pangu/end_story/78
+execute if score #system conversation_end_story matches 77 run function pld:instances/ture_pangu/end_story/77
+execute if score #system conversation_end_story matches 76 run function pld:instances/ture_pangu/end_story/76
+execute if score #system conversation_end_story matches 75 run function pld:instances/ture_pangu/end_story/75
+execute if score #system conversation_end_story matches 74 run function pld:instances/ture_pangu/end_story/74
+execute if score #system conversation_end_story matches 73 run function pld:instances/ture_pangu/end_story/73
+execute if score #system conversation_end_story matches 72 run function pld:instances/ture_pangu/end_story/72
+execute if score #system conversation_end_story matches 71 run function pld:instances/ture_pangu/end_story/71
+execute if score #system conversation_end_story matches 70 run function pld:instances/ture_pangu/end_story/70
+
+execute if score #system conversation_end_story matches 69 run function pld:instances/ture_pangu/end_story/69
+execute if score #system conversation_end_story matches 68 run function pld:instances/ture_pangu/end_story/68
+execute if score #system conversation_end_story matches 67 run function pld:instances/ture_pangu/end_story/67
+execute if score #system conversation_end_story matches 66 run function pld:instances/ture_pangu/end_story/66
+execute if score #system conversation_end_story matches 65 run function pld:instances/ture_pangu/end_story/65
+execute if score #system conversation_end_story matches 64 run function pld:instances/ture_pangu/end_story/64
+execute if score #system conversation_end_story matches 63 run function pld:instances/ture_pangu/end_story/63
+execute if score #system conversation_end_story matches 62 run function pld:instances/ture_pangu/end_story/62
+execute if score #system conversation_end_story matches 61 run function pld:instances/ture_pangu/end_story/61
+execute if score #system conversation_end_story matches 60 run function pld:instances/ture_pangu/end_story/60
+
+execute if score #system conversation_end_story matches 59 run function pld:instances/ture_pangu/end_story/59
+execute if score #system conversation_end_story matches 58 run function pld:instances/ture_pangu/end_story/58
+execute if score #system conversation_end_story matches 57 run function pld:instances/ture_pangu/end_story/57
+execute if score #system conversation_end_story matches 56 run function pld:instances/ture_pangu/end_story/56
+execute if score #system conversation_end_story matches 55 run function pld:instances/ture_pangu/end_story/55
+execute if score #system conversation_end_story matches 54 run function pld:instances/ture_pangu/end_story/54
+execute if score #system conversation_end_story matches 53 run function pld:instances/ture_pangu/end_story/53
+execute if score #system conversation_end_story matches 52 run function pld:instances/ture_pangu/end_story/52
+execute if score #system conversation_end_story matches 51 run function pld:instances/ture_pangu/end_story/51
+execute if score #system conversation_end_story matches 50 run function pld:instances/ture_pangu/end_story/50
+
+execute if score #system conversation_end_story matches 49 run function pld:instances/ture_pangu/end_story/49
+execute if score #system conversation_end_story matches 48 run function pld:instances/ture_pangu/end_story/48
+execute if score #system conversation_end_story matches 47 run function pld:instances/ture_pangu/end_story/47
+execute if score #system conversation_end_story matches 46 run function pld:instances/ture_pangu/end_story/46
+execute if score #system conversation_end_story matches 45 run function pld:instances/ture_pangu/end_story/45
+execute if score #system conversation_end_story matches 44 run function pld:instances/ture_pangu/end_story/44
+execute if score #system conversation_end_story matches 43 run function pld:instances/ture_pangu/end_story/43
+execute if score #system conversation_end_story matches 42 run function pld:instances/ture_pangu/end_story/42
+execute if score #system conversation_end_story matches 41 run function pld:instances/ture_pangu/end_story/41
+execute if score #system conversation_end_story matches 40 run function pld:instances/ture_pangu/end_story/40
+
+execute if score #system conversation_end_story matches 39 run function pld:instances/ture_pangu/end_story/39
+execute if score #system conversation_end_story matches 38 run function pld:instances/ture_pangu/end_story/38
+execute if score #system conversation_end_story matches 37 run function pld:instances/ture_pangu/end_story/37
+execute if score #system conversation_end_story matches 36 run function pld:instances/ture_pangu/end_story/36
+execute if score #system conversation_end_story matches 35 run function pld:instances/ture_pangu/end_story/35
+execute if score #system conversation_end_story matches 34 run function pld:instances/ture_pangu/end_story/34
+execute if score #system conversation_end_story matches 33 run function pld:instances/ture_pangu/end_story/33
+execute if score #system conversation_end_story matches 32 run function pld:instances/ture_pangu/end_story/32
+execute if score #system conversation_end_story matches 31 run function pld:instances/ture_pangu/end_story/31
+execute if score #system conversation_end_story matches 30 run function pld:instances/ture_pangu/end_story/30
+
+execute if score #system conversation_end_story matches 29 run function pld:instances/ture_pangu/end_story/29
+execute if score #system conversation_end_story matches 28 run function pld:instances/ture_pangu/end_story/28
+execute if score #system conversation_end_story matches 27 run function pld:instances/ture_pangu/end_story/27
+execute if score #system conversation_end_story matches 26 run function pld:instances/ture_pangu/end_story/26
+execute if score #system conversation_end_story matches 25 run function pld:instances/ture_pangu/end_story/25
+execute if score #system conversation_end_story matches 24 run function pld:instances/ture_pangu/end_story/24
+execute if score #system conversation_end_story matches 23 run function pld:instances/ture_pangu/end_story/23
+execute if score #system conversation_end_story matches 22 run function pld:instances/ture_pangu/end_story/22
+execute if score #system conversation_end_story matches 21 run function pld:instances/ture_pangu/end_story/21
+execute if score #system conversation_end_story matches 20 run function pld:instances/ture_pangu/end_story/20
+
+execute if score #system conversation_end_story matches 19 run function pld:instances/ture_pangu/end_story/19
+execute if score #system conversation_end_story matches 18 run function pld:instances/ture_pangu/end_story/18
+execute if score #system conversation_end_story matches 17 run function pld:instances/ture_pangu/end_story/17
+execute if score #system conversation_end_story matches 16 run function pld:instances/ture_pangu/end_story/16
+execute if score #system conversation_end_story matches 15 run function pld:instances/ture_pangu/end_story/15
+execute if score #system conversation_end_story matches 14 run function pld:instances/ture_pangu/end_story/14
+execute if score #system conversation_end_story matches 13 run function pld:instances/ture_pangu/end_story/13
+execute if score #system conversation_end_story matches 12 run function pld:instances/ture_pangu/end_story/12
+execute if score #system conversation_end_story matches 11 run function pld:instances/ture_pangu/end_story/11
+execute if score #system conversation_end_story matches 10 run function pld:instances/ture_pangu/end_story/10
+
+execute if score #system conversation_end_story matches 9 run function pld:instances/ture_pangu/end_story/09
+execute if score #system conversation_end_story matches 8 run function pld:instances/ture_pangu/end_story/08
+execute if score #system conversation_end_story matches 7 run function pld:instances/ture_pangu/end_story/07
+execute if score #system conversation_end_story matches 6 run function pld:instances/ture_pangu/end_story/06
+execute if score #system conversation_end_story matches 5 run function pld:instances/ture_pangu/end_story/05
+execute if score #system conversation_end_story matches 4 run function pld:instances/ture_pangu/end_story/04
+execute if score #system conversation_end_story matches 3 run function pld:instances/ture_pangu/end_story/03
+execute if score #system conversation_end_story matches 2 run function pld:instances/ture_pangu/end_story/02
+execute if score #system conversation_end_story matches 1 run function pld:instances/ture_pangu/end_story/01
+execute if score #system conversation_end_story matches 0 run function pld:instances/ture_pangu/end_story/00
+

@@ -1,0 +1,25 @@
+{
+    "type": "minecraft:generic",
+    "pools": [
+        {
+            "rolls":1,
+            "entries": [
+                {
+                    "type": "minecraft:loot_table",
+                    "name": "pld:items/wood",
+                    "weight":15
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "name": "pld:items/copper_cash",
+                    "weight":15
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "name":"pld:east/rareitem",
+                    "weight":1
+                }
+            ]
+        }
+    ]
+}

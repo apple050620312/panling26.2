@@ -1,0 +1,1 @@
+execute if score #system instance5_phase matches 2 run function pld:instances/instance5/boss_hp-1b

@@ -1,0 +1,27 @@
+{
+    "parent": "pld:mission/shen/main/main2",
+    "display": {
+        "icon": {
+            "item": "minecraft:written_book"
+        },
+        "title": {"translate": "pl.adv.shen_main3.title"},
+        "description": {"translate": "pl.adv.shen_main3.description"},
+        "announce_to_chat": false,
+        
+        "frame": "goal"
+    },
+    "criteria": {
+        "shen_main_1":{
+            "trigger": "minecraft:villager_trade",
+            "conditions": {
+                "item": {
+                    "item": "minecraft:written_book",
+                    "nbt":"{id:\"panling:book_sm3\"}"
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "pld:adv/mission/shen/main/main3"
+    }
+}

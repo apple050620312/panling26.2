@@ -1,0 +1,36 @@
+#重置玩家物品
+scoreboard players set @s up_axe 0
+scoreboard players set @s up_bow 0
+scoreboard players set @s up_bless 0
+scoreboard players set @s up_head 0
+scoreboard players set @s up_chest 0
+scoreboard players set @s up_legs 0
+scoreboard players set @s up_feet 0
+scoreboard players set @s pvp2_atkpotion 0
+
+clear @s
+
+
+#给玩家放置物品
+item replace entity @s armor.head with leather_helmet{id:"panling:pvp2_atk_helmet",pvp:1,display:{color:10040115,Name:'{"translate":"pl.pvp2.item.name.atk_helmet"}',Lore:['{"translate":"pl.pvp.item.limit"}','{"translate":""}','[{"translate":"pl.attribute.armor"},{"text":"2","color":"white","italic":false}]','{"translate":""}','{"translate":"pl.pvp.item.can_up"}']},AttributeModifiers:[{Slot:"head",UUID:[I;1,1,1,1],Operation:0,AttributeName:"minecraft:generic.armor",Amount:2}],Unbreakable:1b,HideFlags:63,Enchantments:[{id:"binding_curse",lvl:1s}]}
+item replace entity @s armor.chest with leather_chestplate{id:"panling:pvp2_atk_chestplate",pvp:1,display:{color:10040115,Name:'{"translate":"pl.pvp2.item.name.atk_chestplate"}',Lore:['{"translate":"pl.pvp.item.limit"}','{"translate":""}','[{"translate":"pl.attribute.armor"},{"text":"2","color":"white","italic":false}]','{"translate":"pl.pvp.item.lore.arrow_protection"}','{"translate":""}','{"translate":"pl.pvp.item.can_up"}']},AttributeModifiers:[{Slot:"chest",UUID:[I;2,2,2,2],Operation:0,AttributeName:"minecraft:generic.armor",Amount:2}],Unbreakable:1b,HideFlags:63,Enchantments:[{id:"binding_curse",lvl:1s},{id:"projectile_protection",lvl:1s}]}
+item replace entity @s armor.legs with leather_leggings{id:"panling:pvp2_atk_leggings",pvp:1,display:{color:10040115,Name:'{"translate":"pl.pvp2.item.name.atk_leggings"}',Lore:['{"translate":"pl.pvp.item.limit"}','{"translate":""}','[{"translate":"pl.attribute.armor"},{"text":"2","color":"white","italic":false}]','{"translate":"pl.pvp.item.lore.arrow_protection"}','{"translate":""}','{"translate":"pl.pvp.item.can_up"}']},AttributeModifiers:[{Slot:"legs",UUID:[I;3,3,3,3],Operation:0,AttributeName:"minecraft:generic.armor",Amount:2}],Unbreakable:1b,HideFlags:63,Enchantments:[{id:"binding_curse",lvl:1s},{id:"projectile_protection",lvl:1s}]}
+item replace entity @s armor.feet with leather_boots{id:"panling:pvp2_atk_boots",pvp:1,display:{color:10040115,Name:'{"translate":"pl.pvp2.item.name.atk_boots"}',Lore:['{"translate":"pl.pvp.item.limit"}','{"translate":""}','[{"translate":"pl.attribute.armor"},{"text":"2","color":"white","italic":false}]','{"translate":""}','{"translate":"pl.pvp.item.can_up"}']},AttributeModifiers:[{Slot:"feet",UUID:[I;4,4,4,4],Operation:0,AttributeName:"minecraft:generic.armor",Amount:2}],Unbreakable:1b,HideFlags:63,Enchantments:[{id:"binding_curse",lvl:1s}]}
+
+item replace entity @s hotbar.0 with golden_axe{id:"panling:pvp2_atk_axe",pvp:1,display:{Name:'{"translate":"pl.pvp2.item.name.atk_axe"}',Lore:['{"translate":"pl.pvp.item.limit"}','{"translate":"pl.pvp2.item.lore.atk_axe"}','{"translate":""}','[{"translate":"pl.attribute.weapon_attack0"},{"text":"8","color":"white","italic":false}]','[{"translate":"pl.attribute.weapon_atk_speed"},{"text":"1","color":"white","italic":false}]','{"translate":""}','{"translate":"pl.pvp.item.can_up"}',]},AttributeModifiers:[{Slot:"mainhand",UUID:[I;5,5,5,5],Operation:0,AttributeName:"minecraft:generic.attack_damage",Amount:8},{Slot:"mainhand",UUID:[I;5,5,5,5],Operation:0,AttributeName:"minecraft:generic.attack_speed",Amount:-3}],HideFlags:63,Unbreakable:1b}
+item replace entity @s hotbar.1 with bow{id:"panling:pvp2_atk_bow",pvp:1,display:{Name:'{"translate":"pl.pvp2.item.name.atk_bow"}',Lore:['{"translate":"pl.pvp.item.limit"}','{"translate":"pl.pvp2.item.lore.atk_bow"}','{"translate":""}','[{"translate":"pl.attribute.bow_power"},{"text":"1","color":"white","italic":false}]','{"translate":"pl.lore.flame"}','{"translate":""}','{"translate":"pl.pvp.item.can_up"}']},HideFlags:63,Unbreakable:1b,Enchantments:[{id:"flame",lvl:1s},{id:"infinity",lvl:1s}]}
+item replace entity @s hotbar.2 with arrow{id:"panling:pvp2_atk_arrow",pvp:1,display:{Name:'{"translate":"pl.pvp2.item.name.atk_arrow"}',Lore:['{"translate":"pl.pvp.item.limit"}','{"translate":"pl.pvp2.item.lore.atk_arrow"}',]},HideFlags:63,Enchantments:[{id:"protection",lvl:1s}]}
+item replace entity @s hotbar.3 with cooked_beef{id:"panling:pvp_cooked_beef",display:{Name:'{"translate":"pl.pvp.item.name.cooked_beef"}',Lore:['{"translate":"pl.pvp.item.limit"}','{"translate":"pl.pvp.item.lore.cooked_beef"}']}} 16
+
+#放置按钮
+item replace entity @s inventory.0 with cocoa_beans{id:"panling:pvp2_atk_blessing_up",button:1,display:{Name:'{"translate":"pl.pvp.button.name.blessing_up"}',Lore:['{"translate":"pl.pvp.button.lore.click"}','{"translate":"pl.pvp.button.lore.blessing_upa"}','{"translate":"pl.pvp.button.lore.blessing_upb"}','{"translate":"pl.pvp.button.lore.ren2a"}','{"translate":"pl.pvp.button.lore.ren2b"}',]}}
+item replace entity @s inventory.9 with wooden_axe{CustomModelData:4,HideFlags:63,button:1,id:"panling:pvp_weapon_melee_up",display:{Name:'{"translate":"pl.pvp.button.name.weapon_melee_up"}',Lore:['{"translate":"pl.pvp.button.lore.click"}','{"translate":"pl.pvp.button.lore.weapon_melee_upa"}','{"translate":"pl.pvp.button.lore.weapon_melee_upb"}',]}}
+item replace entity @s inventory.10 with potion{CustomPotionColor:16426,id:"panling:pvp2_buy_atk_potion",display:{Name:'{"translate":"pl.pvp.button.name.buy_atk_potion"}',Lore:['{"translate":"pl.pvp.button.lore.click_buy"}','{"translate":"pl.pvp.button.lore.buy_atk_potiona"}','{"translate":"pl.pvp.button.lore.buy_atk_potionb"}',]},HideFlags:63}
+item replace entity @s inventory.18 with wooden_axe{CustomModelData:3,HideFlags:63,button:1,id:"panling:pvp_weapon_ranged_up",display:{Name:'{"translate":"pl.pvp.button.name.weapon_ranged_up"}',Lore:['{"translate":"pl.pvp.button.lore.click"}','{"translate":"pl.pvp.button.lore.weapon_ranged_upa"}','{"translate":"pl.pvp.button.lore.weapon_ranged_upb"}',]}}
+
+item replace entity @s inventory.22 with leather_helmet{button:1,id:"panling:pvp_helmet_up",display:{Name:'{"translate":"pl.pvp.button.name.helmet_up"}',Lore:['{"translate":"pl.pvp.button.lore.click"}','{"translate":"pl.pvp.button.lore.helmet_upa"}','{"translate":"pl.pvp.button.lore.helmet_upb"}',]},HideFlags:63}
+item replace entity @s inventory.23 with leather_chestplate{button:1,id:"panling:pvp_chestplate_up",display:{Name:'{"translate":"pl.pvp.button.name.chestplate_up"}',Lore:['{"translate":"pl.pvp.button.lore.click"}','{"translate":"pl.pvp.button.lore.chestplate_upa"}','{"translate":"pl.pvp.button.lore.chestplate_upb"}',]},HideFlags:63}
+item replace entity @s inventory.24 with leather_leggings{HideFlags:63,button:1,id:"panling:pvp_leggings_up",display:{Name:'{"translate":"pl.pvp.button.name.leggings_up"}',Lore:['{"translate":"pl.pvp.button.lore.click"}','{"translate":"pl.pvp.button.lore.leggings_upa"}','{"translate":"pl.pvp.button.lore.leggings_upb"}',]}}
+item replace entity @s inventory.25 with leather_boots{button:1,id:"panling:pvp_boots_up",display:{Name:'{"translate":"pl.pvp.button.name.boots_up"}',Lore:['{"translate":"pl.pvp.button.lore.click"}','{"translate":"pl.pvp.button.lore.boots_upa"}','{"translate":"pl.pvp.button.lore.boots_upb"}',]},HideFlags:63}
+
+

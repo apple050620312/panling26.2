@@ -1,0 +1,2 @@
+execute unless predicate pld:offhand/relive_stone run tellraw @s[nbt={SelectedItem:{tag:{id:"panling:tp_stone"}}}] {"translate":"pl.info.tp_mirror_resis2"}
+execute if predicate pld:offhand/relive_stone run function pld:system/tpsystem/reset_cool

@@ -1,0 +1,28 @@
+{
+    "criteria": {
+        "pos_renmain0":{
+            "trigger": "minecraft:location",
+            "conditions": {
+                "location": {
+                    "position": {
+                        "x":{
+                            "max":1690,
+                            "min":1689
+                        },
+                        "y":{
+                            "max":143,
+                            "min":145
+                        },
+                        "z":{
+                            "max":110,
+                            "min":108
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "pld:adv/mission/ren/main/enter_chief_room"
+    }
+}

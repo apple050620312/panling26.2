@@ -1,0 +1,11 @@
+{
+    "replace": false,
+    "values": [
+        "pld:system/armorlock/unlock/armor/2/feet/2/check",
+        "pld:system/armorlock/unlock/armor/2/feet/3/check",
+        "pld:system/armorlock/unlock/armor/2/feet/4/check",
+        "pld:system/armorlock/unlock/armor/2/feet/5/check",
+        "pld:system/armorlock/unlock/armor/2/feet/4e/check",
+        "pld:system/armorlock/unlock/armor/2/feet/5e/check"
+    ]
+}

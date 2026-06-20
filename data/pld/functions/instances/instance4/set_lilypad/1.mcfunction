@@ -1,0 +1,13 @@
+setblock 944 ~ 1272 lily_pad
+setblock 943 ~ 1269 lily_pad
+setblock 945 ~ 1266 lily_pad
+setblock 944 ~ 1263 lily_pad
+setblock 945 ~ 1260 lily_pad
+setblock 940 ~ 1275 lily_pad
+setblock 938 ~ 1274 lily_pad
+setblock 936 ~ 1272 lily_pad
+setblock 935 ~ 1269 lily_pad
+setblock 946 ~ 1275 lily_pad
+setblock 949 ~ 1274 lily_pad
+setblock 951 ~ 1272 lily_pad
+setblock 953 ~ 1269 lily_pad

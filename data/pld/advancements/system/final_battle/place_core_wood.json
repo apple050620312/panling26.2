@@ -1,0 +1,30 @@
+{
+    "criteria": {
+        "place_block":{
+            "trigger":"minecraft:placed_block",
+            "conditions":{
+                "location":[
+                    {   
+                        "_comment":"核心位置：-387 167 -1363",
+                        "condition": "minecraft:location_check",
+                        "predicate": {
+                            "block":{
+                                "blocks":[
+                                    "minecraft:lime_stained_glass"
+                                ]
+                            },
+                            "position":{
+                                "x":-387,
+                                "y":167,
+                                "z":-1363
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "rewards":{
+        "function":"pld:instances/ture_pangu/stage/2/block/core_placed"
+    } 
+ }

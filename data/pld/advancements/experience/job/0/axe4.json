@@ -1,0 +1,35 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:golden_axe"
+        },
+        "title":  {"translate": "pl.adv.axe4.title"},
+        "description":  {"translate": "pl.adv.axe4.description"},
+        "announce_to_chat": false
+    },
+    "parent": "pld:experience/job/0/axe3",
+    "criteria": {
+        "sword0":{
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:carrot_on_a_stick",
+                        "nbt": "{id:\"panling:axe4\"}"
+                    }
+                ],
+                "player": {
+                    "type_specific": {
+                        "type":"player",
+                        "advancements":{
+                            "pld:experience/job/0/base":"true"
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "pld:adv/gameplay/experience/job/0/axe4"
+    }
+}

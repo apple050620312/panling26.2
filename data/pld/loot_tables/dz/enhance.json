@@ -1,0 +1,1561 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:stone",
+                    "weight":3,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{tagid:1}"
+                        }
+                    ],
+                    "conditions": [
+                        {
+                            "condition": "entity_scores",
+                            "entity":"this",
+                            "scores":{
+                                "dzrare":{
+                                    "min":2
+                                },
+                                "dzlimit":0
+                            }
+                        },
+                        {
+                            "condition":"inverted",
+                            "term":{
+                                "condition": "entity_properties",
+                                "entity": "this",
+                                "predicate": {
+                                    "nbt":"{Tags:[\"enhance_id_1\"]}"
+                                }
+                            }
+                        }  
+                    ]
+                },
+
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:stone",
+                    "weight":2,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{tagid:2}"
+                        }
+                    ],
+                    "conditions": [
+                        {
+                            "condition": "entity_scores",
+                            "entity":"this",
+                            "scores":{
+                                "dzrare":{
+                                    "min":4
+                                },
+                                "dzlimit":0
+                            }
+                        },
+                        {
+                            "condition":"inverted",
+                            "term":{
+                                "condition": "entity_properties",
+                                "entity": "this",
+                                "predicate": {
+                                    "nbt":"{Tags:[\"enhance_id_2\"]}"
+                                }
+                            }
+                        }
+                    ]
+                },
+
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:stone",
+                    "weight":1,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{tagid:3}"
+                        }
+                    ],
+                    "conditions": [
+                        {
+                            "condition": "entity_scores",
+                            "entity":"this",
+                            "scores":{
+                                "dzrare":{
+                                    "min":6
+                                },
+                                "dzlimit":0
+                            }
+                        },
+                        {
+                            "condition":"inverted",
+                            "term":{
+                                "condition": "entity_properties",
+                                "entity": "this",
+                                "predicate": {
+                                    "nbt":"{Tags:[\"enhance_id_3\"]}"
+                                }
+                            }
+                        }
+                    ]
+                },
+
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:stone",
+                    "weight":3,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{tagid:4}"
+                        }
+                    ],
+                    "conditions": [
+                        {
+                            "condition": "entity_scores",
+                            "entity":"this",
+                            "scores":{
+                                "dzrare":{
+                                    "min":2,
+                                    "max":3
+                                },
+                                "dzlimit":0
+                            }
+                        },
+                        {
+                            "condition":"inverted",
+                            "term":{
+                                "condition": "entity_properties",
+                                "entity": "this",
+                                "predicate": {
+                                    "nbt":"{Tags:[\"enhance_id_4\"]}"
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:stone",
+                    "weight":2,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{tagid:5}"
+                        }
+                    ],
+                    "conditions": [
+                        {
+                            "condition": "entity_scores",
+                            "entity":"this",
+                            "scores":{
+                                "dzrare":{
+                                    "min":4
+                                },
+                                "dzlimit":0
+                            }
+                        },
+                        {
+                            "condition":"inverted",
+                            "term":{
+                                "condition": "entity_properties",
+                                "entity": "this",
+                                "predicate": {
+                                    "nbt":"{Tags:[\"enhance_id_5\"]}"
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:stone",
+                    "weight":3,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{tagid:6}"
+                        }
+                    ],
+                    "conditions": [
+                        {
+                            "condition": "entity_scores",
+                            "entity":"this",
+                            "scores":{
+                                "dzrare":{
+                                    "min":2,
+                                    "max":3
+                                },
+                                "dzlimit":0
+                            }
+                        },
+                        {
+                            "condition":"inverted",
+                            "term":{
+                                "condition": "entity_properties",
+                                "entity": "this",
+                                "predicate": {
+                                    "nbt":"{Tags:[\"enhance_id_6\"]}"
+                                }
+                            }
+                        }
+                    ]
+                },
+
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:stone",
+                    "weight":2,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{tagid:7}"
+                        }
+                    ],
+                    "conditions": [
+                        {
+                            "condition": "entity_scores",
+                            "entity":"this",
+                            "scores":{
+                                "dzrare":{
+                                    "min":4,
+                                    "max":5
+                                },
+                                "dzlimit":0
+                            }
+                        },
+                        {
+                            "condition":"inverted",
+                            "term":{
+                                "condition": "entity_properties",
+                                "entity": "this",
+                                "predicate": {
+                                    "nbt":"{Tags:[\"enhance_id_7\"]}"
+                                }
+                            }
+                        }
+                    ]
+                },
+
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:stone",
+                    "weight":1,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{tagid:8}"
+                        }
+                    ],
+                    "conditions": [
+                        {
+                            "condition": "entity_scores",
+                            "entity":"this",
+                            "scores":{
+                                "dzrare":{
+                                    "min":6
+                                },
+                                "dzlimit":0
+                            }
+                        },
+                        {
+                            "condition":"inverted",
+                            "term":{
+                                "condition": "entity_properties",
+                                "entity": "this",
+                                "predicate": {
+                                    "nbt":"{Tags:[\"enhance_id_8\"]}"
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:stone",
+                    "weight":3,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{tagid:9}"
+                        }
+                    ],
+                    "conditions": [
+                        {
+                            "condition": "entity_scores",
+                            "entity":"this",
+                            "scores":{
+                                "dzrare":{
+                                    "min":2,
+                                    "max":3
+                                },
+                                "dzlimit":0
+                            }
+                        },
+                        {
+                            "condition":"inverted",
+                            "term":{
+                                "condition": "entity_properties",
+                                "entity": "this",
+                                "predicate": {
+                                    "nbt":"{Tags:[\"enhance_id_9\"]}"
+                                }
+                            }
+                        }
+                    ]
+                },
+
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:stone",
+                    "weight":2,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{tagid:10}"
+                        }
+                    ],
+                    "conditions": [
+                        {
+                            "condition": "entity_scores",
+                            "entity":"this",
+                            "scores":{
+                                "dzrare":{
+                                    "min":4,
+                                    "max":5
+                                },
+                                "dzlimit":0
+                            }
+                        },
+                        {
+                            "condition":"inverted",
+                            "term":{
+                                "condition": "entity_properties",
+                                "entity": "this",
+                                "predicate": {
+                                    "nbt":"{Tags:[\"enhance_id_10\"]}"
+                                }
+                            }
+                        }
+                    ]
+                },
+
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:stone",
+                    "weight":1,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{tagid:11}"
+                        }
+                    ],
+                    "conditions": [
+                        {
+                            "condition": "entity_scores",
+                            "entity":"this",
+                            "scores":{
+                                "dzrare":{
+                                    "min":6
+                                },
+                                "dzlimit":0
+                            }
+                        },
+                        {
+                            "condition":"inverted",
+                            "term":{
+                                "condition": "entity_properties",
+                                "entity": "this",
+                                "predicate": {
+                                    "nbt":"{Tags:[\"enhance_id_11\"]}"
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:stone",
+                    "weight":3,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{tagid:12}"
+                        }
+                    ],
+                    "conditions": [
+                        {
+                            "condition": "entity_scores",
+                            "entity":"this",
+                            "scores":{
+                                "dzrare":{
+                                    "min":2
+                                },
+                                "dzlimit":1
+                            }
+                        },
+                        {
+                            "condition":"inverted",
+                            "term":{
+                                "condition": "entity_properties",
+                                "entity": "this",
+                                "predicate": {
+                                    "nbt":"{Tags:[\"enhance_id_12\"]}"
+                                }
+                            }
+                        }
+                    ]
+                },
+
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:stone",
+                    "weight":2,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{tagid:13}"
+                        }
+                    ],
+                    "conditions": [
+                        {
+                            "condition": "entity_scores",
+                            "entity":"this",
+                            "scores":{
+                                "dzrare":{
+                                    "min":4
+                                },
+                                "dzlimit":1
+                            }
+                        },
+                        {
+                            "condition":"inverted",
+                            "term":{
+                                "condition": "entity_properties",
+                                "entity": "this",
+                                "predicate": {
+                                    "nbt":"{Tags:[\"enhance_id_13\"]}"
+                                }
+                            }
+                        }
+                    ]
+                },
+
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:stone",
+                    "weight":1,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{tagid:14}"
+                        }
+                    ],
+                    "conditions": [
+                        {
+                            "condition": "entity_scores",
+                            "entity":"this",
+                            "scores":{
+                                "dzrare":{
+                                    "min":6
+                                },
+                                "dzlimit":1
+                            }
+                        },
+                        {
+                            "condition":"inverted",
+                            "term":{
+                                "condition": "entity_properties",
+                                "entity": "this",
+                                "predicate": {
+                                    "nbt":"{Tags:[\"enhance_id_14\"]}"
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:stone",
+                    "weight":3,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{tagid:15}"
+                        }
+                    ],
+                    "conditions": [
+                        {
+                            "condition": "entity_scores",
+                            "entity":"this",
+                            "scores":{
+                                "dzrare":{
+                                    "min":2,
+                                    "max":3
+                                },
+                                "dzlimit":1
+                            }
+                        },
+                        {
+                            "condition":"inverted",
+                            "term":{
+                                "condition": "entity_properties",
+                                "entity": "this",
+                                "predicate": {
+                                    "nbt":"{Tags:[\"enhance_id_15\"]}"
+                                }
+                            }
+                        }
+                    ]
+                },
+
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:stone",
+                    "weight":2,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{tagid:16}"
+                        }
+                    ],
+                    "conditions": [
+                        {
+                            "condition": "entity_scores",
+                            "entity":"this",
+                            "scores":{
+                                "dzrare":{
+                                    "min":4
+                                },
+                                "dzlimit":1
+                            }
+                        },
+                        {
+                            "condition":"inverted",
+                            "term":{
+                                "condition": "entity_properties",
+                                "entity": "this",
+                                "predicate": {
+                                    "nbt":"{Tags:[\"enhance_id_16\"]}"
+                                }
+                            }
+                        }
+                    ]
+                },
+
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:stone",
+                    "weight":1,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{tagid:17}"
+                        }
+                    ],
+                    "conditions": [
+                        {
+                            "condition": "entity_scores",
+                            "entity":"this",
+                            "scores":{
+                                "dzrare":{
+                                    "min":6
+                                },
+                                "dzlimit":1
+                            }
+                        },
+                        {
+                            "condition":"inverted",
+                            "term":{
+                                "condition": "entity_properties",
+                                "entity": "this",
+                                "predicate": {
+                                    "nbt":"{Tags:[\"enhance_id_17\"]}"
+                                }
+                            }
+                        }
+                    ]
+                },
+
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:stone",
+                    "weight":3,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{tagid:18}"
+                        }
+                    ],
+                    "conditions": [
+                        {
+                            "condition": "entity_scores",
+                            "entity":"this",
+                            "scores":{
+                                "dzrare":{
+                                    "min":2
+                                },
+                                "dzlimit":1,
+                                "dzbranch":1
+                            }
+                        },
+                        {
+                            "condition":"inverted",
+                            "term":{
+                                "condition": "entity_properties",
+                                "entity": "this",
+                                "predicate": {
+                                    "nbt":"{Tags:[\"enhance_id_18\"]}"
+                                }
+                            }
+                        }
+                    ]
+                },
+
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:stone",
+                    "weight":3,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{tagid:19}"
+                        }
+                    ],
+                    "conditions": [
+                        {
+                            "condition": "entity_scores",
+                            "entity":"this",
+                            "scores":{
+                                "dzrare":{
+                                    "min":2
+                                },
+                                "dzlimit":1,
+                                "dzbranch":0
+                            }
+                        },
+                        {
+                            "condition":"inverted",
+                            "term":{
+                                "condition": "entity_properties",
+                                "entity": "this",
+                                "predicate": {
+                                    "nbt":"{Tags:[\"enhance_id_19\"]}"
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:stone",
+                    "weight":3,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{tagid:20}"
+                        }
+                    ],
+                    "conditions": [
+                        {
+                            "condition": "entity_scores",
+                            "entity":"this",
+                            "scores":{
+                                "dzrare":{
+                                    "min":4
+                                },
+                                "dzlimit":2
+                            }
+                        },
+                        {
+                            "condition":"inverted",
+                            "term":{
+                                "condition": "entity_properties",
+                                "entity": "this",
+                                "predicate": {
+                                    "nbt":"{Tags:[\"enhance_id_20\"]}"
+                                }
+                            }
+                        }
+                    ]
+                },
+
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:stone",
+                    "weight":2,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{tagid:21}"
+                        }
+                    ],
+                    "conditions": [
+                        {
+                            "condition": "entity_scores",
+                            "entity":"this",
+                            "scores":{
+                                "dzrare":{
+                                    "min":5
+                                },
+                                "dzlimit":2
+                            }
+                        },
+                        {
+                            "condition":"inverted",
+                            "term":{
+                                "condition": "entity_properties",
+                                "entity": "this",
+                                "predicate": {
+                                    "nbt":"{Tags:[\"enhance_id_21\"]}"
+                                }
+                            }
+                        }
+                    ]
+                },
+
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:stone",
+                    "weight":1,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{tagid:22}"
+                        }
+                    ],
+                    "conditions": [
+                        {
+                            "condition": "entity_scores",
+                            "entity":"this",
+                            "scores":{
+                                "dzrare":{
+                                    "min":6
+                                },
+                                "dzlimit":2
+                            }
+                        },
+                        {
+                            "condition":"inverted",
+                            "term":{
+                                "condition": "entity_properties",
+                                "entity": "this",
+                                "predicate": {
+                                    "nbt":"{Tags:[\"enhance_id_22\"]}"
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:stone",
+                    "weight":3,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{tagid:23}"
+                        }
+                    ],
+                    "conditions": [
+                        {
+                            "condition": "entity_scores",
+                            "entity":"this",
+                            "scores":{
+                                "dzrare":{
+                                    "min":4
+                                },
+                                "dzlimit":2
+                            }
+                        },
+                        {
+                            "condition":"inverted",
+                            "term":{
+                                "condition": "entity_properties",
+                                "entity": "this",
+                                "predicate": {
+                                    "nbt":"{Tags:[\"enhance_id_23\"]}"
+                                }
+                            }
+                        }
+                    ]
+                },
+
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:stone",
+                    "weight":2,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{tagid:24}"
+                        }
+                    ],
+                    "conditions": [
+                        {
+                            "condition": "entity_scores",
+                            "entity":"this",
+                            "scores":{
+                                "dzrare":{
+                                    "min":5
+                                },
+                                "dzlimit":2
+                            }
+                        },
+                        {
+                            "condition":"inverted",
+                            "term":{
+                                "condition": "entity_properties",
+                                "entity": "this",
+                                "predicate": {
+                                    "nbt":"{Tags:[\"enhance_id_24\"]}"
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:stone",
+                    "weight":3,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{tagid:25}"
+                        }
+                    ],
+                    "conditions": [
+                        {
+                            "condition": "entity_scores",
+                            "entity":"this",
+                            "scores":{
+                                "dzrare":{
+                                    "min":4
+                                },
+                                "dzlimit":2
+                            }
+                        },
+                        {
+                            "condition":"inverted",
+                            "term":{
+                                "condition": "entity_properties",
+                                "entity": "this",
+                                "predicate": {
+                                    "nbt":"{Tags:[\"enhance_id_25\"]}"
+                                }
+                            }
+                        }
+                    ]
+                },
+
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:stone",
+                    "weight":2,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{tagid:26}"
+                        }
+                    ],
+                    "conditions": [
+                        {
+                            "condition": "entity_scores",
+                            "entity":"this",
+                            "scores":{
+                                "dzrare":{
+                                    "min":5
+                                },
+                                "dzlimit":2
+                            }
+                        },
+                        {
+                            "condition":"inverted",
+                            "term":{
+                                "condition": "entity_properties",
+                                "entity": "this",
+                                "predicate": {
+                                    "nbt":"{Tags:[\"enhance_id_26\"]}"
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:stone",
+                    "weight":3,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{tagid:27}"
+                        }
+                    ],
+                    "conditions": [
+                        {
+                            "condition": "entity_scores",
+                            "entity":"this",
+                            "scores":{
+                                "dzrare":{
+                                    "min":2
+                                },
+                                "dzlimit":{
+                                    "max":1
+                                }
+                            }
+                        },
+                        {
+                            "condition":"inverted",
+                            "term":{
+                                "condition": "entity_properties",
+                                "entity": "this",
+                                "predicate": {
+                                    "nbt":"{Tags:[\"enhance_id_27\"]}"
+                                }
+                            }
+                        }
+                    ]
+                },
+
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:stone",
+                    "weight":2,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{tagid:28}"
+                        }
+                    ],
+                    "conditions": [
+                        {
+                            "condition": "entity_scores",
+                            "entity":"this",
+                            "scores":{
+                                "dzrare":{
+                                    "min":4
+                                },
+                                "dzlimit":{
+                                    "max":1
+                                }
+                            }
+                        },
+                        {
+                            "condition":"inverted",
+                            "term":{
+                                "condition": "entity_properties",
+                                "entity": "this",
+                                "predicate": {
+                                    "nbt":"{Tags:[\"enhance_id_28\"]}"
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:stone",
+                    "weight":3,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{tagid:29}"
+                        }
+                    ],
+                    "conditions": [
+                        {
+                            "condition":"any_of",
+                            "terms":[
+                                {
+                                    "condition": "entity_scores",
+                                    "entity":"this",
+                                    "scores":{
+                                        "dzrare":{
+                                            "min":2,
+                                            "max":3
+                                        },
+                                        "dzlimit":0
+                                    }
+                                },
+                                {
+                                    "condition": "entity_scores",
+                                    "entity":"this",
+                                    "scores":{
+                                        "dzrare":{
+                                            "min":2,
+                                            "max":3
+                                        },
+                                        "dzlimit":2
+                                    }
+                                },
+                                {
+                                    "condition": "entity_scores",
+                                    "entity":"this",
+                                    "scores":{
+                                        "dzrare":{
+                                            "min":2,
+                                            "max":3
+                                        },
+                                        "dzlimit":1,
+                                        "dzbranch":1
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "condition":"inverted",
+                            "term":{
+                                "condition": "entity_properties",
+                                "entity": "this",
+                                "predicate": {
+                                    "nbt":"{Tags:[\"enhance_id_29\"]}"
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:stone",
+                    "weight":2,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{tagid:30}"
+                        }
+                    ],
+                    "conditions": [
+                        {
+                            "condition":"any_of",
+                            "terms":[
+                                {
+                                    "condition": "entity_scores",
+                                    "entity":"this",
+                                    "scores":{
+                                        "dzrare":{
+                                            "min":4
+                                        },
+                                        "dzlimit":0
+                                    }
+                                },
+                                {
+                                    "condition": "entity_scores",
+                                    "entity":"this",
+                                    "scores":{
+                                        "dzrare":{
+                                            "min":4
+                                        },
+                                        "dzlimit":1
+                                    }
+                                },
+                                {
+                                    "condition": "entity_scores",
+                                    "entity":"this",
+                                    "scores":{
+                                        "dzrare":{
+                                            "min":4
+                                        },
+                                        "dzlimit":2
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "condition":"inverted",
+                            "term":{
+                                "condition": "entity_properties",
+                                "entity": "this",
+                                "predicate": {
+                                    "nbt":"{Tags:[\"enhance_id_30\"]}"
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:stone",
+                    "weight":3,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{tagid:31}"
+                        }
+                    ],
+                    "conditions": [
+                        {
+                            "condition":"any_of",
+                            "terms":[
+                                {
+                                    "condition": "entity_scores",
+                                    "entity":"this",
+                                    "scores":{
+                                        "dzrare":{
+                                            "min":2,
+                                            "max":3
+                                        },
+                                        "dzlimit":0
+                                    }
+                                },
+                                {
+                                    "condition": "entity_scores",
+                                    "entity":"this",
+                                    "scores":{
+                                        "dzrare":{
+                                            "min":2,
+                                            "max":3
+                                        },
+                                        "dzlimit":2
+                                    }
+                                },
+                                {
+                                    "condition": "entity_scores",
+                                    "entity":"this",
+                                    "scores":{
+                                        "dzrare":{
+                                            "min":2,
+                                            "max":3
+                                        },
+                                        "dzlimit":1,
+                                        "dzbranch":1
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "condition":"inverted",
+                            "term":{
+                                "condition": "entity_properties",
+                                "entity": "this",
+                                "predicate": {
+                                    "nbt":"{Tags:[\"enhance_id_31\"]}"
+                                }
+                            }
+                        }
+                    ]
+                },
+
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:stone",
+                    "weight":2,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{tagid:32}"
+                        }
+                    ],
+                    "conditions": [
+                        {
+                            "condition":"any_of",
+                            "terms":[
+                                {
+                                    "condition": "entity_scores",
+                                    "entity":"this",
+                                    "scores":{
+                                        "dzrare":{
+                                            "min":4
+                                        },
+                                        "dzlimit":0
+                                    }
+                                },
+                                {
+                                    "condition": "entity_scores",
+                                    "entity":"this",
+                                    "scores":{
+                                        "dzrare":{
+                                            "min":4
+                                        },
+                                        "dzlimit":2
+                                    }
+                                },
+                                {
+                                    "condition": "entity_scores",
+                                    "entity":"this",
+                                    "scores":{
+                                        "dzrare":{
+                                            "min":4
+                                        },
+                                        "dzlimit":1,
+                                        "dzbranch":1
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "condition":"inverted",
+                            "term":{
+                                "condition": "entity_properties",
+                                "entity": "this",
+                                "predicate": {
+                                    "nbt":"{Tags:[\"enhance_id_32\"]}"
+                                }
+                            }
+                        }
+                    ]
+                },
+
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:stone",
+                    "weight":3,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{tagid:33}"
+                        }
+                    ],
+                    "conditions": [
+                        {
+                            "condition": "entity_scores",
+                            "entity":"this",
+                            "scores":{
+                                "dzrare":{
+                                    "min":2,
+                                    "max":3
+                                },
+                                "dzlimit":1,
+                                "dzbranch":0
+                            }
+                        },
+                        {
+                            "condition":"inverted",
+                            "term":{
+                                "condition": "entity_properties",
+                                "entity": "this",
+                                "predicate": {
+                                    "nbt":"{Tags:[\"enhance_id_33\"]}"
+                                }
+                            }
+                        }
+                    ]
+                },
+                
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:stone",
+                    "weight":3,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{tagid:34}"
+                        }
+                    ],
+                    "conditions": [
+                        {
+                            "condition": "entity_scores",
+                            "entity":"this",
+                            "scores":{
+                                "dzrare":{
+                                    "min":4
+                                },
+                                "dzlimit":1,
+                                "dzbranch":0
+                            }
+                        },
+                        {
+                            "condition":"inverted",
+                            "term":{
+                                "condition": "entity_properties",
+                                "entity": "this",
+                                "predicate": {
+                                    "nbt":"{Tags:[\"enhance_id_34\"]}"
+                                }
+                            }
+                        }
+                    ]
+                },
+
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:stone",
+                    "weight":3,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{tagid:35}"
+                        }
+                    ],
+                    "conditions": [
+                        {
+                            "condition": "entity_scores",
+                            "entity":"this",
+                            "scores":{
+                                "dzrare":{
+                                    "min":2
+                                },
+                                "dzlimit":1,
+                                "dzbranch":0
+                            }
+                        },
+                        {
+                            "condition":"inverted",
+                            "term":{
+                                "condition": "entity_properties",
+                                "entity": "this",
+                                "predicate": {
+                                    "nbt":"{Tags:[\"enhance_id_35\"]}"
+                                }
+                            }
+                        }
+                    ]
+                },
+
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:stone",
+                    "weight":1,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{tagid:36}"
+                        }
+                    ],
+                    "conditions": [
+                        {
+                            "condition": "entity_scores",
+                            "entity":"this",
+                            "scores":{
+                                "dzrare":{
+                                    "min":6
+                                },
+                                "dzlimit":0,
+                                "dzbranch":0,
+                                "dzenhance_lvl":4
+                            }
+                        },
+                        {
+                            "condition":"inverted",
+                            "term":{
+                                "condition": "entity_properties",
+                                "entity": "this",
+                                "predicate": {
+                                    "nbt":"{Tags:[\"enhance_id_36\"]}"
+                                }
+                            }
+                        }
+                    ]
+                },
+
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:stone",
+                    "weight":1,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{tagid:37}"
+                        }
+                    ],
+                    "conditions": [
+                        {
+                            "condition": "entity_scores",
+                            "entity":"this",
+                            "scores":{
+                                "dzrare":{
+                                    "min":6
+                                },
+                                "dzlimit":1,
+                                "dzbranch":0,
+                                "dzenhance_lvl":4
+                            }
+                        },
+                        {
+                            "condition":"inverted",
+                            "term":{
+                                "condition": "entity_properties",
+                                "entity": "this",
+                                "predicate": {
+                                    "nbt":"{Tags:[\"enhance_id_37\"]}"
+                                }
+                            }
+                        }
+                    ]
+                },
+
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:stone",
+                    "weight":1,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{tagid:38}"
+                        }
+                    ],
+                    "conditions": [
+                        {
+                            "condition": "entity_scores",
+                            "entity":"this",
+                            "scores":{
+                                "dzrare":{
+                                    "min":6
+                                },
+                                "dzlimit":1,
+                                "dzbranch":0,
+                                "dzenhance_lvl":4
+                            }
+                        },
+                        {
+                            "condition":"inverted",
+                            "term":{
+                                "condition": "entity_properties",
+                                "entity": "this",
+                                "predicate": {
+                                    "nbt":"{Tags:[\"enhance_id_38\"]}"
+                                }
+                            }
+                        }
+                    ]
+                },
+
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:stone",
+                    "weight":1,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{tagid:39}"
+                        }
+                    ],
+                    "conditions": [
+                        {
+                            "condition": "entity_scores",
+                            "entity":"this",
+                            "scores":{
+                                "dzrare":{
+                                    "min":6
+                                },
+                                "dzlimit":2,
+                                "dzbranch":0,
+                                "dzenhance_lvl":4
+                            }
+                        },
+                        {
+                            "condition":"inverted",
+                            "term":{
+                                "condition": "entity_properties",
+                                "entity": "this",
+                                "predicate": {
+                                    "nbt":"{Tags:[\"enhance_id_39\"]}"
+                                }
+                            }
+                        }
+                    ]
+                },
+
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:stone",
+                    "weight":1,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{tagid:40}"
+                        }
+                    ],
+                    "conditions": [
+                        {
+                            "condition": "entity_scores",
+                            "entity":"this",
+                            "scores":{
+                                "dzrare":{
+                                    "min":6
+                                },
+                                "dzlimit":2,
+                                "dzbranch":0,
+                                "dzenhance_lvl":4
+                            }
+                        },
+                        {
+                            "condition":"inverted",
+                            "term":{
+                                "condition": "entity_properties",
+                                "entity": "this",
+                                "predicate": {
+                                    "nbt":"{Tags:[\"enhance_id_40\"]}"
+                                }
+                            }
+                        }
+                    ]
+                },
+
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:stone",
+                    "weight":1,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{tagid:41}"
+                        }
+                    ],
+                    "conditions": [
+                        {
+                            "condition": "entity_scores",
+                            "entity":"this",
+                            "scores":{
+                                "dzrare":{
+                                    "min":6
+                                },
+                                "dzlimit":0,
+                                "dzbranch":0,
+                                "dzenhance_lvl":4
+                            }
+                        },
+                        {
+                            "condition":"inverted",
+                            "term":{
+                                "condition": "entity_properties",
+                                "entity": "this",
+                                "predicate": {
+                                    "nbt":"{Tags:[\"enhance_id_41\"]}"
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:stone",
+                    "weight":1,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{tagid:42}"
+                        }
+                    ],
+                    "conditions": [
+                        {
+                            "condition": "entity_scores",
+                            "entity":"this",
+                            "scores":{
+                                "dzrare":{
+                                    "min":6
+                                },
+                                "dzlimit":2,
+                                "dzbranch":0
+                            }
+                        },
+                        {
+                            "condition":"inverted",
+                            "term":{
+                                "condition": "entity_properties",
+                                "entity": "this",
+                                "predicate": {
+                                    "nbt":"{Tags:[\"enhance_id_42\"]}"
+                                }
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

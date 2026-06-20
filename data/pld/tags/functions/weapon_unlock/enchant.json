@@ -1,0 +1,11 @@
+
+{
+    "replace": false,
+    "values": [
+        "pld:equipment_lock/equipment/weapon/enchant/1",
+        "pld:equipment_lock/equipment/weapon/enchant/2",
+        "pld:equipment_lock/equipment/weapon/enchant/3",
+        "pld:equipment_lock/equipment/weapon/enchant/4"
+
+    ]
+}

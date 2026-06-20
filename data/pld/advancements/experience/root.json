@@ -1,0 +1,17 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:paper"
+        },
+        "title": {"translate": "pl.adv.exp_root.title"},
+        "description": {"translate": "pl.adv.exp_root.description"},
+        "background": "panling:exp.png",
+        "announce_to_chat": false,
+        "show_toast": false
+    },
+    "criteria": {
+        "impossibe":{
+        "trigger": "minecraft:impossible"
+        }
+    }
+}

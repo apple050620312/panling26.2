@@ -1,0 +1,23 @@
+{
+    "criteria": {
+        "level10":{
+            "trigger": "minecraft:tick",
+            "conditions": {
+                "player": {
+                    "type_specific": {
+                        "type":"player",
+                        "level": {
+                            "min": 80
+                        },
+                        "advancements":{
+                            "pld:experience/root":"true"
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "pld:adv/system/lvl_reward/80"
+    }
+}

@@ -1,0 +1,26 @@
+{
+    "parent": "pld:mission/xian/main/main1",
+    "display": {
+        "icon": {
+            "item": "minecraft:written_book"
+        },
+        "title": {"translate": "pl.adv.xian_main2.title"},
+        "description": {"translate": "pl.adv.xian_main2.description"},
+        "announce_to_chat": false,
+        "frame": "goal"
+    },
+    "criteria": {
+        "xian_main_2":{
+            "trigger": "minecraft:villager_trade",
+            "conditions": {
+                "item": {
+                    "item": "minecraft:written_book",
+                    "nbt":"{id:\"panling:book_xm2\"}"
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "pld:adv/mission/xian/main/main2"
+    }
+}

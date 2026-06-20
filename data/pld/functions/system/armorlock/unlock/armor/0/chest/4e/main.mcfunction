@@ -1,0 +1,1 @@
+data modify block ~ 255 ~ Items[0].tag.AttributeModifiers set value [{Slot:"chest",UUID:[I;2,2,2,2],Operation:0,AttributeName:"minecraft:generic.armor",Amount:2},{Slot:"chest",UUID:[I;2,2,2,2],Operation:0,AttributeName:"minecraft:generic.attack_damage",Amount:6},{Slot:"chest",UUID:[I;2,2,2,2],Operation:1,AttributeName:"minecraft:generic.attack_speed",Amount:0.2d}]

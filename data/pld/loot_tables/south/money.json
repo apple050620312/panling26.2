@@ -1,0 +1,29 @@
+{
+    "pools": [
+        {
+            "rolls":1,
+            "entries": [
+                {   
+                    "weight":80,
+                    "type": "minecraft:loot_table",
+                    "name": "pld:items/copper_cash"
+                },
+                {
+                    "weight": 15,
+                    "type": "minecraft:loot_table",
+                    "name": "pld:items/coal"
+                },
+                {
+                    "weight": 4,
+                    "type": "minecraft:loot_table",
+                    "name": "pld:items/gold_ingot"
+                },
+                {
+                    "weight": 1,
+                    "type": "minecraft:loot_table",
+                    "name": "pld:items/unkonwn_colorful_crystal"
+                }
+            ]
+        }
+    ]
+}

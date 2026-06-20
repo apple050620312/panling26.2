@@ -1,0 +1,13 @@
+{
+    "criteria": {
+        "example_item":{
+            "trigger": "minecraft:villager_trade",
+            "conditions": {
+                "item": {
+                    "items": ["minecraft:nether_wart"],
+                    "nbt":"{id:\"panling:example_item\"}"
+                }
+            }
+        }
+    }
+}

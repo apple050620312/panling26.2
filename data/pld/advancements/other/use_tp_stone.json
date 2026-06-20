@@ -1,0 +1,19 @@
+{
+    "parent": "pld:other/root",
+    "display": {
+        "icon": {
+            "item": "minecraft:warped_fungus_on_a_stick"
+        },
+        "title": {"translate": "pl.adv.use_tp_stone.title"},
+        "description": {"translate": "pl.adv.use_tp_stone.description"},
+        "announce_to_chat": false
+    },
+    "criteria": {
+        "impossibe":{
+        "trigger": "minecraft:impossible"
+        }
+    },
+    "rewards": {
+        "function": "pld:adv/gameplay/other/use_tp_stone"
+    }
+}

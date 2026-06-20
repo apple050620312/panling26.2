@@ -1,0 +1,2 @@
+execute if block -117 45 140 hopper{Items:[{tag:{id:"panling:ren_hide_key"}}]} as @p[x=-117,y=46,z=140,distance=..4,scores={race=4,process_ren_hide=6..}] unless entity @s[scores={finish_ren_hide=1}] run function pld:system/truth/ren/4/in_room
+data merge block -117 45 140 {Items:[]}

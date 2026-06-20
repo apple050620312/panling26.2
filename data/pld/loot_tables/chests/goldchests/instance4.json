@@ -1,0 +1,97 @@
+{
+    "type": "minecraft:generic",
+    "pools": [
+        {
+            "rolls":1,
+            "entries": [
+                {
+                    "_comment":"金宝箱产物-副本产物",
+                    "weight": 20,
+                    "type": "minecraft:item",
+                    "name": "minecraft:orange_dye",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{instance:4,chest:1,id:\"panling:instance4_collection\"}"
+                        },{
+                            "function": "minecraft:set_count",
+                            "count":2
+                        }
+                    ]
+                },
+                {
+                    "_comment":"金宝箱产物-五阶防具核心",
+                    "weight": 20,
+                    "type": "minecraft:item",
+                    "name": "minecraft:iron_nugget",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{instance:4,chest:1,id:\"panling:armor_core_5\"}"
+                        },{
+                            "function": "minecraft:set_count",
+                            "count":2
+                        }
+                    ]
+                },
+                {
+                    "_comment":"金宝箱产物-灵玉简",
+                    "weight": 20,
+                    "type": "minecraft:item",
+                    "name": "minecraft:diamond",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{instance:4,chest:1,id:\"panling:weapon_core_5\"}"
+                        }
+                    ]
+                },
+                {
+                    "_comment":"金宝箱产物-千炼玉",
+                    "weight": 10,
+                    "type": "minecraft:item",
+                    "name": "minecraft:diamond",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{instance:4,chest:1,id:\"panling:armor_core_52\"}"
+                        },{
+                            "function": "minecraft:set_count",
+                            "count":1
+                        }
+                    ]
+                },
+                {
+                    "_comment":"金宝箱产物-三阶附灵石",
+                    "weight": 20,
+                    "type": "minecraft:item",
+                    "name": "minecraft:blue_dye",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{instance:4,chest:1,id:\"panling:enchant_stone\"}"
+                        },{
+                            "function": "minecraft:set_count",
+                            "count":1
+                        }
+                    ]
+                },
+                {
+                    "_comment":"金宝箱产物-化玉血珀·鞋",
+                    "weight":10,
+                    "type": "minecraft:item",
+                    "name": "minecraft:raw_gold",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{instance:4,chest:1,id:\"panling:core_iron_armor_boots\"}"
+                        },{
+                            "function": "minecraft:set_count",
+                            "count":1
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

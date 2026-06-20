@@ -1,0 +1,8 @@
+{
+    "function":"minecraft:set_lore",
+    "lore":[
+        {"text":""},
+        [{"translate":"pl.chest_menu.sent"},{"nbt":"Temp_the_mail.sent","storage":"pld:system","color":"yellow","italic":false}]
+    ],
+    "entity": "this"
+}

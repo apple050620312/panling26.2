@@ -1,0 +1,6 @@
+{
+    "replace": false,
+    "values": [
+       "pld:system/archer_damage/weapon_skill/crossbow5/when_shoot"
+    ]
+}

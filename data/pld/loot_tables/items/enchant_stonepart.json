@@ -1,0 +1,19 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "item",
+            "name": "minecraft:light_gray_dye",
+            "functions": [
+                {
+                    "function": "minecraft:set_nbt",
+                    "tag": "{HideFlags:63,id:\"panling:enchant_stonepart\",display:{Name:'{\"translate\":\"pl.item.name.enchant_stonepart\"}',Lore:['{\"translate\":\"pl.item.lore.enchant_stoneparta\"}','{\"translate\":\"pl.item.lore.enchant_stonepartb\"}',]},Enchantments:[{id:\"minecraft:protection\",lvl:1s}]}"
+                }
+            ]
+          }
+        ]
+      }
+    ]
+}

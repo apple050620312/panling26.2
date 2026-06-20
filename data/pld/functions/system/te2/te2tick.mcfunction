@@ -1,0 +1,2 @@
+execute as @a[x=-29,y=41,z=-609,dx=11,dy=6,dz=11] unless entity @s[scores={ex_doctor=1}] run function pld:system/te2/tpin
+tellraw @a[x=-29,y=41,z=-609,dx=11,dy=6,dz=11,scores={ex_doctor=1..}] {"translate": "pl.info.te2.tpinresistance"}

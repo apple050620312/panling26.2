@@ -1,0 +1,19 @@
+{
+    "parent": "pld:other/root",
+    "display": {
+        "icon": {
+            "item": "minecraft:cooked_cod"
+        },
+        "title": {"translate": "pl.adv.ld_cook.title"},
+        "description": {"translate": "pl.adv.ld_cook.description"},
+        "announce_to_chat": false
+    },
+    "criteria": {
+        "impossibe":{
+        "trigger": "minecraft:impossible"
+        }
+    },
+    "rewards": {
+        "function": "pld:adv/gameplay/other/ld_cook"
+    }
+}

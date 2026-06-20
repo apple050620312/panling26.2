@@ -1,0 +1,26 @@
+{
+    "parent": "pld:mission/xian/root",
+    "display": {
+        "icon": {
+            "item": "minecraft:paper"
+        },
+        "title": {"translate": "pl.adv.xian_main0.title"},
+        "description": {"translate": "pl.adv.xian_main0.description"},
+        "announce_to_chat": false,
+        "frame": "goal"
+    },
+    "criteria": {
+        "xian_main_0":{
+            "trigger": "minecraft:villager_trade",
+            "conditions": {
+                "item": {
+                    "item": "minecraft:paper",
+                    "nbt":"{id:\"panling:leadingpaper2\"}"
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "pld:adv/mission/xian/main/main0"
+    }
+}

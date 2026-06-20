@@ -1,0 +1,106 @@
+{
+    "type": "minecraft:generic",
+    "pools": [
+        {
+            "rolls":1,
+            "entries": [
+                
+                {
+                    "_comment":"金宝箱产物-玄凤翎",
+                    "weight": 1,
+                    "type": "minecraft:item",
+                    "name": "minecraft:diamond_helmet",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{instance:4,chest:1,id:\"panling:helmet62\"}"
+                        }
+                    ],
+                    "conditions": [
+                        {
+                            "condition": "minecraft:inverted",
+                            "term": {
+                                "condition": "minecraft:entity_scores",
+                                "entity": "this",
+                                "scores": {
+                                    "gotten_helmet62":1
+                                }
+                            } 
+                        }
+                    ]
+                },
+                {
+                    "_comment":"金宝箱产物-紫砂缠",
+                    "weight": 1,
+                    "type": "minecraft:item",
+                    "name": "minecraft:diamond_leggings",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{instance:4,chest:1,id:\"panling:leggings6\"}"
+                        }
+                    ],
+                    "conditions": [
+                        {
+                            "condition": "minecraft:inverted",
+                            "term": {
+                                "condition": "minecraft:entity_scores",
+                                "entity": "this",
+                                "scores": {
+                                    "gotten_leggings6":1
+                                }
+                            } 
+                        }
+                    ]
+                },
+                {
+                    "_comment":"金宝箱产物-玄金羽泪",
+                    "weight": 1,
+                    "type": "minecraft:item",
+                    "name": "minecraft:diamond_chestplate",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{instance:4,chest:1,id:\"panling:chestplate63\"}"
+                        }
+                    ],
+                    "conditions": [
+                        {
+                            "condition": "minecraft:inverted",
+                            "term": {
+                                "condition": "minecraft:entity_scores",
+                                "entity": "this",
+                                "scores": {
+                                    "gotten_chest63":1
+                                }
+                            } 
+                        }
+                    ]
+                },
+                {
+                    "_comment":"金宝箱产物-神器替换-千炼玉",
+                    "weight": 1,
+                    "type": "minecraft:item",
+                    "name": "minecraft:diamond",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{instance:4,chest:1,id:\"panling:armor_core_52\"}"
+                        }
+                    ],
+                    "conditions": [
+                        {
+                            "condition": "minecraft:entity_scores",
+                            "entity": "this",
+                            "scores": {
+                                "gotten_leggings6":1,
+                                "gotten_helmet62":1,
+                                "gotten_chest63":1
+                            }   
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

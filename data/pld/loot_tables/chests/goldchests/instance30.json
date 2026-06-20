@@ -1,0 +1,41 @@
+{
+    "type": "minecraft:generic",
+    "pools": [
+        {
+            "rolls":1,
+            "entries": [
+                {
+                    "_comment":"金宝箱产物-副本产物",
+                    "weight": 8,
+                    "type": "minecraft:item",
+                    "name": "minecraft:orange_dye",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{instance:3,chest:1,id:\"panling:instance3_collection\"}"
+                        },{
+                            "function": "minecraft:set_count",
+                            "count":2
+                        }
+                    ]
+                },
+                {
+                    "_comment":"金宝箱产物-化玉血珀·裤",
+                    "weight":2,
+                    "type": "minecraft:item",
+                    "name": "minecraft:raw_gold",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{instance:3,chest:1,id:\"panling:core_iron_armor_leggings\"}"
+                        },{
+                            "function": "minecraft:set_count",
+                            "count":1
+                        }
+                    ]
+                }
+                
+            ]
+        }
+    ]
+}

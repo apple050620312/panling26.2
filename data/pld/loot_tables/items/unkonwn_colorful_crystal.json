@@ -1,0 +1,19 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "item",
+            "name": "minecraft:diamond_block",
+            "functions": [
+                {
+                    "function": "minecraft:set_nbt",
+                    "tag": "{id:\"panling:unkonwn_colorful_crystal\",display:{Name:'{\"translate\":\"pl.item.name.unkonwn_colorful_crystal\"}',Lore:['{\"translate\":\"pl.item.lore.unkonwn_colorful_crystal_a\"}','{\"translate\":\"pl.item.lore.unkonwn_colorful_crystal_b\"}']}}"
+                }
+            ]
+          }
+        ]
+      }
+    ]
+}

@@ -1,0 +1,40 @@
+{
+    "criteria": {
+        "arrow":{
+            "trigger": "minecraft:player_hurt_entity",
+            "conditions": {
+                "damage": {
+                    "direct_entity":{
+                        "type":"minecraft:arrow"
+                    }
+                },
+                "entity": {
+                    "nbt": "{Tags:[\"monster\"]}"
+                },
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "weapon_rare":2,
+                            "weapon_branch":1,
+                            "job":1
+                        }
+                    },
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "flags":{
+                                "is_sneaking":true
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "rewards": {
+        "function": "pld:system/archer_damage/weapon_skill/crossbow2/check"
+    }
+}

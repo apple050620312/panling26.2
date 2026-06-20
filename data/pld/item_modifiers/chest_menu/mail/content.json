@@ -1,0 +1,14 @@
+{
+    "function":"minecraft:copy_nbt",
+    "source":{
+        "type":"storage",
+        "source":"pld:system"
+    },
+    "ops":[
+        {
+            "source":"Temp_the_mail.content",
+            "target":"display.Lore",
+            "op":"replace"
+        }
+    ]
+}

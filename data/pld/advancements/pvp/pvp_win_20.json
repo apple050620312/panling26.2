@@ -1,0 +1,19 @@
+{
+    "parent": "pld:pvp/pvp_win_10",
+    "display": {
+        "icon": {
+            "item": "minecraft:diamond_sword"
+        },
+        "title": {"translate": "pl.adv.pvp_win_20.title"},
+        "description": {"translate": "pl.adv.pvp_win_20.description"},
+        "announce_to_chat": false
+    },
+    "criteria": {
+        "impossibe":{
+        "trigger": "minecraft:impossible"
+        }
+    },
+    "rewards": {
+        "function": "pld:adv/gameplay/pvp/pvp_win_20"
+    }
+}

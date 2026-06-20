@@ -1,0 +1,1 @@
+tellraw @s {"translate":"pl.info.xian.hide.chat4"}

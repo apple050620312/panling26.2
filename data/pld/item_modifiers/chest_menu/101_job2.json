@@ -1,0 +1,11 @@
+[
+    {
+        "function":"minecraft:set_lore",
+        "lore":[
+            [{"translate":"pl.chest_menu.zf_str"},{"score":{"name":"@s","objective":"zf_str"},"italic": false,"color":"white"}],
+            [{"translate":"pl.chest_menu.zf_cool_reduce"},{"score":{"name":"@s","objective":"zf_cool_reduce"},"italic": false,"color":"white"},{"text":"%","italic": false,"color":"white"}],
+            [{"translate":"pl.chest_menu.zf_consume_reduce"},{"score":{"name":"@s","objective":"zf_consume_reduce"},"italic": false,"color":"white"},{"text":"%","italic": false,"color":"white"}]
+        ],
+        "entity":"this"
+    }
+]

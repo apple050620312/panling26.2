@@ -1,0 +1,1 @@
+fill 3056 127 -1874 3136 127 -1801 minecraft:obsidian replace minecraft:air

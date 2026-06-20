@@ -1,0 +1,14 @@
+{
+    "function":"minecraft:copy_nbt",
+    "source":{
+        "type":"context",
+        "target":"this"
+    },
+    "ops":[
+        {
+            "source":"EnderItems[{Slot:0b}].tag.data",
+            "target":"data",
+            "op":"replace"
+        }
+    ]
+}

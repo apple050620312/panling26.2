@@ -1,0 +1,21 @@
+{
+    "replace": false,
+    "values": [
+        "minecraft:player_head",
+        "minecraft:chest",
+        "minecraft:blaze_powder",
+        "minecraft:brewing_stand",
+        "minecraft:clock",
+        "minecraft:black_stained_glass_pane",
+        "minecraft:gray_stained_glass_pane",
+        "minecraft:wooden_axe",
+        "minecraft:experience_bottle",
+        "minecraft:diamond_chestplate",
+        "minecraft:wooden_sword",
+        "minecraft:leather_boots",
+        "minecraft:brick",
+        "minecraft:paper",
+        "minecraft:snowball",
+        "minecraft:iron_chestplate"
+    ]
+}

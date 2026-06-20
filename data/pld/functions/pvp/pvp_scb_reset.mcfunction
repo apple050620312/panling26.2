@@ -1,0 +1,19 @@
+scoreboard players set @s[team=attack] feather_mainland 1
+scoreboard players set @s[team=defence] feather_mainland 1
+scoreboard players set @s[team=defence] inpvp 0
+scoreboard players set @s[team=attack] inpvp 0
+scoreboard players set @s[team=attack] pvp_team 0
+scoreboard players set @s[team=defence] pvp_team 0
+scoreboard players set @s[team=attack] teamkill.green 0
+scoreboard players set @s[team=attack] teamkill.green 0
+scoreboard players set @s[team=defence] teamkill.red 0
+scoreboard players set @s[team=defence] teamkill.red 0
+scoreboard players set @s[team=defence] inpvp_area 0
+scoreboard players set @s[team=defence] inbuy_area 0
+scoreboard players set @s[team=defence] pvp_relife_tick -1
+scoreboard players set @s[team=attack] inpvp_area 0
+scoreboard players set @s[team=attack] inbuy_area 0
+scoreboard players set @s[team=attack] pvp_relife_tick -1
+
+team join normal @a[team=attack]
+team join normal @a[team=defence]

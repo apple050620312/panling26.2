@@ -1,0 +1,20 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "gray_dye",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{id:\"panling:instance3_0\",display:{Name:'{\"translate\": \"pl.item.name.instance3_0\"}',Lore:['{\"translate\": \"pl.item.lore.instance3_0a\"}','{\"translate\": \"pl.item.lore.instance3_0b\"}']}}"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

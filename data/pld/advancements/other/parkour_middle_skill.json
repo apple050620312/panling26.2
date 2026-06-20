@@ -1,0 +1,19 @@
+{
+    "parent": "pld:other/parkour_middle_finish",
+    "display": {
+        "icon": {
+            "item": "minecraft:diamond_boots"
+        },
+        "title": {"translate": "pl.adv.parkour_middle_skill.title"},
+        "description": {"translate": "pl.adv.parkour_middle_skill.description"},
+        "announce_to_chat": false
+    },
+    "criteria": {
+        "impossibe":{
+        "trigger": "minecraft:impossible"
+        }
+    },
+    "rewards": {
+        "function": "pld:adv/gameplay/other/parkour_middle_skill"
+    }
+}

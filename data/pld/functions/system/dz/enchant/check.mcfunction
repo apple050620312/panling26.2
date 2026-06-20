@@ -1,0 +1,1 @@
+execute unless data block ~ ~ ~ Items[{Slot:5b}] if block ~ ~ ~ minecraft:dispenser{Items:[{Slot:0b,id:"minecraft:blue_dye",Count:1b,tag:{id:"panling:enchant_stone"}}]} run function pld:system/dz/enchant/main

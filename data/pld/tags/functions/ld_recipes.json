@@ -1,0 +1,19 @@
+{
+    "replace": false,
+    "values": [
+        "pld:system/ld/recipes/fd1",
+        "pld:system/ld/recipes/fd2",
+        "pld:system/ld/recipes/fd3",
+        "pld:system/ld/recipes/fd4",
+        "pld:system/ld/recipes/sd1",
+        "pld:system/ld/recipes/sd2",
+        "pld:system/ld/recipes/yd1",
+        "pld:system/ld/recipes/yd2",
+        "pld:system/ld/recipes/yd3",
+        "pld:system/ld/recipes/yd4",
+        "pld:system/ld/recipes/yd5",
+        "pld:system/ld/recipes/yd6",
+        "pld:system/ld/recipes/yd7"
+
+    ]
+}

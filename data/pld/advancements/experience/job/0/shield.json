@@ -1,0 +1,35 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:shield"
+        },
+        "title":  {"translate": "pl.adv.shield.title"},
+        "description":  {"translate": "pl.adv.shield.description"},
+        "announce_to_chat": false
+    },
+    "parent": "pld:experience/job/0/base",
+    "criteria": {
+        "sword0":{
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": ["minecraft:shield"],
+                        "nbt": "{id:\"panling:shield\"}"
+                    }
+                ],
+                "player": {
+                    "type_specific": {
+                        "type":"player",
+                        "advancements":{
+                            "pld:experience/job/0/base":"true"
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "pld:adv/gameplay/experience/job/0/shield"
+    }
+}

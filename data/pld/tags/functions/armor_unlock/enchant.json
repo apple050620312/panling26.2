@@ -1,0 +1,10 @@
+
+{
+    "replace": false,
+    "values": [
+        "pld:equipment_lock/equipment/armor/enchant/1/check",
+        "pld:equipment_lock/equipment/armor/enchant/2/check",
+        "pld:equipment_lock/equipment/armor/enchant/3/check"
+
+    ]
+}

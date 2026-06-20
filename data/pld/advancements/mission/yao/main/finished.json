@@ -1,0 +1,19 @@
+{
+    "parent": "pld:mission/yao/main/main14",
+    "display": {
+        "icon": {
+            "item": "minecraft:paper"
+        },
+        "title": {"translate": "pl.adv.yao_main_finished.title"},
+        "description": {"translate": "pl.adv.yao_main_finished.description"},
+        "announce_to_chat": false
+    },
+    "criteria": {
+        "impossible":{
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "rewards": {
+        "function": "pld:adv/mission/yao/main/finished"
+    }
+}

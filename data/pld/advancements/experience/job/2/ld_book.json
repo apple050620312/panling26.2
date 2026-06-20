@@ -1,0 +1,85 @@
+{
+    "display": {
+        "icon": {
+            "item":"minecraft:potion",
+            "nbt": "{Potion:\"minecraft:healing\"}"
+        },
+        "title": {"translate": "pl.adv.ld_book.title"},
+        "description": {"translate": "pl.adv.ld_book.description"},
+        "announce_to_chat": false
+    },
+    "parent": "pld:experience/job/2/ld",
+    "criteria": {
+        "panling:yd1":{
+            "trigger": "minecraft:impossible"
+        },
+        "panling:yd2":{
+            "trigger": "minecraft:impossible"
+        },
+        "panling:yd3":{
+            "trigger": "minecraft:impossible"
+        },
+        "panling:yd4":{
+            "trigger": "minecraft:impossible"
+        },
+        "panling:yd5":{
+            "trigger": "minecraft:impossible"
+        },
+        "panling:yd6":{
+            "trigger": "minecraft:impossible"
+        },
+        "panling:yd7":{
+            "trigger": "minecraft:impossible"
+        },
+        "panling:fd1":{
+            "trigger": "minecraft:impossible"
+        },
+        "panling:fd2":{
+            "trigger": "minecraft:impossible"
+        },
+        "panling:fd3":{
+            "trigger": "minecraft:impossible"
+        },
+        "panling:sd1":{
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "requirements": [
+        [
+            "panling:yd1"
+        ],
+        [
+            "panling:yd2"
+        ],
+        [
+            "panling:yd3"
+        ],
+        [
+            "panling:yd4"
+        ],
+        [
+            "panling:yd5"
+        ],
+        [
+            "panling:yd6"
+        ],
+        [
+            "panling:yd7"
+        ],
+        [
+            "panling:fd1"
+        ],
+        [
+            "panling:fd2"
+        ],
+        [
+            "panling:fd3"
+        ],
+        [
+            "panling:sd1"
+        ]
+    ],
+    "rewards": {
+        "function": "pld:adv/gameplay/experience/job/2/ld_book"
+    }
+}

@@ -1,0 +1,28 @@
+{
+    "pools": [
+        {
+            "rolls":1,
+            "entries": [
+
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:blaze_rod",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{id:\"panling:fire\",display:{Name:'{\"translate\":\"pl.item.name.fire\"}'}}"
+                        },
+                        {
+                            "function": "minecraft:set_count",
+                            "count":{
+                                "type":"minecraft:uniform",
+                                "max": 2,
+                                "min": 0
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

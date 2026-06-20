@@ -1,0 +1,19 @@
+{
+    "parent": "pld:instance5/root",
+    "display": {
+        "icon": {
+            "item": "minecraft:chest"
+        },
+        "title": {"translate": "pl.adv.instance5.finish.title"},
+        "description": {"translate": "pl.adv.instance5.finish.description"},
+        "announce_to_chat": false
+    },
+    "criteria": {
+        "impossibe":{
+        "trigger": "minecraft:impossible"
+        }
+    },
+    "rewards": {
+        "function": "pld:adv/gameplay/instance5/finish"
+    }
+}

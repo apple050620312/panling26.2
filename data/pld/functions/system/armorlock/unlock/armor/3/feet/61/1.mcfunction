@@ -1,0 +1,3 @@
+data modify block ~ 255 ~ Items[0].tag.AttributeModifiers set value [{Slot:"feet",UUID:[I;4,4,4,4],Operation:0,AttributeName:"minecraft:generic.armor",Amount:3.5},{Slot:"feet",UUID:[I;4,4,4,4],Operation:0,AttributeName:"minecraft:generic.max_health",Amount:4},{Slot:"feet",UUID:[I;4,4,4,4],Operation:0,AttributeName:"minecraft:generic.armor_toughness",Amount:1},{Slot:"feet",UUID:[I;4,4,4,4],Operation:1,AttributeName:"minecraft:generic.movement_speed",Amount:0.05},{Slot:"feet",UUID:[I;4,4,4,4],Operation:0,AttributeName:"minecraft:generic.knockback_resistance",Amount:0.1},{Slot:"legs",UUID:[I;9,3,3,3],Operation:2,AttributeName:"minecraft:generic.max_health",Amount:0.1d}]
+scoreboard players set @s armor_rare_feet 61
+scoreboard players set @s armor6_awake_feet 1

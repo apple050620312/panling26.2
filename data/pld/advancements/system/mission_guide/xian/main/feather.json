@@ -1,0 +1,16 @@
+{
+    "criteria": {
+        "xian_main_4":{
+            "trigger": "minecraft:villager_trade",
+            "conditions": {
+                "item": {
+                    "items": ["minecraft:written_book"],
+                    "nbt":"{id:\"panling:book_xm4\"}"
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "pld:adv/system/mission_guide/xian/main/feather"
+    }
+}

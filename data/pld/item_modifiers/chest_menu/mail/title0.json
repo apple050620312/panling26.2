@@ -1,0 +1,5 @@
+{
+    "function":"minecraft:set_name",
+    "name": {"nbt":"Temp_the_mail.title","interpret":true,"storage":"pld:system"},
+    "entity":"this"
+}

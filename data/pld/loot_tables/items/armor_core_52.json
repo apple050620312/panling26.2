@@ -1,0 +1,19 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "item",
+            "name": "minecraft:diamond",
+            "functions": [
+                {
+                    "function": "minecraft:set_nbt",
+                    "tag": "{HideFlags:63,id:\"panling:armor_core_52\",display:{Name:'{\"translate\":\"pl.item.name.acore52\"}',Lore:['{\"translate\":\"pl.lore.rare5\"}','{\"translate\":\"pl.item.lore.acore52a\"}','{\"translate\":\"pl.item.lore.acore52b\"}','{\"translate\":\"pl.item.lore.acore52c\"}']},Enchantments:[{id:\"minecraft:protection\",lvl:1s}]}"
+                }
+            ]
+          }
+        ]
+      }
+    ]
+}

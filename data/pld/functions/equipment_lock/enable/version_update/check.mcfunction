@@ -1,0 +1,5 @@
+execute if block ~ 255 ~ chest{Items:[{tag:{type:2,limit:0,rare:5}}]} unless block ~ 255 ~ chest{Items:[{tag:{id:"panling:chestplate5e1"}}]} run data modify block ~ 255 ~ Items[0].tag.PLattributes set value {multiply_base:{atk_pt:5}}
+execute if block ~ 255 ~ chest{Items:[{tag:{id:"panling:chestplate4e1"}}]} run data modify block ~ 255 ~ Items[0].tag.PLattributes set value {base:{atk_pt:6}}
+execute if block ~ 255 ~ chest{Items:[{tag:{id:"panling:chestplate5e1"}}]} run data modify block ~ 255 ~ Items[0].tag.PLattributes set value {base:{atk_pt:9}}
+execute if block ~ 255 ~ chest{Items:[{tag:{type:2,limit:0,rare:6}}]} run data modify block ~ 255 ~ Items[0].tag.PLattributes set value {multiply_base:{atk_pt:10}}
+execute if block ~ 255 ~ chest{Items:[{tag:{type:1,limit:0}}]} run function pld:equipment_lock/enable/version_update/warrior_weapon

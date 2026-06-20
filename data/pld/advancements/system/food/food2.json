@@ -1,0 +1,16 @@
+{
+    "criteria": {
+        "eat0":{
+           "trigger": "consume_item",
+           "conditions": {
+                "item": {
+                    "items": ["minecraft:mushroom_stew"],
+                    "nbt": "{id:\"panling:food2\"}"
+                }
+           }
+        }
+    },
+    "rewards": {
+        "function": "pld:system/food/food2"
+    }
+}

@@ -1,0 +1,59 @@
+{
+  "type": "minecraft:fishing",
+  "pools": [
+    {
+      "rolls": 1.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:bamboo",
+          "weight": 10,
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{id:\"panling:rotten_bamboo\",display:{Name:'{\"translate\":\"pl.item.name.rotten_bamboo\"}',Lore:['{\"translate\":\"pl.item.lore.rotten_bamboo\"}']}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:leather_boots",
+          "weight": 10,
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{HideFlags:2,id:\"panling:boot\",display:{Name:'{\"translate\":\"pl.item.name.boot\"}',Lore:['{\"translate\":\"pl.item.lore.boot\"}']}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:leather",
+          "weight": 10,
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{id:\"panling:leather\",display:{Name:'{\"translate\":\"pl.item.name.leather\"}'}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:spider_eye",
+          "weight": 10,
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{id:\"panling:spider_eye\",display:{Name:'{\"translate\":\"pl.item.name.spidereye\"}'}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "weight": 10,
+          "name": "pld:fish_element"
+        }
+      ]
+    }
+  ]
+}

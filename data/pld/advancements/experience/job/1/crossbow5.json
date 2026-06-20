@@ -1,0 +1,36 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:wooden_pickaxe",
+            "nbt":"{CustomModelData:51}"
+        },
+        "title":  {"translate": "pl.adv.crossbow5.title"},
+        "description":  {"translate": "pl.adv.crossbow5.description"},
+        "announce_to_chat": false
+    },
+    "parent": "pld:experience/job/1/crossbow4",
+    "criteria": {
+        "sword0":{
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:wooden_pickaxe",
+                        "nbt": "{id:\"panling:crossbow5\"}"                    
+                    }
+                ],
+                "player": {
+                    "type_specific": {
+                        "type":"player",
+                        "advancements":{
+                            "pld:experience/job/1/base":"true"
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "pld:adv/gameplay/experience/job/1/crossbow5"
+    }
+}

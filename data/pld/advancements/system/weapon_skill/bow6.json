@@ -1,0 +1,31 @@
+{
+    "criteria": {
+        "test":{
+            "trigger": "minecraft:player_hurt_entity",
+            "conditions": {
+                "damage": {
+                    
+                    "type":{
+                        "direct_entity": {
+                            "type": "#minecraft:arrows"
+                          },
+                        "is_projectile":true
+                    }
+                },
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "job":1,
+                            "weapon_rare":6
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "rewards": {
+        "function": "pld:system/archer_damage/weapon_skill/bow6/cool_check"
+    }
+}

@@ -1,0 +1,19 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "item",
+            "name": "minecraft:feather",
+            "functions": [
+              {
+                "function": "set_nbt",
+                "tag": "{id:\"panling:feather\",lvl:1,Enchantments:[{id:\"minecraft:protection\",lvl:1s}],display:{Name:'{\"translate\":\"pl.item.name.feather1\"}',Lore:['{\"translate\":\"pl.item.lore.feather1a\"}','{\"translate\":\"pl.item.lore.feather1b\"}','{\"translate\":\"pl.item.lore.feather1c\"}','{\"translate\":\"\"}','{\"translate\":\"pl.item.lore.feather_mainhand\"}','[{\"translate\":\"pl.attribute.weapon_health0\"},{\"text\":\"50%\",\"color\":\"red\",\"italic\":false}]','[{\"translate\":\"pl.attribute.speed\"},{\"text\":\"20%\",\"color\":\"white\",\"italic\":false}]','{\"translate\":\"pl.item.lore.featherf\"}','{\"translate\":\"\"}','{\"translate\":\"pl.item.lore.feather_canup\"}','{\"translate\":\"pl.item.lore.feather1d\"}']},AttributeModifiers:[{Slot:\"mainhand\",UUID:[I;5,5,5,5],Operation:2,AttributeName:\"minecraft:generic.max_health\",Amount:-0.5d,Name:\"\"},{Slot:\"mainhand\",UUID:[I;5,5,5,5],Operation:1,AttributeName:\"minecraft:generic.movement_speed\",Amount:0.2d,Name:\"\"}],HideFlags:63}"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+}

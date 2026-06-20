@@ -1,0 +1,48 @@
+{
+    "display": {
+        "icon": {
+            "item":"minecraft:potion",
+            "nbt": "{Potion:\"minecraft:healing\"}"
+        },
+        "title": {"translate": "pl.adv.ld_all.title"},
+        "description": {"translate": "pl.adv.ld_all.description"},
+        "announce_to_chat": false,
+        "hidden": true
+    },
+    "parent": "pld:experience/job/2/ld_book",
+    "criteria": {
+        "panling:fd4":{
+            "trigger": "minecraft:impossible"
+        },
+        "panling:sd2":{
+            "trigger": "minecraft:impossible"
+        },
+        "ld_book":{
+            "trigger":"minecraft:tick",
+            "conditions": {
+                "player":{
+                    "type_specific": {
+                        "type":"player",
+                        "advancements":{
+                            "pld:experience/job/2/ld_book":"true"
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "requirements": [
+        [
+            "panling:fd4"
+        ],
+        [
+            "panling:sd2"
+        ],
+        [
+            "ld_book"
+        ]
+    ],
+    "rewards": {
+        "function": "pld:adv/gameplay/experience/job/2/ld_all"
+    }
+}

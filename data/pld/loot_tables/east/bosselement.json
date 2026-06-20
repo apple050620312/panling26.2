@@ -1,0 +1,62 @@
+{
+    "type": "minecraft:entity",
+    "pools": [
+        {
+            "rolls":2,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:string",
+                    "weight": 1,
+                    "functions":[
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{id:\"panling:water\",display:{Name:'{\"translate\":\"pl.item.name.water\"}'}}"
+                        },
+                        {
+                            "function": "minecraft:set_count",
+                            "count":1
+                        }
+                                
+
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:emerald",
+                    "weight": 1,
+                    "functions":[
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{id:\"panling:metal\",display:{Name:'{\"translate\":\"pl.item.name.metal\"}'}}"
+                        },
+                        {
+                            "function": "minecraft:set_count",
+                            "count":1
+                        }
+                                
+
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:magma_cream",
+                    "weight": 1,
+                    "functions":[
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{id:\"panling:earth\",display:{Name:'{\"translate\":\"pl.item.name.earth\"}'}}"
+                        },
+                        {
+                            "function": "minecraft:set_count",
+                            "count":1
+                        }
+                                
+
+                    ]
+                }
+
+            ]
+        }
+    ]
+}

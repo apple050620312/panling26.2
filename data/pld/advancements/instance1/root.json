@@ -1,0 +1,17 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:quartz_block"
+        },
+        "title": {"translate": "pl.adv.instance1.root.title"},
+        "description": {"translate": "pl.adv.instance1.root.description"},
+        "background": "panling:instance1.png",
+        "announce_to_chat": false,
+        "show_toast": false
+    },
+    "criteria": {
+        "impossibe":{
+        "trigger": "minecraft:impossible"
+        }
+    }
+}

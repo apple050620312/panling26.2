@@ -1,0 +1,23 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "item",
+            "name": "minecraft:firework_rocket",
+            "functions": [
+              {
+                "function": "set_nbt",
+                "tag": "{id:\"panling:firework_ren\",CanPlaceOn:[\"#all\"],HideFlags:63,Fireworks:{Flight:1,Explosions:[{Type:1,Trail:0,Colors:[I;8475688],Flicker:0},{Type:0,Trail:1,Colors:[I;16777215],FadeColors:[I;16777215],Flicker:0},{Type:0,Trail:1,Colors:[I;0],FadeColors:[I;0],Flicker:1}]},display:{Name:'[{\"translate\":\"pl.item.name.firework_ren\"}]',Lore:['{\"translate\":\"pl.item.lore.firework_rena\"}','{\"translate\":\"pl.item.lore.firework_renb\"}','{\"translate\":\"\"}','{\"translate\":\"pl.item.lore.firework1\"}','{\"translate\":\"pl.item.lore.firework2\"}']}}"
+              },
+              {
+                "function": "set_count",
+                "count": 64
+              }
+            ]
+          }
+        ]
+      }
+    ]
+}

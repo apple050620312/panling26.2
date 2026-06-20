@@ -1,0 +1,6 @@
+scoreboard objectives add feather_mainland dummy ["玩家大陆检查"]
+scoreboard objectives add feather_lvl dummy ["生效玩家羽毛等级"]
+scoreboard objectives add feather_id dummy ["生效玩家羽毛id"]
+scoreboard objectives add attack_damage1_feather dummy ["羽毛被动-近战攻击"]
+scoreboard objectives add archer_damage1_feather dummy ["羽毛被动-箭矢强度"]
+scoreboard objectives add feather_zf_str dummy ["羽毛被动-阵法强度"]

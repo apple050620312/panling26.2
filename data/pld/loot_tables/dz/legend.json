@@ -1,0 +1,164 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:stone",
+                    "weight":1,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{tagid:0}"
+                        }
+                    ],
+                    "conditions": [
+                        {
+                            "condition":"inverted",
+                            "term":{
+                                "condition": "entity_properties",
+                                "entity": "this",
+                                "predicate": {
+                                    "nbt":"{Tags:[\"legend_id_0\"]}"
+                                }
+                            }
+                        }  
+                    ]
+                },{
+                    "type": "minecraft:item",
+                    "name": "minecraft:stone",
+                    "weight":1,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{tagid:1}"
+                        }
+                    ],
+                    "conditions": [
+                        {
+                            "condition":"inverted",
+                            "term":{
+                                "condition": "entity_properties",
+                                "entity": "this",
+                                "predicate": {
+                                    "nbt":"{Tags:[\"legend_id_1\"]}"
+                                }
+                            }
+                        }  
+                    ]
+                },{
+                    "type": "minecraft:item",
+                    "name": "minecraft:stone",
+                    "weight":1,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{tagid:2}"
+                        }
+                    ],
+                    "conditions": [
+                        {
+                            "condition":"inverted",
+                            "term":{
+                                "condition": "entity_properties",
+                                "entity": "this",
+                                "predicate": {
+                                    "nbt":"{Tags:[\"legend_id_2\"]}"
+                                }
+                            }
+                        }  
+                    ]
+                },{
+                    "type": "minecraft:item",
+                    "name": "minecraft:stone",
+                    "weight":1,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{tagid:3}"
+                        }
+                    ],
+                    "conditions": [
+                        {
+                            "condition":"inverted",
+                            "term":{
+                                "condition": "entity_properties",
+                                "entity": "this",
+                                "predicate": {
+                                    "nbt":"{Tags:[\"legend_id_3\"]}"
+                                }
+                            }
+                        }  
+                    ]
+                },{
+                    "type": "minecraft:item",
+                    "name": "minecraft:stone",
+                    "weight":1,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{tagid:4}"
+                        }
+                    ],
+                    "conditions": [
+                        {
+                            "condition":"inverted",
+                            "term":{
+                                "condition": "entity_properties",
+                                "entity": "this",
+                                "predicate": {
+                                    "nbt":"{Tags:[\"legend_id_4\"]}"
+                                }
+                            }
+                        }  
+                    ]
+                },{
+                    "type": "minecraft:item",
+                    "name": "minecraft:stone",
+                    "weight":1,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{tagid:5}"
+                        }
+                    ],
+                    "conditions": [
+                        {
+                            "condition":"inverted",
+                            "term":{
+                                "condition": "entity_properties",
+                                "entity": "this",
+                                "predicate": {
+                                    "nbt":"{Tags:[\"legend_id_5\"]}"
+                                }
+                            }
+                        }  
+                    ]
+                },{
+                    "type": "minecraft:item",
+                    "name": "minecraft:stone",
+                    "weight":1,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{tagid:6}"
+                        }
+                    ],
+                    "conditions": [
+                        {
+                            "condition":"inverted",
+                            "term":{
+                                "condition": "entity_properties",
+                                "entity": "this",
+                                "predicate": {
+                                    "nbt":"{Tags:[\"legend_id_6\"]}"
+                                }
+                            }
+                        }  
+                    ]
+                }
+            ]
+        }
+    ]
+}

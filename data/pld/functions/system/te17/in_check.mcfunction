@@ -1,0 +1,8 @@
+execute if block -321 114 -424 minecraft:dropper{Items:[{Slot:0b,tag:{id:"panling:te3"}}]} run give @s quartz{id:"panling:te3",display:{Name:'{"translate": "pl.item.name.te3"}',Lore:['{"translate": "pl.item.lore.te3a"}','{"translate": "pl.item.lore.te3b"}']},HideFlags:63,Enchantments:[{id:"minecraft:protection",lvl:1s}]}
+execute if block -321 114 -424 minecraft:dropper{Items:[{Slot:0b,tag:{id:"panling:te3"}}]} run tellraw @s {"translate": "pl.info.te17_first"}
+execute if block -321 114 -424 minecraft:dropper{Items:[{Slot:0b,tag:{id:"panling:te3"}}]} run scoreboard players set @s te17_check 1
+execute if block -321 114 -424 minecraft:dropper{Items:[{Slot:0b,tag:{id:"panling:te3"}}]} run tp @s[scores={te17_check=1}] -358 101 -440 135 15
+execute if block -321 114 -424 minecraft:dropper{Items:[{Slot:0b,tag:{id:"panling:te2"}}]} run tp @s[scores={te17_check=1}] -358 101 -440 135 15
+execute if block -321 114 -424 minecraft:dropper{Items:[{Slot:0b,tag:{id:"panling:te2"}}]} unless entity @s[scores={te17_check=1}] run tellraw @s {"translate": "pl.info.te17_resistance1"}
+execute if block -321 114 -424 minecraft:dropper{Items:[{Slot:0b,tag:{id:"panling:te2"}}]} run give @p minecraft:orange_dye{id:"panling:te2",display:{Name:'{"translate":"pl.item.name.te2"}',Lore:['{"translate":"pl.item.lore.te2a"}','{"translate":"pl.item.lore.te2b"}']}}
+execute if block -321 114 -424 minecraft:dropper{Items:[{Slot:0b,tag:{id:"panling:te2"}}]} run tellraw @s {"translate": "pl.info.te17_resistance2"}

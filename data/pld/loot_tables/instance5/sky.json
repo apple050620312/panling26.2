@@ -1,0 +1,28 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:snowball",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{id:\"panling:instance5_snowball\",display:{Name:'{\"translate\":\"pl.item.name.instance5_snowball\"}',Lore:['{\"translate\":\"pl.item.lore.instance5_snowballa\"}','{\"translate\":\"pl.item.lore.instance5_snowballb\"}']}}"
+
+                        },
+                        {
+                            "function": "minecraft:set_count",
+                            "count": {
+                                "type":"minecraft:uniform",
+                                "max": 8,
+                                "min": 4
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

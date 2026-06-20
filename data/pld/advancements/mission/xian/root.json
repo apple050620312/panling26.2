@@ -1,0 +1,17 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:lapis_lazuli"
+        },
+        "title": {"translate": "pl.adv.xian_root.title"},
+        "description": {"translate": "pl.adv.xian_root.description"},
+        "background": "panling:xian.png",
+        "announce_to_chat": false,
+        "show_toast": false
+    },
+    "criteria": {
+        "impossible":{
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

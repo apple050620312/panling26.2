@@ -1,0 +1,16 @@
+{
+    "criteria": {
+        "eat0":{
+           "trigger": "consume_item",
+           "conditions": {
+                "item": {
+                    "items": ["minecraft:dried_kelp"],
+                    "nbt": "{id:\"panling:food1\"}"
+                }
+           }
+        }
+    },
+    "rewards": {
+        "function": "pld:system/food/food1"
+    }
+}

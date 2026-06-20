@@ -1,0 +1,18 @@
+{
+    "criteria": {
+        "move_weapon":{
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "tag": "pld:weapon"
+                        
+                    }
+                ]
+            }
+        }
+    },
+    "rewards": {
+        "function": "pld:equipment_lock/equipment/weapon/adv_check"
+    }
+}

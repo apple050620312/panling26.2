@@ -1,0 +1,16 @@
+{
+    "criteria": {
+        "eat0":{
+           "trigger": "consume_item",
+           "conditions": {
+                "item": {
+                    "items":["minecraft:cooked_salmon"],
+                    "nbt": "{id:\"panling:food0\"}"
+                }
+           }
+        }
+    },
+    "rewards": {
+        "function": "pld:system/food/food0"
+    }
+}

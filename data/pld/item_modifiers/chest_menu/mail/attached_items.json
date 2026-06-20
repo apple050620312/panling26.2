@@ -1,0 +1,7 @@
+{
+    "function":"minecraft:set_lore",
+    "lore":[
+        {"translate":"pl.chest_menu.attached_items"}
+    ],
+    "entity":"this"
+}

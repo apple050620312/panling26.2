@@ -1,0 +1,10 @@
+[
+    {
+        "function":"minecraft:set_lore",
+        "lore":[
+            [{"translate":"pl.chest_menu.bow_power"},{"score":{"name":"@s","objective":"archer_damage_display_int_part"},"italic": false,"color":"white"},{"text":".","italic": false,"color":"white"},{"score":{"name":"@s","objective":"archer_damage_display_fraction_part"},"italic": false,"color":"white"}],
+            [{"translate":"pl.chest_menu.weapon_skill_cool_reduce"},{"score":{"name":"@s","objective":"weapon_skill_cool_reduce"},"italic": false,"color":"white"},{"text":"%","italic": false,"color":"white"}]
+        ],
+        "entity":"this"
+    }
+]

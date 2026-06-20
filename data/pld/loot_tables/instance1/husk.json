@@ -1,0 +1,24 @@
+{
+    "pools": [
+        {
+            "rolls":1,
+            "entries": [
+
+                {
+                    "type": "minecraft:loot_table",
+                    "name": "pld:items/earth",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count":{
+                                "type":"minecraft:uniform",
+                                "max": 2,
+                                "min": 0
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

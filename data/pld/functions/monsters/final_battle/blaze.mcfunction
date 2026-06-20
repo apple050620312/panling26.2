@@ -1,0 +1,2 @@
+summon minecraft:blaze ~ ~ ~ {Team:"monster",Tags:["panling","not_undead","monster"],CanPickUpLoot:false,ArmorDropChances:[0f,0f,0f,0f],HandDropChances:[0f,0f],CustomNameVisible:1b,CustomName:'{"translate":"pl.monster.name.final_battle.blaze"}',DeathLootTable:"pld:empty",Health:50.0f,Attributes:[ {Name:"generic.max_health",Base:50d}, {Name:"generic.movement_speed",Base:0.2d}, {Name:"generic.attack_damage",Base:0d}, {Name:"generic.follow_range",Base:100d}, {Name:"generic.knockback_resistance",Base:1d} ],ArmorItems:[{},{},{},{}],HandItems:[{},{}]}
+kill @s

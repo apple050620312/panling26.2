@@ -1,0 +1,19 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "item",
+            "name": "minecraft:orange_dye",
+            "functions": [
+                {
+                    "function": "minecraft:set_nbt",
+                    "tag": "{HideFlags:63,Enchantments:[{id:\"minecraft:protection\",lvl:1s}],id:\"panling:instance3_collection\",display:{Name:'{\"translate\":\"pl.item.name.instance3_collection\"}',Lore:['{\"translate\":\"pl.item.lore.instance3_collectiona\"}','{\"translate\":\"pl.item.lore.instance3_collectionb\"}']}}"   
+                }
+            ]
+          }
+        ]
+      }
+    ]
+}

@@ -1,0 +1,1 @@
+execute if score @s uid_to_threat matches 1.. run function pld:pre/threat/main

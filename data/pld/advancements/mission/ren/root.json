@@ -1,0 +1,17 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:cocoa_beans"
+        },
+        "title": {"translate": "pl.adv.ren_root.title"},
+        "description": {"translate": "pl.adv.ren_root.description"},
+        "background": "panling:ren.png",
+        "announce_to_chat": false,
+        "show_toast": false
+    },
+    "criteria": {
+        "impossible":{
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

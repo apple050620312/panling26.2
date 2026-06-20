@@ -1,0 +1,6 @@
+{
+    "replace": false,
+    "values": [
+       "pld:system/warrior_attack/when_hurt_entity"
+    ]
+}

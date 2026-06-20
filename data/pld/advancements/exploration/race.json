@@ -1,0 +1,16 @@
+{
+    "parent": "pld:exploration/root",
+    "display": {
+        "icon": {
+            "item": "minecraft:lime_terracotta"
+        },
+        "title": {"translate": "pl.adv.race.title"},
+        "description": {"translate": "pl.adv.race.description"},
+        "announce_to_chat": false
+    },
+    "criteria": {
+        "impossibe":{
+        "trigger": "minecraft:impossible"
+        }
+    }
+}

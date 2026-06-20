@@ -1,0 +1,19 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "item",
+            "name": "minecraft:orange_dye",
+            "functions": [
+                {
+                    "function": "minecraft:set_nbt",
+                    "tag": "{id:\"panling:te2\",display:{Name:'{\"translate\":\"pl.item.name.te2\"}',Lore:['{\"translate\":\"pl.item.lore.te2a\"}','{\"translate\":\"pl.item.lore.te2b\"}']}}"
+                }
+            ]
+          }
+        ]
+      }
+    ]
+}

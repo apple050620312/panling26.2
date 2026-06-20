@@ -1,0 +1,6 @@
+tellraw @a[x=2834,y=31,z=-849,distance=..21] {"translate":"pl.info.instance3_0.boss4_skill2"}
+tellraw @a[x=2834,y=31,z=-849,distance=..21] {"translate":"pl.info.instance3_0.boss_skill4_2"}
+tellraw @a[x=2834,y=31,z=-849,distance=..21] {"translate":"pl.info.instance3_0.boss4_tip"}
+summon minecraft:zombie ~ ~ ~ {Team:"monster",Tags:["panling","undead","monster","in30_boss2"],PersistenceRequired:1,Silent:1,CanPickUpLoot:false,ArmorDropChances:[0f,0f,0f,0f],HandDropChances:[0f,0f],CustomNameVisible:1b,CustomName:'{"translate":"pl.monster.instance3_0.boss2"}',DeathLootTable:"pld:empty",Health:600.0f,Attributes:[{Name:"generic.max_health",Base:600d},{Name:"generic.movement_speed",Base:0.1d},{Name:"generic.attack_damage",Base:10d},{Name:"generic.follow_range",Base:100d},{Name:"generic.knockback_resistance",Base:1d}],ArmorItems:[{id:"minecraft:chainmail_boots",Count:1b,tag:{Unbreakable:1b}},{id:"minecraft:chainmail_leggings",Count:1b,tag:{Unbreakable:1b}},{id:"minecraft:chainmail_chestplate",Count:1b,tag:{Unbreakable:1b}},{id:"minecraft:jack_o_lantern",Count:1b}],HandItems:[{id:"golden_axe",Count:1b,tag:{Unbreakable:1}},{}]}
+#设置技能冷却
+scoreboard players set #system in3_add2_skillt 100

@@ -1,0 +1,45 @@
+execute if score #system temp matches 1 run function pld:equipment_lock/enable/enhance/tags/1
+execute if score #system temp matches 2 run function pld:equipment_lock/enable/enhance/tags/2
+execute if score #system temp matches 3 run function pld:equipment_lock/enable/enhance/tags/3
+execute if score #system temp matches 4 run function pld:equipment_lock/enable/enhance/tags/4
+execute if score #system temp matches 5 run function pld:equipment_lock/enable/enhance/tags/5
+execute if score #system temp matches 6 run function pld:equipment_lock/enable/enhance/tags/6
+execute if score #system temp matches 7 run function pld:equipment_lock/enable/enhance/tags/7
+execute if score #system temp matches 8 run function pld:equipment_lock/enable/enhance/tags/8
+execute if score #system temp matches 9 run function pld:equipment_lock/enable/enhance/tags/9
+execute if score #system temp matches 10 run function pld:equipment_lock/enable/enhance/tags/10
+execute if score #system temp matches 11 run function pld:equipment_lock/enable/enhance/tags/11
+execute if score #system temp matches 12 run function pld:equipment_lock/enable/enhance/tags/12
+execute if score #system temp matches 13 run function pld:equipment_lock/enable/enhance/tags/13
+execute if score #system temp matches 14 run function pld:equipment_lock/enable/enhance/tags/14
+execute if score #system temp matches 15 run function pld:equipment_lock/enable/enhance/tags/15
+execute if score #system temp matches 16 run function pld:equipment_lock/enable/enhance/tags/16
+execute if score #system temp matches 17 run function pld:equipment_lock/enable/enhance/tags/17
+execute if score #system temp matches 18 run function pld:equipment_lock/enable/enhance/tags/18
+execute if score #system temp matches 19 run function pld:equipment_lock/enable/enhance/tags/19
+execute if score #system temp matches 20 run function pld:equipment_lock/enable/enhance/tags/20
+execute if score #system temp matches 21 run function pld:equipment_lock/enable/enhance/tags/21
+execute if score #system temp matches 22 run function pld:equipment_lock/enable/enhance/tags/22
+execute if score #system temp matches 23 run function pld:equipment_lock/enable/enhance/tags/23
+execute if score #system temp matches 24 run function pld:equipment_lock/enable/enhance/tags/24
+execute if score #system temp matches 25 run function pld:equipment_lock/enable/enhance/tags/25
+execute if score #system temp matches 26 run function pld:equipment_lock/enable/enhance/tags/26
+execute if score #system temp matches 27 run function pld:equipment_lock/enable/enhance/tags/27
+execute if score #system temp matches 28 run function pld:equipment_lock/enable/enhance/tags/28
+execute if score #system temp matches 29 run function pld:equipment_lock/enable/enhance/tags/29
+execute if score #system temp matches 30 run function pld:equipment_lock/enable/enhance/tags/30
+execute if score #system temp matches 31 run function pld:equipment_lock/enable/enhance/tags/31
+execute if score #system temp matches 32 run function pld:equipment_lock/enable/enhance/tags/32
+execute if score #system temp matches 33 run function pld:equipment_lock/enable/enhance/tags/33
+execute if score #system temp matches 34 run function pld:equipment_lock/enable/enhance/tags/34
+execute if score #system temp matches 35 run function pld:equipment_lock/enable/enhance/tags/35
+execute if score #system temp matches 36 run function pld:equipment_lock/enable/enhance/tags/36
+execute if score #system temp matches 37 run function pld:equipment_lock/enable/enhance/tags/37
+execute if score #system temp matches 38 run function pld:equipment_lock/enable/enhance/tags/38
+execute if score #system temp matches 39 run function pld:equipment_lock/enable/enhance/tags/39
+execute if score #system temp matches 40 run function pld:equipment_lock/enable/enhance/tags/40
+execute if score #system temp matches 41 run function pld:equipment_lock/enable/enhance/tags/41
+execute if score #system temp matches 42 run function pld:equipment_lock/enable/enhance/tags/42
+
+#接口：激活词条
+function #pld:equipment_lock/weapon/enhance/id_check

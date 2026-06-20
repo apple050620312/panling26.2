@@ -1,0 +1,10 @@
+#execute as @s[scores={weapon_rare=1,weapon_branch=1}] run function pld:system/attribute/job/0/sword1
+execute as @s[scores={weapon_rare=2,weapon_branch=1}] run function pld:system/attribute/job/0/weapon/sword2
+execute as @s[scores={weapon_rare=3,weapon_branch=1}] run function pld:system/attribute/job/0/weapon/sword3
+execute as @s[scores={weapon_rare=4,weapon_branch=1}] run function pld:system/attribute/job/0/weapon/sword4
+execute as @s[scores={weapon_rare=5,weapon_branch=1}] run function pld:system/attribute/job/0/weapon/sword5
+execute as @s[scores={weapon_rare=6}] run function pld:system/attribute/job/0/weapon/sword6
+execute as @s[scores={weapon_rare=2,weapon_branch=0}] run function pld:system/attribute/job/0/weapon/axe2
+execute as @s[scores={weapon_rare=3,weapon_branch=0}] run function pld:system/attribute/job/0/weapon/axe3
+execute as @s[scores={weapon_rare=4,weapon_branch=0}] run function pld:system/attribute/job/0/weapon/axe4
+execute as @s[scores={weapon_rare=5,weapon_branch=0}] run function pld:system/attribute/job/0/weapon/axe5

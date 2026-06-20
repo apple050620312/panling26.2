@@ -1,0 +1,17 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:bedrock"
+        },
+        "title": {"translate": "pl.adv.instance5.root.title"},
+        "description": {"translate": "pl.adv.instance5.root.description"},
+        "background": "panling:instance5.png",
+        "announce_to_chat": false,
+        "show_toast": false
+    },
+    "criteria": {
+        "impossibe":{
+        "trigger": "minecraft:impossible"
+        }
+    }
+}

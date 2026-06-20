@@ -1,0 +1,17 @@
+{
+    "criteria": {
+      "killpotion": {
+        "trigger": "minecraft:consume_item",
+        "conditions": {
+          "item": {
+            "item": "minecraft:potion",
+            "nbt": "{id:\"panling:killpotion\"}"
+          }
+        }
+      }
+    },
+    "rewards": {
+        "function":"pld:adv/system/kill_potion"
+    }
+
+}

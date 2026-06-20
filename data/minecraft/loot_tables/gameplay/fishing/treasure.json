@@ -1,0 +1,54 @@
+{
+  "type": "minecraft:fishing",
+  "pools": [
+    {
+      "rolls": 1.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:enchanted_book",
+          "weight": 10,
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{id:\"panling:enchanted_book\",display:{Name:'{\"translate\":\"pl.item.name.enchanted_book\"}',Lore:['{\"translate\":\"pl.item.lore.enchanted_book\"}']}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:brick",
+          "weight": 10,
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{id:\"panling:old_lock\",display:{Name:'{\"translate\":\"pl.item.name.old_lock\"}',Lore:['{\"translate\":\"pl.item.lore.old_lock\"}']}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:black_dye",
+          "weight": 10,
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{id:\"panling:old_key\",display:{Name:'{\"translate\":\"pl.item.name.old_key\"}',Lore:['{\"translate\":\"pl.item.lore.old_key\"}']}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:iron_nugget",
+          "weight": 10,
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Lore:['{\"translate\":\"pl.lore.rare3\"}','{\"translate\":\"pl.item.lore.acore3a\"}','{\"translate\":\"pl.item.lore.acore3b\"}'],Name:'{\"translate\":\"pl.item.name.acore3\"}'},id:\"panling:armor_core_3\",HideFlags:63,Enchantments:[{id:\"minecraft:protection\",lvl:1s}]}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "item",
+            "name": "minecraft:yellow_dye",
+            "functions": [
+                {
+                    "function": "minecraft:set_nbt",
+                    "tag": "{display:{Name:'{\"translate\":\"pl.item.name.goldkey\"}'},id:\"panling:goldkey\"}"
+                    
+                }
+            ]
+          }
+        ]
+      }
+    ]
+}

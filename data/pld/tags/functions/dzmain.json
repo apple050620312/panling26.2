@@ -1,0 +1,13 @@
+{
+    "replace": false,
+    "values": [
+        "pld:system/dz/dzslot/check",
+        "pld:system/dz/dz5armor/check",
+        "pld:system/dz/enchant/check",
+        "pld:system/dz/break_stone/check",
+        "pld:system/dz/dzfeather/check",
+        "pld:system/dz/dzlegend/check",
+        "pld:system/dz/dzweapon/check"
+        
+    ]
+}

@@ -1,0 +1,2 @@
+execute if entity @s[tag=eye_0] run function pld:instances/instance3_0/floors/-4/skill/explode/check/result/damage
+execute unless entity @s[tag=eye_0] run function pld:instances/instance3_0/floors/-4/skill/explode/check/result/kill

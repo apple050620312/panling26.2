@@ -1,0 +1,1 @@
+scoreboard players set @s archer_damage 0

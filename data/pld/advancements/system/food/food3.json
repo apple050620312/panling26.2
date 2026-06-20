@@ -1,0 +1,16 @@
+{
+    "criteria": {
+        "eat0":{
+           "trigger": "consume_item",
+           "conditions": {
+                "item": {
+                    "items": ["minecraft:cooked_beef"],
+                    "nbt": "{id:\"panling:food3\"}"
+                }
+           }
+        }
+    },
+    "rewards": {
+        "function": "pld:system/food/food3"
+    }
+}

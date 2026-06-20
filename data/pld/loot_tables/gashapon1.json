@@ -1,0 +1,168 @@
+{
+    "type": "minecraft:command",
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:cookie",
+                    "weight":1,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{id:\"panling:figurine_0\",display:{Name:'{\"translate\":\"pl.item.name.figurine_0\"}',Lore:['{\"translate\":\"pl.item.lore.figurine_0_a\"}','{\"translate\":\"pl.item.lore.figurine_0_b\"}','{\"translate\":\"\"}','{\"translate\":\"pl.item.lore.special_item_all\"}']}}"
+                        },
+                        {
+                            "function": "minecraft:set_count",
+                            "count": 64
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:echo_shard",
+                    "weight":1,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{id:\"panling:figurine_1\",CustomModelData:1,display:{Name:'{\"translate\":\"pl.item.name.figurines\"}',Lore:['{\"translate\":\"pl.item.lore.figurine_1\"}','{\"translate\":\"\"}','{\"translate\":\"pl.item.lore.special_item_all\"}']}}"
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:echo_shard",
+                    "weight":1,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{id:\"panling:figurine_2\",CustomModelData:2,display:{Name:'{\"translate\":\"pl.item.name.figurines\"}',Lore:['{\"translate\":\"pl.item.lore.figurine_2\"}','{\"translate\":\"\"}','{\"translate\":\"pl.item.lore.special_item_all\"}',]}}"
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:echo_shard",
+                    "weight":1,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{id:\"panling:figurine_3\",CustomModelData:3,display:{Name:'{\"translate\":\"pl.item.name.figurines\"}',Lore:['{\"translate\":\"pl.item.lore.figurine_3\"}','{\"translate\":\"\"}','{\"translate\":\"pl.item.lore.special_item_all\"}',]}}"
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:echo_shard",
+                    "weight":1,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{id:\"panling:figurine_4\",CustomModelData:4,display:{Name:'{\"translate\":\"pl.item.name.figurines\"}',Lore:['{\"translate\":\"pl.item.lore.figurine_4\"}','{\"translate\":\"\"}','{\"translate\":\"pl.item.lore.special_item_all\"}',]}}"
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:echo_shard",
+                    "weight":1,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{id:\"panling:figurine_5\",CustomModelData:5,display:{Name:'{\"translate\":\"pl.item.name.figurines\"}',Lore:['{\"translate\":\"pl.item.lore.figurine_5\"}','{\"translate\":\"\"}','{\"translate\":\"pl.item.lore.special_item_all\"}',]}}"
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:echo_shard",
+                    "weight":1,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{id:\"panling:figurine_6\",CustomModelData:6,display:{Name:'{\"translate\":\"pl.item.name.figurines\"}',Lore:['{\"translate\":\"pl.item.lore.figurine_6\"}','{\"translate\":\"\"}','{\"translate\":\"pl.item.lore.special_item_all\"}',]}}"
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:echo_shard",
+                    "weight":1,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{id:\"panling:figurine_7\",CustomModelData:7,display:{Name:'{\"translate\":\"pl.item.name.figurines\"}',Lore:['{\"translate\":\"pl.item.lore.figurine_7\"}','{\"translate\":\"\"}','{\"translate\":\"pl.item.lore.special_item_all\"}']}}"
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:echo_shard",
+                    "weight":1,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{id:\"panling:figurine_8\",CustomModelData:8,display:{Name:'{\"translate\":\"pl.item.name.figurines\"}',Lore:['{\"translate\":\"pl.item.lore.figurine_8\"}','{\"translate\":\"pl.item.lore.figurine_8_a\"}','{\"translate\":\"\"}','{\"translate\":\"pl.item.lore.special_item_all\"}']}}"
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:echo_shard",
+                    "weight":1,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{id:\"panling:figurine_9\",CustomModelData:9,display:{Name:'{\"translate\":\"pl.item.name.figurines\"}',Lore:['{\"translate\":\"pl.item.lore.figurine_9\"}','{\"translate\":\"\"}','{\"translate\":\"pl.item.lore.special_item_all\"}',]}}"
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:echo_shard",
+                    "weight":1,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{id:\"panling:figurine_10\",CustomModelData:10,display:{Name:'{\"translate\":\"pl.item.name.figurines\"}',Lore:['{\"translate\":\"pl.item.lore.figurine_10\"}','{\"translate\":\"\"}','{\"translate\":\"pl.item.lore.special_item_all\"}',]}}"
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:echo_shard",
+                    "weight":1,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{id:\"panling:figurine_11\",CustomModelData:11,display:{Name:'{\"translate\":\"pl.item.name.figurines\"}',Lore:['{\"translate\":\"pl.item.lore.figurine_11\"}','{\"translate\":\"\"}','{\"translate\":\"pl.item.lore.special_item_all\"}',]}}"
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:echo_shard",
+                    "weight":1,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{id:\"panling:figurine_12\",CustomModelData:12,display:{Name:'{\"translate\":\"pl.item.name.figurines\"}',Lore:['{\"translate\":\"pl.item.lore.figurine_12\"}','{\"translate\":\"\"}','{\"translate\":\"pl.item.lore.special_item_all\"}',]}}"
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:echo_shard",
+                    "weight":1,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{id:\"panling:figurine_13\",CustomModelData:13,display:{Name:'{\"translate\":\"pl.item.name.figurines\"}',Lore:['{\"translate\":\"pl.item.lore.figurine_13\"}','{\"translate\":\"\"}','{\"translate\":\"pl.item.lore.special_item_all\"}',]}}"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

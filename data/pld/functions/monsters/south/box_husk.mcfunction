@@ -1,0 +1,4 @@
+execute store result score @s monster_count run execute if entity @e[tag=panling,tag=monster,distance=..20]
+
+execute if score @s monster_count matches ..9 run summon minecraft:husk ~ ~ ~ {Team:"monster",Tags:["panling","undead","monster","south_husk"],DeathLootTable:"pld:south/entity/box_husk",CustomNameVisible:1b,CustomName:'{"translate":"pl.monster.south.box_zombie_pigman"}',Health:52.0f,HandDropChances:[0f,0f],HandItems:[{id:"wooden_sword",Count:1b,tag:{Enchantments:[{id:"fire_aspect",lvl:1},{id:"knockback",lvl:1}],Unbreakable:1b}},{}],Attributes:[{Name:"generic.knockback_resistance",Base:1d},{Name:"generic.max_health",Base:52d},{Name:"generic.follow_range",Base:40d},{Name:"generic.movement_speed",Base:0.2d},{Name:"generic.attack_damage",Base:0d}],ActiveEffects:[{Id:12b,Duration:10000000,ShowParticles:false}]}
+kill @s

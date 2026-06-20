@@ -1,0 +1,19 @@
+{
+    "parent": "pld:exploration/race_shen",
+    "display": {
+        "icon": {
+            "item": "minecraft:paper"
+        },
+        "title": {"translate": "pl.adv.shen_side.title"},
+        "description": {"translate": "pl.adv.shen_side.description"},
+        "announce_to_chat": false
+    },
+    "criteria": {
+        "impossibe":{
+        "trigger": "minecraft:impossible"
+        }
+    },
+    "rewards": {
+        "function": "pld:adv/gameplay/exploration/side_shen"
+    }
+}

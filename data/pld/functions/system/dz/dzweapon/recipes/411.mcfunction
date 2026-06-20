@@ -1,0 +1,1 @@
+execute if block ~ ~ ~ minecraft:dispenser{Items:[{Slot:3b,id:"minecraft:phantom_membrane",Count:1b,tag:{level:4s,job:1b,branch:1b}},{Slot:0b,id:"minecraft:magma_cream",Count:10b,tag:{id:"panling:refined_earth"}}]} run scoreboard players set #system dzoutput 411

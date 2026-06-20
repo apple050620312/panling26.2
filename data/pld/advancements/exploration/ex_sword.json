@@ -1,0 +1,19 @@
+{
+    "parent": "pld:exploration/root",
+    "display": {
+        "icon": {
+            "item": "minecraft:written_book"
+        },
+        "title": {"translate": "pl.adv.ex_sword.title"},
+        "description": {"translate": "pl.adv.ex_sword.description"},
+        "announce_to_chat": false
+    },
+    "criteria": {
+        "impossibe":{
+        "trigger": "minecraft:impossible"
+        }
+    },
+    "rewards": {
+        "function": "pld:adv/gameplay/exploration/ex_sword"
+    }
+}

@@ -1,0 +1,18 @@
+{
+    "replace": false,
+    "values": [
+        "minecraft:iron_axe",
+        "minecraft:stone_axe",
+        "minecraft:diamond_axe",
+        "minecraft:golden_axe",
+        "minecraft:wooden_sword",
+        "minecraft:iron_sword",
+        "minecraft:stone_sword",
+        "minecraft:golden_sword",
+        "minecraft:diamond_sword",
+        "minecraft:wooden_pickaxe",
+        "minecraft:bow",
+        "minecraft:crossbow",
+        "minecraft:carrot_on_a_stick"
+    ]
+}

@@ -1,0 +1,26 @@
+{
+    "parent": "pld:mission/zhan/main/main10",
+    "display": {
+        "icon": {
+            "item": "minecraft:written_book"
+        },
+        "title": {"translate": "pl.adv.zhan_main11.title"},
+        "description": {"translate": "pl.adv.zhan_main11.description"},
+        "announce_to_chat": false,
+        "frame": "goal"
+    },
+    "criteria": {
+        "zhan_main_8":{
+            "trigger": "minecraft:villager_trade",
+            "conditions": {
+                "item": {
+                    "item": "minecraft:written_book",
+                    "nbt":"{id:\"panling:book_zm11\"}"
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "pld:adv/mission/zhan/main/main11"
+    }
+}

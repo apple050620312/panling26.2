@@ -1,0 +1,20 @@
+{
+    "criteria": {
+        "hurt_rntity":{
+            "trigger": "minecraft:player_hurt_entity",
+            "conditions": {
+                "entity": {
+                    "team": "monster"
+                },
+                "damage": {
+                    "type": {
+                        "is_projectile": true
+                    }
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "pld:system/test_bless/zhan/check1"
+    }
+}

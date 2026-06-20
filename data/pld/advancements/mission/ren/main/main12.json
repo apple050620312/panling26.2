@@ -1,0 +1,20 @@
+{
+    "parent": "pld:mission/ren/main/main11",
+    "display": {
+        "icon": {
+            "item": "minecraft:written_book"
+        },
+        "title": {"translate": "pl.adv.ren_main12.title"},
+        "description": {"translate": "pl.adv.ren_main12.description"},
+        "announce_to_chat": false,
+        "frame": "goal"
+    },
+    "criteria": {
+        "impossible":{
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "rewards": {
+        "function": "pld:adv/mission/ren/main/main12"
+    }
+}

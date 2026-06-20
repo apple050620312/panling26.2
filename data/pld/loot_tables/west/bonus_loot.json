@@ -1,0 +1,37 @@
+{
+    "type": "minecraft:generic",
+    "pools": [
+        {
+            "rolls":1,
+            "entries": [
+                {
+                    "type": "minecraft:loot_table",
+                    "name": "pld:items/metal",
+                    "weight":15,
+                    "functions":[
+                        {
+                            "function": "minecraft:set_count",
+                            "count":2
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "name": "pld:items/copper_cash",
+                    "weight":15,
+                    "functions":[
+                        {
+                            "function": "minecraft:set_count",
+                            "count":2
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "name":"pld:west/rareitem",
+                    "weight":1
+                }
+            ]
+        }
+    ]
+}

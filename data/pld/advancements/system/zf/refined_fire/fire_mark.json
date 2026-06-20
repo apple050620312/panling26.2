@@ -1,0 +1,17 @@
+{
+    "criteria": {
+        "move_weapon":{
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "nbt": "{id:\"panling:zf_fire_mark\"}"
+                    }
+                ]
+            }
+        }
+    },
+    "rewards": {
+        "function": "pld:system/zf/shifang/main/refined/fire/fire_mark"
+    }
+}

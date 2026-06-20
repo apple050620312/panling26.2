@@ -1,0 +1,4 @@
+execute store result score @s monster_count run execute if entity @e[tag=panling,tag=monster,distance=..20]
+
+execute if score @s monster_count matches ..9 run summon minecraft:wither_skeleton ~ ~ ~ {Team:"monster",Tags:["panling","undead","monster","south_wither_skeleton"],CanPickUpLoot:false,ArmorDropChances:[0f,0f,0f,0f],HandDropChances:[0f,0f],CustomNameVisible:1b,CustomName:'{"translate":"pl.monster.south.wither_skeleton"}',DeathLootTable:"pld:south/entity/wither_skeleton",Health:35.0f,Attributes:[{Name:"generic.max_health",Base:35d},{Name:"generic.follow_range",Base:15d},{Name:"generic.movement_speed",Base:0.2d},{Name:"generic.attack_damage",Base:4d}],ArmorItems:[{},{},{},{id:"iron_helmet", Count:1b,tag:{Unbreakable:1b}}],HandItems:[{id:"golden_sword",Count:1b,tag:{Unbreakable:1b,Enchantments:[{id:"fire_aspect",lvl:1},{id:"knockback",lvl:1}]}},{}]}
+kill @s

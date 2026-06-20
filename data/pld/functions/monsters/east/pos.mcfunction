@@ -1,0 +1,10 @@
+execute as @s[tag=zombie] at @s run function pld:monsters/east/zombie
+execute as @s[tag=skeleton] at @s run function pld:monsters/east/skeleton
+execute as @s[tag=spider] at @s run function pld:monsters/east/spider
+execute as @s[tag=zombie2] at @s run function pld:monsters/east/zombie2
+execute as @s[tag=skeleton2] at @s run function pld:monsters/east/skeleton2
+execute as @s[tag=spider2] at @s run function pld:monsters/east/spider2
+execute as @s[tag=bossspider] at @s run function pld:monsters/east/bossspider
+execute as @s[tag=box_zombie] at @s run function pld:monsters/east/box_zombie
+execute as @s[tag=box_skeleton] at @s run function pld:monsters/east/box_skeleton
+execute as @s[tag=box_spider] at @s run function pld:monsters/east/box_spider

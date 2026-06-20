@@ -1,0 +1,3 @@
+execute if block ~ ~ ~ minecraft:dispenser{Items:[{Slot:0b,Count:10b,tag:{refined_element:1}},{Slot:3b,tag:{awake:0}},{Slot:6b,Count:2b,tag:{id:"panling:instance2_collection"}}]} run function pld:system/dz/legend_dz/feet/61/0_1
+execute if block ~ ~ ~ minecraft:dispenser{Items:[{Slot:0b,Count:20b,tag:{refined_element:1}},{Slot:3b,tag:{awake:1}},{Slot:6b,Count:4b,tag:{id:"panling:instance2_collection"}}]} run function pld:system/dz/legend_dz/feet/61/1_2
+execute if block ~ ~ ~ minecraft:dispenser{Items:[{Slot:0b,Count:30b,tag:{refined_element:1}},{Slot:3b,tag:{awake:2}},{Slot:6b,Count:8b,tag:{id:"panling:instance2_collection"}}]} run function pld:system/dz/legend_dz/feet/61/2_3

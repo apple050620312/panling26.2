@@ -1,0 +1,19 @@
+{
+    "parent": "pld:l6/root",
+    "display": {
+        "icon": {
+            "item": "minecraft:diamond_chestplate"
+        },
+        "title": {"translate": "pl.adv.chestplate62.title"},
+        "description": {"translate": "pl.adv.chestplate62.description"},
+        "announce_to_chat": false
+    },
+    "criteria": {
+        "impossibe":{
+        "trigger": "minecraft:impossible"
+        }
+    },
+    "rewards": {
+        "function": "pld:adv/l6/chestplate62"
+    }
+}

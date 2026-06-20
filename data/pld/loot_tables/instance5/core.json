@@ -1,0 +1,19 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:nether_star",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{display:{Name:'{\"translate\":\"pl.item.name.relifestone\"}'},id:\"panling:relive_stone\"}"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

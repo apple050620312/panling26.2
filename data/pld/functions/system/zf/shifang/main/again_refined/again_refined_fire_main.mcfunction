@@ -1,0 +1,50 @@
+#效果
+execute as @s[scores={zf_lvl=1..3}] store success score @s zfsuccess run effect give @a[distance=..20] fire_resistance 120 0 false
+
+execute as @s[scores={zf_lvl=4}] store success score @s zfsuccess run effect give @a[distance=..50] fire_resistance 200 0 false
+
+#效果
+execute as @s[scores={zf_lvl=1..3}] store success score @s zfsuccess run effect give @a[distance=..20] strength 60 1 false
+execute as @s[scores={zf_lvl=1..3}] store success score @s zfsuccess run effect give @a[distance=..20] speed 60 0 false
+
+execute as @s[scores={zf_lvl=4}] store success score @s zfsuccess run effect give @a[distance=..50] strength 60 3 false
+execute as @s[scores={zf_lvl=4}] store success score @s zfsuccess run effect give @a[distance=..50] speed 60 1 false
+
+
+
+#扣除元素
+function pld:system/zf/l6_check
+clear @s[scores={zfsuccess=1,ldl6success=1}] minecraft:charcoal{id:"panling:again_refined_fire"} 1
+
+#信息
+#execute at @s[scores={zfsuccess=1}] run tellraw @a[distance=..10] {"text":"","extra":[{"text":"☯☯☯","color":"red"},{"selector":"@s","color":"yellow"},{"translate":"pl.info.zffire3","color":"red"}]}
+
+tag @s[scores={zfsuccess=1}] add zf_owner 
+execute as @a[distance=..10] unless score @s info_pos_zf matches 1 run tellraw @s {"text":"","extra":[{"text":"☯☯☯","color":"red"},{"selector":"@p[tag=zf_owner]","color":"yellow"},{"translate":"pl.info.zffire3","color":"red"}]}
+execute as @a[distance=..10] if score @s info_pos_zf matches 1 run title @s actionbar {"text":"","extra":[{"text":"☯☯☯","color":"red"},{"selector":"@p[tag=zf_owner]","color":"yellow"},{"translate":"pl.info.zffire3","color":"red"}]}
+tag @s[tag=zf_owner] remove zf_owner 
+
+
+#声音效果&进入冷却
+function pld:system/zf/shifang/incool/fire/incool
+#粒子效果
+execute at @s[scores={zfsuccess=1}] run particle minecraft:flame ~ ~ ~ 1 0 1 0.05 300 force
+#粒子效果2
+tag @s[scores={zfsuccess=1}] add particle_fire1
+schedule function pld:system/zf/shifang/particle_fire1 0.8s
+#粒子效果3
+tag @s[scores={zfsuccess=1}] add particle_fire2
+schedule function pld:system/zf/shifang/particle_fire2 1.6s
+
+
+execute if score @s zfsuccess matches 1 run function pld:system/zf/shifang/main/again_refined/again_refined 
+
+
+#设置冷却 
+scoreboard players set @s zf_cool_fire 600
+
+#应用冷却缩减
+scoreboard players set @s zf_cool_middle 100
+scoreboard players operation @s zf_cool_middle -= @s zf_cool_reduce
+scoreboard players operation @s zf_cool_fire *= @s zf_cool_middle
+scoreboard players operation @s zf_cool_fire /= 100 int

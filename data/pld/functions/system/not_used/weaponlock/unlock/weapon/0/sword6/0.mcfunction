@@ -1,0 +1,2 @@
+data modify block ~ 255 ~ Items[0].tag.AttributeModifiers append value {Slot:"mainhand",UUID:[I;5,5,5,5],Operation:0,AttributeName:"minecraft:generic.attack_damage",Amount:12}
+scoreboard players set @s weapon6_awake 0

@@ -1,0 +1,12 @@
+execute as @s[tag=east] run function pld:monsters/east/pos
+execute as @s[tag=south] run function pld:monsters/south/pos
+execute as @s[tag=west] run function pld:monsters/west/pos
+execute as @s[tag=north] run function pld:monsters/north/pos
+execute as @s[tag=te17] run function pld:monsters/te17/pos
+execute as @s[tag=instance1] run function pld:monsters/instance1/pos
+execute as @s[tag=instance2] run function pld:monsters/instance2/pos
+execute as @s[tag=instance3] run function pld:monsters/instance3/pos
+execute as @s[tag=instance4] run function pld:monsters/instance4/pos
+execute as @s[tag=test_ren] run function pld:monsters/test_ren/pos
+execute as @s[tag=test_zhan] run function pld:monsters/test_zhan/pos
+execute as @s[tag=final_battle] run function pld:monsters/final_battle/pos

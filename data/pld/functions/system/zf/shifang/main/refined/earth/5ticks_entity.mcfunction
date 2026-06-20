@@ -1,0 +1,1 @@
+execute as @s[type=marker,tag=zf_earth2] at @s run function pld:system/zf/shifang/main/refined/earth/wave_check

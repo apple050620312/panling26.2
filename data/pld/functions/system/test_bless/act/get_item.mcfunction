@@ -1,0 +1,11 @@
+clear @s carrot_on_a_stick{id:"panling:ren_test_bless"}
+clear @s carrot_on_a_stick{id:"panling:shen_test_bless"}
+clear @s carrot_on_a_stick{id:"panling:zhan_test_bless"}
+clear @s totem_of_undying{id:"panling:shen_test_bless"}
+
+give @s[scores={test_bless_act=4}] minecraft:carrot_on_a_stick{HideFlags:63,Unbreakable:1b,Enchantments:[{id:"minecraft:protection",lvl:1s}],id:"panling:ren_test_bless",CustomModelData:14,display:{Name:'{"translate":"pl.item.name.ren_test_bless"}',Lore:['{"translate":"pl.item.lore.ren_test_blessa"}','{"translate":"pl.item.lore.ren_test_blessb"}','{"translate":"pl.item.lore.ren_test_blessc"}','{"translate":"pl.item.lore.ren_test_blessd"}']}}
+execute unless entity @s[scores={bless_cool=1..}] run give @s[scores={test_bless_act=0}] minecraft:totem_of_undying{HideFlags:63,Enchantments:[{id:"minecraft:protection",lvl:1s}],id:"panling:shen_test_bless",display:{Name:'{"translate":"pl.item.name.shen_test_bless"}',Lore:['{"translate":"pl.item.lore.shen_test_blessa"}','{"translate":"pl.item.lore.shen_test_blessb"}','{"translate":"pl.item.lore.shen_test_blessc"}','{"translate":"pl.item.lore.shen_test_blessd"}']}}
+give @s[scores={test_bless_act=0,bless_cool=1..}] minecraft:carrot_on_a_stick{HideFlags:63,Unbreakable:1b,Enchantments:[{id:"minecraft:protection",lvl:1s}],id:"panling:shen_test_bless",CustomModelData:10,display:{Name:'{"translate":"pl.item.name.shen_test_bless0"}',Lore:['{"translate":"pl.item.lore.shen_test_blessa"}','{"translate":"pl.item.lore.shen_test_blessb"}','{"translate":"pl.item.lore.shen_test_blessc"}','{"translate":"pl.item.lore.shen_test_blessd"}']}}
+give @s[scores={test_bless_act=3}] minecraft:carrot_on_a_stick{HideFlags:63,Unbreakable:1b,Enchantments:[{id:"minecraft:protection",lvl:1s}],id:"panling:zhan_test_bless",CustomModelData:13,display:{Name:'{"translate":"pl.item.name.zhan_test_bless"}',Lore:['{"translate":"pl.item.lore.zhan_test_blessa"}','{"translate":"pl.item.lore.zhan_test_blessb"}','{"translate":"pl.item.lore.zhan_test_blessc"}','{"translate":"pl.item.lore.zhan_test_blessd"}']}}
+
+scoreboard players reset @s menu

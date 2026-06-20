@@ -1,0 +1,26 @@
+{
+    "parent": "pld:mission/shen/main/root",
+    "display": {
+        "icon": {
+            "item": "minecraft:paper"
+        },
+        "title": {"translate": "pl.adv.shen_main0.title"},
+        "description": {"translate": "pl.adv.shen_main0.description"},
+        "announce_to_chat": false,
+        "frame": "goal"
+    },
+    "criteria": {
+        "shen_main_0":{
+            "trigger": "minecraft:villager_trade",
+            "conditions": {
+                "item": {
+                    "items":["minecraft:paper"] ,
+                    "nbt":"{id:\"panling:leadingpaper0\"}"
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "pld:adv/mission/shen/main/main0"
+    }
+}

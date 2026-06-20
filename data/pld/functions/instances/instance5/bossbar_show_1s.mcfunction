@@ -1,0 +1,12 @@
+bossbar set pl:instance5_boss players @a[x=2992,y=0,z=-2000,dx=271,dy=255,dz=303]
+bossbar set pl:instance5_core players @a[x=2992,y=0,z=-2000,dx=271,dy=255,dz=303]
+bossbar set pl:instance5_fire players @a[x=2992,y=0,z=-2000,dx=271,dy=255,dz=303]
+bossbar set pl:instance5_light_left players @a[x=2992,y=0,z=-2000,dx=271,dy=255,dz=303]
+bossbar set pl:instance5_light_right players @a[x=2992,y=0,z=-2000,dx=271,dy=255,dz=303]
+bossbar set pl:instance5_water players @a[x=2992,y=0,z=-2000,dx=271,dy=255,dz=303]
+bossbar set pl:instance5_wind players @a[x=2992,y=0,z=-2000,dx=271,dy=255,dz=303]
+bossbar set pl:instance5_swamp players @a[x=2992,y=0,z=-2000,dx=271,dy=255,dz=303]
+bossbar set pl:instance5_mountain players @a[x=2992,y=0,z=-2000,dx=271,dy=255,dz=303]
+bossbar set pl:instance5_sky players @a[x=2992,y=0,z=-2000,dx=271,dy=255,dz=303]
+bossbar set pl:instance5_earth players @a[x=2992,y=0,z=-2000,dx=271,dy=255,dz=303]
+

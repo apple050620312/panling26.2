@@ -1,0 +1,20 @@
+{
+    "criteria": {
+      "killpotion": {
+        "trigger": "minecraft:effects_changed",
+        "conditions": {
+            "effects":{
+                "minecraft:strength":{
+                    "duration": {
+                        "min": 1
+                    }
+                }
+            }
+        }
+      }
+    },
+    "rewards": {
+        "function":"pld:adv/system/strength"
+    }
+
+}

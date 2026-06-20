@@ -1,0 +1,10 @@
+tellraw @s[scores={supply5ticks=0..}] {"translate": "pl.info.supply_resistance1"}
+execute store success score @s[scores={supply5ticks=-1}] success unless score #system supply_add_yao matches 1 run give @s minecraft:brick{CustomModelData:2,id:"panling:money1",display:{Name:'{"translate":"pl.item.name.money1"}',Lore:['{"translate":"pl.item.lore.money1a"}','{"translate":"pl.item.lore.money1b"}','{"translate":"pl.item.lore.money1c"}']}}
+execute store success score @s[scores={supply5ticks=-1}] success if score #system supply_add_yao matches 1 run give @s minecraft:brick{CustomModelData:2,id:"panling:money1",display:{Name:'{"translate":"pl.item.name.money1"}',Lore:['{"translate":"pl.item.lore.money1a"}','{"translate":"pl.item.lore.money1b"}','{"translate":"pl.item.lore.money1c"}']}} 2
+
+execute unless score #system supply_add_yao matches 1 run tellraw @s[scores={success=1}] {"translate": "pl.info.supply1_a"}
+execute unless score #system supply_add_yao matches 1 run tellraw @s[scores={success=1}] {"translate": "pl.info.supply1"}
+execute if score #system supply_add_yao matches 1 run tellraw @s[scores={success=1}] {"translate": "pl.info.supply1_plenty_a"}
+execute if score #system supply_add_yao matches 1 run tellraw @s[scores={success=1}] {"translate": "pl.info.supply1_plenty"}
+
+function pld:system/supply/supply_all

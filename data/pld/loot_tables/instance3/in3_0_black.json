@@ -1,0 +1,20 @@
+{
+    "pools": [
+        {
+            "rolls":1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:black_wool",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{instance:30}"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

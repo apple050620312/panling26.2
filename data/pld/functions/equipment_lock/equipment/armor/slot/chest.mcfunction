@@ -1,0 +1,13 @@
+#复制物品
+data modify block ~ 255 ~ Items[0].id set from entity @s Inventory[{Slot:102b}].id
+data modify block ~ 255 ~ Items[0].tag set from entity @s Inventory[{Slot:102b}].tag
+
+#激活物品
+function pld:equipment_lock/enable/check
+
+#记分板调整
+execute if score @s success matches 1 run function pld:equipment_lock/equipment/armor/slot/scb/chest
+
+#覆盖
+execute if score @s success matches 1 run item replace entity @s armor.chest from block ~ 255 ~ container.0
+scoreboard players reset @s success

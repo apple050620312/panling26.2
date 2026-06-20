@@ -1,0 +1,1 @@
+function pld:pvp/kill_reward/def

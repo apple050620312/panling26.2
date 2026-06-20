@@ -1,0 +1,38 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:diamond_chestplate"
+        },
+        "title":  {"translate": "pl.adv.armor_rank6.title"},
+        "description":  {"translate": "pl.adv.armor_rank6.description"},
+        "frame": "challenge",
+        "announce_to_chat": false
+    },
+    "parent": "pld:experience/armor/rank5",
+    "criteria": {
+        "armor6":{
+            "trigger": "minecraft:tick",
+            "conditions": {
+                "player":{
+                    "equipment":{
+                        "head":{
+                            "nbt":"{rare:6,act:1}"
+                        },
+                        "chest":{
+                            "nbt":"{rare:6,act:1}"
+                        },
+                        "legs":{
+                            "nbt":"{rare:6,act:1}"
+                        },
+                        "feet":{
+                            "nbt":"{rare:6,act:1}"
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "pld:adv/gameplay/experience/armor/rank6"
+    }
+}

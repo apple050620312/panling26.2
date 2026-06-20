@@ -1,0 +1,13 @@
+clear @s
+
+
+#给玩家放置物品
+
+item replace entity @s hotbar.0 with shield{id:"panling:pvp1_atk_shield",pvp:1,display:{Name:'{"translate":"pl.pvp1.item.name.atk_shield"}',Lore:['{"translate":"pl.pvp.item.limit"}','{"translate":"pl.pvp1.item.lore.atk_shield1"}','{"translate":"pl.pvp1.item.lore.atk_shield2"}','{"translate":""}','[{"translate":"pl.attribute.knockback_resistance"},{"text":"100%","color":"white","italic":false}]',]},AttributeModifiers:[{Slot:"mainhand",UUID:[I;5,5,5,5],Operation:0,AttributeName:"minecraft:generic.knockback_resistance",Amount:1.0}],HideFlags:63,Unbreakable:1b}
+item replace entity @s hotbar.1 with bow{id:"panling:pvp1_atk_bow",pvp:1,display:{Name:'{"translate":"pl.pvp1.item.name.atk_bow"}',Lore:['{"translate":"pl.pvp.item.limit"}','{"translate":"pl.pvp1.item.lore.atk_bow1"}','{"translate":"pl.pvp1.item.lore.atk_bow2"}','{"translate":""}','[{"translate":"pl.attribute.bow_power"},{"text":"2","color":"white","italic":false}]','{"translate":"pl.lore.punch"}',]},HideFlags:63,Unbreakable:1b,Enchantments:[{id:"power",lvl:1s},{id:"punch",lvl:2s}]}
+item replace entity @s hotbar.2 with arrow 10
+item replace entity @s hotbar.3 with cooked_beef{id:"panling:pvp_cooked_beef",display:{Name:'{"translate":"pl.pvp.item.name.cooked_beef"}',Lore:['{"translate":"pl.pvp.item.limit"}','{"translate":"pl.pvp.item.lore.cooked_beef"}']}} 16
+
+item replace entity @s hotbar.4 with minecraft:splash_potion{id:"panling:pvp1_atk_pill",CustomPotionColor:8356754,HideFlags:63,CustomPotionEffects:[{Amplifier:9b,Duration:100,Id:2b},{Amplifier:0b,Duration:300,Id:15b},{Amplifier:0b,Duration:300,Id:16b}],display:{Name:'{"translate":"pl.pvp1.item.name.atk_pill"}',Lore:['{"translate":"pl.pvp.item.limit"}','{"translate":"pl.pvp1.item.lore.atk_pill1"}','{"translate":"pl.pvp1.item.lore.atk_pill2"}','{"translate":"pl.pvp1.item.lore.atk_pill3"}','{"translate":"pl.pvp1.item.lore.atk_pill4"}',]}}
+item replace entity @s hotbar.5 with tnt{id:"panling:pvp1_tnt",display:{Name:'{"translate":"pl.pvp1.item.name.tnt"}',Lore:['{"translate":"pl.pvp.item.limit"}','{"translate":"pl.pvp1.item.lore.tnt1"}','{"translate":"pl.pvp1.item.lore.tnt2"}','{"translate":"pl.pvp1.item.lore.tnt3"}','{"translate":"pl.pvp1.item.lore.tnt4"}']}}
+item replace entity @s hotbar.8 with minecraft:filled_map{map:2,HideFlags:63,id:"panling:pvp1_atk_map",display:{Name:'{"translate":"pl.pvp1.item.name.atk_map"}',Lore:['{"translate":"pl.pvp.item.limit"}','{"translate":"pl.pvp1.item.lore.atk_map1"}','{"translate":"pl.pvp1.item.lore.atk_map2"}','{"translate":"pl.pvp1.item.lore.atk_map3"}','{"translate":"pl.pvp1.item.lore.atk_map4"}','{"translate":"pl.pvp1.item.lore.atk_map5"}']}}

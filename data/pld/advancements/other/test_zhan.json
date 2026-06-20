@@ -1,0 +1,19 @@
+{
+    "parent": "pld:other/test_all",
+    "display": {
+        "icon": {
+            "item": "minecraft:red_dye"
+        },
+        "title": {"translate": "pl.adv.test_zhan.title"},
+        "description": {"translate": "pl.adv.test_zhan.description"},
+        "announce_to_chat": false
+    },
+    "criteria": {
+        "impossibe":{
+        "trigger": "minecraft:impossible"
+        }
+    },
+    "rewards": {
+        "function": "pld:adv/gameplay/other/test_zhan"
+    }
+}

@@ -1,0 +1,2 @@
+execute if entity @e[x=-29,y=21,z=-609,dx=11,dy=6,dz=11,type=zombie] as @p[x=-29,y=21,z=-609,dx=11,dy=6,dz=11] run function pld:system/te2/outresistance
+execute unless entity @e[x=-29,y=21,z=-609,dx=11,dy=6,dz=11,type=zombie] as @p[x=-29,y=21,z=-609,dx=11,dy=6,dz=11] run function pld:system/te2/outsuccess

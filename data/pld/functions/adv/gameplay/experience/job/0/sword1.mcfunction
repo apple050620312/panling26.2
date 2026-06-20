@@ -1,0 +1,1 @@
+scoreboard players add @s achievement_point 5

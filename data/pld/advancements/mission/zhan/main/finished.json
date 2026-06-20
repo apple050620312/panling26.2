@@ -1,0 +1,19 @@
+{
+    "parent": "pld:mission/zhan/main/main13",
+    "display": {
+        "icon": {
+            "item": "minecraft:paper"
+        },
+        "title": {"translate": "pl.adv.zhan_main_finished.title"},
+        "description": {"translate": "pl.adv.zhan_main_finished.description"},
+        "announce_to_chat": false
+    },
+    "criteria": {
+        "impossible":{
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "rewards": {
+        "function": "pld:adv/mission/zhan/main/finished"
+    }
+}

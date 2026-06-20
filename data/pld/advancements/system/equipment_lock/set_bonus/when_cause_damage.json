@@ -1,0 +1,10 @@
+{
+    "criteria": {
+        "minecraft_cause_damage":{
+            "trigger": "minecraft:player_hurt_entity"
+        }
+    },
+    "rewards": {
+        "function": "pld:equipment_lock/equipment/armor/set_bonus/when_cause_damage"
+    }
+}

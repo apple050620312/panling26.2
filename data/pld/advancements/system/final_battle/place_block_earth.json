@@ -1,0 +1,39 @@
+{
+   "criteria": {
+       "place_block":{
+           "trigger":"minecraft:placed_block",
+           "conditions":{
+                "location":[
+                    {   
+                        "_comment":"核心位置：-359 215 -1557",
+                        "condition": "minecraft:location_check",
+                        "predicate": {
+                            "block":{
+                                "blocks":[
+                                    "minecraft:diamond_block"
+                                ]
+                            },
+                            "position":{
+                                "x":{
+                                    "max":-349,
+                                    "min":-369 
+                                },
+                                "y":{
+                                    "max":226,
+                                    "min":212
+                                },
+                                "z":{
+                                    "max":-1547,
+                                    "min":-1567
+                                }
+                            }
+                        }
+                    }
+                ]
+           }
+       }
+   },
+   "rewards":{
+       "function":"pld:instances/ture_pangu/stage/5/block/block_placed"
+   }
+}

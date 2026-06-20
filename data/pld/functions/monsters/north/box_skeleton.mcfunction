@@ -1,0 +1,4 @@
+execute store result score @s monster_count run execute if entity @e[tag=panling,tag=monster,distance=..20]
+
+execute if score @s monster_count matches ..9 run summon minecraft:skeleton ~ ~ ~ {Team:"monster",Tags:["panling","undead","monster","north_skeleton"],CanPickUpLoot:false,ArmorDropChances:[0f,0f,0f,0f],HandDropChances:[0f,0f],CustomNameVisible:1b,CustomName:'{"translate":"pl.monster.north.box_skeleton"}',DeathLootTable:"pld:north/entity/box_skeleton",Health:35.0f,Attributes:[{Name:"generic.max_health",Base:35d},{Name:"generic.follow_range",Base:30d},{Name:"generic.movement_speed",Base:0.1d},{Name:"generic.attack_damage",Base:0d}],ArmorItems:[{},{},{},{id:"minecraft:leather_helmet", Count:1b,tag:{Unbreakable:1b}}],HandItems:[{id:"minecraft:bow",Count:1b,tag:{Unbreakable:1b,Enchantments:[{id:"power",lvl:7},{id:"punch",lvl:1}]}},{}]}
+kill @s

@@ -1,0 +1,28 @@
+{
+    "criteria": {
+        "test":{
+            "trigger": "minecraft:player_hurt_entity",
+            "conditions": {
+                "damage": {
+                    "type":{
+                        "tags":[
+                            {
+                                "expected": false,
+                                "id": "minecraft:is_explosion"
+                            },{
+                                "expected": false,
+                                "id": "minecraft:is_fire"
+                            },{
+                                "expected": false,
+                                "id": "minecraft:bypasses_armor"
+                            }
+                        ]
+                    }
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "pld:system/warrior_attack/check"
+    }
+}

@@ -1,0 +1,17 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:clock"
+        },
+        "title": {"translate": "pl.adv.instance3.root.title"},
+        "description": {"translate": "pl.adv.instance3.root.description"},
+        "background": "panling:instance3.png",
+        "announce_to_chat": false,
+        "show_toast": false
+    },
+    "criteria": {
+        "impossibe":{
+        "trigger": "minecraft:impossible"
+        }
+    }
+}

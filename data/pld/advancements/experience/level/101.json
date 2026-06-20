@@ -1,0 +1,34 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:experience_bottle"
+        },
+        "title": {"translate": "pl.adv.lvl101.title"},
+        "description": {"translate": "pl.adv.lvl101.description"},
+        "announce_to_chat": false,
+        "frame": "challenge",
+        "hidden": true
+    },
+    "parent": "pld:experience/level/100",
+    "criteria": {
+        "level10":{
+            "trigger": "minecraft:tick",
+            "conditions": {
+                "player": {
+                    "type_specific": {
+                        "type":"player",
+                        "level": {
+                            "min": 101
+                        },
+                        "advancements":{
+                            "pld:experience/root":"true"
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "pld:adv/gameplay/experience/level/101"
+    }
+}

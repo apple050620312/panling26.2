@@ -1,0 +1,139 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:pink_wool",
+                    "weight": 1,
+                    "conditions": [
+                        {
+                            "condition": "minecraft:inverted",
+                            "term": {
+                                "condition": "minecraft:entity_scores",
+                                "entity": "this",
+                                "scores": {
+                                    "instance5_fire":1
+                                }
+                            }
+                        }
+                    ]
+                },{
+                    "type": "minecraft:item",
+                    "name": "minecraft:yellow_wool",
+                    "weight": 1,
+                    "conditions": [
+                        {
+                            "condition": "minecraft:inverted",
+                            "term": {
+                                "condition": "minecraft:entity_scores",
+                                "entity": "this",
+                                "scores": {
+                                    "instance5_light":1
+                                }
+                            }
+                        }
+                    ]
+                },{
+                    "type": "minecraft:item",
+                    "name": "minecraft:orange_wool",
+                    "weight": 1,
+                    "conditions": [
+                        {
+                            "condition": "minecraft:inverted",
+                            "term": {
+                                "condition": "minecraft:entity_scores",
+                                "entity": "this",
+                                "scores": {
+                                    "instance5_sky":1
+                                }
+                            }
+                        }
+                    ]
+                },{
+                    "type": "minecraft:item",
+                    "name": "minecraft:light_blue_wool",
+                    "weight": 1,
+                    "conditions": [
+                        {
+                            "condition": "minecraft:inverted",
+                            "term": {
+                                "condition": "minecraft:entity_scores",
+                                "entity": "this",
+                                "scores": {
+                                    "instance5_water":1
+                                }
+                            }
+                        }
+                    ]
+                },{
+                    "type": "minecraft:item",
+                    "name": "minecraft:magenta_wool",
+                    "weight": 1,
+                    "conditions": [
+                        {
+                            "condition": "minecraft:inverted",
+                            "term": {
+                                "condition": "minecraft:entity_scores",
+                                "entity": "this",
+                                "scores": {
+                                    "instance5_swamp":1
+                                }
+                            }
+                        }
+                    ]
+                },{
+                    "type": "minecraft:item",
+                    "name": "minecraft:black_wool",
+                    "weight": 1,
+                    "conditions": [
+                        {
+                            "condition": "minecraft:inverted",
+                            "term": {
+                                "condition": "minecraft:entity_scores",
+                                "entity": "this",
+                                "scores": {
+                                    "instance5_wind":1
+                                }
+                            }
+                        }
+                    ]
+                },{
+                    "type": "minecraft:item",
+                    "name": "minecraft:brown_wool",
+                    "weight": 1,
+                    "conditions": [
+                        {
+                            "condition": "minecraft:inverted",
+                            "term": {
+                                "condition": "minecraft:entity_scores",
+                                "entity": "this",
+                                "scores": {
+                                    "instance5_mt":1
+                                }
+                            }
+                        }
+                    ]
+                },{
+                    "type": "minecraft:item",
+                    "name": "minecraft:light_gray_wool",
+                    "weight": 1,
+                    "conditions": [
+                        {
+                            "condition": "minecraft:inverted",
+                            "term": {
+                                "condition": "minecraft:entity_scores",
+                                "entity": "this",
+                                "scores": {
+                                    "instance5_earth":1
+                                }
+                            }
+                        }
+                    ]
+                }
+
+            ]
+        }
+    ]
+}

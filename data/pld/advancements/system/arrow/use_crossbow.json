@@ -1,0 +1,15 @@
+{
+    "criteria": {
+        "shot_crossbow":{
+            "trigger": "minecraft:shot_crossbow",
+            "conditions": {
+                "item": {
+                  "item": "minecraft:crossbow"
+                }
+              }
+        }
+    },
+    "rewards": {
+        "function": "pld:system/archer_damage/shoot/crossbow_adv_check"
+    }
+}

@@ -1,0 +1,28 @@
+{
+    "criteria": {
+        "test":{
+            "trigger": "minecraft:player_hurt_entity",
+            "conditions": {
+                "damage": {
+                    "type":{
+                        "is_projectile":false
+                    }
+                },
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "job":1,
+                            "weapon_rare":4,
+                            "weapon_branch":0
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "rewards": {
+        "function": "pld:system/archer_damage/weapon_skill/bow4/sneak_hit_check/attck_check"
+    }
+}

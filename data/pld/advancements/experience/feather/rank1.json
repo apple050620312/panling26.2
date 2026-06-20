@@ -1,0 +1,28 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:feather"
+        },
+        "title":  {"translate": "pl.adv.feather_rank1.title"},
+        "description":  {"translate": "pl.adv.feather_rank1.description"},
+        "announce_to_chat": false
+    },
+    "parent": "pld:experience/root",
+    "criteria": {
+        "feather1":{
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:feather",
+                        "nbt": "{id:\"panling:feather\",lvl:1}"
+                   }
+                ]
+                
+            }
+        }
+    },
+    "rewards": {
+        "function": "pld:adv/gameplay/experience/feather/rank1"
+    }
+}

@@ -1,0 +1,2 @@
+attribute @s[scores={zf_fire_tick=0..}] generic.attack_damage modifier add 12-5-5-5-5 "烈火印额外近战伤害" 0.2 multiply
+execute unless score @s zf_fire_tick matches 0.. run attribute @s generic.attack_damage modifier remove 12-5-5-5-5

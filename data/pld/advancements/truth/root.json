@@ -1,0 +1,17 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:book"
+        },
+        "title": {"translate": "pl.adv.truth_root.title"},
+        "description": {"translate": "pl.adv.truth_root.description"},
+        "background": "panling:truth.png",
+        "announce_to_chat": false,
+        "show_toast": false
+    },
+    "criteria": {
+        "impossibe":{
+        "trigger": "minecraft:impossible"
+        }
+    }
+}

@@ -1,0 +1,2 @@
+execute unless score #system finish matches 1 run function pld:beta/entity/entity_begin
+execute if score #system finish matches 1 if score #updating int matches 1 if score #version int matches 10001 run function pld:beta/update/10003/end

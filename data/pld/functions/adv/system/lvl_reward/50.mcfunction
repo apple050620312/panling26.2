@@ -1,0 +1,1 @@
+tellraw @s {"translate":"pl.info.lvl_reward"}

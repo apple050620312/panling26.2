@@ -1,0 +1,26 @@
+{
+    "parent": "pld:mission/yao/root",
+    "display": {
+        "icon": {
+            "item": "minecraft:paper"
+        },
+        "title": {"translate": "pl.adv.yao_main0.title"},
+        "description": {"translate": "pl.adv.yao_main0.description"},
+        "announce_to_chat": false,
+        "frame": "goal"
+    },
+    "criteria": {
+        "yao_main_0":{
+            "trigger": "minecraft:villager_trade",
+            "conditions": {
+                "item": {
+                    "item": "minecraft:paper",
+                    "nbt":"{id:\"panling:leadingpaper1\"}"
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "pld:adv/mission/yao/main/main0"
+    }
+}

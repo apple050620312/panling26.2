@@ -1,0 +1,5 @@
+execute store result score @s monster_count run execute if entity @e[tag=panling,tag=monster,distance=..20]
+
+execute if score @s monster_count matches ..9 run summon minecraft:cave_spider ~ ~ ~ {Team:"monster",Tags:["panling","not_undead","monster","west_cave_spider"],CanPickUpLoot:false,ArmorDropChances:[0f,0f,0f,0f],HandDropChances:[0f,0f],CustomNameVisible:1b,CustomName:'{"translate":"pl.monster.west.box_cave_spider"}',DeathLootTable:"pld:west/entity/box_cave_spider",Health:23.0f,Attributes:[{Name:"generic.max_health",Base:23d},{Name:"generic.follow_range",Base:15d},{Name:"generic.movement_speed",Base:0.25d},{Name:"generic.attack_damage",Base:6d}],ArmorItems:[{},{},{},{}],HandItems:[{},{}]}
+
+kill @s

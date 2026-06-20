@@ -1,0 +1,17 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:anvil"
+        },
+        "title": {"translate": "pl.adv.job.title"},
+        "description": {"translate": "pl.adv.job.description"},
+        "announce_to_chat": false,
+        "show_toast": false
+    },
+    "parent": "pld:experience/root",
+    "criteria": {
+        "impossible":{
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

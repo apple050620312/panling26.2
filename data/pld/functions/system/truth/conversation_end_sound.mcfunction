@@ -1,0 +1,1 @@
+execute as @s at @s run playsound entity.player.levelup ambient @s ~ ~ ~

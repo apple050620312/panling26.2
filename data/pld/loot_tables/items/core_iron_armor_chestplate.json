@@ -1,0 +1,19 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "item",
+            "name": "minecraft:raw_gold",
+            "functions": [
+                {
+                    "function": "minecraft:set_nbt",
+                    "tag":"{HideFlags:63,Enchantments:[{id:\"minecraft:protection\",lvl:1s}],id:\"panling:core_iron_armor_chestplate\",display:{Name:'{\"translate\":\"pl.item.name.core_iron_armor_chestplate\"}',Lore:['{\"translate\":\"pl.lore.rare6\"}','{\"translate\":\"pl.lore.limit_lvl_50\"}','{\"translate\":\"pl.item.lore.core_iron_armor_chestplate.a\"}','{\"translate\":\"pl.item.lore.core_iron_armor_chestplate.b\"}','{\"translate\":\"pl.item.lore.core_iron_armor_chestplate.c\"}','{\"translate\":\"pl.item.lore.core_iron_armor_chestplate.d\"}','{\"translate\":\"pl.item.lore.core_iron_armor_chestplate.e\"}']}}"    
+                }
+            ]
+          }
+        ]
+      }
+    ]
+}

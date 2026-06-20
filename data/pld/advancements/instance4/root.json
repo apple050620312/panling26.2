@@ -1,0 +1,17 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:ice"
+        },
+        "title": {"translate": "pl.adv.instance4.root.title"},
+        "description": {"translate": "pl.adv.instance4.root.description"},
+        "background": "panling:instance4.png",
+        "announce_to_chat": false,
+        "show_toast": false
+    },
+    "criteria": {
+        "impossibe":{
+        "trigger": "minecraft:impossible"
+        }
+    }
+}

@@ -1,0 +1,9 @@
+execute if score @s test_room2_0 matches 0 run tp @s 2882 29 -216
+execute if score @s test_room2_0 matches 1 run tp @s 2868 29 -216
+execute if score @s test_room2_0 matches 2 run tp @s 2854 29 -216
+execute if score @s test_room2_0 matches 3 run tp @s 2854 29 -230
+execute if score @s test_room2_0 matches 4 run tp @s 2854 29 -244
+execute if score @s test_room2_0 matches 5 run tp @s 2868 29 -244
+execute if score @s test_room2_0 matches 6 run tp @s 2882 29 -244
+execute if score @s test_room2_0 matches 7 run tp @s 2882 29 -230
+execute if score @s test_room2_0 matches 8 run tp @s 2868 29 -230

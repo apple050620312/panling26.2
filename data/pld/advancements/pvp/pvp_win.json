@@ -1,0 +1,19 @@
+{
+    "parent": "pld:pvp/root",
+    "display": {
+        "icon": {
+            "item": "minecraft:wooden_sword"
+        },
+        "title": {"translate": "pl.adv.pvp_win.title"},
+        "description": {"translate": "pl.adv.pvp_win.description"},
+        "announce_to_chat": false
+    },
+    "criteria": {
+        "impossibe":{
+        "trigger": "minecraft:impossible"
+        }
+    },
+    "rewards": {
+        "function": "pld:adv/gameplay/pvp/pvp_win"
+    }
+}

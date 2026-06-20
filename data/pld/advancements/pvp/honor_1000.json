@@ -1,0 +1,19 @@
+{
+    "parent": "pld:pvp/honor_500",
+    "display": {
+        "icon": {
+            "item": "minecraft:experience_bottle"
+        },
+        "title": {"translate": "pl.adv.honor_1000.title"},
+        "description": {"translate": "pl.adv.honor_1000.description"},
+        "announce_to_chat": false
+    },
+    "criteria": {
+        "impossibe":{
+        "trigger": "minecraft:impossible"
+        }
+    },
+    "rewards": {
+        "function": "pld:adv/gameplay/pvp/honor_1000"
+    }
+}

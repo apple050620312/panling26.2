@@ -1,0 +1,20 @@
+{
+    "criteria": {
+        "kill_reward":{
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type_specific": {
+                        "type": "player",
+                        "advancements": {
+                            "pld:system/pvp/rewarded":true
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "pld:pvp/kill_rewared_player"
+    }
+}

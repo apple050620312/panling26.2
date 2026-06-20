@@ -1,0 +1,14 @@
+{
+    "function":"minecraft:copy_nbt",
+    "source":{
+        "type":"storage",
+        "source":"pld:system"
+    },
+    "ops":[
+        {
+            "source":"empty_list",
+            "target":"data.mails",
+            "op":"replace"
+        }
+    ]
+}
