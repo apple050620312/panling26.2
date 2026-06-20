@@ -5,7 +5,7 @@ execute as @s at @s run function pld:equipment_lock/lock/do
 execute as @s at @s run function pld:equipment_lock/replace/player_inventory_replace
 setblock ~ 255 ~ air
 
-#清理快捷栏
+#清理快捷欄
 setblock ~ 255 ~ chest
 execute as @s at @s run function pld:equipment_lock/lock/hotbar
 execute as @s at @s run function pld:equipment_lock/lock/do

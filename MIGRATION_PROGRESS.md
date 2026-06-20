@@ -17,7 +17,7 @@
 | `pld/function` (根目錄) | 已完成 | 已轉換 | 不適用 | 不適用 | `load.mcfunction` / `tick.mcfunction` 完成簡轉繁 |
 | `pld/function/adv` | 已完成 | 無需轉換 | 不適用 | 不適用 | 無中文字串與舊版 NBT |
 | `pld/function/beta` | 已完成 | 無需轉換 | 不適用 | 不適用 | 無中文字串與舊版 NBT |
-| `pld/function/equipment_lock` | 待處理 | 待處理 | 待處理 | 待處理 | |
+| `pld/function/equipment_lock` | 已完成 | 已轉換 | 已轉換 | 不適用 | 大量 NBT 已透過腳本轉為物品組件 |
 | `pld/function/instances` | 待處理 | 待處理 | 待處理 | 待處理 | |
 | `pld/function/monsters` | 待處理 | 待處理 | 待處理 | 待處理 | |
 | `pld/function/npcs` | 待處理 | 待處理 | 待處理 | 待處理 | |

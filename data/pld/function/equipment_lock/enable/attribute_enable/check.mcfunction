@@ -21,4 +21,4 @@ execute if data block ~ ~ ~ Items[0].tag.PLattributes.final_add run function pld
 #zf_str #bow_str
 #consume_rc
 
-#最终攻击点数加成在此处理
+#最終攻击点数加成在此处理

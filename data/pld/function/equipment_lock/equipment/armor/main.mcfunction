@@ -10,7 +10,7 @@ setblock ~ 255 ~ chest{Items:[{Slot:0b,id:"minecraft:stone",Count:1}]}
 execute as @s at @s run function pld:equipment_lock/equipment/armor/slot_check
 setblock ~ 255 ~ air
 
-#检查套装效果
+#检查套裝效果
 function pld:equipment_lock/equipment/armor/set_bonus/set_check
 
 function pld:system/armorlock/legend_attributes/main

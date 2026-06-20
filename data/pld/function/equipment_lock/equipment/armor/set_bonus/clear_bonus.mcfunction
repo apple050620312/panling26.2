@@ -17,5 +17,5 @@ tag @s remove earth_set_4b
 
 tag @s remove beginner_set_4
 
-#接口-套装效果清理
+#接口-套裝效果清理
 function #pld:equipment_lock/armor/clear_bonus

@@ -82,5 +82,5 @@ execute if score #temp temp matches 4 if score @s armor_rare_head matches 4.. if
 execute if score #temp temp matches 4 if score @s armor_rare_head matches 5.. if score @s armor_rare_chest matches 5.. if score @s armor_rare_legs matches 5.. if score @s armor_rare_feet matches 5.. run function pld:equipment_lock/equipment/armor/set_bonus/earth/4b/main_mission_check
 
 
-#接口-套装效果检查
+#接口-套裝效果检查
 function #pld:equipment_lock/armor/set_check

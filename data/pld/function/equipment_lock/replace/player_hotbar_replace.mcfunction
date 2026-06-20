@@ -1,4 +1,4 @@
-#替换玩家主手快捷栏
+#替换玩家主手快捷欄
 #loot replace entity @s hotbar.0 9 mine ~ 255 ~ minecraft:diamond_pickaxe{isShulkerMarker:1b}
 item replace entity @s hotbar.0 from block ~ 255 ~ container.0
 item replace entity @s hotbar.1 from block ~ 255 ~ container.1

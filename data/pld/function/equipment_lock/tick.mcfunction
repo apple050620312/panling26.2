@@ -1,11 +1,11 @@
-#延迟1t触发main 防止循环触发
+#延遲1t觸發main 防止循環觸發
 
-#延迟触发激活指令-护甲
+#延遲觸發激活指令-護甲
 execute if score @s armorlock_tick matches 0 unless score @s armorlock_lock matches 1 at @s run function pld:equipment_lock/equipment/armor/main
 scoreboard players set @s[scores={armorlock_lock=1..}] armorlock_lock 0
 scoreboard players remove @s[scores={armorlock_tick=0..}] armorlock_tick 1
 
-#设置激活格子
+#設置激活格子
 scoreboard players set @s[scores={SlotSet=-1,job=1}] WeaponSlot -1
 scoreboard players set @s[scores={SlotSet=1,job=..1}] WeaponSlot 1
 scoreboard players set @s[scores={SlotSet=2,job=..1}] WeaponSlot 2
@@ -36,7 +36,7 @@ execute if score @s SlotSet matches 1.. run function pld:equipment_lock/equipmen
 scoreboard players reset @s[scores={SlotSet=-1..}] SlotSet 
 scoreboard players enable @s SlotSet
 
-#延迟触发激活指令-武器
+#延遲觸發激活指令-武器
 execute if score @s weaponlock_tick matches 0 unless score @s weaponlock_lock matches 1 at @s run function pld:equipment_lock/equipment/weapon/main
 scoreboard players set @s[scores={weaponlock_lock=1..}] weaponlock_lock 0
 scoreboard players remove @s[scores={weaponlock_tick=0..}] weaponlock_tick 1

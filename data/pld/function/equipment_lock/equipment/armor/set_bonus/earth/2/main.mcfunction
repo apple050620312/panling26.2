@@ -1,4 +1,4 @@
-#激活套装效果
+#激活套裝效果
 effect give @s minecraft:absorption 10 1
 
 #进入冷却

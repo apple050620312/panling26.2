@@ -1,4 +1,4 @@
-#弓箭手-狙击
+#弓箭手-狙擊
 #最大生命值降低20%
-attribute @s minecraft:generic.max_health modifier add 1-5-5-5-5 "武器属性-最终生命" -0.2 multiply
+attribute @s minecraft:generic.max_health modifier add 1-5-5-5-5 "武器属性-最終生命" -0.2 multiply
 

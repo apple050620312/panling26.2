@@ -1,4 +1,4 @@
-#根据等级和id获取强化条目细节 并给予属性
+#根据等級和id获取强化条目细节 并给予属性
 #legend_id
 execute store result score #temp temp run data get block ~ 255 ~ Items[0].tag.legend_id
 execute store result score #temp temp2 run data get block ~ 255 ~ Items[0].tag.slot

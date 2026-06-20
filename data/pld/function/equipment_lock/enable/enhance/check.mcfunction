@@ -1,6 +1,6 @@
-#根据等级和id获取强化条目细节 并给予属性
+#根据等級和id获取强化条目细节 并给予属性
 #enhance_lvl
-execute store result score #temp temp run data get block ~ 255 ~ Items[0].tag.enhance_lvl
+execute store result score #temp temp run data get block ~ 255 ~ Items[0].components."minecraft:custom_data".enhance_lvl
 
 execute if score #temp temp matches 1.. run function pld:equipment_lock/enable/enhance/1
 execute if score #temp temp matches 2.. run function pld:equipment_lock/enable/enhance/2

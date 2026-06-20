@@ -1,15 +1,15 @@
 #实时检查状态
-#二件套通用冷却倒计时
+#二件套通用冷却倒計時
 #execute if score @s armor_set_bonus_cool_2_tick matches 1.. run scoreboard players remove @s armor_set_bonus_cool_2_tick 1
-#四件套通用冷却倒计时
+#四件套通用冷却倒計時
 execute if score @s armor_set_bonus_cool_4_tick matches 1.. run scoreboard players remove @s armor_set_bonus_cool_4_tick 1
 
-#二件套冷却倒计时
+#二件套冷却倒計時
 execute if score @s armor_set_bonus_cool_1_2_tick matches 1.. run scoreboard players remove @s armor_set_bonus_cool_1_2_tick 1
 execute if score @s armor_set_bonus_cool_2_2_tick matches 1.. run scoreboard players remove @s armor_set_bonus_cool_2_2_tick 1
 execute if score @s armor_set_bonus_cool_4_2_tick matches 1.. run scoreboard players remove @s armor_set_bonus_cool_4_2_tick 1
 
-#金二件套倒计时
+#金二件套倒計時
 execute if score @s armor_set_bonus_0_2_tick matches 0.. run scoreboard players remove @s armor_set_bonus_0_2_tick 1
 #execute unless entity @s[tag=metal_set_2] if entity @s[tag=metal_set_2_lvl1] run scoreboard players set @s armor_set_bonus_0_2_tick 0
 execute if score @s armor_set_bonus_0_2_tick matches 0 run function pld:equipment_lock/equipment/armor/set_bonus/metal/2/clear
@@ -21,7 +21,7 @@ execute if entity @s[tag=water_set_2] unless score @s armor_set_bonus_cool_2_2_t
 #土二件套
 execute if entity @s[tag=earth_set_2] unless score @s armor_set_bonus_cool_4_2_tick matches 1.. run function pld:equipment_lock/equipment/armor/set_bonus/earth/2/main
 
-#金四件套持续时间倒计时
+#金四件套持续时间倒計時
 execute if score @s armor_set_bonus_0_4_tick matches 0.. run scoreboard players remove @s armor_set_bonus_0_4_tick 1
 execute unless entity @s[tag=metal_set_4a] if entity @s[scores={job=0}] run scoreboard players set @s armor_set_bonus_0_4_tick 0
 execute unless entity @s[tag=metal_set_4a] if entity @s[scores={job=2}] run scoreboard players set @s armor_set_bonus_0_4_tick 0
@@ -29,18 +29,18 @@ execute if entity @s[scores={armor_set_bonus_0_4_tick=0,job=0}] run attribute @s
 execute if entity @s[scores={armor_set_bonus_0_4_tick=0,job=2}] run tag @s remove set_bonus_0_4_2
 
 
-#木四件套持续时间倒计时
+#木四件套持续时间倒計時
 execute if score @s armor_set_bonus_1_4_tick matches 0.. run scoreboard players remove @s armor_set_bonus_1_4_tick 1
 execute unless entity @s[tag=wood_set_4a] run scoreboard players set @s armor_set_bonus_1_4_tick 0
 execute if entity @s[scores={armor_set_bonus_1_4_tick=0,job=1}] run attribute @s generic.movement_speed modifier remove 12-1-4-0-0
 
-#水四件套持续时间倒计时
+#水四件套持续时间倒計時
 execute if score @s armor_set_bonus_2_4_tick matches 0.. run scoreboard players remove @s armor_set_bonus_2_4_tick 1
 execute unless entity @s[tag=water_set_4a] run scoreboard players set @s armor_set_bonus_2_4_tick 0
 execute if entity @s[scores={armor_set_bonus_2_4_tick=0,job=0}] run attribute @s generic.max_health modifier remove 12-2-4-0-0 
 execute if entity @s[scores={armor_set_bonus_2_4_tick=0,job=1}] run attribute @s generic.movement_speed modifier remove 12-2-4-0-0 
 
-#火四件套持续时间倒计时
+#火四件套持续时间倒計時
 execute if score @s armor_set_bonus_3_4_tick matches 0.. run scoreboard players remove @s armor_set_bonus_3_4_tick 1
 execute unless entity @s[tag=fire_set_4a] run scoreboard players set @s armor_set_bonus_3_4_tick 0
 execute if entity @s[scores={job=0,armor_set_bonus_3_4_tick=1..}] at @s run function pld:equipment_lock/equipment/armor/set_bonus/fire/40/tick

@@ -36,6 +36,6 @@ data modify storage pld:system Temp[{Slot:32b}].Slot set value 23b
 data modify storage pld:system Temp[{Slot:33b}].Slot set value 24b
 data modify storage pld:system Temp[{Slot:34b}].Slot set value 25b
 data modify storage pld:system Temp[{Slot:35b}].Slot set value 26b
-execute if data storage pld:system Temp[{tag:{act:1}}] run data modify storage pld:system Temp[{tag:{act:1}}].tag.modify set value 1
+execute if data storage pld:system Temp[{components:{"minecraft:custom_data":{act:1}}}] run data modify storage pld:system Temp[{components:{"minecraft:custom_data":{act:1}}}].tag.modify set value 1
 data modify block ~ 255 ~ Items set from storage pld:system Temp
 

@@ -1,118 +1,118 @@
-scoreboard objectives add armorlock_tick dummy ["防具检测计时"]
+scoreboard objectives add armorlock_tick dummy ["防具檢測計時"]
 
 scoreboard objectives add armorlock_lock dummy 
 
 #防具稀有度
-scoreboard objectives add armor_rare_head dummy ["头盔稀有度"]
+scoreboard objectives add armor_rare_head dummy ["頭盔稀有度"]
 scoreboard objectives add armor_rare_chest dummy ["胸甲稀有度"]
-scoreboard objectives add armor_rare_legs dummy ["护腿稀有度"]
+scoreboard objectives add armor_rare_legs dummy ["護腿稀有度"]
 scoreboard objectives add armor_rare_feet dummy ["鞋子稀有度"]
-#防具套装效果id
-scoreboard objectives add armor_set_bonus_id_head dummy ["头盔套装效果id"]
-scoreboard objectives add armor_set_bonus_id_chest dummy ["胸甲套装效果id"]
-scoreboard objectives add armor_set_bonus_id_legs dummy ["护腿套装效果id"]
-scoreboard objectives add armor_set_bonus_id_feet dummy ["鞋子套装效果id"]
+#防具套裝效果id
+scoreboard objectives add armor_set_bonus_id_head dummy ["頭盔套裝效果id"]
+scoreboard objectives add armor_set_bonus_id_chest dummy ["胸甲套裝效果id"]
+scoreboard objectives add armor_set_bonus_id_legs dummy ["護腿套裝效果id"]
+scoreboard objectives add armor_set_bonus_id_feet dummy ["鞋子套裝效果id"]
 
 
-scoreboard objectives add armor6_awake_head dummy ["六阶头盔等级"]
-scoreboard objectives add armor6_awake_chest dummy ["六阶胸甲等级"]
-scoreboard objectives add armor6_awake_legs dummy ["六阶护腿等级"]
-scoreboard objectives add armor6_awake_feet dummy ["六阶鞋子等级"]
-scoreboard objectives add weapon6_awake dummy ["六阶武器等级"]
+scoreboard objectives add armor6_awake_head dummy ["六階頭盔等級"]
+scoreboard objectives add armor6_awake_chest dummy ["六階胸甲等級"]
+scoreboard objectives add armor6_awake_legs dummy ["六階護腿等級"]
+scoreboard objectives add armor6_awake_feet dummy ["六階鞋子等級"]
+scoreboard objectives add weapon6_awake dummy ["六階武器等級"]
 
-#装备泛用属性-进攻
-scoreboard objectives add equipment_atk_pt_base1 dummy ["装备进攻属性+"]
-scoreboard objectives add equipment_atk_pt_multiply_base dummy ["装备进攻属性+%"]
-scoreboard objectives add equipment_atk_pt_multiply dummy ["装备最终进攻属性+%"]
-scoreboard objectives add equipment_atk_pt_final_add1 dummy ["装备最终进攻属性+"]
-scoreboard objectives add equipment_atk_sp_base1 dummy ["装备攻击速度+"]
-scoreboard objectives add equipment_atk_sp_multiply_base dummy ["装备攻击速度+%"]
+#裝備泛用屬性-進攻
+scoreboard objectives add equipment_atk_pt_base1 dummy ["裝備進攻屬性+"]
+scoreboard objectives add equipment_atk_pt_multiply_base dummy ["裝備進攻屬性+%"]
+scoreboard objectives add equipment_atk_pt_multiply dummy ["裝備最終進攻屬性+%"]
+scoreboard objectives add equipment_atk_pt_final_add1 dummy ["裝備最終進攻屬性+"]
+scoreboard objectives add equipment_atk_sp_base1 dummy ["裝備攻擊速度+"]
+scoreboard objectives add equipment_atk_sp_multiply_base dummy ["裝備攻擊速度+%"]
 
-#装备泛用属性-速度
-scoreboard objectives add equipment_speed_pc_multiply_base dummy ["装备速度属性+%"]
-scoreboard objectives add equipment_speed_pc_multiply dummy ["装备最终速度属性+%"]
+#裝備泛用屬性-速度
+scoreboard objectives add equipment_speed_pc_multiply_base dummy ["裝備速度屬性+%"]
+scoreboard objectives add equipment_speed_pc_multiply dummy ["裝備最終速度屬性+%"]
 
-#装备泛用属性-减伤
-scoreboard objectives add equipment_all_protection_multiply_base dummy ["装备全减伤属性+%"]
-scoreboard objectives add equipment_arrow_protection_multiply_base dummy ["装备弹射物减伤属性+%"]
-scoreboard objectives add equipment_fire_protection_multiply_base dummy ["装备火焰减伤属性+%"]
+#裝備泛用屬性-減傷
+scoreboard objectives add equipment_all_protection_multiply_base dummy ["裝備全減傷屬性+%"]
+scoreboard objectives add equipment_arrow_protection_multiply_base dummy ["裝備彈射物減傷屬性+%"]
+scoreboard objectives add equipment_fire_protection_multiply_base dummy ["裝備火焰減傷屬性+%"]
 
-#装备泛用属性-进攻-头
-scoreboard objectives add head_atk_pt_base1 dummy ["装备-头进攻属性+"]
-scoreboard objectives add head_atk_pt_multiply_base dummy ["装备-头进攻属性+%"]
-scoreboard objectives add head_atk_pt_multiply dummy ["装备-头最终进攻属性+%"]
-scoreboard objectives add head_atk_pt_final_add1 dummy ["装备-头最终进攻属性+"]
+#裝備泛用屬性-進攻-頭
+scoreboard objectives add head_atk_pt_base1 dummy ["裝備-頭進攻屬性+"]
+scoreboard objectives add head_atk_pt_multiply_base dummy ["裝備-頭進攻屬性+%"]
+scoreboard objectives add head_atk_pt_multiply dummy ["裝備-頭最終進攻屬性+%"]
+scoreboard objectives add head_atk_pt_final_add1 dummy ["裝備-頭最終進攻屬性+"]
 
-#装备泛用属性-速度-头
-scoreboard objectives add head_speed_pc_multiply_base dummy ["装备-头速度属性+%"]
-scoreboard objectives add head_speed_pc_multiply dummy ["装备-头最终速度属性+%"]
+#裝備泛用屬性-速度-頭
+scoreboard objectives add head_speed_pc_multiply_base dummy ["裝備-頭速度屬性+%"]
+scoreboard objectives add head_speed_pc_multiply dummy ["裝備-頭最終速度屬性+%"]
 
-#装备泛用属性-减伤
-scoreboard objectives add head_all_protection_multiply_base dummy ["装备-头全减伤属性+%"]
-scoreboard objectives add head_arrow_protection_multiply_base dummy ["装备-头弹射物减伤属性+%"]
-scoreboard objectives add head_fire_protection_multiply_base dummy ["装备-头火焰减伤属性+%"]
+#裝備泛用屬性-減傷
+scoreboard objectives add head_all_protection_multiply_base dummy ["裝備-頭全減傷屬性+%"]
+scoreboard objectives add head_arrow_protection_multiply_base dummy ["裝備-頭彈射物減傷屬性+%"]
+scoreboard objectives add head_fire_protection_multiply_base dummy ["裝備-頭火焰減傷屬性+%"]
 
 
-#装备泛用属性-进攻-胸
-scoreboard objectives add chest_atk_pt_base1 dummy ["装备-胸进攻属性+"]
-scoreboard objectives add chest_atk_pt_multiply_base dummy ["装备-胸进攻属性+%"]
-scoreboard objectives add chest_atk_pt_multiply dummy ["装备-胸最终进攻属性+%"]
-scoreboard objectives add chest_atk_pt_final_add1 dummy ["装备-胸最终进攻属性+"]
+#裝備泛用屬性-進攻-胸
+scoreboard objectives add chest_atk_pt_base1 dummy ["裝備-胸進攻屬性+"]
+scoreboard objectives add chest_atk_pt_multiply_base dummy ["裝備-胸進攻屬性+%"]
+scoreboard objectives add chest_atk_pt_multiply dummy ["裝備-胸最終進攻屬性+%"]
+scoreboard objectives add chest_atk_pt_final_add1 dummy ["裝備-胸最終進攻屬性+"]
 
-#装备泛用属性-速度-胸
-scoreboard objectives add chest_speed_pc_multiply_base dummy ["装备-胸速度属性+%"]
-scoreboard objectives add chest_speed_pc_multiply dummy ["装备-胸最终速度属性+%"]
+#裝備泛用屬性-速度-胸
+scoreboard objectives add chest_speed_pc_multiply_base dummy ["裝備-胸速度屬性+%"]
+scoreboard objectives add chest_speed_pc_multiply dummy ["裝備-胸最終速度屬性+%"]
 
-#装备泛用属性-减伤
-scoreboard objectives add chest_all_protection_multiply_base dummy ["装备-胸全减伤属性+%"]
-scoreboard objectives add chest_arrow_protection_multiply_base dummy ["装备-胸弹射物减伤属性+%"]
-scoreboard objectives add chest_fire_protection_multiply_base dummy ["装备-胸火焰减伤属性+%"]
+#裝備泛用屬性-減傷
+scoreboard objectives add chest_all_protection_multiply_base dummy ["裝備-胸全減傷屬性+%"]
+scoreboard objectives add chest_arrow_protection_multiply_base dummy ["裝備-胸彈射物減傷屬性+%"]
+scoreboard objectives add chest_fire_protection_multiply_base dummy ["裝備-胸火焰減傷屬性+%"]
 
-#装备泛用属性-进攻-腿
-scoreboard objectives add legs_atk_pt_base1 dummy ["装备-腿进攻属性+"]
-scoreboard objectives add legs_atk_pt_multiply_base dummy ["装备-腿进攻属性+%"]
-scoreboard objectives add legs_atk_pt_multiply dummy ["装备-腿最终进攻属性+%"]
-scoreboard objectives add legs_atk_pt_final_add1 dummy ["装备-腿最终进攻属性+"]
+#裝備泛用屬性-進攻-腿
+scoreboard objectives add legs_atk_pt_base1 dummy ["裝備-腿進攻屬性+"]
+scoreboard objectives add legs_atk_pt_multiply_base dummy ["裝備-腿進攻屬性+%"]
+scoreboard objectives add legs_atk_pt_multiply dummy ["裝備-腿最終進攻屬性+%"]
+scoreboard objectives add legs_atk_pt_final_add1 dummy ["裝備-腿最終進攻屬性+"]
 
-#装备泛用属性-速度-腿
-scoreboard objectives add legs_speed_pc_multiply_base dummy ["装备-腿速度属性+%"]
-scoreboard objectives add legs_speed_pc_multiply dummy ["装备-腿最终速度属性+%"]
+#裝備泛用屬性-速度-腿
+scoreboard objectives add legs_speed_pc_multiply_base dummy ["裝備-腿速度屬性+%"]
+scoreboard objectives add legs_speed_pc_multiply dummy ["裝備-腿最終速度屬性+%"]
 
-#装备泛用属性-减伤
-scoreboard objectives add legs_all_protection_multiply_base dummy ["装备-腿全减伤属性+%"]
-scoreboard objectives add legs_arrow_protection_multiply_base dummy ["装备-腿弹射物减伤属性+%"]
-scoreboard objectives add legs_fire_protection_multiply_base dummy ["装备-腿火焰减伤属性+%"]
+#裝備泛用屬性-減傷
+scoreboard objectives add legs_all_protection_multiply_base dummy ["裝備-腿全減傷屬性+%"]
+scoreboard objectives add legs_arrow_protection_multiply_base dummy ["裝備-腿彈射物減傷屬性+%"]
+scoreboard objectives add legs_fire_protection_multiply_base dummy ["裝備-腿火焰減傷屬性+%"]
 
-#装备泛用属性-进攻-脚
-scoreboard objectives add feet_atk_pt_base1 dummy ["装备-脚进攻属性+"]
-scoreboard objectives add feet_atk_pt_multiply_base dummy ["装备-脚进攻属性+%"]
-scoreboard objectives add feet_atk_pt_multiply dummy ["装备-脚最终进攻属性+%"]
-scoreboard objectives add feet_atk_pt_final_add1 dummy ["装备-脚最终进攻属性+"]
+#裝備泛用屬性-進攻-腳
+scoreboard objectives add feet_atk_pt_base1 dummy ["裝備-腳進攻屬性+"]
+scoreboard objectives add feet_atk_pt_multiply_base dummy ["裝備-腳進攻屬性+%"]
+scoreboard objectives add feet_atk_pt_multiply dummy ["裝備-腳最終進攻屬性+%"]
+scoreboard objectives add feet_atk_pt_final_add1 dummy ["裝備-腳最終進攻屬性+"]
 
-#装备泛用属性-速度-脚
-scoreboard objectives add feet_speed_pc_multiply_base dummy ["装备-脚速度属性+%"]
-scoreboard objectives add feet_speed_pc_multiply dummy ["装备-脚最终速度属性+%"]
-#装备泛用属性-减伤
-scoreboard objectives add feet_all_protection_multiply_base dummy ["装备-脚全减伤属性+%"]
-scoreboard objectives add feet_arrow_protection_multiply_base dummy ["装备-脚弹射物减伤属性+%"]
-scoreboard objectives add feet_fire_protection_multiply_base dummy ["装备-脚火焰减伤属性+%"]
+#裝備泛用屬性-速度-腳
+scoreboard objectives add feet_speed_pc_multiply_base dummy ["裝備-腳速度屬性+%"]
+scoreboard objectives add feet_speed_pc_multiply dummy ["裝備-腳最終速度屬性+%"]
+#裝備泛用屬性-減傷
+scoreboard objectives add feet_all_protection_multiply_base dummy ["裝備-腳全減傷屬性+%"]
+scoreboard objectives add feet_arrow_protection_multiply_base dummy ["裝備-腳彈射物減傷屬性+%"]
+scoreboard objectives add feet_fire_protection_multiply_base dummy ["裝備-腳火焰減傷屬性+%"]
 
-#装备泛用属性-进攻-武器
-scoreboard objectives add weapon_atk_pt_base1 dummy ["装备-武器进攻属性+"]
-scoreboard objectives add weapon_atk_pt_multiply_base dummy ["装备-武器进攻属性+%"]
-scoreboard objectives add weapon_atk_pt_multiply dummy ["装备-武器最终进攻属性+%"]
-scoreboard objectives add weapon_atk_pt_final_add1 dummy ["装备-武器最终进攻属性+"]
-scoreboard objectives add weapon_atk_sp_base1 dummy ["装备-武器攻速属性+"]
-scoreboard objectives add weapon_atk_sp_multiply_base dummy ["装备-武器攻速属性+%"]
+#裝備泛用屬性-進攻-武器
+scoreboard objectives add weapon_atk_pt_base1 dummy ["裝備-武器進攻屬性+"]
+scoreboard objectives add weapon_atk_pt_multiply_base dummy ["裝備-武器進攻屬性+%"]
+scoreboard objectives add weapon_atk_pt_multiply dummy ["裝備-武器最終進攻屬性+%"]
+scoreboard objectives add weapon_atk_pt_final_add1 dummy ["裝備-武器最終進攻屬性+"]
+scoreboard objectives add weapon_atk_sp_base1 dummy ["裝備-武器攻速屬性+"]
+scoreboard objectives add weapon_atk_sp_multiply_base dummy ["裝備-武器攻速屬性+%"]
 
-#装备泛用属性-速度-武器
-scoreboard objectives add weapon_speed_pc_multiply_base dummy ["装备-武器速度属性+%"]
-scoreboard objectives add weapon_speed_pc_multiply dummy ["装备-武器最终速度属性+%"]
+#裝備泛用屬性-速度-武器
+scoreboard objectives add weapon_speed_pc_multiply_base dummy ["裝備-武器速度屬性+%"]
+scoreboard objectives add weapon_speed_pc_multiply dummy ["裝備-武器最終速度屬性+%"]
 
 scoreboard objectives add weapon_piercing_lvl dummy ["武器提供箭矢穿透"]
-scoreboard objectives add weapon_arrow_crit dummy ["武器提供箭矢暴击"]
+scoreboard objectives add weapon_arrow_crit dummy ["武器提供箭矢暴擊"]
 
-scoreboard objectives add weaponlock_tick dummy ["武器检测计时"]
+scoreboard objectives add weaponlock_tick dummy ["武器檢測計時"]
 
 scoreboard objectives add weaponlock_lock dummy
 
@@ -124,9 +124,9 @@ scoreboard objectives add SlotSet trigger
 scoreboard objectives add weapon_rare dummy
 #武器分支
 scoreboard objectives add weapon_branch dummy
-#0-破军 1-金钟
-#0-狙击 1-游侠
+#0-破軍 1-金鐘
+#0-狙擊 1-遊俠
 
-#弓-武器箭矢强度
+#弓-武器箭矢強度
 scoreboard objectives add archer_weapon_1damage dummy
 
