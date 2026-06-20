@@ -5,7 +5,7 @@
             "conditions": {
                 "damage": {
                     "direct_entity": {
-                        "type": "#minecraft:arrows"
+                        "entity_type": "#minecraft:arrows"
                     },
                     "tags": [
                         {

@@ -1,13 +1,13 @@
 {
     "criteria": {
-        "hurt_player":{
+        "hurt_player": {
             "trigger": "minecraft:entity_hurt_player",
             "conditions": {
                 "damage": {
                     "blocked": false,
                     "source_entity": {
-                        "type":"wither_skeleton",
-                        "nbt":"{Tags:[\"panling\",\"undead\",\"monster\",\"west_boss\"]}"
+                        "nbt": "{Tags:[\"panling\",\"undead\",\"monster\",\"west_boss\"]}",
+                        "entity_type": "wither_skeleton"
                     }
                 }
             }

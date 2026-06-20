@@ -1,11 +1,11 @@
 {
     "criteria": {
-        "arrow":{
+        "arrow": {
             "trigger": "minecraft:player_hurt_entity",
             "conditions": {
                 "damage": {
-                    "direct_entity":{
-                        "type":"minecraft:arrow"
+                    "direct_entity": {
+                        "entity_type": "minecraft:arrow"
                     }
                 },
                 "entity": {
@@ -16,17 +16,17 @@
                         "condition": "minecraft:entity_scores",
                         "entity": "this",
                         "scores": {
-                            "weapon_rare":2,
-                            "weapon_branch":1,
-                            "job":1
+                            "weapon_rare": 2,
+                            "weapon_branch": 1,
+                            "job": 1
                         }
                     },
                     {
                         "condition": "minecraft:entity_properties",
                         "entity": "this",
                         "predicate": {
-                            "flags":{
-                                "is_sneaking":true
+                            "flags": {
+                                "is_sneaking": true
                             }
                         }
                     }
