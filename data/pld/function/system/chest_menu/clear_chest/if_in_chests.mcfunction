@@ -4,8 +4,7 @@
 #   pld:system Temp_chest 玩家当前箱子页面的数据
 
 #在箱子界面，那么需要保存当前页面的物品
-execute if score @s screen matches 200..220 store result storage pld:macro id int 1 run scoreboard players get @s screen
-execute if score @s screen matches 200..220 run function pld:system/chest_menu/clear_chest/screens/macro_call with storage pld:macro
+execute if score @s screen matches 200..220 store result storage pld:macro id int 1 run scoreboard players get @s screen\nexecute if score @s screen matches 200..220 run function pld:system/chest_menu/clear_chest/screens/macro_call with storage pld:macro\n
 #更新储存内容
 item modify entity @s enderchest.0 pld:chest_menu/set_data
 item modify entity @s enderchest.9 pld:chest_menu/set_data

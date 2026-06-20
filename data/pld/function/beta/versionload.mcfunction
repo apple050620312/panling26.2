@@ -1,4 +1,4 @@
-gamerule minecraft:max_command_chain_length 100000
+gamerule maxCommandChainLength 100000
 scoreboard objectives add finish dummy "加载完成标识"
 execute unless score #system finish matches 1 run scoreboard players set #system finish 0
 execute if score #system finish matches 0 run schedule function pld:beta/betaload 1t
