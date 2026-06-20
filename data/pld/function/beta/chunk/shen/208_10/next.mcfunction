@@ -5,14 +5,14 @@ data merge block 3336 129 213 {front_text:{messages:['{"translate":""}','{"trans
 data merge block 3334 129 242 {front_text:{messages:['{"translate":""}','{"translate":"pl.sign.shen13.text2"}','{"translate":"pl.sign.shen13.text3"}','{"translate":""}']}}
 data merge block 3334 129 230 {front_text:{messages:['{"translate":""}','{"translate":"pl.sign.shen14.text2"}','{"translate":""}','{"translate":""}']}}
 
-setblock 3344 151 162 minecraft:command_block{Command:"function pld:npcs/shen/guard"} replace 
-setblock 3344 142 182 minecraft:command_block{Command:"function pld:npcs/shen/guard"} replace 
-setblock 3343 133 197 minecraft:command_block{Command:"function pld:npcs/shen/guard"} replace 
-setblock 3331 124 215 minecraft:command_block{Command:"function pld:npcs/shen/guard"} replace 
-setblock 3343 124 215 minecraft:command_block{Command:"function pld:npcs/shen/guard"} replace 
-setblock 3331 133 197 minecraft:command_block{Command:"function pld:npcs/shen/guard"} replace 
-setblock 3330 142 182 minecraft:command_block{Command:"function pld:npcs/shen/guard"} replace 
-setblock 3330 151 162 minecraft:command_block{Command:"function pld:npcs/shen/guard"} replace 
+setblock 3344 151 162 minecraft:command_block[custom_data={Command:"function pld:npcs/shen/guard"}] replace 
+setblock 3344 142 182 minecraft:command_block[custom_data={Command:"function pld:npcs/shen/guard"}] replace 
+setblock 3343 133 197 minecraft:command_block[custom_data={Command:"function pld:npcs/shen/guard"}] replace 
+setblock 3331 124 215 minecraft:command_block[custom_data={Command:"function pld:npcs/shen/guard"}] replace 
+setblock 3343 124 215 minecraft:command_block[custom_data={Command:"function pld:npcs/shen/guard"}] replace 
+setblock 3331 133 197 minecraft:command_block[custom_data={Command:"function pld:npcs/shen/guard"}] replace 
+setblock 3330 142 182 minecraft:command_block[custom_data={Command:"function pld:npcs/shen/guard"}] replace 
+setblock 3330 151 162 minecraft:command_block[custom_data={Command:"function pld:npcs/shen/guard"}] replace 
 
 kill @e[type=villager,tag=!panling]
 execute as @e[type=skeleton] run function pld:system/tp_and_kill_self

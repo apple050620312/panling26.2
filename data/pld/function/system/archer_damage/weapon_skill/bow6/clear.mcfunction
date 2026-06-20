@@ -1,13 +1,13 @@
 #移除速度加成
-attribute @s minecraft:generic.movement_speed modifier remove panling:uuid_11_5_5_5_1
-attribute @s minecraft:generic.movement_speed modifier remove panling:uuid_11_5_5_5_2
-attribute @s minecraft:generic.movement_speed modifier remove panling:uuid_11_5_5_5_3
-attribute @s minecraft:generic.movement_speed modifier remove panling:uuid_11_5_5_5_4
-attribute @s minecraft:generic.movement_speed modifier remove panling:uuid_11_5_5_5_5
-attribute @s minecraft:generic.movement_speed modifier remove panling:uuid_11_5_5_5_6
-attribute @s minecraft:generic.movement_speed modifier remove panling:uuid_11_5_5_5_7
-attribute @s minecraft:generic.movement_speed modifier remove panling:uuid_11_5_5_5_8
-attribute @s minecraft:generic.movement_speed modifier remove panling:uuid_11_5_5_5_9
+attribute @s generic.movement_speed modifier remove 11-5-5-5-1
+attribute @s generic.movement_speed modifier remove 11-5-5-5-2
+attribute @s generic.movement_speed modifier remove 11-5-5-5-3
+attribute @s generic.movement_speed modifier remove 11-5-5-5-4
+attribute @s generic.movement_speed modifier remove 11-5-5-5-5
+attribute @s generic.movement_speed modifier remove 11-5-5-5-6
+attribute @s generic.movement_speed modifier remove 11-5-5-5-7
+attribute @s generic.movement_speed modifier remove 11-5-5-5-8
+attribute @s generic.movement_speed modifier remove 11-5-5-5-9
 
 #归零记分板
 scoreboard players set @s weapon_skill_bow6_lvl 0

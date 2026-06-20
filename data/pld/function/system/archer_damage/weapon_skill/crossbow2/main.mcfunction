@@ -1,6 +1,6 @@
 #提供效果
 #给予玩家移动速度加成
-attribute @s minecraft:generic.movement_speed modifier add panling:uuid_11_5_5_5_5 0.1 add_multiplied_base
+attribute @s generic.movement_speed modifier add 11-5-5-5-5 "黑铁弩-移动速度加成" 0.1 multiply_base
 #给予玩家箭矢强度加成
 scoreboard players set @s weapon_skill_crossbow2_damage 1
 

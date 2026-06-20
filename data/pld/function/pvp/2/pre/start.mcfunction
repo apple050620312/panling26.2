@@ -85,5 +85,5 @@ tellraw @a[team=normal] {"translate":"pl.info.world_notice2"}
 title @a[team=attack] title {"translate":"pl.info.title_pvp_begin"}
 title @a[team=defence] title {"translate":"pl.info.title_pvp_begin"}
 
-execute as @a[team=attack] run attribute @s minecraft:generic.attack_damage modifier remove panling:uuid_101_0_0_0_0
-execute as @a[team=defence] run attribute @s minecraft:generic.attack_damage modifier remove panling:uuid_101_0_0_0_0
+execute as @a[team=attack] run attribute @s generic.attack_damage modifier remove 101-0-0-0-0
+execute as @a[team=defence] run attribute @s generic.attack_damage modifier remove 101-0-0-0-0

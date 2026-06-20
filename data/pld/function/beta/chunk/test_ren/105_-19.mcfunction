@@ -11,7 +11,7 @@ setblock 1686 25 -306 minecraft:glass_pane
 setblock 1663 24 -303 minecraft:glass_pane
 setblock 1663 27 -298 minecraft:glass_pane
 
-setblock 1669 29 -272 minecraft:command_block{Command:"execute as @p[x=1669,y=31,z=-272,distance=..3] run function pld:test/ren/metal/out"} replace 
+setblock 1669 29 -272 minecraft:command_block[custom_data={Command:"execute as @p[x=1669,y=31,z=-272,distance=..3] run function pld:test/ren/metal/out"}] replace 
 
 #区块卸载
 forceload remove 1690 -299 1670 -314

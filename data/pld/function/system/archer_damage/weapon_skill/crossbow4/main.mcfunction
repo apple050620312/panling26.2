@@ -1,10 +1,10 @@
 #提供效果
 #给予玩家移动速度加成
-attribute @p[tag=shooter] minecraft:generic.movement_speed modifier add panling:uuid_11_5_5_5_1 0.04 add_multiplied_base
-attribute @p[tag=shooter] minecraft:generic.movement_speed modifier add panling:uuid_11_5_5_5_2 0.04 add_multiplied_base
-attribute @p[tag=shooter] minecraft:generic.movement_speed modifier add panling:uuid_11_5_5_5_3 0.04 add_multiplied_base
-attribute @p[tag=shooter] minecraft:generic.movement_speed modifier add panling:uuid_11_5_5_5_4 0.04 add_multiplied_base
-attribute @p[tag=shooter] minecraft:generic.movement_speed modifier add panling:uuid_11_5_5_5_5 0.04 add_multiplied_base
+attribute @p[tag=shooter] generic.movement_speed modifier add 11-5-5-5-1 "蛟龙弩-武器技速度加成-1" 0.04 multiply_base
+attribute @p[tag=shooter] generic.movement_speed modifier add 11-5-5-5-2 "蛟龙弩-武器技速度加成-2" 0.04 multiply_base
+attribute @p[tag=shooter] generic.movement_speed modifier add 11-5-5-5-3 "蛟龙弩-武器技速度加成-3" 0.04 multiply_base
+attribute @p[tag=shooter] generic.movement_speed modifier add 11-5-5-5-4 "蛟龙弩-武器技速度加成-4" 0.04 multiply_base
+attribute @p[tag=shooter] generic.movement_speed modifier add 11-5-5-5-5 "蛟龙弩-武器技速度加成-5" 0.04 multiply_base
 
 #给予玩家箭矢强度加成
 scoreboard players set @p[tag=shooter] weapon_skill_crossbow4_damage 1

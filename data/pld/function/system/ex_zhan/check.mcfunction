@@ -1,3 +1,3 @@
-execute if block 272 45 -187 minecraft:hopper{Items:[{Slot:0b,components:{"minecraft:custom_data":{id:"panling:ze"}}}] as @p[x=272,y=45,z=-188,distance=..5,scores={race=3}] unless entity @s[scores={ex_zhan=1}]} run tp @s 276 25 -186 0 0
-execute if block 272 45 -187 minecraft:hopper{Items:[{Slot:0b,components:{"minecraft:custom_data":{id:"panling:ze"}}}] as @p[x=272,y=45,z=-188,distance=..5,scores={race=3}] if entity @s[scores={ex_zhan=1}]} run tellraw @s {"translate":"pl.info.ze_in_resistance"}
+execute if block 272 45 -187 minecraft:hopper[custom_data={Items:[{Slot:0b,components:{"minecraft:custom_data":{id:"panling:ze"}}}]}] as @p[x=272,y=45,z=-188,distance=..5,scores={race=3}] unless entity @s[scores={ex_zhan=1}] run tp @s 276 25 -186 0 0
+execute if block 272 45 -187 minecraft:hopper[custom_data={Items:[{Slot:0b,components:{"minecraft:custom_data":{id:"panling:ze"}}}]}] as @p[x=272,y=45,z=-188,distance=..5,scores={race=3}] if entity @s[scores={ex_zhan=1}] run tellraw @s {"translate":"pl.info.ze_in_resistance"}
 data merge block 272 45 -187 {Items:[]}

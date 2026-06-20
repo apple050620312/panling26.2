@@ -1,7 +1,7 @@
 
 #要做的事
-setblock 3256 16 -242 minecraft:command_block{Command:"function pld:npcs/zhan/zhanmain4"} replace 
-setblock 3237 16 -247 minecraft:command_block{Command:"function pld:npcs/zhan/zhantong4"} replace 
+setblock 3256 16 -242 minecraft:command_block[custom_data={Command:"function pld:npcs/zhan/zhanmain4"}] replace 
+setblock 3237 16 -247 minecraft:command_block[custom_data={Command:"function pld:npcs/zhan/zhantong4"}] replace 
 
 kill @e[type=villager,tag=!panling]
 execute as @e[type=skeleton] run function pld:system/tp_and_kill_self

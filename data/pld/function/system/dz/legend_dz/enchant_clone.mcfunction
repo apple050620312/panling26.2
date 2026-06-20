@@ -8,5 +8,5 @@ data modify block ~ ~ ~ Items.[{Slot:5b}].tag.display.Lore append from block ~ ~
 data modify block ~ ~ ~ Items.[{Slot:5b}].tag.enchant_id set from block ~ ~ ~ Items.[{Slot:3b}].tag.enchant_id 
 data modify block ~ ~ ~ Items.[{Slot:5b}].tag.enchant_lvl set from block ~ ~ ~ Items.[{Slot:3b}].tag.enchant_lvl
 #增加封印条目
-execute if block ~ ~ ~ minecraft:dispenser{Items:[{Slot:5b,components:{"minecraft:custom_data":{type:1}}}]} run data modify block ~ ~ ~ Items[{Slot:5b}].tag.display.Lore append value '{"translate":"pl.lore.weaponinfo2a"}'
-execute if block ~ ~ ~ minecraft:dispenser{Items:[{Slot:5b,components:{"minecraft:custom_data":{type:2}}}]} run data modify block ~ ~ ~ Items[{Slot:5b}].tag.display.Lore append value '{"translate":"pl.lore.armorinfo2a"}'
+execute if block ~ ~ ~ minecraft:dispenser[custom_data={Items:[{Slot:5b,components:{"minecraft:custom_data":{type:1}}}]}] run data modify block ~ ~ ~ Items[{Slot:5b}].tag.display.Lore append value '{"translate":"pl.lore.weaponinfo2a"}'
+execute if block ~ ~ ~ minecraft:dispenser[custom_data={Items:[{Slot:5b,components:{"minecraft:custom_data":{type:2}}}]}] run data modify block ~ ~ ~ Items[{Slot:5b}].tag.display.Lore append value '{"translate":"pl.lore.armorinfo2a"}'

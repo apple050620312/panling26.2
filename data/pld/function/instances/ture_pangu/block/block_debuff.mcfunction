@@ -1,14 +1,14 @@
 #获取玩家身上的方块数量
 execute store result score @s block_count run clear @s diamond_block[custom_data={id:"panling:zf_increase_block"}] 0
-attribute @s[scores={block_count=1..}] minecraft:generic.movement_speed modifier add panling:uuid_10_0_0_0_1 -0.8 add_multiplied_base
-attribute @s[scores={block_count=2..}] minecraft:generic.movement_speed modifier add panling:uuid_10_0_0_0_2 -0.8 add_multiplied_base
-attribute @s[scores={block_count=3..}] minecraft:generic.movement_speed modifier add panling:uuid_10_0_0_0_3 -0.8 add_multiplied_base
-attribute @s[scores={block_count=4..}] minecraft:generic.movement_speed modifier add panling:uuid_10_0_0_0_4 -0.8 add_multiplied_base
-attribute @s[scores={block_count=5..}] minecraft:generic.movement_speed modifier add panling:uuid_10_0_0_0_5 -0.8 add_multiplied_base
-attribute @s[scores={block_count=6..}] minecraft:generic.movement_speed modifier add panling:uuid_10_0_0_0_6 -0.8 add_multiplied_base
-attribute @s[scores={block_count=7..}] minecraft:generic.movement_speed modifier add panling:uuid_10_0_0_0_7 -0.8 add_multiplied_base
-attribute @s[scores={block_count=8..}] minecraft:generic.movement_speed modifier add panling:uuid_10_0_0_0_8 -0.8 add_multiplied_base
-attribute @s[scores={block_count=9..}] minecraft:generic.movement_speed modifier add panling:uuid_10_0_0_0_9 -0.8 add_multiplied_base
-attribute @s[scores={block_count=10..}] minecraft:generic.movement_speed modifier add panling:uuid_10_0_0_0_10 -0.8 add_multiplied_base
+attribute @s[scores={block_count=1..}] generic.movement_speed modifier add 10-0-0-0-1 "真盘-阵法增幅块debuff1" -0.8 multiply_base
+attribute @s[scores={block_count=2..}] generic.movement_speed modifier add 10-0-0-0-2 "真盘-阵法增幅块debuff2" -0.8 multiply_base
+attribute @s[scores={block_count=3..}] generic.movement_speed modifier add 10-0-0-0-3 "真盘-阵法增幅块debuff3" -0.8 multiply_base
+attribute @s[scores={block_count=4..}] generic.movement_speed modifier add 10-0-0-0-4 "真盘-阵法增幅块debuff4" -0.8 multiply_base
+attribute @s[scores={block_count=5..}] generic.movement_speed modifier add 10-0-0-0-5 "真盘-阵法增幅块debuff5" -0.8 multiply_base
+attribute @s[scores={block_count=6..}] generic.movement_speed modifier add 10-0-0-0-6 "真盘-阵法增幅块debuff6" -0.8 multiply_base
+attribute @s[scores={block_count=7..}] generic.movement_speed modifier add 10-0-0-0-7 "真盘-阵法增幅块debuff7" -0.8 multiply_base
+attribute @s[scores={block_count=8..}] generic.movement_speed modifier add 10-0-0-0-8 "真盘-阵法增幅块debuff8" -0.8 multiply_base
+attribute @s[scores={block_count=9..}] generic.movement_speed modifier add 10-0-0-0-9 "真盘-阵法增幅块debuff9" -0.8 multiply_base
+attribute @s[scores={block_count=10..}] generic.movement_speed modifier add 10-0-0-0-10 "真盘-阵法增幅块debuff10" -0.8 multiply_base
 
 effect clear @s[scores={block_count=1..}] jump_boost

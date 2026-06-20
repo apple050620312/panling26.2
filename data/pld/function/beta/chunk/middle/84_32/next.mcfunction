@@ -1,7 +1,7 @@
 #要做的事
 data merge block 1352 67 527 {front_text:{messages:['{"translate":""}','{"translate":"pl.sign.sword_reward.text2"}','{"translate":"pl.sign.sword_reward.text3"}','{"translate":""}']}}
 
-setblock 1353 62 520 minecraft:command_block{Command:"function pld:npcs/middle/ex_sword2"} replace 
+setblock 1353 62 520 minecraft:command_block[custom_data={Command:"function pld:npcs/middle/ex_sword2"}] replace 
 
 data merge block 1354 92 523 {front_text:{messages:['{"translate":""}','{"translate":"pl.sign.special_room.1.text2"}','{"translate":""}','{"translate":""}']}}
 data merge block 1350 92 523 {front_text:{messages:['{"translate":""}','{"translate":"pl.sign.special_room.2.text2"}','{"translate":"pl.sign.special_room.2.text3"}','{"translate":""}']}}
@@ -10,7 +10,7 @@ data merge block 1353 92 516 {front_text:{messages:['{"translate":""}','{"transl
 data merge block 1353 92 519 {front_text:{messages:['{"translate":""}','{"translate":"pl.sign.special_room.5.text2"}','{"translate":"pl.sign.special_room.5.text3"}','{"translate":""}']}}
 data merge block 1350 92 520 {front_text:{messages:['{"translate":""}','{"translate":"pl.sign.special_room.6.text2"}','{"translate":"pl.sign.special_room.6.text3"}','{"translate":""}']}}
 
-setblock 1357 88 527 minecraft:command_block{Command:"tp @p[distance=..5] 1376 38 522 90 ~"} replace 
+setblock 1357 88 527 minecraft:command_block[custom_data={Command:"tp @p[distance=..5] 1376 38 522 90 ~"}] replace 
 
 kill @e[type=villager,tag=!panling]
 execute positioned 1353 62 520 run function pld:npcs/middle/ex_sword2

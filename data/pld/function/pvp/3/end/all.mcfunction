@@ -38,8 +38,8 @@ setblock 2339 183 -1801 minecraft:glowstone
 
 setblock 2390 184 -1801 air
 setblock 2387 183 -1801 minecraft:glowstone
-execute as @a[team=attack] run attribute @s minecraft:generic.attack_damage modifier add panling:uuid_101_0_0_0_0 -0.99999 add_multiplied_total
-execute as @a[team=defence] run attribute @s minecraft:generic.attack_damage modifier add panling:uuid_101_0_0_0_0 -0.99999 add_multiplied_total
+execute as @a[team=attack] run attribute @s generic.attack_damage modifier add 101-0-0-0-0 "近战傷害屏蔽" -0.99999 multiply
+execute as @a[team=defence] run attribute @s generic.attack_damage modifier add 101-0-0-0-0 "近战傷害屏蔽" -0.99999 multiply
 
 
 team join normal @a[team=attack]

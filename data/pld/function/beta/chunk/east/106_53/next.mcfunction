@@ -1,6 +1,6 @@
 
 #要做的事
-setblock 1697 99 852 minecraft:command_block{Command:"function pld:npcs/east/dragonsoul"} replace 
+setblock 1697 99 852 minecraft:command_block[custom_data={Command:"function pld:npcs/east/dragonsoul"}] replace 
 kill @e[type=villager,tag=!panling]
 execute positioned 1697 99 852 run function pld:npcs/east/dragonsoul
 #区块卸载

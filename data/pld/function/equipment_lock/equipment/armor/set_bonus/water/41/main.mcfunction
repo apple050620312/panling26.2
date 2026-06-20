@@ -2,7 +2,7 @@
 effect give @s instant_health 1 1
 
 #移速提升50%
-attribute @s minecraft:generic.movement_speed modifier add panling:uuid_12_2_4_0_0 0.5 add_multiplied_base
+attribute @s generic.movement_speed modifier add 12-2-4-0-0 "水四件套弓箭手移速" 0.5 multiply_base
 
 #抗性提升4 2秒
 effect give @s resistance 2 3

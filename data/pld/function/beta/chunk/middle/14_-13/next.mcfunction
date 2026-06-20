@@ -3,16 +3,16 @@
 data merge block 233 64 -210 {front_text:{messages:['{"translate":""}','{"translate":"pl.sign.middle12.text2"}','{"translate":""}','{"translate":""}']}}
 
 setblock 233 63 -210 air
-setblock 245 61 -206 minecraft:command_block{Command:"function pld:npcs/middle/mainx"} replace 
+setblock 245 61 -206 minecraft:command_block[custom_data={Command:"function pld:npcs/middle/mainx"}] replace 
 #setblock 238 63 -210 minecraft:command_block{Command:"function pld:system/spawnpoint/spawnpointset"} replace
-setblock 232 62 -210 minecraft:command_block{Command:"tp @p[distance=..4] 241 45 -213"} replace 
-setblock 253 61 -210 minecraft:command_block{Command:"function pld:system/tpsystem/intotpsystem"} replace 
+setblock 232 62 -210 minecraft:command_block[custom_data={Command:"tp @p[distance=..4] 241 45 -213"}] replace 
+setblock 253 61 -210 minecraft:command_block[custom_data={Command:"function pld:system/tpsystem/intotpsystem"}] replace 
 
-setblock 236 56 -210 minecraft:command_block{Command:"function pld:system/tpsystem/tpout"} replace 
-setblock 236 55 -205 minecraft:command_block{Command:"function pld:system/tpsystem/tpeast"} replace 
-setblock 231 55 -210 minecraft:command_block{Command:"function pld:system/tpsystem/tpsouth"} replace 
-setblock 236 55 -215 minecraft:command_block{Command:"function pld:system/tpsystem/tpwest"} replace
-setblock 241 55 -210 minecraft:command_block{Command:"function pld:system/tpsystem/tpnorth"} replace 
+setblock 236 56 -210 minecraft:command_block[custom_data={Command:"function pld:system/tpsystem/tpout"}] replace 
+setblock 236 55 -205 minecraft:command_block[custom_data={Command:"function pld:system/tpsystem/tpeast"}] replace 
+setblock 231 55 -210 minecraft:command_block[custom_data={Command:"function pld:system/tpsystem/tpsouth"}] replace 
+setblock 236 55 -215 minecraft:command_block[custom_data={Command:"function pld:system/tpsystem/tpwest"}] replace
+setblock 241 55 -210 minecraft:command_block[custom_data={Command:"function pld:system/tpsystem/tpnorth"}] replace 
 
 fill 237 64 -211 239 65 -209 air
 setblock 238 63 -210 minecraft:stone_bricks replace
@@ -38,12 +38,12 @@ data merge block 242 46 -213 {front_text:{messages:['{"translate":""}','{"transl
 data merge block 226 62 -196 {front_text:{messages:['{"translate":""}','{"translate":"pl.sign.middle51.text2"}','{"translate":"pl.sign.middle51.text3"}','{"translate":""}']}}
 data merge block 238 62 -195 {front_text:{messages:['{"translate":"pl.sign.middle35.text1"}','{"translate":"pl.sign.middle35.text2"}','{"translate":""}','{"translate":"pl.sign.middle35.text4"}']}}
 
-setblock 243 44 -213 minecraft:command_block{Command:"tp @p[distance=..5] 234 64 -210"} replace 
+setblock 243 44 -213 minecraft:command_block[custom_data={Command:"tp @p[distance=..5] 234 64 -210"}] replace 
 
 setblock 232 44 -213 air
 setblock 232 43 -213 air
 data merge block 233 43 -213 {Items:[]}
-setblock 233 43 -211 minecraft:repeating_command_block{Command:"execute as @p[x=235,y=45,z=-213,distance=..5] unless block 233 43 -213 hopper{Items:[]} run function pld:system/legend_unseal/check"} replace 
+setblock 233 43 -211 minecraft:repeating_command_block[custom_data={Command:"execute as @p[x=235,y=45,z=-213,distance=..5] unless block 233 43 -213 hopper{Items:[]} run function pld:system/legend_unseal/check"}] replace 
 
 setblock 237 40 -210 structure_block{metadata: "", mirror: "NONE", ignoreEntities: 1b, powered: 0b, seed: 0L, author: "yl_jiu_qiu", rotation: "NONE", posX: 0, mode: "LOAD", posY: 1, sizeX: 23, posZ: 0, integrity: 1.0f, showair: 0b, name: "pld:npc_legend", sizeY: 32, sizeZ: 23, showboundingbox: 1b}
 setblock 236 40 -210 redstone_block

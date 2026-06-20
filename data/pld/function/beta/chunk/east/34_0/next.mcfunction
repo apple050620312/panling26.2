@@ -1,5 +1,5 @@
 #要做的事
-setblock 555 28 6 minecraft:command_block{Command:"function pld:npcs/east/chat1"} replace 
+setblock 555 28 6 minecraft:command_block[custom_data={Command:"function pld:npcs/east/chat1"}] replace 
 setblock 559 75 28 air
 kill @e[type=villager,tag=!panling]
 execute positioned 555 28 6 run function pld:npcs/east/chat1

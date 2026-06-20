@@ -1,10 +1,10 @@
 #要做的事
-setblock 253 46 22 minecraft:command_block{Command:"function pld:npcs/middle/te25"} replace
-setblock 258 46 22 minecraft:command_block{Command:"function pld:npcs/middle/tong4"} replace
-setblock 254 46 27 minecraft:command_block{Command:"function pld:npcs/middle/yh2"} replace
-setblock 246 48 25 minecraft:command_block{Command:'tellraw @p[x=251,y=49,z=24,distance=..2,scores={job=..1} {"translate":"pl.info.dfresisted"}'}] replace 
+setblock 253 46 22 minecraft:command_block[custom_data={Command:"function pld:npcs/middle/te25"}] replace
+setblock 258 46 22 minecraft:command_block[custom_data={Command:"function pld:npcs/middle/tong4"}] replace
+setblock 254 46 27 minecraft:command_block[custom_data={Command:"function pld:npcs/middle/yh2"}] replace
+setblock 246 48 25 minecraft:command_block[custom_data={Command:'tellraw @p[x=251,y=49,z=24,distance=..2,scores={job=..1}] {"translate":"pl.info.dfresisted"}'}] replace 
 
-setblock 246 48 24 minecraft:command_block{Command:"tp @p[x=251,y=49,z=24,distance=..2,scores={job=2} 283 31 42"}] replace 
+setblock 246 48 24 minecraft:command_block[custom_data={Command:"tp @p[x=251,y=49,z=24,distance=..2,scores={job=2}] 283 31 42"}] replace 
 
 
 

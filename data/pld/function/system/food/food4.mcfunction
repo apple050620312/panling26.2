@@ -3,5 +3,5 @@
 scoreboard players set @s food_tick 9000
 
 function pld:system/food/remove_attribute
-attribute @s minecraft:generic.armor modifier add panling:uuid_0_0_4_0_4 2 add_value
+attribute @s generic.armor modifier add 0-0-4-0-4 "人族食物效果" 2 add
 advancement revoke @s only pld:system/food/food4

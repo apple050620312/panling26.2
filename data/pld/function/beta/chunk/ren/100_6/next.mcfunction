@@ -4,11 +4,11 @@ data merge block 1601 141 108 {front_text:{messages:['{"translate":""}','{"trans
 data merge block 1614 138 109 {front_text:{messages:['{"translate":"pl.sign.ren20.text1"}','{"translate":"pl.sign.ren20.text2"}','{"translate":""}','{"translate":""}']}}
 
 
-setblock 1600 139 108 minecraft:command_block{Command:"function pld:system/supply/supplymain"} replace
+setblock 1600 139 108 minecraft:command_block[custom_data={Command:"function pld:system/supply/supplymain"}] replace
 
-setblock 1627 133 97 minecraft:command_block{Command:"function pld:npcs/ren/tong5"} replace
-setblock 1628 133 97 minecraft:command_block{Command:"function pld:npcs/ren/tong6"} replace
-setblock 1625 131 105 minecraft:command_block{Command:"function pld:npcs/ren/chat12"} replace
+setblock 1627 133 97 minecraft:command_block[custom_data={Command:"function pld:npcs/ren/tong5"}] replace
+setblock 1628 133 97 minecraft:command_block[custom_data={Command:"function pld:npcs/ren/tong6"}] replace
+setblock 1625 131 105 minecraft:command_block[custom_data={Command:"function pld:npcs/ren/chat12"}] replace
 
 
 kill @e[type=villager,tag=!panling]

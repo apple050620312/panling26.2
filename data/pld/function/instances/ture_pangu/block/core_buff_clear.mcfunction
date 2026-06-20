@@ -1,1 +1,1 @@
-attribute @s minecraft:generic.movement_speed modifier remove panling:uuid_10_0_0_0_0
+attribute @s generic.movement_speed modifier remove 10-0-0-0-0

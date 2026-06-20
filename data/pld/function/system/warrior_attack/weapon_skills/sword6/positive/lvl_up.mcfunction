@@ -5,9 +5,9 @@ scoreboard players set @s weapon_skill_sword6_positive_5ticks 150
 execute unless score @s weapon_skill_sword6_lvl matches 3 run scoreboard players add @s weapon_skill_sword6_lvl 1
 
 #根据玩家当前状态赋予近战傷害加成
-#execute if score @s weapon_skill_sword6_lvl matches 1.. run attribute @s minecraft:generic.attack_damage modifier add panling:uuid_11_5_5_5_1 0.15 add_multiplied_base
-#execute if score @s weapon_skill_sword6_lvl matches 2.. run attribute @s minecraft:generic.attack_damage modifier add panling:uuid_11_5_5_5_2 0.15 add_multiplied_base
-#execute if score @s weapon_skill_sword6_lvl matches 3.. run attribute @s minecraft:generic.attack_damage modifier add panling:uuid_11_5_5_5_3 0.15 add_multiplied_base
+#execute if score @s weapon_skill_sword6_lvl matches 1.. run attribute @s generic.attack_damage modifier add 11-5-5-5-1 "如意金箍棒-齐天效果提供额外近战傷害1" 0.15 multiply_base
+#execute if score @s weapon_skill_sword6_lvl matches 2.. run attribute @s generic.attack_damage modifier add 11-5-5-5-2 "如意金箍棒-齐天效果提供额外近战傷害2" 0.15 multiply_base
+#execute if score @s weapon_skill_sword6_lvl matches 3.. run attribute @s generic.attack_damage modifier add 11-5-5-5-3 "如意金箍棒-齐天效果提供额外近战傷害3" 0.15 multiply_base
 
 #回复生命值
 #effect give @s instant_health 1 0 false

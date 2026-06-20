@@ -1,8 +1,8 @@
 
 #要做的事
 
-setblock 3202 23 -313 minecraft:command_block{Command:"function pld:npcs/zhan/guard5"} replace 
-setblock 3219 22 -321 minecraft:command_block{Command:"function pld:npcs/zhan/guard6"} replace 
+setblock 3202 23 -313 minecraft:command_block[custom_data={Command:"function pld:npcs/zhan/guard5"}] replace 
+setblock 3219 22 -321 minecraft:command_block[custom_data={Command:"function pld:npcs/zhan/guard6"}] replace 
 
 data merge block 3214 20 -314 {front_text:{messages:['{"translate":""}','{"translate":"pl.sign.zhan4.text2"}','{"translate":"pl.sign.zhan4.text3"}','{"translate":""}']}}
 data merge block 3211 20 -313 {front_text:{messages:['{"translate":""}','{"translate":"pl.sign.zhan5.text2"}','{"translate":"pl.sign.zhan5.text3"}','{"translate":""}']}}

@@ -6,7 +6,7 @@ data merge block 2163 61 11 {front_text:{messages:['{"text":""}','{"text":""}','
 data merge block 2161 61 11 {front_text:{messages:['{"text":""}','{"text":""}','{"translate":"pl.sign.dragon.answer4b.text3"}','{"text":""}']}}
 data merge block 2157 61 11 {front_text:{messages:['{"text":""}','{"text":""}','{"translate":"pl.sign.dragon.answer4c.text3"}','{"text":""}']}}
 data merge block 2155 61 11 {front_text:{messages:['{"text":""}','{"text":""}','{"translate":"pl.sign.dragon.answer4d.text3"}','{"text":""}']}}
-setblock 2159 57 7 minecraft:command_block{Command:"tp @a[distance=..10] 2083 60 2"} replace 
+setblock 2159 57 7 minecraft:command_block[custom_data={Command:"tp @a[distance=..10] 2083 60 2"}] replace 
 #区块卸载
 forceload remove 2159 5 2162 5
 #记分板数值增加以及bossbar修改

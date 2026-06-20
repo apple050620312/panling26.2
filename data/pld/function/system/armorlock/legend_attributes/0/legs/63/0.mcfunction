@@ -1,1 +1,1 @@
-attribute @s minecraft:generic.attack_damage modifier add panling:uuid_10_3_3_3_3 1 add_value
+attribute @s generic.attack_damage modifier add 10-3-3-3-3 "神器-掠火焱翼-基础攻击加成" 1 add

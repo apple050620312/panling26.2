@@ -1,6 +1,6 @@
 
 #要做的事
-setblock 3181 91 889 minecraft:command_block{Command:"function pld:npcs/xian/xh1"} replace 
+setblock 3181 91 889 minecraft:command_block[custom_data={Command:"function pld:npcs/xian/xh1"}] replace 
 
 kill @e[type=villager,tag=!panling]
 execute positioned 3181 91 889 run function pld:npcs/xian/xh1

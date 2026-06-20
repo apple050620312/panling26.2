@@ -1,8 +1,8 @@
 
 #要做的事
-setblock 3270 97 260 minecraft:command_block{Command:"execute as @p[x=3270,y=99,z=260,distance=..3] run function pld:test/shen/incheck"} replace 
-setblock 3266 95 260 minecraft:command_block{Command:"function pld:npcs/shen/guard"} replace 
-setblock 3271 95 265 minecraft:command_block{Command:"function pld:npcs/shen/guard"} replace 
+setblock 3270 97 260 minecraft:command_block[custom_data={Command:"execute as @p[x=3270,y=99,z=260,distance=..3] run function pld:test/shen/incheck"}] replace 
+setblock 3266 95 260 minecraft:command_block[custom_data={Command:"function pld:npcs/shen/guard"}] replace 
+setblock 3271 95 265 minecraft:command_block[custom_data={Command:"function pld:npcs/shen/guard"}] replace 
 
 kill @e[type=villager,tag=!panling]
 execute as @e[type=skeleton] run function pld:system/tp_and_kill_self
