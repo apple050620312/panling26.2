@@ -8,12 +8,12 @@ data merge block 1688 145 168 {front_text:{messages:['{"translate":""}','{"trans
 
 data merge block 1653 158 173 {front_text:{messages:['{"translate":""}','{"text":"？？？","clickEvent":{"action":"run_command","value":"/tellraw @p {\\"translate\\":\\"pl.spsign.ldp_hidden.reads\\",\\"color\\":\\"gray\\"}"}}','{"translate":""}','{"translate":""}']}}
 
-setblock 1654 150 176 minecraft:command_block[custom_data={Command:"function pld:npcs/ren/renmain4"}] replace 
-setblock 1655 150 176 minecraft:command_block[custom_data={Command:"function pld:npcs/ren/rentong4"}] replace 
-setblock 1664 145 171 minecraft:command_block[custom_data={Command:"function pld:npcs/ren/chat11"}] replace 
-setblock 1692 152 166 minecraft:command_block[custom_data={Command:"function pld:npcs/ren/chat3"}] replace 
-setblock 1648 150 166 minecraft:command_block[custom_data={Command:"function pld:npcs/ren/guard"}] replace 
-setblock 1687 140 169 minecraft:command_block[custom_data={Command:"function pld:npcs/ren/guard"}] replace 
+setblock 1654 150 176 minecraft:command_block[block_entity_data={Command:"function pld:npcs/ren/renmain4"}] replace 
+setblock 1655 150 176 minecraft:command_block[block_entity_data={Command:"function pld:npcs/ren/rentong4"}] replace 
+setblock 1664 145 171 minecraft:command_block[block_entity_data={Command:"function pld:npcs/ren/chat11"}] replace 
+setblock 1692 152 166 minecraft:command_block[block_entity_data={Command:"function pld:npcs/ren/chat3"}] replace 
+setblock 1648 150 166 minecraft:command_block[block_entity_data={Command:"function pld:npcs/ren/guard"}] replace 
+setblock 1687 140 169 minecraft:command_block[block_entity_data={Command:"function pld:npcs/ren/guard"}] replace 
 
 
 kill @e[type=villager,tag=!panling]

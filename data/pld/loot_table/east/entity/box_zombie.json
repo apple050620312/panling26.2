@@ -1,20 +1,20 @@
 {
     "pools": [
         {
-            "rolls":1,
+            "rolls": 1,
             "entries": [
                 {
                     "type": "minecraft:loot_table",
-                    "name": "pld:east/zombie_base"
+                    "value": "pld:east/zombie_base"
                 }
             ]
         },
         {
-            "rolls":1,
+            "rolls": 1,
             "entries": [
                 {
                     "type": "minecraft:loot_table",
-                    "name": "pld:east/boxitem"
+                    "value": "pld:east/boxitem"
                 }
             ]
         }

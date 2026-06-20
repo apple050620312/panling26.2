@@ -1,7 +1,7 @@
 
 #要做的事
-setblock 3303 15 -162 minecraft:command_block[custom_data={Command:"function pld:npcs/zhan/chat7"}] replace 
-setblock 3301 15 -163 minecraft:command_block[custom_data={Command:"function pld:npcs/zhan/chat8"}] replace 
+setblock 3303 15 -162 minecraft:command_block[block_entity_data={Command:"function pld:npcs/zhan/chat7"}] replace 
+setblock 3301 15 -163 minecraft:command_block[block_entity_data={Command:"function pld:npcs/zhan/chat8"}] replace 
 
 kill @e[type=villager,tag=!panling]
 execute positioned 3303 15 -162 run function pld:npcs/zhan/chat7

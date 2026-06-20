@@ -1,15 +1,19 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:diamond_axe"
+            "id": "minecraft:diamond_axe"
         },
-        "title":  {"translate": "pl.adv.axe5.title"},
-        "description":  {"translate": "pl.adv.axe5.description"},
+        "title": {
+            "translate": "pl.adv.axe5.title"
+        },
+        "description": {
+            "translate": "pl.adv.axe5.description"
+        },
         "announce_to_chat": false
     },
     "parent": "pld:experience/job/0/axe4",
     "criteria": {
-        "sword0":{
+        "sword0": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "items": [
@@ -19,10 +23,9 @@
                     }
                 ],
                 "player": {
-                    "type_specific": {
-                        "type":"player",
-                        "advancements":{
-                            "pld:experience/job/0/base":"true"
+                    "minecraft:player": {
+                        "advancements": {
+                            "pld:experience/job/0/base": "true"
                         }
                     }
                 }

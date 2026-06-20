@@ -3,7 +3,7 @@
 data merge block 3254 35 -163 {front_text:{messages:['{"translate":""}','{"translate":"pl.sign.zhan10.text2"}','{"translate":""}','{"translate":""}']}}
 data merge block 3253 35 -164 {front_text:{messages:['{"translate":""}','{"translate":"pl.sign.zhan11.text2"}','{"translate":""}','{"translate":""}']}}
 
-setblock 3269 27 -166 minecraft:command_block[custom_data={Command:"function pld:npcs/zhan/guard2"}] replace 
+setblock 3269 27 -166 minecraft:command_block[block_entity_data={Command:"function pld:npcs/zhan/guard2"}] replace 
 
 execute as @e[type=skeleton] run function pld:system/tp_and_kill_self
 execute positioned 3269 27 -166 run function pld:npcs/zhan/guard2

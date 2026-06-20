@@ -1,15 +1,19 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:iron_axe"
+            "id": "minecraft:iron_axe"
         },
-        "title":  {"translate": "pl.adv.axe3.title"},
-        "description":  {"translate": "pl.adv.axe3.description"},
+        "title": {
+            "translate": "pl.adv.axe3.title"
+        },
+        "description": {
+            "translate": "pl.adv.axe3.description"
+        },
         "announce_to_chat": false
     },
     "parent": "pld:experience/job/0/axe2",
     "criteria": {
-        "sword0":{
+        "sword0": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "items": [
@@ -19,10 +23,9 @@
                     }
                 ],
                 "player": {
-                    "type_specific": {
-                        "type":"player",
-                        "advancements":{
-                            "pld:experience/job/0/base":"true"
+                    "minecraft:player": {
+                        "advancements": {
+                            "pld:experience/job/0/base": "true"
                         }
                     }
                 }

@@ -1,52 +1,52 @@
 {
-  "type": "minecraft:generic",
-  "pools": [
-    {
-      "rolls": 1,
-      "entries": [
+    "type": "minecraft:generic",
+    "pools": [
         {
-          "type": "minecraft:item",
-          "weight": 3,
-          "name": "minecraft:poisonous_potato",
-          "functions": [
-            {
-              "function": "minecraft:set_custom_data",
-              "tag": "{instance:1,chest:1,id:\"panling:yy2\"}"
-            },
-            {
-              "function": "minecraft:set_count",
-              "count": 2
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
-          "weight": 2,
-          "name": "minecraft:light_blue_dye",
-          "functions": [
-            {
-              "function": "minecraft:set_custom_data",
-              "tag": "{instance:1,chest:1,id:\"panling:silverkey\"}"
-            }
-          ]
-        },
-        {
-          "type": "minecraft:loot_table",
-          "weight": 4,
-          "name": "pld:chests/copperchests/element"
-        },
-        {
-          "type": "minecraft:item",
-          "weight": 1,
-          "name": "minecraft:light_gray_dye",
-          "functions": [
-            {
-              "function": "minecraft:set_custom_data",
-              "tag": "{instance:1,chest:1,id:\"panling:enchant_stonepart\"}"
-            }
-          ]
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "weight": 3,
+                    "name": "minecraft:poisonous_potato",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_custom_data",
+                            "tag": "{instance:1,chest:1,id:\"panling:yy2\"}"
+                        },
+                        {
+                            "function": "minecraft:set_count",
+                            "count": 2
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 2,
+                    "name": "minecraft:light_blue_dye",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_custom_data",
+                            "tag": "{instance:1,chest:1,id:\"panling:silverkey\"}"
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "weight": 4,
+                    "value": "pld:chests/copperchests/element"
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 1,
+                    "name": "minecraft:light_gray_dye",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_custom_data",
+                            "tag": "{instance:1,chest:1,id:\"panling:enchant_stonepart\"}"
+                        }
+                    ]
+                }
+            ]
         }
-      ]
-    }
-  ]
+    ]
 }

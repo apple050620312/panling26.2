@@ -1,83 +1,42 @@
 {
     "pools": [
         {
-            "rolls":1,
+            "rolls": 1,
             "entries": [
                 {
                     "type": "minecraft:loot_table",
-                    "name": "pld:items/fire",
                     "functions": [
                         {
                             "function": "minecraft:set_count",
-                            "count":3
+                            "count": 3
                         }
-                    ]
+                    ],
+                    "value": "pld:items/fire"
                 },
                 {
                     "type": "minecraft:loot_table",
-                    "name": "pld:south/bosselement"
+                    "value": "pld:south/bosselement"
                 }
             ]
         },
         {
-            "rolls":1,
+            "rolls": 1,
             "entries": [
                 {
                     "type": "minecraft:loot_table",
-                    "name": "pld:items/te1",
-                    "weight":80,
-                    "functions": [
-                        {
-                           "function": "minecraft:set_count",
-                           "count":4
-                        }
-                    ]
-                },
-                {
-                    "type": "minecraft:loot_table",
-                    "name": "pld:items/unkonwn_colorful_crystal",
-                    "weight":3
-                }
-            ]
-        },
-        {
-            "rolls":1,
-            "entries": [
-                {
-                    "type": "minecraft:loot_table",
-                    "name":"pld:south/bossrareitem"
-                }
-            ]
-        },
-        {
-            "rolls":1,
-            "entries": [
-                {
-                    "type": "minecraft:loot_table",
-                    "name": "pld:items/relive_stone",
+                    "weight": 80,
                     "functions": [
                         {
                             "function": "minecraft:set_count",
-                            "count":2
+                            "count": 4
                         }
-                    ]
-                }
-            ]
-        },{
-            "rolls": 1,
-            "entries": [
+                    ],
+                    "value": "pld:items/te1"
+                },
                 {
                     "type": "minecraft:loot_table",
-                    "name": "pld:south/job2"
-                }
-            ]
-        },
-        {
-            "rolls": 1,
-            "entries": [
-                {
-                    "type": "minecraft:loot_table",
-                    "name": "pld:south/honor_head_enchant6"
+                    "weight": 3,
+                    "value": "pld:items/unkonwn_colorful_crystal"
                 }
             ]
         },
@@ -86,7 +45,49 @@
             "entries": [
                 {
                     "type": "minecraft:loot_table",
-                    "name": "pld:south/earth_set_bonus_4b"
+                    "value": "pld:south/bossrareitem"
+                }
+            ]
+        },
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:loot_table",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": 2
+                        }
+                    ],
+                    "value": "pld:items/relive_stone"
+                }
+            ]
+        },
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "pld:south/job2"
+                }
+            ]
+        },
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "pld:south/honor_head_enchant6"
+                }
+            ]
+        },
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "pld:south/earth_set_bonus_4b"
                 }
             ]
         }

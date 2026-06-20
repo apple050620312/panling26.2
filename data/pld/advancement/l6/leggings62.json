@@ -2,15 +2,19 @@
     "parent": "pld:l6/root",
     "display": {
         "icon": {
-            "item": "minecraft:diamond_leggings"
+            "id": "minecraft:diamond_leggings"
         },
-        "title": {"translate": "pl.adv.leggings62.title"},
-        "description": {"translate": "pl.adv.leggings62.description"},
+        "title": {
+            "translate": "pl.adv.leggings62.title"
+        },
+        "description": {
+            "translate": "pl.adv.leggings62.description"
+        },
         "announce_to_chat": false
     },
     "criteria": {
-        "impossibe":{
-        "trigger": "minecraft:impossible"
+        "impossibe": {
+            "trigger": "minecraft:impossible"
         }
     },
     "rewards": {

@@ -1,16 +1,20 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:red_dye"
+            "id": "minecraft:red_dye"
         },
-        "title": {"translate": "pl.adv.zhan_root.title"},
-        "description": {"translate": "pl.adv.zhan_root.description"},
+        "title": {
+            "translate": "pl.adv.zhan_root.title"
+        },
+        "description": {
+            "translate": "pl.adv.zhan_root.description"
+        },
         "background": "panling:zhan.png",
         "announce_to_chat": false,
         "show_toast": false
     },
     "criteria": {
-        "impossible":{
+        "impossible": {
             "trigger": "minecraft:impossible"
         }
     }

@@ -1,6 +1,6 @@
 #要做的事
 data merge block 359 46 -656 {front_text:{messages:['{"translate":"pl.sign.penglai4.text1"}','{"translate":"pl.sign.penglai4.text2"}','{"translate":""}','{"translate":""}']}}
-setblock 350 39 -653 minecraft:command_block[custom_data={Command:"function pld:npcs/penglai/mainxx"}] replace 
+setblock 350 39 -653 minecraft:command_block[block_entity_data={Command:"function pld:npcs/penglai/mainxx"}] replace 
 data merge block 351 39 -647 {front_text:{messages:['{"translate":""}','{"translate":"pl.sign.penglai5.text2"}','{"translate":""}','{"translate":""}']}}
 kill @e[type=villager,tag=!panling]
 execute positioned 350 39 -653 run function pld:npcs/penglai/mainxx

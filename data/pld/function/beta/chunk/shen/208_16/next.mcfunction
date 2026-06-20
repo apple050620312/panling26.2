@@ -4,11 +4,11 @@ data merge block 3340 129 261 {front_text:{messages:['{"translate":""}','{"trans
 data merge block 3332 129 258 {front_text:{messages:['{"translate":""}','{"translate":"pl.sign.shen14.text2"}','{"translate":""}','{"translate":""}']}}
 
 setblock 3337 126 265 minecraft:stone_bricks
-setblock 3328 123 259 minecraft:command_block[custom_data={Command:"function pld:npcs/shen/chat3"}] replace 
-setblock 3334 123 259 minecraft:command_block[custom_data={Command:"function pld:npcs/shen/chat4"}] replace 
-setblock 3344 123 259 minecraft:command_block[custom_data={Command:"function pld:npcs/shen/chat5"}] replace 
-setblock 3341 120 271 minecraft:command_block[custom_data={Command:"function pld:npcs/shen/guard"}] replace 
-setblock 3333 120 271 minecraft:command_block[custom_data={Command:"function pld:npcs/shen/guard"}] replace 
+setblock 3328 123 259 minecraft:command_block[block_entity_data={Command:"function pld:npcs/shen/chat3"}] replace 
+setblock 3334 123 259 minecraft:command_block[block_entity_data={Command:"function pld:npcs/shen/chat4"}] replace 
+setblock 3344 123 259 minecraft:command_block[block_entity_data={Command:"function pld:npcs/shen/chat5"}] replace 
+setblock 3341 120 271 minecraft:command_block[block_entity_data={Command:"function pld:npcs/shen/guard"}] replace 
+setblock 3333 120 271 minecraft:command_block[block_entity_data={Command:"function pld:npcs/shen/guard"}] replace 
 
 
 kill @e[type=villager,tag=!panling]

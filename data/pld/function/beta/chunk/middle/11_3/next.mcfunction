@@ -15,10 +15,10 @@ data merge block 188 43 66 {front_text:{messages:['{"translate":""}','{"translat
 
 data merge block 182 43 72 {front_text:{messages:['{"translate":""}','{"translate":"pl.sign.middle8.text2"}','{"translate":""}','{"translate":""}']}}
 data merge block 176 43 72 {front_text:{messages:['{"translate":""}','{"translate":"pl.sign.middle8.text2"}','{"translate":""}','{"translate":""}']}}
-setblock 179 40 63 minecraft:command_block[custom_data={Command:"function pld:system/spawnpoint/spawnpointset"}] replace 
+setblock 179 40 63 minecraft:command_block[block_entity_data={Command:"function pld:system/spawnpoint/spawnpointset"}] replace 
 setblock 179 40 64 air
 
-setblock 187 40 48 minecraft:command_block[custom_data={Command:"function pld:npcs/middle/chat46"}] replace 
+setblock 187 40 48 minecraft:command_block[block_entity_data={Command:"function pld:npcs/middle/chat46"}] replace 
 
 kill @e[type=villager,tag=!panling]
 execute positioned 187 40 48 run function pld:npcs/middle/chat46

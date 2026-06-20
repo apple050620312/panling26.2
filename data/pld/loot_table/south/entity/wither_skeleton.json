@@ -1,12 +1,12 @@
 {
-    "type":"minecraft:entity",
+    "type": "minecraft:entity",
     "pools": [
         {
             "rolls": 1,
-            "functions":[
+            "functions": [
                 {
                     "function": "minecraft:set_count",
-                    "count":{
+                    "count": {
                         "min": 1,
                         "max": 2
                     }
@@ -15,17 +15,16 @@
             "entries": [
                 {
                     "type": "minecraft:loot_table",
-                    "name": "pld:items/fire"
+                    "value": "pld:items/fire"
                 },
                 {
                     "type": "minecraft:loot_table",
-                    "name": "pld:items/earth"
+                    "value": "pld:items/earth"
                 }
-                
             ]
         },
         {
-            "rolls":1, 
+            "rolls": 1,
             "conditions": [
                 {
                     "condition": "minecraft:random_chance",
@@ -35,24 +34,25 @@
             "entries": [
                 {
                     "type": "minecraft:loot_table",
-                    "name": "pld:south/money"
-                }
-            ]
-        },{
-            "rolls":1,
-            "entries": [
-                {
-                    "type": "minecraft:loot_table",
-                    "name":"pld:south/redname"
+                    "value": "pld:south/money"
                 }
             ]
         },
         {
-            "rolls":1,
+            "rolls": 1,
             "entries": [
                 {
                     "type": "minecraft:loot_table",
-                    "name":"pld:south/boxitem1"
+                    "value": "pld:south/redname"
+                }
+            ]
+        },
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "pld:south/boxitem1"
                 }
             ]
         }

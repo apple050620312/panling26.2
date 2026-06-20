@@ -1,32 +1,34 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:stone_axe"
+            "id": "minecraft:stone_axe"
         },
-        "title":  {"translate": "pl.adv.axe2.title"},
-        "description":  {"translate": "pl.adv.axe2.description"},
+        "title": {
+            "translate": "pl.adv.axe2.title"
+        },
+        "description": {
+            "translate": "pl.adv.axe2.description"
+        },
         "announce_to_chat": false
     },
     "parent": "pld:experience/job/0/sword1",
     "criteria": {
-        "sword0":{
+        "sword0": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "items": [
                     {
                         "item": "minecraft:carrot_on_a_stick",
                         "nbt": "{id:\"panling:axe2\"}"
-                   }
+                    }
                 ],
                 "player": {
-                    "type_specific": {
-                        "type":"player",
-                        "advancements":{
-                            "pld:experience/job/0/base":"true"
+                    "minecraft:player": {
+                        "advancements": {
+                            "pld:experience/job/0/base": "true"
                         }
                     }
                 }
-                
             }
         }
     },

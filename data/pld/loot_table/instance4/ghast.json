@@ -11,27 +11,26 @@
             "entries": [
                 {
                     "type": "minecraft:loot_table",
-                    "name": "pld:items/bird_tear"
+                    "value": "pld:items/bird_tear"
                 }
             ]
         },
         {
-            "rolls":1,
+            "rolls": 1,
             "entries": [
-
                 {
                     "type": "minecraft:loot_table",
-                    "name": "pld:items/fire",
                     "functions": [
                         {
                             "function": "minecraft:set_count",
-                            "count":{
-                                "type":"minecraft:uniform",
+                            "count": {
+                                "type": "minecraft:uniform",
                                 "max": 2,
                                 "min": 0
                             }
                         }
-                    ]
+                    ],
+                    "value": "pld:items/fire"
                 }
             ]
         }

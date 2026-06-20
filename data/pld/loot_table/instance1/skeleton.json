@@ -1,22 +1,21 @@
 {
     "pools": [
         {
-            "rolls":1,
+            "rolls": 1,
             "entries": [
-
                 {
                     "type": "minecraft:loot_table",
-                    "name": "pld:items/wood",
                     "functions": [
                         {
                             "function": "minecraft:set_count",
-                            "count":{
-                                "type":"minecraft:uniform",
+                            "count": {
+                                "type": "minecraft:uniform",
                                 "max": 2,
                                 "min": 0
                             }
                         }
-                    ]
+                    ],
+                    "value": "pld:items/wood"
                 }
             ]
         }

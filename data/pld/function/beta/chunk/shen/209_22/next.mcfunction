@@ -1,7 +1,7 @@
 
 #要做的事
-setblock 3349 116 359 minecraft:command_block[custom_data={Command:"function pld:npcs/shen/shenmain4"}] replace 
-setblock 3349 115 360 minecraft:command_block[custom_data={Command:"function pld:npcs/shen/shentong4"}] replace 
+setblock 3349 116 359 minecraft:command_block[block_entity_data={Command:"function pld:npcs/shen/shenmain4"}] replace 
+setblock 3349 115 360 minecraft:command_block[block_entity_data={Command:"function pld:npcs/shen/shentong4"}] replace 
 data merge block 3350 120 359 {front_text:{messages:['{"translate":""}','{"text":"？？？","clickEvent":{"action":"run_command","value":"/tellraw @p {\\"translate\\":\\"pl.spsign.ldp_hidden.reads\\",\\"color\\":\\"gray\\"}"}}','{"translate":""}','{"translate":""}']}}
 
 kill @e[type=villager,tag=!panling]

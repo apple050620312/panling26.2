@@ -2,15 +2,19 @@
     "parent": "pld:other/root",
     "display": {
         "icon": {
-            "item": "minecraft:warped_fungus_on_a_stick"
+            "id": "minecraft:warped_fungus_on_a_stick"
         },
-        "title": {"translate": "pl.adv.use_tp_stone.title"},
-        "description": {"translate": "pl.adv.use_tp_stone.description"},
+        "title": {
+            "translate": "pl.adv.use_tp_stone.title"
+        },
+        "description": {
+            "translate": "pl.adv.use_tp_stone.description"
+        },
         "announce_to_chat": false
     },
     "criteria": {
-        "impossibe":{
-        "trigger": "minecraft:impossible"
+        "impossibe": {
+            "trigger": "minecraft:impossible"
         }
     },
     "rewards": {

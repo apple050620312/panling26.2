@@ -1,16 +1,20 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:sugar"
+            "id": "minecraft:sugar"
         },
-        "title": {"translate": "pl.adv.l6.root.title"},
-        "description": {"translate": "pl.adv.l6.root.description"},
+        "title": {
+            "translate": "pl.adv.l6.root.title"
+        },
+        "description": {
+            "translate": "pl.adv.l6.root.description"
+        },
         "background": "panling:l6.png",
         "announce_to_chat": false,
         "show_toast": false
     },
     "criteria": {
-        "impossible":{
+        "impossible": {
             "trigger": "minecraft:impossible"
         }
     }

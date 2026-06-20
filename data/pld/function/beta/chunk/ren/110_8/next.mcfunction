@@ -1,7 +1,7 @@
 #要做的事
-setblock 1779 157 131 minecraft:command_block[custom_data={Command:"particle minecraft:enchant ~ ~3 ~ 0.2 0.2 0.2 0.0 4"}] replace 
-setblock 1781 155 134 minecraft:command_block[custom_data={Command:"function pld:npcs/ren/rentong7"}] replace 
-setblock 1760 154 141 minecraft:command_block[custom_data={Command:"function pld:npcs/ren/chat4"}] replace 
+setblock 1779 157 131 minecraft:command_block[block_entity_data={Command:"particle minecraft:enchant ~ ~3 ~ 0.2 0.2 0.2 0.0 4"}] replace 
+setblock 1781 155 134 minecraft:command_block[block_entity_data={Command:"function pld:npcs/ren/rentong7"}] replace 
+setblock 1760 154 141 minecraft:command_block[block_entity_data={Command:"function pld:npcs/ren/chat4"}] replace 
 
 kill @e[type=villager,tag=!panling]
 execute positioned 1781 155 134 run function pld:npcs/ren/rentong7

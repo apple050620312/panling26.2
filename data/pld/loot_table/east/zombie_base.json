@@ -1,12 +1,12 @@
 {
-    "type":"minecraft:entity",
+    "type": "minecraft:entity",
     "pools": [
         {
             "rolls": 1,
-            "functions":[
+            "functions": [
                 {
                     "function": "minecraft:set_count",
-                    "count":{
+                    "count": {
                         "min": 0,
                         "max": 2
                     }
@@ -15,17 +15,16 @@
             "entries": [
                 {
                     "type": "minecraft:loot_table",
-                    "name": "pld:items/wood"
+                    "value": "pld:items/wood"
                 },
                 {
                     "type": "minecraft:loot_table",
-                    "name": "pld:items/metal"
+                    "value": "pld:items/metal"
                 }
-                
             ]
         },
         {
-            "rolls":1, 
+            "rolls": 1,
             "conditions": [
                 {
                     "condition": "minecraft:random_chance",
@@ -33,24 +32,20 @@
                 }
             ],
             "entries": [
-                {   
+                {
                     "type": "minecraft:loot_table",
-                    "name": "pld:east/money"
+                    "value": "pld:east/money"
                 }
-
             ]
         },
         {
-            "rolls":1,
+            "rolls": 1,
             "entries": [
-                {   
+                {
                     "type": "minecraft:loot_table",
-                    "name": "pld:east/redname"
+                    "value": "pld:east/redname"
                 }
-
-            ] 
+            ]
         }
-
-
     ]
 }

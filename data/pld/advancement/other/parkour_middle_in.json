@@ -2,15 +2,19 @@
     "parent": "pld:other/root",
     "display": {
         "icon": {
-            "item": "minecraft:leather_boots"
+            "id": "minecraft:leather_boots"
         },
-        "title": {"translate": "pl.adv.parkour_middle_in.title"},
-        "description": {"translate": "pl.adv.parkour_middle_in.description"},
+        "title": {
+            "translate": "pl.adv.parkour_middle_in.title"
+        },
+        "description": {
+            "translate": "pl.adv.parkour_middle_in.description"
+        },
         "announce_to_chat": false
     },
     "criteria": {
-        "impossibe":{
-        "trigger": "minecraft:impossible"
+        "impossibe": {
+            "trigger": "minecraft:impossible"
         }
     },
     "rewards": {

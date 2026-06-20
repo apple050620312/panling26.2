@@ -1,16 +1,20 @@
 {
     "display": {
         "icon": {
-            "item":"minecraft:emerald",
-            "nbt": "{Enchantments:[{id:\"minecraft:protection\",lvl:1s}]}"
+            "nbt": "{Enchantments:[{id:\"minecraft:protection\",lvl:1s}]}",
+            "id": "minecraft:emerald"
         },
-        "title": {"translate": "pl.adv.zf2.title"},
-        "description": {"translate": "pl.adv.zf2.description"},
+        "title": {
+            "translate": "pl.adv.zf2.title"
+        },
+        "description": {
+            "translate": "pl.adv.zf2.description"
+        },
         "announce_to_chat": false
     },
     "parent": "pld:experience/job/2/zf1",
     "criteria": {
-        "impossible":{
+        "impossible": {
             "trigger": "minecraft:impossible"
         }
     },

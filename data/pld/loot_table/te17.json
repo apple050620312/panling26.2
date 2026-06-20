@@ -1,27 +1,27 @@
 {
     "pools": [
         {
-            "rolls":1,
+            "rolls": 1,
             "entries": [
                 {
                     "type": "minecraft:loot_table",
-                    "name": "pld:items/earth",
                     "weight": 1,
                     "functions": [
-                         {
-                             "function": "minecraft:set_count",
-                             "count":{
-                                "type":"minecraft:uniform",
-                                 "max": 2,
-                                 "min": 0
-                             }
-                         }
-                    ]
+                        {
+                            "function": "minecraft:set_count",
+                            "count": {
+                                "type": "minecraft:uniform",
+                                "max": 2,
+                                "min": 0
+                            }
+                        }
+                    ],
+                    "value": "pld:items/earth"
                 }
             ]
         },
         {
-            "rolls":1,
+            "rolls": 1,
             "entries": [
                 {
                     "type": "minecraft:empty",
@@ -29,33 +29,31 @@
                 },
                 {
                     "type": "minecraft:loot_table",
-                    "name": "pld:items/te2",
-                    "weight": 25
-                    
+                    "weight": 25,
+                    "value": "pld:items/te2"
                 },
                 {
                     "type": "minecraft:loot_table",
-                    "name": "pld:items/te3",
-                    "weight": 5
+                    "weight": 5,
+                    "value": "pld:items/te3"
                 },
                 {
                     "type": "minecraft:loot_table",
-                    "name": "pld:items/relive_stone",
-                    "weight": 10
+                    "weight": 10,
+                    "value": "pld:items/relive_stone"
                 }
             ]
         },
         {
-            "rolls":1, 
+            "rolls": 1,
             "entries": [
                 {
                     "type": "minecraft:loot_table",
-                    "name": "pld:items/earth",
-                    "weight":1,
+                    "weight": 1,
                     "functions": [
                         {
                             "function": "minecraft:set_count",
-                            "count":2
+                            "count": 2
                         }
                     ],
                     "conditions": [
@@ -63,14 +61,16 @@
                             "condition": "minecraft:entity_scores",
                             "entity": "killer",
                             "scores": {
-                                "job":2
+                                "job": 2
                             }
                         }
-                    ]
+                    ],
+                    "value": "pld:items/earth"
                 }
             ]
-        },{
-            "rolls":1,
+        },
+        {
+            "rolls": 1,
             "conditions": [
                 {
                     "condition": "minecraft:random_chance",
@@ -91,25 +91,25 @@
             "entries": [
                 {
                     "type": "minecraft:loot_table",
-                    "name": "pld:items/earth",
                     "weight": 5,
-                    "functions": [
-                         {
-                             "function": "minecraft:set_count",
-                             "count":1
-                         }
-                    ]
-                },
-                {
-                    "type": "minecraft:loot_table",
-                    "name": "pld:items/copper_cash",
-                    "weight":5,
                     "functions": [
                         {
                             "function": "minecraft:set_count",
-                            "count":1
+                            "count": 1
                         }
-                    ]
+                    ],
+                    "value": "pld:items/earth"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "weight": 5,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": 1
+                        }
+                    ],
+                    "value": "pld:items/copper_cash"
                 }
             ]
         }

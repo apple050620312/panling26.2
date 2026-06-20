@@ -1,8 +1,8 @@
 
 #要做的事
 data merge block -644 110 450 {front_text:{messages:['{"translate":""}','{"translate":"pl.sign.qiansi2.text2"}','{"translate":""}','{"translate":""}']}}
-setblock -648 104 448 minecraft:command_block[custom_data={Command:"function pld:npcs/qiansi/chat1"}] replace 
-setblock -665 125 452 minecraft:command_block[custom_data={Command:"function pld:npcs/qiansi/chat2"}] replace 
+setblock -648 104 448 minecraft:command_block[block_entity_data={Command:"function pld:npcs/qiansi/chat1"}] replace 
+setblock -665 125 452 minecraft:command_block[block_entity_data={Command:"function pld:npcs/qiansi/chat2"}] replace 
 
 kill @e[type=villager,tag=!panling]
 execute positioned -648 104 448 run function pld:npcs/qiansi/chat1

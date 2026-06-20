@@ -6,7 +6,7 @@ function pld:equipment_lock/main
 function pld:equipment_lock/equipment/armor/clear_scb
 
 #激活防具栏防具
-setblock ~ 255 ~ chest{Items:[{Slot:0b,id:"minecraft:stone",Count:1}]}
+setblock ~ 255 ~ chest[block_entity_data={Items:[{Slot:0b,id:"minecraft:stone",Count:1}]}]
 execute as @s at @s run function pld:equipment_lock/equipment/armor/slot_check
 setblock ~ 255 ~ air
 

@@ -2,15 +2,19 @@
     "parent": "pld:l6/root",
     "display": {
         "icon": {
-            "item": "minecraft:diamond_boots"
+            "id": "minecraft:diamond_boots"
         },
-        "title": {"translate": "pl.adv.boots61.title"},
-        "description": {"translate": "pl.adv.boots61.description"},
+        "title": {
+            "translate": "pl.adv.boots61.title"
+        },
+        "description": {
+            "translate": "pl.adv.boots61.description"
+        },
         "announce_to_chat": false
     },
     "criteria": {
-        "impossibe":{
-        "trigger": "minecraft:impossible"
+        "impossibe": {
+            "trigger": "minecraft:impossible"
         }
     },
     "rewards": {

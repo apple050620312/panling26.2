@@ -1,2 +1,2 @@
-execute if block 121 47 811 hopper{Items:[{components:{"minecraft:custom_data":{id:"panling:shen_hide_key"}}}]} as @p[x=121,y=48,z=811,distance=..4,scores={race=0,process_shen_hide=6..}] unless entity @s[scores={finish_shen_hide=1}] run function pld:system/truth/shen/4/in_room
+execute if block 121 47 811 hopper[block_entity_data={Items:[{components:{"minecraft:custom_data":{id:"panling:shen_hide_key"}}}]}] as @p[x=121,y=48,z=811,distance=..4,scores={race=0,process_shen_hide=6..}] unless entity @s[scores={finish_shen_hide=1}] run function pld:system/truth/shen/4/in_room
 data merge block 121 47 811 {Items:[]}

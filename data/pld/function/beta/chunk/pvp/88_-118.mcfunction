@@ -2,7 +2,7 @@
 forceload add 1420 -1874
 
 fill 1420 108 -1875 1420 107 -1873 air
-setblock 1420 109 -1874 minecraft:command_block[custom_data={Command:"function pld:pvp/1/ing/def/delivered"}] replace 
+setblock 1420 109 -1874 minecraft:command_block[block_entity_data={Command:"function pld:pvp/1/ing/def/delivered"}] replace 
 
 #区块卸载
 forceload remove 1420 -1874

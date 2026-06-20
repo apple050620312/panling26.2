@@ -2,88 +2,117 @@
     "parent": "pld:other/root",
     "display": {
         "icon": {
-            "item": "minecraft:melon_slice"
+            "id": "minecraft:melon_slice"
         },
-        "title": {"translate": "pl.adv.tea_info.title"},
-        "description": {"translate": "pl.adv.tea_info.description"},
+        "title": {
+            "translate": "pl.adv.tea_info.title"
+        },
+        "description": {
+            "translate": "pl.adv.tea_info.description"
+        },
         "announce_to_chat": false
     },
     "criteria": {
-        "tea1":{
+        "tea1": {
             "trigger": "minecraft:villager_trade",
             "conditions": {
                 "item": {
-                    "items": ["minecraft:written_book"],
-                    "nbt":"{id:\"panling:book_tea1\"}"
+                    "items": [
+                        "minecraft:written_book"
+                    ],
+                    "nbt": "{id:\"panling:book_tea1\"}"
                 }
             }
         },
-        "tea2":{
+        "tea2": {
             "trigger": "minecraft:villager_trade",
             "conditions": {
                 "item": {
-                    "items": ["minecraft:written_book"],
-                    "nbt":"{id:\"panling:book_tea2\"}"
+                    "items": [
+                        "minecraft:written_book"
+                    ],
+                    "nbt": "{id:\"panling:book_tea2\"}"
                 }
             }
         },
-        "tea3":{
+        "tea3": {
             "trigger": "minecraft:villager_trade",
             "conditions": {
                 "item": {
-                    "items": ["minecraft:written_book"],
-                    "nbt":"{id:\"panling:book_tea3\"}"
+                    "items": [
+                        "minecraft:written_book"
+                    ],
+                    "nbt": "{id:\"panling:book_tea3\"}"
                 }
             }
         },
-        "tea4":{
+        "tea4": {
             "trigger": "minecraft:villager_trade",
             "conditions": {
                 "item": {
-                    "items": ["minecraft:written_book"],
-                    "nbt":"{id:\"panling:book_tea4\"}"
+                    "items": [
+                        "minecraft:written_book"
+                    ],
+                    "nbt": "{id:\"panling:book_tea4\"}"
                 }
             }
         },
-        "tea5":{
+        "tea5": {
             "trigger": "minecraft:villager_trade",
             "conditions": {
                 "item": {
-                    "items": ["minecraft:written_book"],
-                    "nbt":"{id:\"panling:book_tea5\"}"
+                    "items": [
+                        "minecraft:written_book"
+                    ],
+                    "nbt": "{id:\"panling:book_tea5\"}"
                 }
             }
         },
-        "tea6":{
+        "tea6": {
             "trigger": "minecraft:villager_trade",
             "conditions": {
                 "item": {
-                    "items": ["minecraft:written_book"],
-                    "nbt":"{id:\"panling:book_tea6\"}"
+                    "items": [
+                        "minecraft:written_book"
+                    ],
+                    "nbt": "{id:\"panling:book_tea6\"}"
                 }
             }
         },
-        "tea7":{
+        "tea7": {
             "trigger": "minecraft:villager_trade",
             "conditions": {
                 "item": {
-                    "items": ["minecraft:written_book"],
-                    "nbt":"{id:\"panling:book_tea7\"}"
+                    "items": [
+                        "minecraft:written_book"
+                    ],
+                    "nbt": "{id:\"panling:book_tea7\"}"
                 }
             }
         },
-        "tea8":{
+        "tea8": {
             "trigger": "minecraft:villager_trade",
             "conditions": {
                 "item": {
-                    "items": ["minecraft:written_book"],
-                    "nbt":"{id:\"panling:book_tea8\"}"
+                    "items": [
+                        "minecraft:written_book"
+                    ],
+                    "nbt": "{id:\"panling:book_tea8\"}"
                 }
             }
         }
     },
     "requirements": [
-        ["tea1","tea2","tea3","tea4","tea5","tea6","tea7","tea8"]
+        [
+            "tea1",
+            "tea2",
+            "tea3",
+            "tea4",
+            "tea5",
+            "tea6",
+            "tea7",
+            "tea8"
+        ]
     ],
     "rewards": {
         "function": "pld:adv/gameplay/other/tea_info"

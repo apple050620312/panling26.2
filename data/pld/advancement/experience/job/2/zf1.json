@@ -1,15 +1,19 @@
 {
     "display": {
         "icon": {
-            "item":"minecraft:emerald"
+            "id": "minecraft:emerald"
         },
-        "title": {"translate": "pl.adv.zf1.title"},
-        "description": {"translate": "pl.adv.zf1.description"},
+        "title": {
+            "translate": "pl.adv.zf1.title"
+        },
+        "description": {
+            "translate": "pl.adv.zf1.description"
+        },
         "announce_to_chat": false
     },
     "parent": "pld:experience/job/2/base",
     "criteria": {
-        "impossible":{
+        "impossible": {
             "trigger": "minecraft:impossible"
         }
     },

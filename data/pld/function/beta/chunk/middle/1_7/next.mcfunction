@@ -3,7 +3,7 @@ data merge block 31 48 118 {front_text:{messages:['{"translate":"pl.sign.middle4
 
 data merge block 31 48 130 {front_text:{messages:['{"translate":"pl.sign.middle45.text1"}','{"translate":""}','{"translate":"pl.sign.middle45.text3"}','{"translate":"pl.sign.middle45.text4"}']}}
 
-setblock 21 41 128 minecraft:command_block[custom_data={Command:"function pld:npcs/middle/tong13c"}] replace 
+setblock 21 41 128 minecraft:command_block[block_entity_data={Command:"function pld:npcs/middle/tong13c"}] replace 
 
 kill @e[type=villager,tag=!panling]
 execute positioned 21 41 128 run function pld:npcs/middle/tong13c

@@ -1,16 +1,20 @@
 {
     "display": {
         "icon": {
-            "item":"minecraft:potion",
-            "nbt": "{Potion:\"minecraft:healing\"}"
+            "nbt": "{Potion:\"minecraft:healing\"}",
+            "id": "minecraft:potion"
         },
-        "title": {"translate": "pl.adv.ld.title"},
-        "description": {"translate": "pl.adv.ld.description"},
+        "title": {
+            "translate": "pl.adv.ld.title"
+        },
+        "description": {
+            "translate": "pl.adv.ld.description"
+        },
         "announce_to_chat": false
     },
     "parent": "pld:experience/job/2/base",
     "criteria": {
-        "impossible":{
+        "impossible": {
             "trigger": "minecraft:impossible"
         }
     },

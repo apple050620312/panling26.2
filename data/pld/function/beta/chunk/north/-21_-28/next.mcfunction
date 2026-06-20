@@ -1,8 +1,8 @@
 #要做的事
-setblock -335 93 -445 minecraft:command_block[custom_data={Command:"function pld:npcs/north/xh5"}] replace
+setblock -335 93 -445 minecraft:command_block[block_entity_data={Command:"function pld:npcs/north/xh5"}] replace
 data merge block -330 98 -444 {front_text:{messages:['{"translate":""}','{"translate":"pl.sign.xh5.text2"}','{"translate":"pl.sign.xh5.text3"}','{"translate":""}']}}
 
-setblock -328 98 -445 minecraft:command_block[custom_data={Command:"execute as @p[x=-330,y=97,z=-445,distance=..5] run function pld:system/truth/xian/5/check_reward"}] replace
+setblock -328 98 -445 minecraft:command_block[block_entity_data={Command:"execute as @p[x=-330,y=97,z=-445,distance=..5] run function pld:system/truth/xian/5/check_reward"}] replace
 
 
 fill -330 98 -449 -330 98 -448 air

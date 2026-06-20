@@ -2,20 +2,26 @@
     "parent": "pld:mission/ren/main/main4",
     "display": {
         "icon": {
-            "item": "minecraft:written_book"
+            "id": "minecraft:written_book"
         },
-        "title": {"translate": "pl.adv.ren_main5.title"},
-        "description": {"translate": "pl.adv.ren_main5.description"},
+        "title": {
+            "translate": "pl.adv.ren_main5.title"
+        },
+        "description": {
+            "translate": "pl.adv.ren_main5.description"
+        },
         "announce_to_chat": false,
         "frame": "goal"
     },
     "criteria": {
-        "ren_main_5":{
+        "ren_main_5": {
             "trigger": "minecraft:villager_trade",
             "conditions": {
                 "item": {
-                    "items": ["minecraft:written_book"],
-                    "nbt":"{id:\"panling:book_rm5\"}"
+                    "items": [
+                        "minecraft:written_book"
+                    ],
+                    "nbt": "{id:\"panling:book_rm5\"}"
                 }
             }
         }

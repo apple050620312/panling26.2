@@ -2,15 +2,19 @@
     "parent": "pld:exploration/race",
     "display": {
         "icon": {
-            "item": "minecraft:lapis_lazuli"
+            "id": "minecraft:lapis_lazuli"
         },
-        "title": {"translate": "pl.adv.xian.title"},
-        "description": {"translate": "pl.adv.xian.description"},
+        "title": {
+            "translate": "pl.adv.xian.title"
+        },
+        "description": {
+            "translate": "pl.adv.xian.description"
+        },
         "announce_to_chat": false
     },
     "criteria": {
-        "impossibe":{
-        "trigger": "minecraft:impossible"
+        "impossibe": {
+            "trigger": "minecraft:impossible"
         }
     },
     "rewards": {

@@ -1,6 +1,6 @@
 #要做的事
-setblock -25 45 868 minecraft:command_block[custom_data={Command:"function pld:npcs/south/tong2"}] replace 
-setblock -24 45 868 minecraft:command_block[custom_data={Command:"function pld:npcs/south/tong3"}] replace 
+setblock -25 45 868 minecraft:command_block[block_entity_data={Command:"function pld:npcs/south/tong2"}] replace 
+setblock -24 45 868 minecraft:command_block[block_entity_data={Command:"function pld:npcs/south/tong3"}] replace 
 
 kill @e[type=villager,tag=!panling]
 execute positioned -25 45 868 run function pld:npcs/south/tong2

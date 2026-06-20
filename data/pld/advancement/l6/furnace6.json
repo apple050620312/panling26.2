@@ -2,16 +2,20 @@
     "parent": "pld:l6/root",
     "display": {
         "icon": {
-            "item": "minecraft:carrot_on_a_stick",
-            "nbt":"{CustomModelData:1}"
+            "nbt": "{CustomModelData:1}",
+            "id": "minecraft:carrot_on_a_stick"
         },
-        "title": {"translate": "pl.adv.furnace6.title"},
-        "description": {"translate": "pl.adv.furnace6.description"},
+        "title": {
+            "translate": "pl.adv.furnace6.title"
+        },
+        "description": {
+            "translate": "pl.adv.furnace6.description"
+        },
         "announce_to_chat": false
     },
     "criteria": {
-        "impossibe":{
-        "trigger": "minecraft:impossible"
+        "impossibe": {
+            "trigger": "minecraft:impossible"
         }
     },
     "rewards": {

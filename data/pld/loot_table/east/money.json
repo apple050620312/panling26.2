@@ -1,27 +1,27 @@
 {
     "pools": [
         {
-            "rolls":1,
+            "rolls": 1,
             "entries": [
-                {   
-                    "weight":80,
+                {
+                    "weight": 80,
                     "type": "minecraft:loot_table",
-                    "name": "pld:items/copper_cash"
+                    "value": "pld:items/copper_cash"
                 },
                 {
                     "weight": 15,
                     "type": "minecraft:loot_table",
-                    "name": "pld:items/leather"
+                    "value": "pld:items/leather"
                 },
                 {
                     "weight": 4,
                     "type": "minecraft:loot_table",
-                    "name": "pld:items/gold_ingot"
+                    "value": "pld:items/gold_ingot"
                 },
                 {
                     "weight": 1,
                     "type": "minecraft:loot_table",
-                    "name": "pld:items/unkonwn_colorful_crystal"
+                    "value": "pld:items/unkonwn_colorful_crystal"
                 }
             ]
         }

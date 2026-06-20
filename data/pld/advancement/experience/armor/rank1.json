@@ -1,42 +1,44 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:leather_chestplate",
-            "nbt": "{display:{color:16777215}}"
+            "nbt": "{display:{color:16777215}}",
+            "id": "minecraft:leather_chestplate"
         },
-        "title":  {"translate": "pl.adv.armor_rank1.title"},
-        "description":  {"translate": "pl.adv.armor_rank1.description"},
+        "title": {
+            "translate": "pl.adv.armor_rank1.title"
+        },
+        "description": {
+            "translate": "pl.adv.armor_rank1.description"
+        },
         "announce_to_chat": false
     },
     "parent": "pld:experience/root",
     "criteria": {
-        "armor1":{
+        "armor1": {
             "trigger": "minecraft:tick",
             "conditions": {
-                "player":{
-                    "equipment":{
-                        "head":{
-                            "nbt":"{rare:1}"
+                "player": {
+                    "equipment": {
+                        "head": {
+                            "nbt": "{rare:1}"
                         },
-                        "chest":{
-                            "nbt":"{rare:1}"
+                        "chest": {
+                            "nbt": "{rare:1}"
                         },
-                        "legs":{
-                            "nbt":"{rare:1}"
+                        "legs": {
+                            "nbt": "{rare:1}"
                         },
-                        "feet":{
-                            "nbt":"{rare:1}"
+                        "feet": {
+                            "nbt": "{rare:1}"
                         }
                     },
-                    "type_specific": {
-                        "type": "player",
+                    "minecraft:player": {
                         "advancements": {
-                            "pld:experience/root":true
+                            "pld:experience/root": true
                         }
                     }
                 }
             }
-            
         }
     },
     "rewards": {

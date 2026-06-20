@@ -1,17 +1,19 @@
 {
     "pools": [
         {
-            "rolls":3,
+            "rolls": 3,
             "entries": [
                 {
                     "type": "minecraft:loot_table",
-                    "name": "pld:items/wood"
-                },{
+                    "value": "pld:items/wood"
+                },
+                {
                     "type": "minecraft:loot_table",
-                    "name": "pld:items/metal"
-                },{
+                    "value": "pld:items/metal"
+                },
+                {
                     "type": "minecraft:loot_table",
-                    "name": "pld:items/earth"
+                    "value": "pld:items/earth"
                 }
             ]
         }

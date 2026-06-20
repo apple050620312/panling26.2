@@ -4,7 +4,7 @@ execute if score @s honor matches 2000.. if score @s inv_remain matches 0 run te
 execute if score @s honor matches 2000.. if score @s inv_remain matches 1.. run tag @s add buy_success
 give @s[tag=buy_success] minecraft:black_dye[custom_name='{"text":"§b城东乾府的钥匙"}',lore=['{"translate":"pl.item.lore.housekeya"}','{"translate":"pl.item.lore.housekeyb"}'],custom_data={id:"panling:housekey_sky"}] 5
 scoreboard players remove @s[tag=buy_success] honor 2000
-execute as @s[tag=buy_success] run setblock 1329 38 492 minecraft:oak_sign[custom_data={front_text:{messages:['{"translate":""}','{"translate":"pl.spsign.honor_exchange22_sold.text2"}']}}] replace
+execute as @s[tag=buy_success] run setblock 1329 38 492 minecraft:oak_sign[block_entity_data={front_text:{messages:['{"translate":""}','{"translate":"pl.spsign.honor_exchange22_sold.text2"}']}}] replace
 tellraw @s[tag=buy_success] [{"translate":"pl.info.enough_honor1"},{"score":{"name": "@p","objective": "honor"},"color":"gold"},{"translate":"pl.info.enough_honor2"}]
 
 forceload add 288 68

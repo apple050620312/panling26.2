@@ -2,15 +2,19 @@
     "parent": "pld:other/test_all",
     "display": {
         "icon": {
-            "item": "minecraft:green_dye"
+            "id": "minecraft:green_dye"
         },
-        "title": {"translate": "pl.adv.test_shen.title"},
-        "description": {"translate": "pl.adv.test_shen.description"},
+        "title": {
+            "translate": "pl.adv.test_shen.title"
+        },
+        "description": {
+            "translate": "pl.adv.test_shen.description"
+        },
         "announce_to_chat": false
     },
     "criteria": {
-        "impossibe":{
-        "trigger": "minecraft:impossible"
+        "impossibe": {
+            "trigger": "minecraft:impossible"
         }
     },
     "rewards": {

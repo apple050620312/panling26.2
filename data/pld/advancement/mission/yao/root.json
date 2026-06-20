@@ -1,16 +1,20 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:purple_dye"
+            "id": "minecraft:purple_dye"
         },
-        "title": {"translate": "pl.adv.yao_root.title"},
-        "description": {"translate": "pl.adv.yao_root.description"},
+        "title": {
+            "translate": "pl.adv.yao_root.title"
+        },
+        "description": {
+            "translate": "pl.adv.yao_root.description"
+        },
         "background": "panling:yao.png",
         "announce_to_chat": false,
         "show_toast": false
     },
     "criteria": {
-        "impossible":{
+        "impossible": {
             "trigger": "minecraft:impossible"
         }
     }

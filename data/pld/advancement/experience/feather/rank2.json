@@ -1,22 +1,25 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:feather"
+            "id": "minecraft:feather"
         },
-        "title":  {"translate": "pl.adv.feather_rank2.title"},
-        "description":  {"translate": "pl.adv.feather_rank2.description"},
+        "title": {
+            "translate": "pl.adv.feather_rank2.title"
+        },
+        "description": {
+            "translate": "pl.adv.feather_rank2.description"
+        },
         "announce_to_chat": false
     },
     "parent": "pld:experience/feather/rank1",
     "criteria": {
-        "feather2":{
+        "feather2": {
             "trigger": "minecraft:villager_trade",
             "conditions": {
-                "item":
-                    {
-                        "item": "minecraft:feather",
-                        "nbt": "{id:\"panling:feather\",lvl:2}"
-                   }         
+                "item": {
+                    "item": "minecraft:feather",
+                    "nbt": "{id:\"panling:feather\",lvl:2}"
+                }
             }
         }
     },

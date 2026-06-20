@@ -2,19 +2,25 @@
     "parent": "pld:exploration/root",
     "display": {
         "icon": {
-            "item": "minecraft:written_book"
+            "id": "minecraft:written_book"
         },
-        "title": {"translate": "pl.adv.main_west.title"},
-        "description": {"translate": "pl.adv.main_west.description"},
+        "title": {
+            "translate": "pl.adv.main_west.title"
+        },
+        "description": {
+            "translate": "pl.adv.main_west.description"
+        },
         "announce_to_chat": false
     },
     "criteria": {
-        "west_main":{
+        "west_main": {
             "trigger": "minecraft:villager_trade",
             "conditions": {
                 "item": {
-                    "items": ["minecraft:written_book"],
-                    "nbt":"{id:\"panling:book_westm4\"}"
+                    "items": [
+                        "minecraft:written_book"
+                    ],
+                    "nbt": "{id:\"panling:book_westm4\"}"
                 }
             }
         }

@@ -1,8 +1,8 @@
 {
-    "type":"minecraft:entity",
+    "type": "minecraft:entity",
     "pools": [
         {
-            "rolls":1,
+            "rolls": 1,
             "entries": [
                 {
                     "type": "minecraft:item",
@@ -10,23 +10,22 @@
                     "functions": [
                         {
                             "function": "minecraft:set_count",
-                            "count":{
-                                "type":"minecraft:uniform",
+                            "count": {
+                                "type": "minecraft:uniform",
                                 "max": 2,
                                 "min": 0
                             }
                         }
                     ]
                 }
-
             ]
         },
         {
             "rolls": 1,
-            "functions":[
+            "functions": [
                 {
                     "function": "minecraft:set_count",
-                    "count":{
+                    "count": {
                         "min": 1,
                         "max": 2
                     }
@@ -35,17 +34,16 @@
             "entries": [
                 {
                     "type": "minecraft:loot_table",
-                    "name": "pld:items/water"
+                    "value": "pld:items/water"
                 },
                 {
                     "type": "minecraft:loot_table",
-                    "name": "pld:items/wood"
+                    "value": "pld:items/wood"
                 }
-                
             ]
         },
         {
-            "rolls":1, 
+            "rolls": 1,
             "conditions": [
                 {
                     "condition": "minecraft:random_chance",
@@ -55,7 +53,7 @@
             "entries": [
                 {
                     "type": "minecraft:loot_table",
-                    "name": "pld:north/money"
+                    "value": "pld:north/money"
                 }
             ]
         },
@@ -64,7 +62,7 @@
             "entries": [
                 {
                     "type": "minecraft:loot_table",
-                    "name": "pld:north/redname"
+                    "value": "pld:north/redname"
                 }
             ]
         }

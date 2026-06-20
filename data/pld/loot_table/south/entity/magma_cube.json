@@ -1,27 +1,27 @@
 {
-    "type":"minecraft:entity",
+    "type": "minecraft:entity",
     "pools": [
         {
-            "rolls":1,
+            "rolls": 1,
             "entries": [
                 {
                     "type": "minecraft:loot_table",
-                    "name": "pld:south/magma_cube_base"
+                    "value": "pld:south/magma_cube_base"
                 }
             ]
         },
         {
-            "rolls":1,
+            "rolls": 1,
             "entries": [
                 {
                     "type": "minecraft:loot_table",
-                    "name":"pld:east/rareitem",
                     "conditions": [
                         {
                             "condition": "minecraft:random_chance",
                             "chance": 0.012
                         }
-                    ]
+                    ],
+                    "value": "pld:east/rareitem"
                 }
             ]
         }

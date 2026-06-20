@@ -1,5 +1,5 @@
 #要做的事
-setblock 1704 156 179 minecraft:command_block[custom_data={Command:"function pld:npcs/ren/guard"}] replace 
+setblock 1704 156 179 minecraft:command_block[block_entity_data={Command:"function pld:npcs/ren/guard"}] replace 
 
 execute as @e[type=skeleton] run function pld:system/tp_and_kill_self
 execute positioned 1704 156 179 run function pld:npcs/ren/guard

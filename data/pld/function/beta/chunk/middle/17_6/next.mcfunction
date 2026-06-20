@@ -1,6 +1,6 @@
 #要做的事
-setblock 279 39 117 minecraft:command_block[custom_data={Command:"function pld:npcs/middle/chat41"}] replace 
-setblock 287 39 101 minecraft:command_block[custom_data={Command:"function pld:npcs/middle/chat42"}] replace 
+setblock 279 39 117 minecraft:command_block[block_entity_data={Command:"function pld:npcs/middle/chat41"}] replace 
+setblock 287 39 101 minecraft:command_block[block_entity_data={Command:"function pld:npcs/middle/chat42"}] replace 
 
 
 kill @e[type=villager,tag=!panling]

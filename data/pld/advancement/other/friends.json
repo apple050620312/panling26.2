@@ -2,72 +2,75 @@
     "parent": "pld:other/root",
     "display": {
         "icon": {
-            "item": "minecraft:blaze_powder"
+            "id": "minecraft:blaze_powder"
         },
-        "title": {"translate": "pl.adv.friends.title"},
-        "description": {"translate": "pl.adv.friends.description"},
+        "title": {
+            "translate": "pl.adv.friends.title"
+        },
+        "description": {
+            "translate": "pl.adv.friends.description"
+        },
         "announce_to_chat": false
     },
     "criteria": {
-        "yh0":{
+        "yh0": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "items": [
                     {
-                        "nbt":"{id:\"panling:yh0\"}"
-                        
+                        "nbt": "{id:\"panling:yh0\"}"
                     }
                 ]
             }
         },
-        "yh1":{
+        "yh1": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "items": [
                     {
-                        "nbt":"{id:\"panling:yh1\"}"
-                        
+                        "nbt": "{id:\"panling:yh1\"}"
                     }
                 ]
             }
         },
-        "yh2":{
+        "yh2": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "items": [
                     {
-                        "nbt":"{id:\"panling:yh2\"}"
-                        
+                        "nbt": "{id:\"panling:yh2\"}"
                     }
                 ]
             }
         },
-        "yh3":{
+        "yh3": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "items": [
                     {
-                        "nbt":"{id:\"panling:yh3\"}"
-                        
+                        "nbt": "{id:\"panling:yh3\"}"
                     }
                 ]
             }
         },
-        "yh4":{
+        "yh4": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "items": [
                     {
-                        "nbt":"{id:\"panling:yh4\"}"
-                        
+                        "nbt": "{id:\"panling:yh4\"}"
                     }
                 ]
             }
         }
     },
     "requirements": [
-        [   
-            "yh0","yh1","yh2","yh3","yh4"
+        [
+            "yh0",
+            "yh1",
+            "yh2",
+            "yh3",
+            "yh4"
         ]
     ],
     "rewards": {

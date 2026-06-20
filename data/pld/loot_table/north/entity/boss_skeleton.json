@@ -2,60 +2,60 @@
     "type": "minecraft:entity",
     "pools": [
         {
-            "rolls":1,
+            "rolls": 1,
             "entries": [
                 {
                     "type": "minecraft:loot_table",
-                    "name": "pld:items/water",
                     "functions": [
                         {
                             "function": "minecraft:set_count",
-                            "count":3
+                            "count": 3
                         }
-                    ]
+                    ],
+                    "value": "pld:items/water"
                 },
                 {
                     "type": "minecraft:loot_table",
-                    "name": "pld:north/bosselement"
+                    "value": "pld:north/bosselement"
                 }
             ]
         },
         {
-            "rolls":1,
+            "rolls": 1,
             "entries": [
                 {
                     "type": "minecraft:loot_table",
-                    "name": "pld:items/gold_ingot",
-                    "weight":80
+                    "weight": 80,
+                    "value": "pld:items/gold_ingot"
                 },
                 {
                     "type": "minecraft:loot_table",
-                    "name": "pld:items/unkonwn_colorful_crystal",
-                    "weight":3
+                    "weight": 3,
+                    "value": "pld:items/unkonwn_colorful_crystal"
                 }
             ]
         },
         {
-            "rolls":1,
+            "rolls": 1,
             "entries": [
                 {
                     "type": "minecraft:loot_table",
-                    "name": "pld:north/bossrareitem"
+                    "value": "pld:north/bossrareitem"
                 }
             ]
         },
         {
-            "rolls":1,
+            "rolls": 1,
             "entries": [
                 {
                     "type": "minecraft:loot_table",
-                    "name": "pld:items/relive_stone",
                     "functions": [
                         {
                             "function": "minecraft:set_count",
-                            "count":2
+                            "count": 2
                         }
-                    ]
+                    ],
+                    "value": "pld:items/relive_stone"
                 }
             ]
         },
@@ -64,7 +64,7 @@
             "entries": [
                 {
                     "type": "minecraft:loot_table",
-                    "name": "pld:north/job2"
+                    "value": "pld:north/job2"
                 }
             ]
         },
@@ -73,7 +73,7 @@
             "entries": [
                 {
                     "type": "minecraft:loot_table",
-                    "name": "pld:north/honor_head_enchant6"
+                    "value": "pld:north/honor_head_enchant6"
                 }
             ]
         },
@@ -82,7 +82,7 @@
             "entries": [
                 {
                     "type": "minecraft:loot_table",
-                    "name": "pld:north/earth_set_bonus_4b"
+                    "value": "pld:north/earth_set_bonus_4b"
                 }
             ]
         }

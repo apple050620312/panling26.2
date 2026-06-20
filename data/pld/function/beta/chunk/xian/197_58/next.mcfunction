@@ -7,12 +7,12 @@ data merge block 3156 64 939 {front_text:{messages:['{"translate":"pl.spsign.xia
 
 
 
-setblock 3168 48 945 minecraft:command_block[custom_data={Command:"function pld:npcs/xian/guard"}] replace 
-setblock 3168 48 933 minecraft:command_block[custom_data={Command:"function pld:npcs/xian/guard"}] replace 
-setblock 3178 49 940 minecraft:command_block[custom_data={Command:"function pld:npcs/xian/chat1"}] replace 
-setblock 3177 49 940 minecraft:command_block[custom_data={Command:"function pld:npcs/xian/chat2"}] replace 
+setblock 3168 48 945 minecraft:command_block[block_entity_data={Command:"function pld:npcs/xian/guard"}] replace 
+setblock 3168 48 933 minecraft:command_block[block_entity_data={Command:"function pld:npcs/xian/guard"}] replace 
+setblock 3178 49 940 minecraft:command_block[block_entity_data={Command:"function pld:npcs/xian/chat1"}] replace 
+setblock 3177 49 940 minecraft:command_block[block_entity_data={Command:"function pld:npcs/xian/chat2"}] replace 
 
-setblock 3167 50 937 minecraft:command_block[custom_data={Command:"execute as @p[x=3169,y=52,z=939,distance=..5] run function pld:system/race_tp/race2_out"}] destroy
+setblock 3167 50 937 minecraft:command_block[block_entity_data={Command:"execute as @p[x=3169,y=52,z=939,distance=..5] run function pld:system/race_tp/race2_out"}] destroy
 setblock 3171 50 939 air
 kill @e[type=villager,tag=!panling]
 execute as @e[type=skeleton] run function pld:system/tp_and_kill_self

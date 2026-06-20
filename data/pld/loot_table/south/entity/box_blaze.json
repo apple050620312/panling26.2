@@ -1,20 +1,20 @@
 {
     "pools": [
         {
-            "rolls":1,
+            "rolls": 1,
             "entries": [
                 {
                     "type": "minecraft:loot_table",
-                    "name": "pld:south/blaze_base"
+                    "value": "pld:south/blaze_base"
                 }
             ]
         },
         {
-            "rolls":1,
+            "rolls": 1,
             "entries": [
                 {
                     "type": "minecraft:loot_table",
-                    "name":"pld:south/boxitem2"
+                    "value": "pld:south/boxitem2"
                 }
             ]
         }

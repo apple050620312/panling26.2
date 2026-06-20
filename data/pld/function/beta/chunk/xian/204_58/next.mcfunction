@@ -3,8 +3,8 @@ data merge block 3285 73 946 {front_text:{messages:['{"translate":""}','{"transl
 data merge block 3277 72 938 {front_text:{messages:['{"translate":""}','{"translate":"pl.sign.xian13.text2"}','{"translate":"pl.sign.xian13.text3"}','{"translate":""}']}}
 data merge block 3277 72 944 {front_text:{messages:['{"translate":""}','{"translate":"pl.sign.xian13.text2"}','{"translate":"pl.sign.xian13.text3"}','{"translate":""}']}}
 
-setblock 3289 68 941 minecraft:command_block[custom_data={Command:"function pld:npcs/xian/guard"}] replace 
-setblock 3291 85 956 minecraft:command_block[custom_data={Command:"function pld:npcs/xian/chat7"}] replace 
+setblock 3289 68 941 minecraft:command_block[block_entity_data={Command:"function pld:npcs/xian/guard"}] replace 
+setblock 3291 85 956 minecraft:command_block[block_entity_data={Command:"function pld:npcs/xian/chat7"}] replace 
 
 kill @e[type=villager,tag=!panling]
 execute as @e[type=skeleton] run function pld:system/tp_and_kill_self

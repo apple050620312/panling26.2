@@ -2,9 +2,9 @@
 #要做的事
 data merge block 370 48 -661 {front_text:{messages:['{"translate":""}','{"translate":"pl.sign.penglai3.text2"}','{"translate":"pl.sign.penglai3.text3"}','{"translate":""}']}}
 
-setblock 386 40 -661 minecraft:command_block[custom_data={Command:"function pld:npcs/penglai/chat3"}] replace 
-setblock 378 41 -666 minecraft:command_block[custom_data={Command:"function pld:npcs/penglai/chat4"}] replace
-setblock 369 47 -668 minecraft:command_block[custom_data={Command:"function pld:npcs/penglai/te32"}] replace 
+setblock 386 40 -661 minecraft:command_block[block_entity_data={Command:"function pld:npcs/penglai/chat3"}] replace 
+setblock 378 41 -666 minecraft:command_block[block_entity_data={Command:"function pld:npcs/penglai/chat4"}] replace
+setblock 369 47 -668 minecraft:command_block[block_entity_data={Command:"function pld:npcs/penglai/te32"}] replace 
 
 kill @e[type=villager,tag=!panling]
 execute positioned 386 40 -661 run function pld:npcs/penglai/chat3

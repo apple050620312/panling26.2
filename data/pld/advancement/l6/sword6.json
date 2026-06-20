@@ -2,16 +2,20 @@
     "parent": "pld:l6/root",
     "display": {
         "icon": {
-            "item": "minecraft:wooden_sword",
-            "nbt":"{CustomModelData:1}"
+            "nbt": "{CustomModelData:1}",
+            "id": "minecraft:wooden_sword"
         },
-        "title": {"translate": "pl.adv.sword6.title"},
-        "description": {"translate": "pl.adv.sword6.description"},
+        "title": {
+            "translate": "pl.adv.sword6.title"
+        },
+        "description": {
+            "translate": "pl.adv.sword6.description"
+        },
         "announce_to_chat": false
     },
     "criteria": {
-        "impossibe":{
-        "trigger": "minecraft:impossible"
+        "impossibe": {
+            "trigger": "minecraft:impossible"
         }
     },
     "rewards": {

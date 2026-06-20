@@ -2,7 +2,7 @@
     "type": "minecraft:generic",
     "pools": [
         {
-            "rolls":1,
+            "rolls": 1,
             "conditions": [
                 {
                     "condition": "minecraft:random_chance",
@@ -23,7 +23,7 @@
             "entries": [
                 {
                     "type": "minecraft:loot_table",
-                    "name": "pld:west/bonus_loot"
+                    "value": "pld:west/bonus_loot"
                 }
             ]
         }

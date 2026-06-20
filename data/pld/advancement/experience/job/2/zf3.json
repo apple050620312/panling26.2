@@ -1,18 +1,22 @@
 {
     "display": {
         "icon": {
-            "item":"minecraft:flint",
-            "nbt": "{Enchantments:[{id:\"minecraft:protection\",lvl:1s}]}"
+            "nbt": "{Enchantments:[{id:\"minecraft:protection\",lvl:1s}]}",
+            "id": "minecraft:flint"
         },
-        "title": {"translate": "pl.adv.zf3.title"},
-        "description": {"translate": "pl.adv.zf3.description"},
+        "title": {
+            "translate": "pl.adv.zf3.title"
+        },
+        "description": {
+            "translate": "pl.adv.zf3.description"
+        },
         "frame": "challenge",
         "announce_to_chat": false,
         "hidden": true
     },
     "parent": "pld:experience/job/2/zf2",
     "criteria": {
-        "impossible":{
+        "impossible": {
             "trigger": "minecraft:impossible"
         }
     },

@@ -1,12 +1,12 @@
 #区块强加载
 forceload add 2825 -410 2812 -420
 #要做的事
-setblock 2813 100 -421 minecraft:command_block[custom_data={Command:"/tp @e[dx=2,dy=3,dz=2] ~ ~1 ~-4"}] replace 
-setblock 2822 100 -421 minecraft:command_block[custom_data={Command:"/tp @e[dx=2,dy=3,dz=2] ~ ~1 ~-4"}] replace 
-setblock 2831 100 -421 minecraft:command_block[custom_data={Command:"/tp @e[dx=2,dy=3,dz=2] ~ ~1 ~-4"}] replace 
-setblock 2831 100 -409 minecraft:command_block[custom_data={Command:"/tp @e[dx=2,dy=3,dz=2] ~ ~1 ~-4"}] replace 
-setblock 2822 100 -409 minecraft:command_block[custom_data={Command:"/tp @e[dx=2,dy=3,dz=2] ~ ~1 ~-4"}] replace 
-setblock 2813 100 -409 minecraft:command_block[custom_data={Command:"/tp @e[dx=2,dy=3,dz=2] ~ ~1 ~-4"}] replace 
+setblock 2813 100 -421 minecraft:command_block[block_entity_data={Command:"/tp @e[dx=2,dy=3,dz=2] ~ ~1 ~-4"}] replace 
+setblock 2822 100 -421 minecraft:command_block[block_entity_data={Command:"/tp @e[dx=2,dy=3,dz=2] ~ ~1 ~-4"}] replace 
+setblock 2831 100 -421 minecraft:command_block[block_entity_data={Command:"/tp @e[dx=2,dy=3,dz=2] ~ ~1 ~-4"}] replace 
+setblock 2831 100 -409 minecraft:command_block[block_entity_data={Command:"/tp @e[dx=2,dy=3,dz=2] ~ ~1 ~-4"}] replace 
+setblock 2822 100 -409 minecraft:command_block[block_entity_data={Command:"/tp @e[dx=2,dy=3,dz=2] ~ ~1 ~-4"}] replace 
+setblock 2813 100 -409 minecraft:command_block[block_entity_data={Command:"/tp @e[dx=2,dy=3,dz=2] ~ ~1 ~-4"}] replace 
 
 #区块卸载
 forceload remove 2825 -410 2812 -420

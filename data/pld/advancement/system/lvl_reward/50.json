@@ -1,16 +1,15 @@
 {
     "criteria": {
-        "level10":{
+        "level10": {
             "trigger": "minecraft:tick",
             "conditions": {
                 "player": {
-                    "type_specific": {
-                        "type":"player",
+                    "minecraft:player": {
                         "level": {
                             "min": 50
                         },
-                        "advancements":{
-                            "pld:experience/root":"true"
+                        "advancements": {
+                            "pld:experience/root": "true"
                         }
                     }
                 }

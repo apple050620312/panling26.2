@@ -1,11 +1,11 @@
 
 #要做的事
-setblock 3337 105 942 minecraft:command_block[custom_data={Command:"function pld:npcs/xian/xianmain2"}] replace 
+setblock 3337 105 942 minecraft:command_block[block_entity_data={Command:"function pld:npcs/xian/xianmain2"}] replace 
 
-setblock 3330 104 965 minecraft:command_block[custom_data={Command:"function pld:npcs/xian/guard"}] replace 
-setblock 3335 104 965 minecraft:command_block[custom_data={Command:"function pld:npcs/xian/guard"}] replace 
-setblock 3330 104 918 minecraft:command_block[custom_data={Command:"function pld:npcs/xian/guard"}] replace 
-setblock 3335 104 918 minecraft:command_block[custom_data={Command:"function pld:npcs/xian/guard"}] replace 
+setblock 3330 104 965 minecraft:command_block[block_entity_data={Command:"function pld:npcs/xian/guard"}] replace 
+setblock 3335 104 965 minecraft:command_block[block_entity_data={Command:"function pld:npcs/xian/guard"}] replace 
+setblock 3330 104 918 minecraft:command_block[block_entity_data={Command:"function pld:npcs/xian/guard"}] replace 
+setblock 3335 104 918 minecraft:command_block[block_entity_data={Command:"function pld:npcs/xian/guard"}] replace 
 
 
 kill @e[type=villager,tag=!panling]

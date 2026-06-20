@@ -3,10 +3,10 @@ data merge block 3176 146 108 {front_text:{messages:['{"translate":""}','{"trans
 data merge block 3175 146 107 {front_text:{messages:['{"translate":""}','{"translate":"pl.sign.shen20.text2"}','{"translate":"pl.sign.shen20.text3"}','{"translate":""}']}}
 data merge block 3174 146 108 {front_text:{messages:['{"translate":""}','{"translate":"pl.sign.shen20.text2"}','{"translate":"pl.sign.shen20.text3"}','{"translate":""}']}}
 setblock 3173 143 106 air
-setblock 3164 143 106 minecraft:command_block[custom_data={Command:"execute as @p[distance=..4] run function pld:system/race_tp/race0_out"}] replace 
-setblock 3162 142 106 minecraft:repeating_command_block[custom_data={Command:"tp @e[x=3162,y=145,z=106,distance=..3,type=!player] ~ ~-1000 ~"}] replace 
+setblock 3164 143 106 minecraft:command_block[block_entity_data={Command:"execute as @p[distance=..4] run function pld:system/race_tp/race0_out"}] replace 
+setblock 3162 142 106 minecraft:repeating_command_block[block_entity_data={Command:"tp @e[x=3162,y=145,z=106,distance=..3,type=!player] ~ ~-1000 ~"}] replace 
 
-setblock 3176 141 104 minecraft:command_block[custom_data={Command:"function pld:npcs/shen/guard"}] replace 
+setblock 3176 141 104 minecraft:command_block[block_entity_data={Command:"function pld:npcs/shen/guard"}] replace 
 
 
 kill @e[type=villager,tag=!panling]

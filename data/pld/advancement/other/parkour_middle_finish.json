@@ -2,15 +2,19 @@
     "parent": "pld:other/parkour_middle_in",
     "display": {
         "icon": {
-            "item": "minecraft:golden_boots"
+            "id": "minecraft:golden_boots"
         },
-        "title": {"translate": "pl.adv.parkour_middle_finish.title"},
-        "description": {"translate": "pl.adv.parkour_middle_finish.description"},
+        "title": {
+            "translate": "pl.adv.parkour_middle_finish.title"
+        },
+        "description": {
+            "translate": "pl.adv.parkour_middle_finish.description"
+        },
         "announce_to_chat": false
     },
     "criteria": {
-        "impossibe":{
-        "trigger": "minecraft:impossible"
+        "impossibe": {
+            "trigger": "minecraft:impossible"
         }
     },
     "rewards": {

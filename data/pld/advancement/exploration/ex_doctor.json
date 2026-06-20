@@ -2,15 +2,19 @@
     "parent": "pld:exploration/root",
     "display": {
         "icon": {
-            "item": "minecraft:written_book"
+            "id": "minecraft:written_book"
         },
-        "title": {"translate": "pl.adv.ex_doctor.title"},
-        "description": {"translate": "pl.adv.ex_doctor.description"},
+        "title": {
+            "translate": "pl.adv.ex_doctor.title"
+        },
+        "description": {
+            "translate": "pl.adv.ex_doctor.description"
+        },
         "announce_to_chat": false
     },
     "criteria": {
-        "impossibe":{
-        "trigger": "minecraft:impossible"
+        "impossibe": {
+            "trigger": "minecraft:impossible"
         }
     },
     "rewards": {

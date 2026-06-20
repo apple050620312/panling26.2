@@ -1,29 +1,32 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:wooden_pickaxe",
-            "nbt":"{CustomModelData:31}"
+            "nbt": "{CustomModelData:31}",
+            "id": "minecraft:wooden_pickaxe"
         },
-        "title":  {"translate": "pl.adv.crossbow3.title"},
-        "description":  {"translate": "pl.adv.crossbow3.description"},
+        "title": {
+            "translate": "pl.adv.crossbow3.title"
+        },
+        "description": {
+            "translate": "pl.adv.crossbow3.description"
+        },
         "announce_to_chat": false
     },
     "parent": "pld:experience/job/1/crossbow2",
     "criteria": {
-        "sword0":{
+        "sword0": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "items": [
                     {
                         "item": "minecraft:wooden_pickaxe",
-                        "nbt": "{id:\"panling:crossbow3\"}"                    
+                        "nbt": "{id:\"panling:crossbow3\"}"
                     }
                 ],
                 "player": {
-                    "type_specific": {
-                        "type":"player",
-                        "advancements":{
-                            "pld:experience/job/1/base":"true"
+                    "minecraft:player": {
+                        "advancements": {
+                            "pld:experience/job/1/base": "true"
                         }
                     }
                 }

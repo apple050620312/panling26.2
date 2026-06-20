@@ -1,16 +1,20 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:carrot_on_a_stick",
-            "nbt": "{CustomModelData:1}"
+            "nbt": "{CustomModelData:1}",
+            "id": "minecraft:carrot_on_a_stick"
         },
-        "title":  {"translate": "pl.adv.job2.title"},
-        "description":  {"translate": "pl.adv.job2.description"},
+        "title": {
+            "translate": "pl.adv.job2.title"
+        },
+        "description": {
+            "translate": "pl.adv.job2.description"
+        },
         "announce_to_chat": false
     },
     "parent": "pld:experience/job/root",
     "criteria": {
-        "impossible":{
+        "impossible": {
             "trigger": "minecraft:impossible"
         }
     },

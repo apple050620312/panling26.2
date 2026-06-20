@@ -2,15 +2,19 @@
     "parent": "pld:truth/root",
     "display": {
         "icon": {
-            "item": "minecraft:cocoa_beans"
+            "id": "minecraft:cocoa_beans"
         },
-        "title": {"translate": "pl.adv.truth4.title"},
-        "description": {"translate": "pl.adv.truth4.description"},
+        "title": {
+            "translate": "pl.adv.truth4.title"
+        },
+        "description": {
+            "translate": "pl.adv.truth4.description"
+        },
         "announce_to_chat": false
     },
     "criteria": {
-        "impossibe":{
-        "trigger": "minecraft:impossible"
+        "impossibe": {
+            "trigger": "minecraft:impossible"
         }
     },
     "rewards": {

@@ -1,5 +1,5 @@
 #要做的事
-setblock -640 135 366 minecraft:command_block[custom_data={Command:"function pld:npcs/qiansi/chat14"}] replace 
+setblock -640 135 366 minecraft:command_block[block_entity_data={Command:"function pld:npcs/qiansi/chat14"}] replace 
 kill @e[type=villager,tag=!panling]
 execute positioned -640 135 366 run function pld:npcs/qiansi/chat14
 #区块卸载

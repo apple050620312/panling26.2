@@ -2,15 +2,19 @@
     "parent": "pld:exploration/race",
     "display": {
         "icon": {
-            "item": "minecraft:cocoa_beans"
+            "id": "minecraft:cocoa_beans"
         },
-        "title": {"translate": "pl.adv.ren.title"},
-        "description": {"translate": "pl.adv.ren.description"},
+        "title": {
+            "translate": "pl.adv.ren.title"
+        },
+        "description": {
+            "translate": "pl.adv.ren.description"
+        },
         "announce_to_chat": false
     },
     "criteria": {
-        "impossibe":{
-        "trigger": "minecraft:impossible"
+        "impossibe": {
+            "trigger": "minecraft:impossible"
         }
     },
     "rewards": {

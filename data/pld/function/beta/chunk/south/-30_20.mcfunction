@@ -1,7 +1,7 @@
 #区块强加载
 forceload add -464 331
 #要做的事
-setblock -464 94 332 minecraft:command_block[custom_data={Command:"function pld:system/spawnpoint/spawnpointset"}] replace 
+setblock -464 94 332 minecraft:command_block[block_entity_data={Command:"function pld:system/spawnpoint/spawnpointset"}] replace 
 #区块卸载
 forceload remove -464 331
 #记分板数值增加以及bossbar修改

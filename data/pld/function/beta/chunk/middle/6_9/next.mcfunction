@@ -1,10 +1,10 @@
 #要做的事
-setblock 102 43 155 minecraft:command_block[custom_data={Command:"function pld:npcs/middle/chat17"}] replace
-setblock 101 43 155 minecraft:command_block[custom_data={Command:"function pld:npcs/middle/chat18"}] replace
-setblock 103 43 155 minecraft:command_block[custom_data={Command:"function pld:npcs/middle/chat19"}] replace
-setblock 102 44 169 minecraft:command_block[custom_data={Command:"function pld:npcs/middle/chat20"}] replace
-setblock 102 43 170 minecraft:command_block[custom_data={Command:"function pld:npcs/middle/chat21"}] replace
-setblock 102 43 169 minecraft:command_block[custom_data={Command:"function pld:npcs/middle/chat22"}] replace
+setblock 102 43 155 minecraft:command_block[block_entity_data={Command:"function pld:npcs/middle/chat17"}] replace
+setblock 101 43 155 minecraft:command_block[block_entity_data={Command:"function pld:npcs/middle/chat18"}] replace
+setblock 103 43 155 minecraft:command_block[block_entity_data={Command:"function pld:npcs/middle/chat19"}] replace
+setblock 102 44 169 minecraft:command_block[block_entity_data={Command:"function pld:npcs/middle/chat20"}] replace
+setblock 102 43 170 minecraft:command_block[block_entity_data={Command:"function pld:npcs/middle/chat21"}] replace
+setblock 102 43 169 minecraft:command_block[block_entity_data={Command:"function pld:npcs/middle/chat22"}] replace
 
 kill @e[type=villager,tag=!panling]
 execute positioned 102 43 155 run function pld:npcs/middle/chat17

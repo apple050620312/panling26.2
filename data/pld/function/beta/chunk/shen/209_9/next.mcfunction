@@ -4,8 +4,8 @@ data merge block 3328 156 154 {front_text:{messages:['{"translate":""}','{"trans
 data merge block 3344 156 154 {front_text:{messages:['{"translate":""}','{"translate":"pl.sign.shen13.text2"}','{"translate":"pl.sign.shen15.text3"}','{"translate":""}']}}
 
 
-setblock 3327 151 152 minecraft:command_block[custom_data={Command:"function pld:npcs/shen/chat1"}] replace 
-setblock 3345 151 152 minecraft:command_block[custom_data={Command:"function pld:npcs/shen/chat2"}] replace 
+setblock 3327 151 152 minecraft:command_block[block_entity_data={Command:"function pld:npcs/shen/chat1"}] replace 
+setblock 3345 151 152 minecraft:command_block[block_entity_data={Command:"function pld:npcs/shen/chat2"}] replace 
 
 kill @e[type=villager,tag=!panling]
 execute as @e[type=skeleton] run function pld:system/tp_and_kill_self

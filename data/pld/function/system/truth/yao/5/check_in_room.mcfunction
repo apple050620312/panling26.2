@@ -1,2 +1,2 @@
-execute if block 333 32 -715 hopper{Items:[{components:{"minecraft:custom_data":{id:"panling:yao_hide_key"}}}]} as @p[x=333,y=32,z=-715,distance=..4,scores={race=1,process_yao_hide=8..}] unless entity @s[scores={finish_yao_hide=1}] run function pld:system/truth/yao/5/in_room
+execute if block 333 32 -715 hopper[block_entity_data={Items:[{components:{"minecraft:custom_data":{id:"panling:yao_hide_key"}}}]}] as @p[x=333,y=32,z=-715,distance=..4,scores={race=1,process_yao_hide=8..}] unless entity @s[scores={finish_yao_hide=1}] run function pld:system/truth/yao/5/in_room
 data merge block 333 32 -715 {Items:[]}

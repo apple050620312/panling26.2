@@ -1,1 +1,1 @@
-execute store success score @s success if block ~ 255 ~ chest{Items:[{Slot:0b,components:{"minecraft:custom_data":{id:"panling:boots22"}}}]} run function pld:system/armorlock/unlock/armor/2/feet/2/main
+execute store success score @s success if block ~ 255 ~ chest[block_entity_data={Items:[{Slot:0b,components:{"minecraft:custom_data":{id:"panling:boots22"}}}]}] run function pld:system/armorlock/unlock/armor/2/feet/2/main

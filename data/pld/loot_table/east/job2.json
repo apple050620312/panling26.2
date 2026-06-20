@@ -1,21 +1,21 @@
 {
     "pools": [
         {
-            "rolls":1, 
+            "rolls": 1,
             "entries": [
                 {
                     "type": "minecraft:loot_table",
-                    "name": "pld:items/wood",
-                    "weight":1,
+                    "weight": 1,
                     "conditions": [
                         {
                             "condition": "minecraft:entity_scores",
                             "entity": "killer",
                             "scores": {
-                                "job":2
+                                "job": 2
                             }
                         }
-                    ]
+                    ],
+                    "value": "pld:items/wood"
                 }
             ]
         }

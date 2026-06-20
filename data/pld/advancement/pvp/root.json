@@ -1,16 +1,20 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:iron_axe"
+            "id": "minecraft:iron_axe"
         },
-        "title": {"translate": "pl.adv.pvp.root.title"},
-        "description": {"translate": "pl.adv.pvp.root.description"},
+        "title": {
+            "translate": "pl.adv.pvp.root.title"
+        },
+        "description": {
+            "translate": "pl.adv.pvp.root.description"
+        },
         "background": "panling:pvp.png",
         "announce_to_chat": false,
         "show_toast": false
     },
     "criteria": {
-        "impossible":{
+        "impossible": {
             "trigger": "minecraft:impossible"
         }
     }

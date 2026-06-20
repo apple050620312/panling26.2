@@ -1,7 +1,7 @@
 #要做的事
-setblock 88 41 189 minecraft:command_block[custom_data={Command:"function pld:npcs/middle/chat10"}] replace 
-setblock 70 41 183 minecraft:command_block[custom_data={Command:"function pld:npcs/middle/chat11"}] replace 
-setblock 82 42 183 minecraft:command_block[custom_data={Command:'tellraw @a[distance=..6] {"translate":"pl.info.armor_stand1"}'}] replace 
+setblock 88 41 189 minecraft:command_block[block_entity_data={Command:"function pld:npcs/middle/chat10"}] replace 
+setblock 70 41 183 minecraft:command_block[block_entity_data={Command:"function pld:npcs/middle/chat11"}] replace 
+setblock 82 42 183 minecraft:command_block[block_entity_data={Command:'tellraw @a[distance=..6] {"translate":"pl.info.armor_stand1"}'}] replace 
 
 
 kill @e[type=villager,tag=!panling]

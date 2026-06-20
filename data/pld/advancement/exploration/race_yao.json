@@ -2,15 +2,19 @@
     "parent": "pld:exploration/race",
     "display": {
         "icon": {
-            "item": "minecraft:purple_dye"
+            "id": "minecraft:purple_dye"
         },
-        "title": {"translate": "pl.adv.yao.title"},
-        "description": {"translate": "pl.adv.yao.description"},
+        "title": {
+            "translate": "pl.adv.yao.title"
+        },
+        "description": {
+            "translate": "pl.adv.yao.description"
+        },
         "announce_to_chat": false
     },
     "criteria": {
-        "impossibe":{
-        "trigger": "minecraft:impossible"
+        "impossibe": {
+            "trigger": "minecraft:impossible"
         }
     },
     "rewards": {

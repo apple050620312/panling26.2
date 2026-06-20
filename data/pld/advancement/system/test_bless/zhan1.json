@@ -1,15 +1,18 @@
 {
     "criteria": {
-        "hurt_rntity":{
+        "hurt_rntity": {
             "trigger": "minecraft:player_hurt_entity",
             "conditions": {
                 "entity": {
                     "team": "monster"
                 },
                 "damage": {
-                    "type": {
-                        "is_projectile": true
-                    }
+                    "tags": [
+                        {
+                            "id": "minecraft:is_projectile",
+                            "expected": true
+                        }
+                    ]
                 }
             }
         }

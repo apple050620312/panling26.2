@@ -1,25 +1,28 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:experience_bottle"
+            "id": "minecraft:experience_bottle"
         },
-        "title": {"translate": "pl.adv.lvl10.title"},
-        "description": {"translate": "pl.adv.lvl10.description"},
+        "title": {
+            "translate": "pl.adv.lvl10.title"
+        },
+        "description": {
+            "translate": "pl.adv.lvl10.description"
+        },
         "announce_to_chat": false
     },
     "parent": "pld:experience/root",
     "criteria": {
-        "level10":{
+        "level10": {
             "trigger": "minecraft:tick",
             "conditions": {
                 "player": {
-                    "type_specific": {
-                        "type":"player",
+                    "minecraft:player": {
                         "level": {
                             "min": 10
                         },
-                        "advancements":{
-                            "pld:experience/root":"true"
+                        "advancements": {
+                            "pld:experience/root": "true"
                         }
                     }
                 }

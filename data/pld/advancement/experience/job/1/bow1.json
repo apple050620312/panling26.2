@@ -1,16 +1,20 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:wooden_pickaxe",
-            "nbt":"{CustomModelData:1}"
+            "nbt": "{CustomModelData:1}",
+            "id": "minecraft:wooden_pickaxe"
         },
-        "title":  {"translate": "pl.adv.bow1.title"},
-        "description":  {"translate": "pl.adv.bow1.description"},
+        "title": {
+            "translate": "pl.adv.bow1.title"
+        },
+        "description": {
+            "translate": "pl.adv.bow1.description"
+        },
         "announce_to_chat": false
     },
     "parent": "pld:experience/job/1/base",
     "criteria": {
-        "sword0":{
+        "sword0": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "items": [
@@ -20,10 +24,9 @@
                     }
                 ],
                 "player": {
-                    "type_specific": {
-                        "type":"player",
-                        "advancements":{
-                            "pld:experience/job/1/base":"true"
+                    "minecraft:player": {
+                        "advancements": {
+                            "pld:experience/job/1/base": "true"
                         }
                     }
                 }

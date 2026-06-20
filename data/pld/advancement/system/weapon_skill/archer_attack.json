@@ -1,21 +1,24 @@
 {
     "criteria": {
-        "test":{
+        "test": {
             "trigger": "minecraft:player_hurt_entity",
             "conditions": {
                 "damage": {
-                    "type":{
-                        "is_projectile":false
-                    }
+                    "tags": [
+                        {
+                            "id": "minecraft:is_projectile",
+                            "expected": false
+                        }
+                    ]
                 },
                 "player": [
                     {
                         "condition": "minecraft:entity_scores",
                         "entity": "this",
                         "scores": {
-                            "job":1,
-                            "weapon_rare":4,
-                            "weapon_branch":0
+                            "job": 1,
+                            "weapon_rare": 4,
+                            "weapon_branch": 0
                         }
                     }
                 ]

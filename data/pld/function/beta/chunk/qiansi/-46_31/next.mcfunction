@@ -3,7 +3,7 @@
 data merge block -736 103 506 {front_text:{messages:['{"translate":""}','{"translate":"pl.frame.ldp"}','{"translate":""}','{"translate":""}']}}
 data merge block -744 103 506 {front_text:{messages:['{"translate":""}','{"translate":"pl.sign.qiansi6.text2"}','{"translate":""}','{"translate":""}']}}
 
-setblock -733 97 505 minecraft:command_block[custom_data={Command:"function pld:npcs/qiansi/tong4"}] replace
+setblock -733 97 505 minecraft:command_block[block_entity_data={Command:"function pld:npcs/qiansi/tong4"}] replace
 
 kill @e[type=villager,tag=!panling]
 execute positioned -733 97 505 run function pld:npcs/qiansi/tong4

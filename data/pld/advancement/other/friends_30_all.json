@@ -2,15 +2,19 @@
     "parent": "pld:other/friends_30",
     "display": {
         "icon": {
-            "item": "minecraft:experience_bottle"
+            "id": "minecraft:experience_bottle"
         },
-        "title": {"translate": "pl.adv.friends_30_all.title"},
-        "description": {"translate": "pl.adv.friends_30_all.description"},
+        "title": {
+            "translate": "pl.adv.friends_30_all.title"
+        },
+        "description": {
+            "translate": "pl.adv.friends_30_all.description"
+        },
         "announce_to_chat": false
     },
     "criteria": {
-        "impossibe":{
-        "trigger": "minecraft:impossible"
+        "impossibe": {
+            "trigger": "minecraft:impossible"
         }
     },
     "rewards": {

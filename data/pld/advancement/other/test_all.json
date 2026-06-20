@@ -2,47 +2,48 @@
     "parent": "pld:other/root",
     "display": {
         "icon": {
-            "item": "minecraft:paper"
+            "id": "minecraft:paper"
         },
-        "title": {"translate": "pl.adv.test_all.title"},
-        "description": {"translate": "pl.adv.test_all.description"},
+        "title": {
+            "translate": "pl.adv.test_all.title"
+        },
+        "description": {
+            "translate": "pl.adv.test_all.description"
+        },
         "announce_to_chat": false
     },
     "criteria": {
-        "test_shen":{
+        "test_shen": {
             "trigger": "minecraft:tick",
             "conditions": {
                 "player": {
-                    "type_specific": {
-                        "type":"player",
+                    "minecraft:player": {
                         "advancements": {
-                            "pld:other/test_shen":true
+                            "pld:other/test_shen": true
                         }
                     }
                 }
             }
         },
-        "test_ren":{
+        "test_ren": {
             "trigger": "minecraft:tick",
             "conditions": {
                 "player": {
-                    "type_specific": {
-                        "type":"player",
+                    "minecraft:player": {
                         "advancements": {
-                            "pld:other/test_ren":true
+                            "pld:other/test_ren": true
                         }
                     }
                 }
             }
         },
-        "test_zhan":{
+        "test_zhan": {
             "trigger": "minecraft:tick",
             "conditions": {
                 "player": {
-                    "type_specific": {
-                        "type":"player",
+                    "minecraft:player": {
                         "advancements": {
-                            "pld:other/test_zhan":true
+                            "pld:other/test_zhan": true
                         }
                     }
                 }
@@ -50,9 +51,15 @@
         }
     },
     "requirements": [
-        ["test_shen"],
-        ["test_ren"],
-        ["test_zhan"]
+        [
+            "test_shen"
+        ],
+        [
+            "test_ren"
+        ],
+        [
+            "test_zhan"
+        ]
     ],
     "rewards": {
         "function": "pld:adv/gameplay/other/test_all"

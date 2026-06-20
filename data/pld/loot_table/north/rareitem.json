@@ -1,27 +1,27 @@
 {
     "pools": [
         {
-            "rolls":1,
+            "rolls": 1,
             "entries": [
-                {   
-                    "weight":2,
+                {
+                    "weight": 2,
                     "type": "minecraft:loot_table",
-                    "name": "pld:items/yy2"
+                    "value": "pld:items/yy2"
                 },
                 {
                     "weight": 1,
                     "type": "minecraft:loot_table",
-                    "name": "pld:items/yy40"
+                    "value": "pld:items/yy40"
                 },
                 {
                     "weight": 1,
                     "type": "minecraft:loot_table",
-                    "name": "pld:items/yy41"
+                    "value": "pld:items/yy41"
                 },
                 {
                     "weight": 2,
                     "type": "minecraft:loot_table",
-                    "name": "pld:items/enchant_stonepart"
+                    "value": "pld:items/enchant_stonepart"
                 }
             ]
         }

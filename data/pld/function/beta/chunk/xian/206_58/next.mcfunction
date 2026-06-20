@@ -3,10 +3,10 @@
 data merge block 3320 109 939 {front_text:{messages:['{"translate":""}','{"translate":"pl.sign.xian16.text2"}','{"translate":"pl.sign.xian16.text3"}','{"translate":""}']}}
 data merge block 3320 109 944 {front_text:{messages:['{"translate":""}','{"translate":"pl.sign.xian16.text2"}','{"translate":"pl.sign.xian16.text3"}','{"translate":""}']}}
 
-setblock 3311 100 939 minecraft:command_block[custom_data={Command:"function pld:npcs/xian/guard"}] replace 
-setblock 3311 100 944 minecraft:command_block[custom_data={Command:"function pld:npcs/xian/guard"}] replace 
-setblock 3319 104 939 minecraft:command_block[custom_data={Command:"function pld:npcs/xian/guard"}] replace 
-setblock 3319 104 944 minecraft:command_block[custom_data={Command:"function pld:npcs/xian/guard"}] replace 
+setblock 3311 100 939 minecraft:command_block[block_entity_data={Command:"function pld:npcs/xian/guard"}] replace 
+setblock 3311 100 944 minecraft:command_block[block_entity_data={Command:"function pld:npcs/xian/guard"}] replace 
+setblock 3319 104 939 minecraft:command_block[block_entity_data={Command:"function pld:npcs/xian/guard"}] replace 
+setblock 3319 104 944 minecraft:command_block[block_entity_data={Command:"function pld:npcs/xian/guard"}] replace 
 
 execute as @e[type=skeleton] run function pld:system/tp_and_kill_self
 execute positioned 3311 100 939 run function pld:npcs/xian/guard

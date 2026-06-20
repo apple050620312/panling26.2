@@ -1,5 +1,5 @@
 #要做的事
-setblock 380 37 -694 minecraft:command_block[custom_data={Command:"function pld:npcs/penglai/chat6"}] replace 
+setblock 380 37 -694 minecraft:command_block[block_entity_data={Command:"function pld:npcs/penglai/chat6"}] replace 
 kill @e[type=villager,tag=!panling]
 execute positioned 380 37 -694 run function pld:npcs/penglai/chat6
 #区块卸载

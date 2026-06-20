@@ -2,11 +2,11 @@
 #要做的事
 data merge block 3161 38 -195 {front_text:{messages:['{"translate":""}','{"translate":"pl.spsign.zhan2.text2","clickEvent":{"action":"run_command","value":"/tellraw @p {\\"translate\\":\\"pl.spsign.zhan2.reads\\",\\"color\\":\\"gold\\"}"}}','{"translate":""}','{"translate":""}']}}
 data merge block 3161 38 -199 {front_text:{messages:['{"translate":""}','{"translate":"pl.spsign.zhan2.text2","clickEvent":{"action":"run_command","value":"/tellraw @p {\\"translate\\":\\"pl.spsign.zhan2.reads\\",\\"color\\":\\"gold\\"}"}}','{"translate":""}','{"translate":""}']}}
-setblock 3161 34 -193 minecraft:command_block[custom_data={Command:"function pld:npcs/zhan/guard2"}] replace 
-setblock 3161 34 -201 minecraft:command_block[custom_data={Command:"function pld:npcs/zhan/guard2"}] replace 
-setblock 3139 41 -194 minecraft:command_block[custom_data={Command:"function pld:npcs/zhan/guard2"}] replace 
-setblock 3139 41 -200 minecraft:command_block[custom_data={Command:"function pld:npcs/zhan/guard2"}] replace 
-setblock 3162 33 -204 minecraft:command_block[custom_data={Command:"function pld:npcs/zhan/chat13"}] replace
+setblock 3161 34 -193 minecraft:command_block[block_entity_data={Command:"function pld:npcs/zhan/guard2"}] replace 
+setblock 3161 34 -201 minecraft:command_block[block_entity_data={Command:"function pld:npcs/zhan/guard2"}] replace 
+setblock 3139 41 -194 minecraft:command_block[block_entity_data={Command:"function pld:npcs/zhan/guard2"}] replace 
+setblock 3139 41 -200 minecraft:command_block[block_entity_data={Command:"function pld:npcs/zhan/guard2"}] replace 
+setblock 3162 33 -204 minecraft:command_block[block_entity_data={Command:"function pld:npcs/zhan/chat13"}] replace
 fill 3148 42 -195 3147 42 -195 minecraft:barrier replace
 setblock 3146 42 -196 minecraft:barrier
 setblock 3145 42 -194 minecraft:barrier
@@ -17,7 +17,7 @@ setblock 3144 42 -199 minecraft:barrier
 setblock 3143 42 -200 minecraft:barrier
 fill 3142 42 -194 3143 42 -194 minecraft:barrier
 setblock 3142 42 -195 minecraft:barrier
-setblock 3138 43 -197 minecraft:command_block[custom_data={Command:"execute as @p[x=3138,y=45,z=-197,distance=..3] run function pld:test/zhan/incheck"}] replace 
+setblock 3138 43 -197 minecraft:command_block[block_entity_data={Command:"execute as @p[x=3138,y=45,z=-197,distance=..3] run function pld:test/zhan/incheck"}] replace 
 
 kill @e[type=villager,tag=!panling]
 execute as @e[type=skeleton] run function pld:system/tp_and_kill_self

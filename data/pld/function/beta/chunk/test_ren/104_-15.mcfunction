@@ -1,7 +1,7 @@
 #区块强加载
 forceload add 1679 -232 1662 -223
 #要做的事
-setblock 1679 23 -232 minecraft:command_block[custom_data={Command:"execute as @p[x=1679,y=25,z=-232,distance=..3] run function pld:test/ren/finish"}] replace 
+setblock 1679 23 -232 minecraft:command_block[block_entity_data={Command:"execute as @p[x=1679,y=25,z=-232,distance=..3] run function pld:test/ren/finish"}] replace 
 
 #区块卸载
 forceload remove 1679 -232 1662 -223

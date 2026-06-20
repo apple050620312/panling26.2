@@ -1,27 +1,27 @@
 {
-    "type":"minecraft:entity",
+    "type": "minecraft:entity",
     "pools": [
         {
-            "rolls":1,
+            "rolls": 1,
             "entries": [
                 {
                     "type": "minecraft:loot_table",
-                    "name": "pld:north/skeleton_base"
+                    "value": "pld:north/skeleton_base"
                 }
             ]
         },
         {
-            "rolls":1,          
+            "rolls": 1,
             "entries": [
                 {
                     "type": "minecraft:loot_table",
-                    "name": "pld:north/rareitem",
                     "conditions": [
                         {
                             "condition": "minecraft:random_chance",
                             "chance": 0.012
                         }
-                    ]
+                    ],
+                    "value": "pld:north/rareitem"
                 }
             ]
         }

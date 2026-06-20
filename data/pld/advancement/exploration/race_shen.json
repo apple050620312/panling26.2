@@ -2,15 +2,19 @@
     "parent": "pld:exploration/race",
     "display": {
         "icon": {
-            "item": "minecraft:green_dye"
+            "id": "minecraft:green_dye"
         },
-        "title": {"translate": "pl.adv.shen.title"},
-        "description": {"translate": "pl.adv.shen.description"},
+        "title": {
+            "translate": "pl.adv.shen.title"
+        },
+        "description": {
+            "translate": "pl.adv.shen.description"
+        },
         "announce_to_chat": false
     },
     "criteria": {
-        "impossibe":{
-        "trigger": "minecraft:impossible"
+        "impossibe": {
+            "trigger": "minecraft:impossible"
         }
     },
     "rewards": {

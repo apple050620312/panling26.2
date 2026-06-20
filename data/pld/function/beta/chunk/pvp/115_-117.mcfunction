@@ -1,8 +1,8 @@
 #区块强加载
 forceload add 1854 -1870
 #要做的事
-setblock 1855 103 -1868 minecraft:command_block[custom_data={Command:"tp @a[distance=..3] ~35 ~2 ~"}] replace
-setblock 1854 113 -1870 minecraft:command_block[custom_data={Command:"tp @a[distance=..2] 1853 106 -1868"}] replace
+setblock 1855 103 -1868 minecraft:command_block[block_entity_data={Command:"tp @a[distance=..3] ~35 ~2 ~"}] replace
+setblock 1854 113 -1870 minecraft:command_block[block_entity_data={Command:"tp @a[distance=..2] 1853 106 -1868"}] replace
 
 #区块卸载
 forceload remove 1854 -1870

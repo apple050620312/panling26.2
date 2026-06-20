@@ -1,8 +1,8 @@
 
 #要做的事
-setblock -633 109 423 minecraft:command_block[custom_data={Command:"function pld:npcs/qiansi/chat3"}] replace 
-setblock -629 111 419 minecraft:command_block[custom_data={Command:"function pld:npcs/qiansi/chat4"}] replace 
-setblock -629 111 420 minecraft:command_block[custom_data={Command:"function pld:npcs/qiansi/chat5"}] replace 
+setblock -633 109 423 minecraft:command_block[block_entity_data={Command:"function pld:npcs/qiansi/chat3"}] replace 
+setblock -629 111 419 minecraft:command_block[block_entity_data={Command:"function pld:npcs/qiansi/chat4"}] replace 
+setblock -629 111 420 minecraft:command_block[block_entity_data={Command:"function pld:npcs/qiansi/chat5"}] replace 
 kill @e[type=villager,tag=!panling]
 execute positioned -633 109 423 run function pld:npcs/qiansi/chat3
 execute positioned -629 111 419 run function pld:npcs/qiansi/chat4

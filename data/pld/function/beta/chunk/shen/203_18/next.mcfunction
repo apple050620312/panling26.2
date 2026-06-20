@@ -5,9 +5,9 @@ data merge block 3253 105 301 {front_text:{messages:['{"translate":"pl.sign.shen
 
 data merge block 3256 105 286 {front_text:{messages:['{"translate":""}','{"translate":"pl.spsign.shen1.text2","clickEvent":{"action":"run_command","value":"/tellraw @p {\\"translate\\":\\"pl.spsign.shen1.reads\\",\\"color\\":\\"gold\\"}"}}','{"translate":""}','{"translate":""}']}}
 
-setblock 3258 100 289 minecraft:command_block[custom_data={Command:"function pld:npcs/shen/guard"}] replace 
-setblock 3249 96 278 minecraft:command_block[custom_data={Command:"function pld:npcs/shen/guard"}] replace 
-setblock 3251 93 260 minecraft:command_block[custom_data={Command:"function pld:npcs/shen/guard"}] replace 
+setblock 3258 100 289 minecraft:command_block[block_entity_data={Command:"function pld:npcs/shen/guard"}] replace 
+setblock 3249 96 278 minecraft:command_block[block_entity_data={Command:"function pld:npcs/shen/guard"}] replace 
+setblock 3251 93 260 minecraft:command_block[block_entity_data={Command:"function pld:npcs/shen/guard"}] replace 
 
 
 kill @e[type=villager,tag=!panling]

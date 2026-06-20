@@ -1,17 +1,21 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:grass_block"
+            "id": "minecraft:grass_block"
         },
-        "title": {"translate": "pl.adv.explore_root.title"},
-        "description": {"translate": "pl.adv.explore_root.description"},
+        "title": {
+            "translate": "pl.adv.explore_root.title"
+        },
+        "description": {
+            "translate": "pl.adv.explore_root.description"
+        },
         "background": "panling:explore.png",
         "announce_to_chat": false,
         "show_toast": false
     },
     "criteria": {
-        "impossibe":{
-        "trigger": "minecraft:impossible"
+        "impossibe": {
+            "trigger": "minecraft:impossible"
         }
     }
 }

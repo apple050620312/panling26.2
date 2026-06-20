@@ -1,17 +1,20 @@
 {
-
     "display": {
         "icon": {
-            "item": "minecraft:green_dye"
+            "id": "minecraft:green_dye"
         },
-        "title": {"translate": "pl.adv.shen_main_root.title"},
-        "description": {"translate": "pl.adv.shen_main_root.description"},
+        "title": {
+            "translate": "pl.adv.shen_main_root.title"
+        },
+        "description": {
+            "translate": "pl.adv.shen_main_root.description"
+        },
         "background": "panling:shen.png",
         "announce_to_chat": false,
         "show_toast": false
     },
     "criteria": {
-        "impossible":{
+        "impossible": {
             "trigger": "minecraft:impossible"
         }
     }

@@ -2,15 +2,19 @@
     "parent": "pld:instance3/root",
     "display": {
         "icon": {
-            "item": "minecraft:chest"
+            "id": "minecraft:chest"
         },
-        "title": {"translate": "pl.adv.instance3.finish1.title"},
-        "description": {"translate": "pl.adv.instance3.finish1.description"},
+        "title": {
+            "translate": "pl.adv.instance3.finish1.title"
+        },
+        "description": {
+            "translate": "pl.adv.instance3.finish1.description"
+        },
         "announce_to_chat": false
     },
     "criteria": {
-        "impossibe":{
-        "trigger": "minecraft:impossible"
+        "impossibe": {
+            "trigger": "minecraft:impossible"
         }
     },
     "rewards": {

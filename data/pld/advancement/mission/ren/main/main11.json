@@ -2,15 +2,19 @@
     "parent": "pld:mission/ren/main/main10",
     "display": {
         "icon": {
-            "item": "minecraft:written_book"
+            "id": "minecraft:written_book"
         },
-        "title": {"translate": "pl.adv.ren_main11.title"},
-        "description": {"translate": "pl.adv.ren_main11.description"},
+        "title": {
+            "translate": "pl.adv.ren_main11.title"
+        },
+        "description": {
+            "translate": "pl.adv.ren_main11.description"
+        },
         "announce_to_chat": false,
         "frame": "goal"
     },
     "criteria": {
-        "impossible":{
+        "impossible": {
             "trigger": "minecraft:impossible"
         }
     },

@@ -1,7 +1,7 @@
 #要做的事
-setblock -301 18 -659 minecraft:command_block[custom_data={Command:"function pld:npcs/north/northtong"}] replace 
-setblock -301 14 -677 minecraft:command_block[custom_data={Command:"function pld:npcs/north/northmain1"}] replace
-setblock -289 17 -666 minecraft:command_block[custom_data={Command:"function pld:npcs/north/chat2"}] replace 
+setblock -301 18 -659 minecraft:command_block[block_entity_data={Command:"function pld:npcs/north/northtong"}] replace 
+setblock -301 14 -677 minecraft:command_block[block_entity_data={Command:"function pld:npcs/north/northmain1"}] replace
+setblock -289 17 -666 minecraft:command_block[block_entity_data={Command:"function pld:npcs/north/chat2"}] replace 
 
 kill @e[type=villager,tag=!panling]
 execute positioned -301 18 -659 run function pld:npcs/north/northtong

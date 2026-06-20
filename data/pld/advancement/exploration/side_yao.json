@@ -2,15 +2,19 @@
     "parent": "pld:exploration/race_yao",
     "display": {
         "icon": {
-            "item": "minecraft:paper"
+            "id": "minecraft:paper"
         },
-        "title": {"translate": "pl.adv.yao_side.title"},
-        "description": {"translate": "pl.adv.yao_side.description"},
+        "title": {
+            "translate": "pl.adv.yao_side.title"
+        },
+        "description": {
+            "translate": "pl.adv.yao_side.description"
+        },
         "announce_to_chat": false
     },
     "criteria": {
-        "impossibe":{
-        "trigger": "minecraft:impossible"
+        "impossibe": {
+            "trigger": "minecraft:impossible"
         }
     },
     "rewards": {

@@ -1,8 +1,8 @@
 
 #要做的事
 
-setblock 3267 21 -292 minecraft:command_block[custom_data={Command:"particle enchant ~ ~3 ~ 0.2 0.2 0.2 0.0 4"}] replace 
-setblock 3265 18 -293 minecraft:command_block[custom_data={Command:"function pld:npcs/zhan/zhantong7"}] replace 
+setblock 3267 21 -292 minecraft:command_block[block_entity_data={Command:"particle enchant ~ ~3 ~ 0.2 0.2 0.2 0.0 4"}] replace 
+setblock 3265 18 -293 minecraft:command_block[block_entity_data={Command:"function pld:npcs/zhan/zhantong7"}] replace 
 
 kill @e[type=villager,tag=!panling]
 execute as @e[type=skeleton] run function pld:system/tp_and_kill_self

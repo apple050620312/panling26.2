@@ -1,17 +1,21 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:obsidian"
+            "id": "minecraft:obsidian"
         },
-        "title": {"translate": "pl.adv.instance2.root.title"},
-        "description": {"translate": "pl.adv.instance2.root.description"},
+        "title": {
+            "translate": "pl.adv.instance2.root.title"
+        },
+        "description": {
+            "translate": "pl.adv.instance2.root.description"
+        },
         "background": "panling:instance2.png",
         "announce_to_chat": false,
         "show_toast": false
     },
     "criteria": {
-        "impossibe":{
-        "trigger": "minecraft:impossible"
+        "impossibe": {
+            "trigger": "minecraft:impossible"
         }
     }
 }

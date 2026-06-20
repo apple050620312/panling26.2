@@ -2,20 +2,24 @@
     "parent": "pld:mission/yao/main/main1",
     "display": {
         "icon": {
-            "item": "minecraft:written_book"
+            "id": "minecraft:written_book"
         },
-        "title": {"translate": "pl.adv.yao_main2.title"},
-        "description": {"translate": "pl.adv.yao_main2.description"},
+        "title": {
+            "translate": "pl.adv.yao_main2.title"
+        },
+        "description": {
+            "translate": "pl.adv.yao_main2.description"
+        },
         "announce_to_chat": false,
         "frame": "goal"
     },
     "criteria": {
-        "yao_main_1":{
+        "yao_main_1": {
             "trigger": "minecraft:villager_trade",
             "conditions": {
                 "item": {
                     "item": "minecraft:written_book",
-                    "nbt":"{id:\"panling:book_ym2\"}"
+                    "nbt": "{id:\"panling:book_ym2\"}"
                 }
             }
         }

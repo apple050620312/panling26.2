@@ -1,57 +1,24 @@
 {
-    "type":"minecraft:entity",
+    "type": "minecraft:entity",
     "pools": [
         {
             "rolls": 1,
             "entries": [
                 {
                     "type": "minecraft:loot_table",
-                    "name": "pld:items/wood",
                     "weight": 1,
-                    "functions":[
-                      {
-                          "function": "minecraft:set_count",
-                          "count":2
-                      }
-                    ]
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": 2
+                        }
+                    ],
+                    "value": "pld:items/wood"
                 },
                 {
                     "type": "minecraft:loot_table",
-                    "name":"pld:east/bosselement",
-                    "weight": 1
-                }
-            ]
-        },
-        {
-            "rolls":1,
-            "entries": [
-                {
-                    "type": "minecraft:loot_table",
-                    "name":"pld:east/bossrareitem"
-                }
-            ]
-        },
-        {
-            "rolls":1, 
-            "entries": [
-                    {
-                        "type": "minecraft:loot_table",
-                        "name": "pld:items/spider_eye",
-                        "weight":80
-                    },
-                    {
-                        "type": "minecraft:loot_table",
-                        "name": "pld:items/unkonwn_colorful_crystal",
-                        "weight":3
-                    }
-                ]
-        },
-        {
-            "rolls":1,
-            "entries": [
-                {
-                    "type": "minecraft:loot_table",
-                    "name": "pld:items/relive_stone"
+                    "weight": 1,
+                    "value": "pld:east/bosselement"
                 }
             ]
         },
@@ -60,7 +27,7 @@
             "entries": [
                 {
                     "type": "minecraft:loot_table",
-                    "name": "pld:east/job2"
+                    "value": "pld:east/bossrareitem"
                 }
             ]
         },
@@ -69,7 +36,13 @@
             "entries": [
                 {
                     "type": "minecraft:loot_table",
-                    "name": "pld:east/honor_head_enchant6"
+                    "weight": 80,
+                    "value": "pld:items/spider_eye"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "weight": 3,
+                    "value": "pld:items/unkonwn_colorful_crystal"
                 }
             ]
         },
@@ -78,10 +51,36 @@
             "entries": [
                 {
                     "type": "minecraft:loot_table",
-                    "name": "pld:east/earth_set_bonus_4b"
+                    "value": "pld:items/relive_stone"
+                }
+            ]
+        },
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "pld:east/job2"
+                }
+            ]
+        },
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "pld:east/honor_head_enchant6"
+                }
+            ]
+        },
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "pld:east/earth_set_bonus_4b"
                 }
             ]
         }
-
     ]
 }

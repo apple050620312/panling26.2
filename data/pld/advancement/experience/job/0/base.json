@@ -1,15 +1,19 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:wooden_sword"
+            "id": "minecraft:wooden_sword"
         },
-        "title":  {"translate": "pl.adv.job0.title"},
-        "description":  {"translate": "pl.adv.job0.description"},
+        "title": {
+            "translate": "pl.adv.job0.title"
+        },
+        "description": {
+            "translate": "pl.adv.job0.description"
+        },
         "announce_to_chat": false
     },
     "parent": "pld:experience/job/root",
     "criteria": {
-        "impossible":{
+        "impossible": {
             "trigger": "minecraft:impossible"
         }
     },
