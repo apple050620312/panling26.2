@@ -9,7 +9,7 @@ playsound minecraft:block.fire.extinguish ambient @s[scores={inv_remain=0}] ~ ~ 
 #扣除鱼
 execute store success score @s zfsuccess run clear @s[scores={inv_remain=1..}] minecraft:salmon[custom_data={id:"panling:salmon"}] 1
 #给予烤鱼
-give @s[scores={zfsuccess=1}] minecraft:cooked_salmon[minecraft:enchantments={"minecraft:protection":1},custom_name='{"translate":"pl.item.name.job2food2"}',lore=['{"translate":"pl.item.lore.job2food2a"}','{"translate":"pl.item.lore.food_buff_confliction"}','{"translate":"pl.item.lore.job2food2b"}','{"translate":"pl.item.lore.job2food2c"}','{"translate":"pl.item.lore.job2food2d"}'],custom_data={id:"panling:job2food2"}]
+give @s[scores={zfsuccess=1}] minecraft:cooked_salmon[minecraft:enchantments={minecraft:protection:1},custom_name='{"translate":"pl.item.name.job2food2"}',lore=['{"translate":"pl.item.lore.job2food2a"}','{"translate":"pl.item.lore.food_buff_confliction"}','{"translate":"pl.item.lore.job2food2b"}','{"translate":"pl.item.lore.job2food2c"}','{"translate":"pl.item.lore.job2food2d"}'],custom_data={id:"panling:job2food2"}]
 
 #信息-成功
 tellraw @s[scores={zfsuccess=1}] {"translate":"pl.info.zf_cook_success","color":"green"}

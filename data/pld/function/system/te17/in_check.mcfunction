@@ -1,4 +1,4 @@
-execute if block -321 114 -424 minecraft:dropper{Items:[{Slot:0b,components:{custom_data:{id:"panling:te3"}}}]} run give @s quartz[custom_name='{"translate": "pl.item.name.te3"}',lore=['{"translate": "pl.item.lore.te3a"}','{"translate": "pl.item.lore.te3b"}'],minecraft:enchantments={"minecraft:protection":1},custom_data={id:"panling:te3"}]
+execute if block -321 114 -424 minecraft:dropper{Items:[{Slot:0b,components:{custom_data:{id:"panling:te3"}}}]} run give @s quartz[custom_name='{"translate": "pl.item.name.te3"}',lore=['{"translate": "pl.item.lore.te3a"}','{"translate": "pl.item.lore.te3b"}'],minecraft:enchantments={minecraft:protection:1},custom_data={id:"panling:te3"}]
 execute if block -321 114 -424 minecraft:dropper{Items:[{Slot:0b,components:{custom_data:{id:"panling:te3"}}}]} run tellraw @s {"translate": "pl.info.te17_first"}
 execute if block -321 114 -424 minecraft:dropper{Items:[{Slot:0b,components:{custom_data:{id:"panling:te3"}}}]} run scoreboard players set @s te17_check 1
 execute if block -321 114 -424 minecraft:dropper{Items:[{Slot:0b,components:{custom_data:{id:"panling:te3"}}}]} run tp @s[scores={te17_check=1}] -358 101 -440 135 15

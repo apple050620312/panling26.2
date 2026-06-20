@@ -1,76 +1,76 @@
 scoreboard players set @s success 0
 execute store success score @s success unless entity @s[scores={gotten_helmet61=1}] run clear @s diamond_helmet[custom_data={id:"panling:helmet61"}]
-give @s[scores={success=1}] minecraft:sugar[custom_name='{"translate":"pl.item.name.sealed_helmet61"}',lore=['{"translate":"pl.lore.rare6"}','{"translate":"pl.lore.limit3"}','{"translate":"pl.item.lore.helmet61a"}','{"translate":"pl.item.lore.helmet61b"}','{"translate":"pl.item.lore.helmet61c"}','{"translate":"pl.lore.sealed"}'],minecraft:enchantments={"minecraft:protection":1},custom_data={id:"panling:sealed_helmet61"}]
+give @s[scores={success=1}] minecraft:sugar[custom_name='{"translate":"pl.item.name.sealed_helmet61"}',lore=['{"translate":"pl.lore.rare6"}','{"translate":"pl.lore.limit3"}','{"translate":"pl.item.lore.helmet61a"}','{"translate":"pl.item.lore.helmet61b"}','{"translate":"pl.item.lore.helmet61c"}','{"translate":"pl.lore.sealed"}'],minecraft:enchantments={minecraft:protection:1},custom_data={id:"panling:sealed_helmet61"}]
 tellraw @s[scores={success=1}] {"translate": "pl.info.legend_sealing"}
 scoreboard players set @s success 0
 
 execute store success score @s success unless entity @s[scores={gotten_helmet62=1}] run clear @s diamond_helmet[custom_data={id:"panling:helmet62"}]
-give @s[scores={success=1}] minecraft:sugar[custom_name='{"translate":"pl.item.name.sealed_helmet62"}',lore=['{"translate":"pl.lore.rare6"}','{"translate":"pl.lore.limit3"}','{"translate":"pl.item.lore.helmet62a"}','{"translate":"pl.item.lore.helmet62b"}','{"translate":"pl.item.lore.helmet62c"}','{"translate":"pl.lore.sealed"}'],minecraft:enchantments={"minecraft:protection":1},custom_data={id:"panling:sealed_helmet62"}]
+give @s[scores={success=1}] minecraft:sugar[custom_name='{"translate":"pl.item.name.sealed_helmet62"}',lore=['{"translate":"pl.lore.rare6"}','{"translate":"pl.lore.limit3"}','{"translate":"pl.item.lore.helmet62a"}','{"translate":"pl.item.lore.helmet62b"}','{"translate":"pl.item.lore.helmet62c"}','{"translate":"pl.lore.sealed"}'],minecraft:enchantments={minecraft:protection:1},custom_data={id:"panling:sealed_helmet62"}]
 tellraw @s[scores={success=1}] {"translate": "pl.info.legend_sealing"}
 scoreboard players set @s success 0
 
 execute store success score @s success unless entity @s[scores={gotten_helmet63=1}] run clear @s diamond_helmet[custom_data={id:"panling:helmet63"}]
-give @s[scores={success=1}] minecraft:sugar[minecraft:enchantments={"minecraft:protection":1},custom_name='{"translate":"pl.item.name.sealed_helmet63"}',lore=['{"translate":"pl.lore.rare6"}','{"translate":"pl.lore.limit3"}','{"translate":"pl.item.lore.helmet63a"}','{"translate":"pl.item.lore.helmet63b"}','{"translate":"pl.item.lore.helmet63c"}','{"translate":"pl.lore.sealed"}'],custom_data={id:"panling:sealed_helmet63"}]
+give @s[scores={success=1}] minecraft:sugar[minecraft:enchantments={minecraft:protection:1},custom_name='{"translate":"pl.item.name.sealed_helmet63"}',lore=['{"translate":"pl.lore.rare6"}','{"translate":"pl.lore.limit3"}','{"translate":"pl.item.lore.helmet63a"}','{"translate":"pl.item.lore.helmet63b"}','{"translate":"pl.item.lore.helmet63c"}','{"translate":"pl.lore.sealed"}'],custom_data={id:"panling:sealed_helmet63"}]
 tellraw @s[scores={success=1}] {"translate": "pl.info.legend_sealing"}
 scoreboard players set @s success 0
 
 execute store success score @s success unless entity @s[scores={gotten_chest6=1}] run clear @s diamond_chestplate[custom_data={id:"panling:chestplate6"}]
-give @s[scores={success=1}] sugar[custom_name='{"translate":"pl.item.name.sealed_chestplate6"}',lore=['{"translate":"pl.lore.rare6"}','{"translate":"pl.lore.limit3"}','{"translate":"pl.item.lore.chestplate6a"}','{"translate":"pl.item.lore.chestplate6b"}','{"translate":"pl.item.lore.chestplate6c"}','{"translate":"pl.lore.sealed"}'],minecraft:enchantments={"minecraft:protection":1},custom_data={id:"panling:sealed_chestplate6"}]
+give @s[scores={success=1}] sugar[custom_name='{"translate":"pl.item.name.sealed_chestplate6"}',lore=['{"translate":"pl.lore.rare6"}','{"translate":"pl.lore.limit3"}','{"translate":"pl.item.lore.chestplate6a"}','{"translate":"pl.item.lore.chestplate6b"}','{"translate":"pl.item.lore.chestplate6c"}','{"translate":"pl.lore.sealed"}'],minecraft:enchantments={minecraft:protection:1},custom_data={id:"panling:sealed_chestplate6"}]
 tellraw @s[scores={success=1}] {"translate": "pl.info.legend_sealing"}
 scoreboard players set @s success 0
 
 execute store success score @s success unless entity @s[scores={gotten_chest62=1}] run clear @s diamond_chestplate[custom_data={id:"panling:chestplate62"}]
-give @s[scores={success=1}] minecraft:sugar[minecraft:enchantments={"minecraft:protection":1},custom_name='{"translate":"pl.item.name.sealed_chestplate62"}',lore=['{"translate":"pl.lore.rare6"}','{"translate":"pl.lore.limit3"}','{"translate":"pl.item.lore.chestplate62a"}','{"translate":"pl.item.lore.chestplate62b"}','{"translate":"pl.item.lore.chestplate62c"}','{"translate":"pl.lore.sealed"}'],custom_data={id:"panling:sealed_chestplate62"}]
+give @s[scores={success=1}] minecraft:sugar[minecraft:enchantments={minecraft:protection:1},custom_name='{"translate":"pl.item.name.sealed_chestplate62"}',lore=['{"translate":"pl.lore.rare6"}','{"translate":"pl.lore.limit3"}','{"translate":"pl.item.lore.chestplate62a"}','{"translate":"pl.item.lore.chestplate62b"}','{"translate":"pl.item.lore.chestplate62c"}','{"translate":"pl.lore.sealed"}'],custom_data={id:"panling:sealed_chestplate62"}]
 tellraw @s[scores={success=1}] {"translate": "pl.info.legend_sealing"}
 scoreboard players set @s success 0
 
 execute store success score @s success unless entity @s[scores={gotten_chest63=1}] run clear @s diamond_chestplate[custom_data={id:"panling:chestplate63"}]
-give @s[scores={success=1}] minecraft:sugar[minecraft:enchantments={"minecraft:protection":1},custom_name='{"translate":"pl.item.name.sealed_chestplate63"}',lore=['{"translate":"pl.lore.rare6"}','{"translate":"pl.lore.limit3"}','{"translate":"pl.item.lore.chestplate63a"}','{"translate":"pl.item.lore.chestplate63b"}','{"translate":"pl.item.lore.chestplate63c"}','{"translate":"pl.lore.sealed"}'],custom_data={id:"panling:sealed_chestplate63"}]
+give @s[scores={success=1}] minecraft:sugar[minecraft:enchantments={minecraft:protection:1},custom_name='{"translate":"pl.item.name.sealed_chestplate63"}',lore=['{"translate":"pl.lore.rare6"}','{"translate":"pl.lore.limit3"}','{"translate":"pl.item.lore.chestplate63a"}','{"translate":"pl.item.lore.chestplate63b"}','{"translate":"pl.item.lore.chestplate63c"}','{"translate":"pl.lore.sealed"}'],custom_data={id:"panling:sealed_chestplate63"}]
 tellraw @s[scores={success=1}] {"translate": "pl.info.legend_sealing"}
 scoreboard players set @s success 0
 
 execute store success score @s success unless entity @s[scores={gotten_leggings6=1}] run clear @s diamond_leggings[custom_data={id:"panling:leggings6"}]
-give @s[scores={success=1}] sugar[custom_name='{"translate":"pl.item.name.sealed_leggings6"}',lore=['{"translate":"pl.lore.rare6"}','{"translate":"pl.lore.limit3"}','{"translate":"pl.item.lore.leggings6a"}','{"translate":"pl.item.lore.leggings6b"}','{"translate":"pl.item.lore.leggings6c"}','{"translate":"pl.lore.sealed"}'],minecraft:enchantments={"minecraft:protection":1},custom_data={id:"panling:sealed_leggings6"}]
+give @s[scores={success=1}] sugar[custom_name='{"translate":"pl.item.name.sealed_leggings6"}',lore=['{"translate":"pl.lore.rare6"}','{"translate":"pl.lore.limit3"}','{"translate":"pl.item.lore.leggings6a"}','{"translate":"pl.item.lore.leggings6b"}','{"translate":"pl.item.lore.leggings6c"}','{"translate":"pl.lore.sealed"}'],minecraft:enchantments={minecraft:protection:1},custom_data={id:"panling:sealed_leggings6"}]
 tellraw @s[scores={success=1}] {"translate": "pl.info.legend_sealing"}
 scoreboard players set @s success 0
 
 execute store success score @s success unless entity @s[scores={gotten_leg62=1}] run clear @s diamond_leggings[custom_data={id:"panling:leggings62"}]
-give @s[scores={success=1}] sugar[minecraft:enchantments={"minecraft:protection":1},custom_name='{"translate":"pl.item.name.sealed_leggings62"}',lore=['{"translate":"pl.lore.rare6"}','{"translate":"pl.lore.limit3"}','{"translate":"pl.item.lore.leggings62a"}','{"translate":"pl.item.lore.leggings62b"}','{"translate":"pl.item.lore.leggings62c"}','{"translate":"pl.lore.sealed"}'],custom_data={id:"panling:sealed_leggings62"}]
+give @s[scores={success=1}] sugar[minecraft:enchantments={minecraft:protection:1},custom_name='{"translate":"pl.item.name.sealed_leggings62"}',lore=['{"translate":"pl.lore.rare6"}','{"translate":"pl.lore.limit3"}','{"translate":"pl.item.lore.leggings62a"}','{"translate":"pl.item.lore.leggings62b"}','{"translate":"pl.item.lore.leggings62c"}','{"translate":"pl.lore.sealed"}'],custom_data={id:"panling:sealed_leggings62"}]
 tellraw @s[scores={success=1}] {"translate": "pl.info.legend_sealing"}
 scoreboard players set @s success 0
 
 execute store success score @s success unless entity @s[scores={gotten_leg63=1}] run clear @s diamond_leggings[custom_data={id:"panling:leggings63"}]
-give @s[scores={success=1}] sugar[minecraft:enchantments={"minecraft:protection":1},custom_name='{"translate":"pl.item.name.sealed_leggings63"}',lore=['{"translate":"pl.lore.rare6"}','{"translate":"pl.lore.limit3"}','{"translate":"pl.item.lore.leggings63a"}','{"translate":"pl.item.lore.leggings63b"}','{"translate":"pl.item.lore.leggings63c"}','{"translate":"pl.lore.sealed"}'],custom_data={id:"panling:sealed_leggings63"}]
+give @s[scores={success=1}] sugar[minecraft:enchantments={minecraft:protection:1},custom_name='{"translate":"pl.item.name.sealed_leggings63"}',lore=['{"translate":"pl.lore.rare6"}','{"translate":"pl.lore.limit3"}','{"translate":"pl.item.lore.leggings63a"}','{"translate":"pl.item.lore.leggings63b"}','{"translate":"pl.item.lore.leggings63c"}','{"translate":"pl.lore.sealed"}'],custom_data={id:"panling:sealed_leggings63"}]
 tellraw @s[scores={success=1}] {"translate": "pl.info.legend_sealing"}
 scoreboard players set @s success 0
 
 execute store success score @s success unless entity @s[scores={gotten_boots61=1}] run clear @s diamond_boots[custom_data={id:"panling:boots61"}]
-give @s[scores={success=1}] sugar[custom_name='{"translate":"pl.item.name.sealed_boots61"}',lore=['{"translate":"pl.lore.rare6"}','{"translate":"pl.lore.limit3"}','{"translate":"pl.item.lore.boots61a"}','{"translate":"pl.item.lore.boots61b"}','{"translate":"pl.item.lore.boots61c"}','{"translate":"pl.lore.sealed"}'],minecraft:enchantments={"minecraft:protection":1},custom_data={id:"panling:sealed_boots61"}]
+give @s[scores={success=1}] sugar[custom_name='{"translate":"pl.item.name.sealed_boots61"}',lore=['{"translate":"pl.lore.rare6"}','{"translate":"pl.lore.limit3"}','{"translate":"pl.item.lore.boots61a"}','{"translate":"pl.item.lore.boots61b"}','{"translate":"pl.item.lore.boots61c"}','{"translate":"pl.lore.sealed"}'],minecraft:enchantments={minecraft:protection:1},custom_data={id:"panling:sealed_boots61"}]
 tellraw @s[scores={success=1}] {"translate": "pl.info.legend_sealing"}
 scoreboard players set @s success 0
 
 execute store success score @s success unless entity @s[scores={gotten_boots62=1}] run clear @s diamond_boots[custom_data={id:"panling:boots62"}]
-give @s[scores={success=1}] sugar[custom_name='{"translate":"pl.item.name.sealed_boots62"}',lore=['{"translate":"pl.lore.rare6"}','{"translate":"pl.lore.limit3"}','{"translate":"pl.item.lore.boots62a"}','{"translate":"pl.item.lore.boots62b"}','{"translate":"pl.item.lore.boots62c"}','{"translate":"pl.lore.sealed"}'],minecraft:enchantments={"minecraft:protection":1},custom_data={id:"panling:sealed_boots62"}]
+give @s[scores={success=1}] sugar[custom_name='{"translate":"pl.item.name.sealed_boots62"}',lore=['{"translate":"pl.lore.rare6"}','{"translate":"pl.lore.limit3"}','{"translate":"pl.item.lore.boots62a"}','{"translate":"pl.item.lore.boots62b"}','{"translate":"pl.item.lore.boots62c"}','{"translate":"pl.lore.sealed"}'],minecraft:enchantments={minecraft:protection:1},custom_data={id:"panling:sealed_boots62"}]
 tellraw @s[scores={success=1}] {"translate": "pl.info.legend_sealing"}
 scoreboard players set @s success 0
 
 execute store success score @s success unless entity @s[scores={gotten_boots63=1}] run clear @s diamond_boots[custom_data={id:"panling:boots63"}]
-give @s[scores={success=1}] sugar[custom_name='{"translate":"pl.item.name.sealed_boots63"}',lore=['{"translate":"pl.lore.rare6"}','{"translate":"pl.lore.limit3"}','{"translate":"pl.item.lore.boots63a"}','{"translate":"pl.item.lore.boots63b"}','{"translate":"pl.item.lore.boots63c"}','{"translate":"pl.lore.sealed"}'],minecraft:enchantments={"minecraft:protection":1},custom_data={id:"panling:sealed_boots63"}]
+give @s[scores={success=1}] sugar[custom_name='{"translate":"pl.item.name.sealed_boots63"}',lore=['{"translate":"pl.lore.rare6"}','{"translate":"pl.lore.limit3"}','{"translate":"pl.item.lore.boots63a"}','{"translate":"pl.item.lore.boots63b"}','{"translate":"pl.item.lore.boots63c"}','{"translate":"pl.lore.sealed"}'],minecraft:enchantments={minecraft:protection:1},custom_data={id:"panling:sealed_boots63"}]
 tellraw @s[scores={success=1}] {"translate": "pl.info.legend_sealing"}
 scoreboard players set @s success 0
 
 execute store success score @s success unless entity @s[scores={gotten_sword6=1}] run clear @s carrot_on_a_stick[custom_data={id:"panling:sword6"}]
-give @s[scores={success=1}] sugar[custom_name='{"translate":"pl.item.name.sealed_sword6"}',lore=['{"translate":"pl.lore.rare6"}','[{"translate":"pl.lore.limit0"},{"text":"  "},{"translate":"pl.lore.limit_lvl_50"}]','{"translate":"pl.item.lore.sword6a"}','{"translate":"pl.item.lore.sword6b"}','{"translate":"pl.item.lore.sword6c"}','{"translate":"pl.item.lore.sword6d"}','{"translate":"pl.lore.sealed"}'],minecraft:enchantments={"minecraft:protection":1},custom_data={id:"panling:sealed_sword6"}]
+give @s[scores={success=1}] sugar[custom_name='{"translate":"pl.item.name.sealed_sword6"}',lore=['{"translate":"pl.lore.rare6"}','[{"translate":"pl.lore.limit0"},{"text":"  "},{"translate":"pl.lore.limit_lvl_50"}]','{"translate":"pl.item.lore.sword6a"}','{"translate":"pl.item.lore.sword6b"}','{"translate":"pl.item.lore.sword6c"}','{"translate":"pl.item.lore.sword6d"}','{"translate":"pl.lore.sealed"}'],minecraft:enchantments={minecraft:protection:1},custom_data={id:"panling:sealed_sword6"}]
 tellraw @s[scores={success=1}] {"translate": "pl.info.legend_sealing"}
 scoreboard players set @s success 0
 
 execute store success score @s success unless entity @s[scores={gotten_bow6=1}] run clear @s wooden_pickaxe[minecraft:custom_model_data={floats:[1]},custom_data={id:"panling:bow6"}]
 execute store success score @s success unless entity @s[scores={gotten_bow6=1}] run clear @s bow[custom_data={id:"panling:bow6"}]
-give @s[scores={success=1}] sugar[custom_name='{"translate":"pl.item.name.sealed_bow6"}',lore=['{"translate":"pl.lore.rare6"}','{"translate":"pl.lore.limit1"}','{"translate":"pl.item.lore.bow6a"}','{"translate":"pl.item.lore.bow6b"}','{"translate":"pl.item.lore.bow6c"}','{"translate":"pl.item.lore.bow6d"}','{"translate":"pl.lore.sealed"}'],minecraft:enchantments={"minecraft:protection":1},custom_data={id:"panling:sealed_bow6"}]
+give @s[scores={success=1}] sugar[custom_name='{"translate":"pl.item.name.sealed_bow6"}',lore=['{"translate":"pl.lore.rare6"}','{"translate":"pl.lore.limit1"}','{"translate":"pl.item.lore.bow6a"}','{"translate":"pl.item.lore.bow6b"}','{"translate":"pl.item.lore.bow6c"}','{"translate":"pl.item.lore.bow6d"}','{"translate":"pl.lore.sealed"}'],minecraft:enchantments={minecraft:protection:1},custom_data={id:"panling:sealed_bow6"}]
 tellraw @s[scores={success=1}] {"translate": "pl.info.legend_sealing"}
 scoreboard players set @s success 0
 
 execute store success score @s success unless entity @s[scores={gotten_furnace6=1}] run clear @s carrot_on_a_stick[custom_data={id:"panling:furnace6"}]
-give @s[scores={success=1}] sugar[custom_name='{"translate":"pl.item.name.sealed_furnace6"}',lore=['{"translate":"pl.lore.rare6"}','{"translate":"pl.lore.limit2"}','{"translate":"pl.item.lore.furnace6a"}','{"translate":"pl.item.lore.furnace6b"}','{"translate":"pl.item.lore.furnace6c"}','{"translate":"pl.item.lore.furnace6d"}','{"translate":"pl.lore.sealed"}'],minecraft:enchantments={"minecraft:protection":1},custom_data={id:"panling:sealed_furnace6"}]
+give @s[scores={success=1}] sugar[custom_name='{"translate":"pl.item.name.sealed_furnace6"}',lore=['{"translate":"pl.lore.rare6"}','{"translate":"pl.lore.limit2"}','{"translate":"pl.item.lore.furnace6a"}','{"translate":"pl.item.lore.furnace6b"}','{"translate":"pl.item.lore.furnace6c"}','{"translate":"pl.item.lore.furnace6d"}','{"translate":"pl.lore.sealed"}'],minecraft:enchantments={minecraft:protection:1},custom_data={id:"panling:sealed_furnace6"}]
 tellraw @s[scores={success=1}] {"translate": "pl.info.legend_sealing"}
 scoreboard players set @s success 0

@@ -29,24 +29,24 @@ scoreboard objectives add alreadyload dummy
 scoreboard objectives add totalload dummy 
 
 #gamerule预设
-gamerule commandBlockOutput false
-gamerule logAdminCommands false
-gamerule sendCommandFeedback false
-gamerule doFireTick false
-gamerule doMobSpawning false
-gamerule doTileDrops false
-gamerule doWeatherCycle false
-gamerule keepInventory false
-gamerule mobGriefing false
-gamerule spawnRadius 0
-gamerule keepInventory true
-gamerule doPatrolSpawning false
-gamerule doTraderSpawning false
-gamerule doLimitedCrafting true
-gamerule doImmediateRespawn true
-gamerule doTileDrops false
-gamerule maxCommandChainLength 10000000
-gamerule doWardenSpawning false
+gamerule minecraft:command_block_output false
+gamerule minecraft:log_admin_commands false
+gamerule minecraft:send_command_feedback false
+gamerule minecraft:fire_spread_radius_around_player false
+gamerule minecraft:spawn_mobs false
+gamerule minecraft:drop_tiles false
+gamerule minecraft:advance_weather false
+gamerule minecraft:keep_inventory false
+gamerule minecraft:mob_griefing false
+gamerule minecraft:respawn_radius 0
+gamerule minecraft:keep_inventory true
+gamerule minecraft:spawn_patrols false
+gamerule minecraft:spawn_traders false
+gamerule minecraft:do_limited_crafting true
+gamerule minecraft:do_immediate_respawn true
+gamerule minecraft:drop_tiles false
+gamerule minecraft:max_command_chain_length 10000000
+gamerule minecraft:spawn_wardens false
 #加载核心加载文件
 schedule function pld:beta/loadinfo 5s
 
