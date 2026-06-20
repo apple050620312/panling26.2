@@ -5,7 +5,7 @@ execute if score #version int = #newest_version int run tellraw @s {"translate":
 execute if score #updating int matches 1 run tellraw @s {"translate":"pl.info.updating"}
 
 #降低玩家的100%攻击力
-attribute @s generic.attack_damage modifier add 101-0-0-0-0 "近战伤害屏蔽" -0.99999 multiply
+attribute @s generic.attack_damage modifier add 101-0-0-0-0 "近战傷害屏蔽" -0.99999 multiply
 
 #检查玩家是否在大陆内
 #不在大陆内视为副本中途退出，移动至奈何桥，重置重生点 inpvp不等于1 in_final_battle不等于1 in_test_check不等于1 feather_mainland=-1
@@ -15,7 +15,7 @@ execute unless score @s inpvp matches 1 unless score @s in_final_battle matches 
 
 
 
-#更新系统发送的邮件
+#更新系統发送的邮件
 function pld:system/chest_menu/screen/3_mails/get_mails/main
 
 

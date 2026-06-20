@@ -1,9 +1,9 @@
 #检测背包空格与获取元素数量
 function pld:system/test_inv/invmain
-#失败1:背包空间不足
+#失敗1:背包空间不足
 #信息
 tellraw @s[scores={inv_remain=0}] {"translate":"pl.info.zf_cook_fault1","color":"red"}
-#音效-失败
+#音效-失敗
 playsound minecraft:block.fire.extinguish ambient @s[scores={inv_remain=0}] ~ ~ ~ 1000
 
 #扣除鱼

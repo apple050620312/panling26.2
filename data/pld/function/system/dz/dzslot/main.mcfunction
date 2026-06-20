@@ -10,9 +10,9 @@ execute if score #temp temp matches 3.. store result score #temp temp2 run data 
 
 execute store result score #temp temp3 run data get block ~ ~ ~ Items[{Slot:6b}].tag.slot
 execute store result score #temp temp4 run data get block ~ ~ ~ Items[{Slot:0b}].tag.element
-#如果元素为神器材料，则元素继承自装备
+#如果元素为神器材料，则元素继承自裝備
 
-#如果原装备有附灵等级，需要同步
+#如果原裝備有附灵等级，需要同步
 scoreboard players set #system temp -1
 execute store success score #system temp run data get block ~ ~ ~ Items.[{Slot:6b}].tag.enchant_id
 execute if score #system temp matches 1 run function pld:system/dz/dzslot/enchant_clone/to_temp
@@ -36,8 +36,8 @@ execute if score #system temp matches 1 run function pld:system/dz/dzslot/enchan
 
 
 
-#execute if block ~ ~ ~ minecraft:dispenser{Items:[{Slot:6b,id:"minecraft:glowstone_dust",Count:1b,tag:{id:"panling:material_helmet"}}]} run function pld:system/dz/dzslot/dzhelmet
-#execute if block ~ ~ ~ minecraft:dispenser{Items:[{Slot:6b,id:"minecraft:glowstone_dust",Count:1b,tag:{id:"panling:material_chestplate"}}]} run function pld:system/dz/dzslot/dzchestplate
-#execute if block ~ ~ ~ minecraft:dispenser{Items:[{Slot:6b,id:"minecraft:glowstone_dust",Count:1b,tag:{id:"panling:material_leggings"}}]} run function pld:system/dz/dzslot/dzleggings
-#execute if block ~ ~ ~ minecraft:dispenser{Items:[{Slot:6b,id:"minecraft:glowstone_dust",Count:1b,tag:{id:"panling:material_boots"}}]} run function pld:system/dz/dzslot/dzboots
+#execute if block ~ ~ ~ minecraft:dispenser{Items:[{Slot:6b,id:"minecraft:glowstone_dust",Count:1b,components:{"minecraft:custom_data":{id:"panling:material_helmet"}}}]} run function pld:system/dz/dzslot/dzhelmet
+#execute if block ~ ~ ~ minecraft:dispenser{Items:[{Slot:6b,id:"minecraft:glowstone_dust",Count:1b,components:{"minecraft:custom_data":{id:"panling:material_chestplate"}}}]} run function pld:system/dz/dzslot/dzchestplate
+#execute if block ~ ~ ~ minecraft:dispenser{Items:[{Slot:6b,id:"minecraft:glowstone_dust",Count:1b,components:{"minecraft:custom_data":{id:"panling:material_leggings"}}}]} run function pld:system/dz/dzslot/dzleggings
+#execute if block ~ ~ ~ minecraft:dispenser{Items:[{Slot:6b,id:"minecraft:glowstone_dust",Count:1b,components:{"minecraft:custom_data":{id:"panling:material_boots"}}}]} run function pld:system/dz/dzslot/dzboots
 

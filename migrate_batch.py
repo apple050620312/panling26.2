@@ -2,9 +2,12 @@ import os
 import re
 
 directories = [
-    r'c:\panling26.2\data\pld\function\pre',
-    r'c:\panling26.2\data\pld\function\pvp',
-    r'c:\panling26.2\data\pld\function\selections'
+    r'c:\panling26.2\data\pld\function\system',
+    r'c:\panling26.2\data\pld\function\test',
+    r'c:\panling26.2\data\pld\function\thanks',
+    r'c:\panling26.2\data\pld\function\trigger',
+    r'c:\panling26.2\data\pld\function\weapon_unlock',
+    r'c:\panling26.2\data\pld\function\armor_unlock'
 ]
 
 def process_tag_content(tag_str):
@@ -88,7 +91,6 @@ def process_tag_content(tag_str):
     return ",".join(components)
 
 def replace_tags(line):
-    # also handle nbt={Item:{id:"minecraft:...",tag:{...}}}
     line = re.sub(
         r'nbt=\{Item:\{id:"(?P<id>[^"]+)",tag:\{(?P<tag>[^}]+)\}\}\}',
         r'nbt={Item:{id:"\g<id>",components:{"minecraft:custom_data":{\g<tag>}}}}',
@@ -146,7 +148,8 @@ def process_dir(d):
         "斥候": "斥候", "帮小兔子回家": "幫小兔子回家", "消失的供品": "消失的供品",
         "山神庙的庙公": "山神廟的廟公", "你也喜欢钓鱼吗": "你也喜歡釣魚嗎",
         "喜欢钓鱼的老人": "喜歡釣魚的老人", "队伍": "隊伍", "伤害": "傷害", "护甲": "護甲",
-        "血量": "血量", "生命": "生命", "属性": "屬性", "装备": "裝備", "玩家": "玩家"
+        "血量": "血量", "生命": "生命", "属性": "屬性", "装备": "裝備", "玩家": "玩家",
+        "系统": "系統", "测试": "測試", "感谢": "感謝", "触发": "觸發", "武器": "武器", "解锁": "解鎖"
     }
 
     for root, dirs, files in os.walk(d):

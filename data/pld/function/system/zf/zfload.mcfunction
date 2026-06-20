@@ -48,12 +48,12 @@ scoreboard objectives add element_offhand dummy ["副手元素数量"]
 scoreboard objectives add zf_str dummy ["阵法强度"]
 scoreboard objectives add zf_str_middle dummy ["阵法强度计算中间量"]
 scoreboard objectives add zf_cool_reduce dummy ["阵法冷却缩减"]
-    #阵法冷却缩减系统上限
+    #阵法冷却缩减系統上限
 scoreboard players set #system_limit zf_cool_reduce 50
 
 scoreboard objectives add equipment_consume_reduce_multiply_base dummy ["武器提供-阵法不消耗率"]
 scoreboard objectives add zf_consume_reduce dummy ["阵法不消耗率"]
-    #阵法不消耗率系统上限
+    #阵法不消耗率系統上限
 scoreboard players set #system_limit zf_consume_reduce 50
 
 
@@ -64,7 +64,7 @@ scoreboard objectives add zf_l6 dummy ["阵法增幅量"]
 scoreboard objectives add monster_resis dummy ["怪物状态：抗性提升"]
 
 #记分板-怪物抗性
-scoreboard objectives add damage_middle dummy ["伤害计算用中间量"] 
+scoreboard objectives add damage_middle dummy ["傷害计算用中间量"] 
 
 scoreboard objectives add ldl6success dummy ["混元鼎特效-元素不消耗"]
 

@@ -2,7 +2,7 @@
 # @p[tag=hit_player] 发射的玩家
 # @s 被命中的怪物
 
-#造成玩家150%箭矢强度的伤害
+#造成玩家150%箭矢强度的傷害
 #粒子效果 暴击
 execute at @s run particle falling_lava ~ ~1 ~ 0.2 0.2 0.2 0 20
 

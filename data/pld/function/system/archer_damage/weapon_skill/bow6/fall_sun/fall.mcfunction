@@ -1,4 +1,4 @@
-#落日启动 当前指令坐标为落地点 @s是触发落日的marker @s projectile_owner_uuid0是玩家的uuid0
+#落日启动 当前指令坐标为落地点 @s是觸發落日的marker @s projectile_owner_uuid0是玩家的uuid0
 tag @s add the_sun_marker
 #根据uuid找到玩家
 execute as @a[scores={job=1}] if score @s player_uuid0 = @e[type=marker,tag=the_sun_marker,limit=1] projectile_owner_uuid0 run tag @s add sun_owner

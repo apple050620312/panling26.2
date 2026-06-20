@@ -6,7 +6,7 @@ playsound entity.generic.explode ambient @a[distance=..10] ~ ~ ~
 
 #点燃
 execute as @e[tag=monster,distance=..5] run data merge entity @s {Fire:100s}
-#造成伤害
+#造成傷害
 
 scoreboard players operation #temp temp = @p[tag=hit_player] archer_damage
 scoreboard players set #temp temp2 2

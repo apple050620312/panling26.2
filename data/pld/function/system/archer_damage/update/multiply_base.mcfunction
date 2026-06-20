@@ -16,7 +16,7 @@
 #execute if score @s armor_rare_feet matches 61 if score @s armor6_awake_feet matches 3 run scoreboard players add @s archer_damage_l6 10
 
 
-#装备提供箭矢强度
+#裝備提供箭矢强度
 scoreboard players operation @s archer_damage_l6 += @s head_atk_pt_multiply_base
 scoreboard players operation @s archer_damage_l6 += @s chest_atk_pt_multiply_base
 scoreboard players operation @s archer_damage_l6 += @s legs_atk_pt_multiply_base

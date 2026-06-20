@@ -1,4 +1,4 @@
-#获取被升阶装备的附灵并复制到新装备中
+#获取被升阶裝備的附灵并复制到新裝備中
 execute if data block ~ ~ ~ Items[{Slot:3b}].tag.enchant_id run function pld:system/dz/legend_dz/enchant_clone
 
 #清理其他位置的东西

@@ -30,15 +30,15 @@ scoreboard objectives add entity_enchant_protection dummy
 #抗性提升等级
 scoreboard objectives add entity_effect_resistance dummy
 
-#伤害计算中间量
+#傷害计算中间量
 scoreboard objectives add entity_hurt_temp dummy
 
-#最终伤害
+#最终傷害
 scoreboard objectives add entity_hurt_final dummy
 
-#玩家造成伤害 一位小数
+#玩家造成傷害 一位小数
 scoreboard objectives add player_cause_1damage custom:damage_dealt
-#玩家造成伤害 二位小数
+#玩家造成傷害 二位小数
 scoreboard objectives add player_cause_2damage dummy
 
 scoreboard objectives add sprinting custom:minecraft.sprint_one_cm ["疾跑检查"]
@@ -100,7 +100,7 @@ scoreboard objectives add weapon_skill_sword4_switch dummy
 
 #武器技-sword5 幻剑记分板-剩余时间
 scoreboard objectives add weapon_skill_sword5_as_5ticks dummy
-#武器技-sword5 幻剑记分板-可造成伤害 2位小数
+#武器技-sword5 幻剑记分板-可造成傷害 2位小数
 scoreboard objectives add weapon_skill_sword5_as_2damage dummy
 #武器技-sword5 幻剑记分板-下一次幻剑下落延迟时间
 scoreboard objectives add weapon_skill_sword5_next_5ticks dummy

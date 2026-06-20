@@ -13,7 +13,7 @@ scoreboard players operation @s archer_damage_should += @s archer_damage1_murder
 scoreboard players operation @s[scores={race=3}] archer_damage_should += @s archer_damage1_exzhan
 #生命头提供箭矢强度
 scoreboard players operation @s archer_damage_should += @s hp_damage
-#装备提供箭矢强度
+#裝備提供箭矢强度
 scoreboard players operation @s archer_damage_should += @s head_atk_pt_base1
 scoreboard players operation @s archer_damage_should += @s chest_atk_pt_base1
 scoreboard players operation @s archer_damage_should += @s legs_atk_pt_base1

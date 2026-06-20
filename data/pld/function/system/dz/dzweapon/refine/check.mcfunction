@@ -1,4 +1,4 @@
-#{Slot:0b,Count:1b,tag:{id:"panling:refine_stone"}} lvl
+#{Slot:0b,Count:1b,components:{"minecraft:custom_data":{id:"panling:refine_stone"}}} lvl
 execute store result score #temp temp run data get block ~ ~ ~ Items[{Slot:0b}].tag.lvl
 
 #enhance_lvl判断能不能洗炼 

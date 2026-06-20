@@ -4,7 +4,7 @@ scoreboard objectives add tp_east3 dummy ["茶点摊传送标记"]
 
 scoreboard objectives add tp_west1 dummy ["金矿小镇传送标记"]
 scoreboard objectives add tp_west2 dummy ["山谷传送标记"]
-scoreboard objectives add tp_west3 dummy ["镇妖塔传送标记"]
+scoreboard objectives add tp_west3 dummy ["鎮妖塔传送标记"]
 
 scoreboard objectives add tp_north1 dummy ["水族村庄传送标记"]
 scoreboard objectives add tp_north2 dummy ["圣山传送标记"]

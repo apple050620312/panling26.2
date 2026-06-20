@@ -9,7 +9,7 @@ scoreboard players set @s screen 1
 #个人基本信息
 function pld:system/chest_menu/screen/1_personal/buttons/100
 
-#个人属性
+#个人屬性
 function pld:system/chest_menu/screen/1_personal/buttons/101
 
 #外观

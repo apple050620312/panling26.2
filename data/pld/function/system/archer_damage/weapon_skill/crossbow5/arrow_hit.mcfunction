@@ -1,6 +1,6 @@
-#根据@s信息，对@e[tag=monster,tag=star_arrow_target] 造成穿甲伤害
+#根据@s信息，对@e[tag=monster,tag=star_arrow_target] 造成穿甲傷害
 
-#输入伤害值
+#输入傷害值
 scoreboard players operation @e[tag=monster,tag=star_arrow_target] entity_hurt_temp = @s weapon_skill_crossbow5_arrow_1damage
 scoreboard players set #temp temp 1000
 scoreboard players operation @e[tag=monster,tag=star_arrow_target] entity_hurt_temp *= #temp temp

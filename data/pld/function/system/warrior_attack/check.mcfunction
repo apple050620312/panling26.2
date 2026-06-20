@@ -8,7 +8,7 @@ execute as @e[tag=warrior_tag] run function pld:pre/threat
 tag @s remove attacker
 
 
-#根据玩家近战攻击属性对怪物造成伤害
+#根据玩家近战攻击屬性对怪物造成傷害
 function pld:system/warrior_attack/attribute/update
 function pld:system/warrior_attack/attribute/atk_sp/update
 

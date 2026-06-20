@@ -26,7 +26,7 @@ scoreboard players operation @s archer_damage_middle *= @s temp
 scoreboard players operation @s archer_damage_middle /= 100 int
 scoreboard players operation @s archer_damage_should += @s archer_damage_middle
 
-#装备提供箭矢强度
+#裝備提供箭矢强度
 scoreboard players operation @s temp = @s head_atk_pt_multiply
 scoreboard players operation @s archer_damage_middle = @s archer_damage_should
 scoreboard players operation @s archer_damage_middle *= @s temp

@@ -1,9 +1,9 @@
-#根据星数追加伤害
+#根据星数追加傷害
 #语境
 # @s 被命中目标
 # @p[tag=hit_player] 攻击的玩家
 
-#计算追加伤害 archer_damage 一位小数
+#计算追加傷害 archer_damage 一位小数
 scoreboard players operation #temp archer_damage = @p[tag=hit_player] archer_damage
 scoreboard players operation #temp temp = #system weapon_skill_bow5_multiplier
 #scoreboard players operation #temp temp *= @p[tag=hit_player] weapon_skill_bow5_lvl
@@ -11,10 +11,10 @@ scoreboard players operation #temp temp *= #temp archer_damage
 scoreboard players set #temp temp2 10
 scoreboard players operation #temp temp /= #temp temp2
 
-#计算追加伤害 二位小数
+#计算追加傷害 二位小数
 scoreboard players operation #temp entity_hurt_temp = #temp temp
 
-#追加伤害给予
+#追加傷害给予
 tag @p[tag=hit_player] add if_death_count
 function pld:system/warrior_attack/hurt/hurt_armor_enchant_effect
 tag @p[tag=hit_player] remove if_death_count

@@ -1,4 +1,4 @@
-#根据marker的记分板进行伤害计算 对 所有 zf_earth_attack的实体
+#根据marker的记分板进行傷害计算 对 所有 zf_earth_attack的实体
 scoreboard players operation #temp entity_hurt_temp = @s zf_earth_str
 scoreboard players set #temp temp 100
 scoreboard players operation #temp entity_hurt_temp *= #temp temp

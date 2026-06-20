@@ -2,7 +2,7 @@ tag @s add the_sun
 #根据uuid 锁定player
 execute as @a[scores={job=1}] if score @s player_uuid0 = @e[type=armor_stand,tag=the_sun,limit=1] projectile_owner_uuid0 run tag @s add hit_player
 
-#爆炸伤害 半径3以内 weapon_skill_bow6_sun_2damage
+#爆炸傷害 半径3以内 weapon_skill_bow6_sun_2damage
 
 execute positioned ~-5 ~-2 ~-5 run tag @e[tag=monster,dx=9,dy=6,dz=9] add to_damage
 execute as @e[tag=to_damage] run function pld:system/archer_damage/weapon_skill/bow6/fall_sun/sun_damage

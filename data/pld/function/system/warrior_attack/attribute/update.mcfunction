@@ -1,7 +1,7 @@
 #基础1点攻击
 scoreboard players set @s attack_damage1 10
 scoreboard players set not_select_act_weapon int 0
-execute if score @s job matches 0 unless entity @s[nbt={SelectedItem:{tag:{act:1}}}] run scoreboard players set not_select_act_weapon int 1
+execute if score @s job matches 0 unless entity @s[nbt={SelectedItem:{components:{"minecraft:custom_data":{act:1}}}}] run scoreboard players set not_select_act_weapon int 1
 
 #检查力量效果等级 没有就0
 execute if predicate pld:effect_check/strength run function pld:system/warrior_attack/attribute/get_str
@@ -37,13 +37,13 @@ function #pld:attack_damage/final_add
 
 
 #如果没有激活 清理数据
-execute if score @s WeaponSlot matches 1 unless entity @s[nbt={Inventory:[{Slot:0b,tag:{act:1}}]}] run scoreboard players set @s weapon_atk_pt_base1 0
-execute if score @s WeaponSlot matches 2 unless entity @s[nbt={Inventory:[{Slot:1b,tag:{act:1}}]}] run scoreboard players set @s weapon_atk_pt_base1 0
-execute if score @s WeaponSlot matches 3 unless entity @s[nbt={Inventory:[{Slot:2b,tag:{act:1}}]}] run scoreboard players set @s weapon_atk_pt_base1 0
-execute if score @s WeaponSlot matches 4 unless entity @s[nbt={Inventory:[{Slot:3b,tag:{act:1}}]}] run scoreboard players set @s weapon_atk_pt_base1 0
-execute if score @s WeaponSlot matches 5 unless entity @s[nbt={Inventory:[{Slot:4b,tag:{act:1}}]}] run scoreboard players set @s weapon_atk_pt_base1 0
-execute if score @s WeaponSlot matches 6 unless entity @s[nbt={Inventory:[{Slot:5b,tag:{act:1}}]}] run scoreboard players set @s weapon_atk_pt_base1 0
-execute if score @s WeaponSlot matches 7 unless entity @s[nbt={Inventory:[{Slot:6b,tag:{act:1}}]}] run scoreboard players set @s weapon_atk_pt_base1 0
-execute if score @s WeaponSlot matches 8 unless entity @s[nbt={Inventory:[{Slot:7b,tag:{act:1}}]}] run scoreboard players set @s weapon_atk_pt_base1 0
-execute if score @s WeaponSlot matches 9 unless entity @s[nbt={Inventory:[{Slot:8b,tag:{act:1}}]}] run scoreboard players set @s weapon_atk_pt_base1 0
-execute if score @s WeaponSlot matches -1 unless entity @s[nbt={Inventory:[{Slot:-106b,tag:{act:1}}]}] run scoreboard players set @s weapon_atk_pt_base1 0
+execute if score @s WeaponSlot matches 1 unless entity @s[nbt={Inventory:[{Slot:0b,components:{"minecraft:custom_data":{act:1}}}]}] run scoreboard players set @s weapon_atk_pt_base1 0
+execute if score @s WeaponSlot matches 2 unless entity @s[nbt={Inventory:[{Slot:1b,components:{"minecraft:custom_data":{act:1}}}]}] run scoreboard players set @s weapon_atk_pt_base1 0
+execute if score @s WeaponSlot matches 3 unless entity @s[nbt={Inventory:[{Slot:2b,components:{"minecraft:custom_data":{act:1}}}]}] run scoreboard players set @s weapon_atk_pt_base1 0
+execute if score @s WeaponSlot matches 4 unless entity @s[nbt={Inventory:[{Slot:3b,components:{"minecraft:custom_data":{act:1}}}]}] run scoreboard players set @s weapon_atk_pt_base1 0
+execute if score @s WeaponSlot matches 5 unless entity @s[nbt={Inventory:[{Slot:4b,components:{"minecraft:custom_data":{act:1}}}]}] run scoreboard players set @s weapon_atk_pt_base1 0
+execute if score @s WeaponSlot matches 6 unless entity @s[nbt={Inventory:[{Slot:5b,components:{"minecraft:custom_data":{act:1}}}]}] run scoreboard players set @s weapon_atk_pt_base1 0
+execute if score @s WeaponSlot matches 7 unless entity @s[nbt={Inventory:[{Slot:6b,components:{"minecraft:custom_data":{act:1}}}]}] run scoreboard players set @s weapon_atk_pt_base1 0
+execute if score @s WeaponSlot matches 8 unless entity @s[nbt={Inventory:[{Slot:7b,components:{"minecraft:custom_data":{act:1}}}]}] run scoreboard players set @s weapon_atk_pt_base1 0
+execute if score @s WeaponSlot matches 9 unless entity @s[nbt={Inventory:[{Slot:8b,components:{"minecraft:custom_data":{act:1}}}]}] run scoreboard players set @s weapon_atk_pt_base1 0
+execute if score @s WeaponSlot matches -1 unless entity @s[nbt={Inventory:[{Slot:-106b,components:{"minecraft:custom_data":{act:1}}}]}] run scoreboard players set @s weapon_atk_pt_base1 0

@@ -33,7 +33,7 @@
 #选择目标
 function pld:system/zf/shifang/main/refined/metal/target/main
 
-#对所有目标造成伤害
+#对所有目标造成傷害
 function pld:system/zf/shifang/main/refined/metal/damage/main
 
 #移除目标

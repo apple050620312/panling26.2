@@ -33,11 +33,11 @@ execute store result entity @s Motion[2] double 0.0001 run scoreboard players ge
 
 #受伤函数
 
-#横扫攻击，伤害控制为一半
+#横扫攻击，傷害控制为一半
 scoreboard players operation #temp entity_hurt_temp = #temp player_cause_2damage
 scoreboard players operation #temp entity_hurt_temp /= 2 int
 
-#伤害至少2点
+#傷害至少2点
 #execute if score #temp entity_hurt_temp matches ..200 run scoreboard players add #temp entity_hurt_temp 200
 
 #受伤公用函数

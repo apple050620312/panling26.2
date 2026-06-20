@@ -10,7 +10,7 @@ function pld:system/zf/shifang/main/refined/wood/particle/main
 scoreboard players remove @s[scores={zf_wood_line_tick=0..}] zf_wood_line_tick 1
 scoreboard players remove @p[scores={zf_wood_line_tick=0..},distance=..8,tag=wood_line_target2] zf_wood_line_tick 1
 
-#判断是否触发回血
+#判断是否觸發回血
 execute as @p[tag=wood_line_target2] run function pld:system/zf/shifang/main/refined/wood/5ticks/line_effect
 function pld:system/zf/shifang/main/refined/wood/5ticks/line_effect
 

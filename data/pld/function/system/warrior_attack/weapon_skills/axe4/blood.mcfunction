@@ -3,7 +3,7 @@
 # @e tag=warrior_tag
 
 #blooding:[{damage:10d,lvl:1s,next_tick:5s,remaining_times:2s,uid:1}]
-#damage:即将造成的流血伤害 lvl：层数 nexttick：下次流血剩余的tick（5tick） remaining_times:流血剩余时间（5ticks）
+#damage:即将造成的流血傷害 lvl：层数 nexttick：下次流血剩余的tick（5tick） remaining_times:流血剩余时间（5ticks）
 
 #如果没有uid 为对象分配一个uid 和 marker
 execute as @e[tag=warrior_tag,limit=1] unless score @s blood_uid matches 1.. at @s run function pld:system/warrior_attack/weapon_skills/axe4/new_blood_marker

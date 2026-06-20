@@ -1,4 +1,4 @@
-execute if score @s using_tpstone matches 1.. if score @s tp_cool_tick matches -1 if score @s tp_tick matches -1 if score @s feather_mainland matches 1 as @s[nbt={SelectedItem:{tag:{id:"panling:tp_stone"}}}] run function pld:system/tpsystem/using_stone_check
+execute if score @s using_tpstone matches 1.. if score @s tp_cool_tick matches -1 if score @s tp_tick matches -1 if score @s feather_mainland matches 1 as @s[nbt={SelectedItem:{components:{"minecraft:custom_data":{id:"panling:tp_stone"}}}}] run function pld:system/tpsystem/using_stone_check
 execute if score @s tp_tick matches 0.. if score @s tp_cool_tick matches -1 if score @s feather_mainland matches 1 run scoreboard players remove @s tp_tick 1
 execute if score @s feather_mainland matches -1 if score @s tp_cool_tick matches -1 if score @s tp_tick matches 0.. run scoreboard players set @s tp_tick -1
 execute if score @s tp_tick matches 0 if score @s tp_cool_tick matches -1 if score @s feather_mainland matches 1 if score @s moving matches 0 if score @s moving2 matches 0 if score @s moving3 matches 0 run function pld:system/tpsystem/tp_allow
@@ -13,7 +13,7 @@ execute if score @s tp_cool_tick matches 0 run tellraw @s {"translate":"pl.info.
 execute if score @s tp_cool_tick matches 0.. if score @s using_tpstone matches 1.. run function pld:system/tpsystem/cooling
 
 #大陆外
-execute if score @s feather_mainland matches -1 if score @s tp_cool_tick matches -1 if score @s using_tpstone matches 1.. run tellraw @s[nbt={SelectedItem:{tag:{id:"panling:tp_stone"}}}] {"translate":"pl.info.tp_mirror_resis3"}
+execute if score @s feather_mainland matches -1 if score @s tp_cool_tick matches -1 if score @s using_tpstone matches 1.. run tellraw @s[nbt={SelectedItem:{components:{"minecraft:custom_data":{id:"panling:tp_stone"}}}}] {"translate":"pl.info.tp_mirror_resis3"}
 
 #重置使用记分板
 scoreboard players set @s using_tpstone 0

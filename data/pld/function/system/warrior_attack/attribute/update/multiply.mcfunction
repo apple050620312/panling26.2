@@ -9,7 +9,7 @@ scoreboard players operation #attack_damage_middle float1 *= #attack_damage_mult
 scoreboard players operation #attack_damage_middle float1 /= 100 int
 scoreboard players operation @s attack_damage1 += #attack_damage_middle float1
 
-#装备提供近战攻击
+#裝備提供近战攻击
 scoreboard players operation #attack_damage_multiply float2 = @s head_atk_pt_multiply
 scoreboard players operation #attack_damage_middle float1 = @s attack_damage1
 scoreboard players operation #attack_damage_middle float1 *= #attack_damage_multiply float2

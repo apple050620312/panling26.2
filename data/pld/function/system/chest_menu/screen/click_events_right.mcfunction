@@ -1,3 +1,3 @@
-execute unless data storage pld:system Temp.EnderItems[{tag:{reset_self_id:4}}] run function pld:system/chest_menu/buttons/reset_self4
-execute unless data storage pld:system Temp.EnderItems[{tag:{reset_self_id:5}}] run function pld:system/chest_menu/buttons/reset_self5 
+execute unless data storage pld:system Temp.EnderItems[{components:{"minecraft:custom_data":{reset_self_id:4}}}] run function pld:system/chest_menu/buttons/reset_self4
+execute unless data storage pld:system Temp.EnderItems[{components:{"minecraft:custom_data":{reset_self_id:5}}}] run function pld:system/chest_menu/buttons/reset_self5 
 

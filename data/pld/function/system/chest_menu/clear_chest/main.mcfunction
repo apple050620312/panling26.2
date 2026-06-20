@@ -5,8 +5,8 @@
 #抓取箱内容 将玩家末影箱内容存入storage pld:system Temp_chest中
 data modify storage pld:system Temp_chest set from storage pld:system Temp.EnderItems
 #清理按钮们
-data remove storage pld:system Temp_chest[{tag:{clickable:1}}]
-#清理左三,不在这里返还
+data remove storage pld:system Temp_chest[{components:{"minecraft:custom_data":{clickable:1}}}]
+#清理左三,不在這裡返还
 data remove storage pld:system Temp_chest[{Slot:0b}]
 data remove storage pld:system Temp_chest[{Slot:9b}]
 data remove storage pld:system Temp_chest[{Slot:18b}]
@@ -15,7 +15,7 @@ data remove storage pld:system Temp_chest[{Slot:18b}]
 #根据当前菜单页面，判断情况
 execute if score @s screen matches 200..225 run function pld:system/chest_menu/clear_chest/if_in_chests
 
-#清理右三,不在这里返还
+#清理右三,不在這裡返还
 data remove storage pld:system Temp_chest[{Slot:8b}]
 data remove storage pld:system Temp_chest[{Slot:17b}]
 #data remove storage pld:system Temp_chest[{Slot:26b}]

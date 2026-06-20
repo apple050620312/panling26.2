@@ -1,4 +1,4 @@
-#伤害值
+#傷害值
 scoreboard players set #temp damage_middle 0
 scoreboard players operation #temp damage_middle += @s zf_str
 scoreboard players operation #temp damage_middle *= zf_mp_refined_metal percent

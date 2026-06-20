@@ -5,7 +5,7 @@ tellraw @s[scores={ex_zhan=1}] {"translate": "pl.info.ze_finish2"}
 execute if score @s ex_zhan matches 1 run function pld:system/ex_zhan/reward/check
 give @s minecraft:iron_ingot{display:{Name:'{"translate":"pl.item.name.silver"}'},id:"panling:silver_ticket"}
 tellraw @s[scores={ex_zhan=1,ex_zhan_battle=2}] {"translate": "pl.info.ze_finish3"}
-attribute @s[scores={ex_zhan=1,ex_zhan_battle=2}] minecraft:generic.armor modifier add 0-0-0-2-3 "战神族支线奖励-护甲" 2 add 
+attribute @s[scores={ex_zhan=1,ex_zhan_battle=2}] minecraft:generic.armor modifier add 0-0-0-2-3 "战神族支线奖励-護甲" 2 add 
 
 scoreboard players set @s[scores={ex_zhan=1,ex_zhan_battle=2,job=0}] attack_damage1_exzhan 15
 scoreboard players set @s[scores={ex_zhan=1,ex_zhan_battle=2,job=1}] archer_damage1_exzhan 10

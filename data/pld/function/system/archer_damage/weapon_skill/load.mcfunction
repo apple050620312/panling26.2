@@ -10,7 +10,7 @@ scoreboard objectives add weapon_skill_crossbow4_5ticks dummy
 #crossbow4 技能效果-箭矢强度增加
 scoreboard objectives add weapon_skill_crossbow4_damage dummy
 
-#bow4 箭矢可触发武器技
+#bow4 箭矢可觸發武器技
 scoreboard objectives add weapon_skill_bow4_can_skill dummy
 #bow4 追加倍率
 scoreboard objectives add weapon_skill_bow4_multiplier dummy
@@ -44,7 +44,7 @@ scoreboard players set #system weapon_skill_bow5_multiplier 250
 scoreboard objectives add weapon_skill_bow6_5ticks dummy
 #bow6 层数
 scoreboard objectives add weapon_skill_bow6_lvl dummy
-#bow6 落日伤害 2位小数
+#bow6 落日傷害 2位小数
 scoreboard objectives add weapon_skill_bow6_sun_2damage dummy
 #bow6 落日基础倍率
 scoreboard objectives add weapon_skill_bow6_sun_multiplier_base dummy

@@ -15,7 +15,7 @@
 #execute if score @s armor_rare_feet matches 62 if score @s armor6_awake_feet matches 2 run scoreboard players add @s weapon_skill_cool_reduce 15
 #execute if score @s armor_rare_feet matches 62 if score @s armor6_awake_feet matches 3 run scoreboard players add @s weapon_skill_cool_reduce 20
 
-#装备提供速度力
+#裝備提供速度力
 scoreboard players operation @s weapon_skill_cool_reduce += @s head_speed_pc_multiply_base
 scoreboard players operation @s weapon_skill_cool_reduce += @s chest_speed_pc_multiply_base
 scoreboard players operation @s weapon_skill_cool_reduce += @s legs_speed_pc_multiply_base

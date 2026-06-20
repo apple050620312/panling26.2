@@ -33,5 +33,5 @@ execute store result entity @s Health double 0.0001 run scoreboard players get @
 effect give @s instant_damage 1 31 false
 effect give @s instant_health 1 31 false
 
-#触发器-造成伤害
+#觸發器-造成傷害
 function pld:equipment_lock/equipment/armor/set_bonus/when_cause_damage

@@ -32,7 +32,7 @@ execute store result entity @e[limit=1,tag=star_arrow2] Rotation[1] float 0.0001
 scoreboard players set @e[type=marker,tag=star_arrow1] weapon_skill_crossbow5_arrow_tick 200
 scoreboard players set @e[type=marker,tag=star_arrow2] weapon_skill_crossbow5_arrow_tick 200
 
-#上伤害量
+#上傷害量
 function pld:system/archer_damage/weapon_skill/crossbow5/arrow_damage
 
 

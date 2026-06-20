@@ -1,4 +1,4 @@
-#根据等级和id获取强化条目细节 并给予属性
+#根据等级和id获取强化条目细节 并给予屬性
 #enhance_lvl
 execute store result score #temp temp run data get storage pld:system Temp_zf_weapon.tag.enhance_lvl
 

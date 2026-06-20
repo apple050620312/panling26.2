@@ -24,10 +24,12 @@
 | `pld/function/pre` | 已完成 | 已轉換 | 已轉換 | 不適用 | 中文化及 NBT 更新 |
 | `pld/function/pvp` | 已完成 | 已轉換 | 已轉換 | 不適用 | 玩家對戰獎勵 NBT 與廣播中文化轉換 |
 | `pld/function/selections` | 已完成 | 已轉換 | 已轉換 | 不適用 | 職業選擇與選單之 NBT 轉換 |
-| `pld/function/system` | 待處理 | 待處理 | 待處理 | 待處理 | |
-| `pld/function/test` | 待處理 | 待處理 | 待處理 | 待處理 | |
-| `pld/function/thanks` | 待處理 | 待處理 | 待處理 | 待處理 | |
-| `pld/function/ticks` | 待處理 | 待處理 | 待處理 | 待處理 | |
+| `pld/function/system` | 已完成 | 已轉換 | 已轉換 | 不適用 | 核心底層系統之裝備檢測與文本轉換 |
+| `pld/function/test` | 已完成 | 已轉換 | 已轉換 | 不適用 | 測試系統檔案轉換 |
+| `pld/function/thanks` | 已完成 | 已轉換 | 已轉換 | 不適用 | 感謝名單與紀錄檔案轉換 |
+| `pld/function/trigger` | 已完成 | 已轉換 | 已轉換 | 不適用 | 觸發器介面與文字顯示中文化 |
+| `pld/function/weapon_unlock` | 已完成 | 已轉換 | 已轉換 | 不適用 | 武器解鎖系統之新版物品 NBT 轉換 |
+| `pld/function/armor_unlock` | 已完成 | 已轉換 | 已轉換 | 不適用 | 防具解鎖系統之新版物品 NBT 轉換 |
 | `pld/tags` | 已完成 | 無需轉換 | 不適用 | - | 已確認內部無簡中字串 |
 
 ## 遇到的技術阻礙與 Todo

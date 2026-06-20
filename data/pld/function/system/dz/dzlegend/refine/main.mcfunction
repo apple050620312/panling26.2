@@ -1,4 +1,4 @@
-#将核心处的装备丢到slot5里
+#将核心处的裝備丢到slot5里
 #把0、3位置清理掉
 data remove block ~ ~ ~ Items.[{Slot:0b}]
 #把物品丢到5

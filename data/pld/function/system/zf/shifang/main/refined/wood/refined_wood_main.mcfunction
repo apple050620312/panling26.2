@@ -39,7 +39,7 @@
 #如果附近有玩家，创建并链接苏生线
 execute if entity @p[tag=!sfwj,distance=..8] run function pld:system/zf/shifang/main/refined/wood/line_main
 
-#如果没有玩家，判定没有目标,显示失败
+#如果没有玩家，判定没有目标,显示失敗
 
 #扣除元素
 function pld:system/zf/l6_check

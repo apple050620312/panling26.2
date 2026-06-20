@@ -19,7 +19,7 @@ execute as @s[tag=in30_boss4] run scoreboard players operation @s monster_resis 
 scoreboard players operation @s[tag=in30_boss4] monster_resis /= 100 int
 
 
-#如果怪物血量低于zf_refined_metal_healthstg设定百分比，则伤害提升zf_mp_refined_metal_add
+#如果怪物血量低于zf_refined_metal_healthstg设定百分比，则傷害提升zf_mp_refined_metal_add
 scoreboard players set #temp temp2 100
 scoreboard players operation #temp temp = @s monster_max_health
 scoreboard players operation #temp temp *= zf_refined_metal_healthstg percent

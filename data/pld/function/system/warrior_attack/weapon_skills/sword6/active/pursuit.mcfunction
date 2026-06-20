@@ -1,4 +1,4 @@
-#输入伤害值
+#输入傷害值
 execute store result score #temp entity_hurt_temp run attribute @s generic.max_health get 20
 
 #受伤函数

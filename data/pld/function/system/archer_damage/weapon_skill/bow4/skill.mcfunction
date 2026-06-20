@@ -1,4 +1,4 @@
-#触发了武器技
+#觸發了武器技
 
 #粒子效果&文本提示&音效
 #particle minecraft:wax_on ~ ~1 ~ 0.5 0.5 0.5 0 20 force @a

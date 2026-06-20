@@ -1,1 +1,1 @@
-execute if block ~ ~ ~ minecraft:dispenser{Items:[{Slot:3b,id:"minecraft:phantom_membrane",Count:1b,tag:{level:4s,job:2b,branch:0b}},{Slot:0b,id:"minecraft:bone",Count:10b,tag:{id:"panling:refined_wood"}}]} run scoreboard players set #system dzoutput 420
+execute if block ~ ~ ~ minecraft:dispenser{Items:[{Slot:3b,id:"minecraft:phantom_membrane",Count:1b,components:{"minecraft:custom_data":{level:4s,job:2b,branch:0b}}},{Slot:0b,id:"minecraft:bone",Count:10b,components:{"minecraft:custom_data":{id:"panling:refined_wood"}}}]} run scoreboard players set #system dzoutput 420

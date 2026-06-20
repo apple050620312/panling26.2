@@ -1,6 +1,6 @@
 #===========================近战攻击 +x% 百分比  multiply_base===========================#
 # *（1+x%） x等于所有此乘区百分比和
-#装备提供近战攻击
+#裝備提供近战攻击
 execute if score @s job matches 0 run scoreboard players operation #attack_damage_multiply_base int += @s head_atk_pt_multiply_base
 execute if score @s job matches 0 run scoreboard players operation #attack_damage_multiply_base int += @s chest_atk_pt_multiply_base
 execute if score @s job matches 0 run scoreboard players operation #attack_damage_multiply_base int += @s legs_atk_pt_multiply_base
