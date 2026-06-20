@@ -1,5 +1,5 @@
-scoreboard objectives add damage dummy ["通用伤害记分板-2位小数"]
-scoreboard objectives add damage_tick dummy ["通用伤害最大血量恢复tick"]
+scoreboard objectives add damage dummy ["通用傷害记分板-2位小数"]
+scoreboard objectives add damage_tick dummy ["通用傷害最大血量恢复tick"]
 
 
 #本系统参考 

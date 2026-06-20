@@ -1,4 +1,4 @@
-#重置装备
+#重置裝備
 execute as @s[team=attack] run function pld:pvp/2/ing/atk/equipment_reset
 execute as @s[team=defence] run function pld:pvp/2/ing/def/equipment_reset
 

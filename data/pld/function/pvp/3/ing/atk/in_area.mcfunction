@@ -3,7 +3,7 @@ spawnpoint @s 2347 215 -1801
 #重置背包
 function pld:pvp/3/ing/atk/equipment_reset
 
-#关闭原有属性
+#关闭原有屬性
 scoreboard players set @s raceeffect -1
 effect clear @s
 function pld:system/attribute/clear

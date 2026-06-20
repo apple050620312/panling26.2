@@ -40,8 +40,8 @@ scoreboard players set @a[team=attack] inpvp_area 0
 scoreboard players set @a[team=attack] inbuy_area 0
 scoreboard players set @a[team=attack] pvp_relife_tick -1
 
-execute as @a[team=attack] run attribute @s generic.attack_damage modifier add 101-0-0-0-0 "近战伤害屏蔽" -0.99999 multiply
-execute as @a[team=defence] run attribute @s generic.attack_damage modifier add 101-0-0-0-0 "近战伤害屏蔽" -0.99999 multiply
+execute as @a[team=attack] run attribute @s generic.attack_damage modifier add 101-0-0-0-0 "近战傷害屏蔽" -0.99999 multiply
+execute as @a[team=defence] run attribute @s generic.attack_damage modifier add 101-0-0-0-0 "近战傷害屏蔽" -0.99999 multiply
 
 team join normal @a[team=attack]
 team join normal @a[team=defence]

@@ -34,8 +34,8 @@ execute if score #system pvp3_trans_tick matches 0 run tellraw @a[scores={feathe
 
 
 #清理战役道具
-kill @e[type=item,nbt={Item:{tag:{button:1}}}]
-kill @e[type=item,nbt={Item:{tag:{pvp:1}}}]
+kill @e[type=item,nbt={Item:{components:{"minecraft:custom_data":{button:1}}}}]
+kill @e[type=item,nbt={Item:{components:{"minecraft:custom_data":{pvp:1}}}}]
 
 execute unless score #system pvpevent matches 1 unless score #system pvpevent matches 2 run function pld:pvp/1/clear_sign
 execute unless score #system pvpevent matches 2 run function pld:pvp/1/clear_players

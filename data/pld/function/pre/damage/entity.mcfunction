@@ -1,7 +1,7 @@
 # 输入 @s entity_hurt_temp
 # 对@s 造成 
 
-#获取最终伤害
+#获取最终傷害
 scoreboard players operation @s entity_hurt_final = @s entity_hurt_temp
 #tellraw @a {"score":{"objective": "entity_hurt_final","name": "@s"}}
 

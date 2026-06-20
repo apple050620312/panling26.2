@@ -37,5 +37,5 @@ execute if block 1318 99 -1831 minecraft:redstone_wall_torch[lit=true] run funct
 execute if block 1453 104 -1819 minecraft:redstone_wall_torch[lit=true] run function pld:pvp/1/ing/water_cannon/2
 
 #硫磺炸药激活
-execute as @e[type=item,nbt={Item:{tag:{id:"panling:pvp1_tnt"}}}] unless entity @e[type=tnt] at @s if block ~ ~-1 ~ birch_planks positioned ~ ~1 ~ unless score #system pvp1_tnt_cool matches 0.. run function pld:pvp/1/ing/atk/tnt
+execute as @e[type=item,nbt={Item:{components:{"minecraft:custom_data":{id:"panling:pvp1_tnt"}}}}] unless entity @e[type=tnt] at @s if block ~ ~-1 ~ birch_planks positioned ~ ~1 ~ unless score #system pvp1_tnt_cool matches 0.. run function pld:pvp/1/ing/atk/tnt
 execute if score #system pvp1_tnt_cool matches 0.. run scoreboard players remove #system pvp1_tnt_cool 1

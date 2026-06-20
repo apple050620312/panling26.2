@@ -25,7 +25,7 @@ execute if score #system pvp1_last_win matches 3 run scoreboard players remove @
 #成就-战役胜利计数
 execute if score #system pvp1_last_win matches 3 run function pld:pvp/adv_check
 
-#开启属性
+#开启屬性
 scoreboard players set @s[scores={race=0,racefriend0=-9..}] raceeffect 1
 scoreboard players set @s[scores={race=1,racefriend1=-9..}] raceeffect 1
 scoreboard players set @s[scores={race=2,racefriend2=-9..}] raceeffect 1

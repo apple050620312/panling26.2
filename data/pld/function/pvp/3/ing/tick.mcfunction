@@ -1,4 +1,4 @@
-#将守卫加入防御队伍
+#将守卫加入防御隊伍
 team join defence @e[tag=pvp3]
 #战场人数比较
 execute store result score #system pvp_atk_count run execute if entity @a[team=attack]

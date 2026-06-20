@@ -1,5 +1,5 @@
 
-#队伍、pvp状态
+#隊伍、pvp状态
 team join attack @a[scores={pvp_team=1}]
 team join defence @a[scores={pvp_team=2}]
 scoreboard players set @a[scores={pvp_team=1..2}] inpvp 1

@@ -66,8 +66,8 @@ execute if score #system pvp2_kill_tree11 matches 400 run function pld:pvp/2/ing
 execute if score #system pvp2_spitem_tick matches 0.. run scoreboard players remove #system pvp2_spitem_tick 1
 execute if score #system pvp2_spitem_tick matches 0 run function pld:pvp/2/ing/sp_item/roll_pos
 
-execute as @a[nbt={Inventory:[{tag:{id:"panling:pvp2_sp_item1"}}]}] run function pld:pvp/2/ing/sp_item/use/1
-execute as @a[nbt={Inventory:[{tag:{id:"panling:pvp2_sp_item2"}}]}] run function pld:pvp/2/ing/sp_item/use/2
-execute as @a[nbt={Inventory:[{tag:{id:"panling:pvp2_sp_item3"}}]}] run function pld:pvp/2/ing/sp_item/use/3
+execute as @a[nbt={Inventory:[{components:{"minecraft:custom_data":{id:"panling:pvp2_sp_item1"}}}]}] run function pld:pvp/2/ing/sp_item/use/1
+execute as @a[nbt={Inventory:[{components:{"minecraft:custom_data":{id:"panling:pvp2_sp_item2"}}}]}] run function pld:pvp/2/ing/sp_item/use/2
+execute as @a[nbt={Inventory:[{components:{"minecraft:custom_data":{id:"panling:pvp2_sp_item3"}}}]}] run function pld:pvp/2/ing/sp_item/use/3
 
 

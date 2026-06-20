@@ -1,4 +1,4 @@
-#盔甲伤害减免
+#盔甲傷害减免
 
 #获取盔甲值
 execute store result score @s entity_2armor run attribute @s generic.armor get 100
@@ -32,7 +32,7 @@ scoreboard players set #temp temp2 25
 scoreboard players operation #temp temp /= #temp temp2
 scoreboard players set #temp temp2 100
 scoreboard players operation #temp temp2 -= #temp temp
-#盔甲减免后伤害 四位小数 在temp内
+#盔甲减免后傷害 四位小数 在temp内
 scoreboard players operation #temp temp = #temp entity_hurt_temp
 scoreboard players operation #temp temp *= #temp temp2
 scoreboard players operation @s entity_hurt_temp = #temp temp

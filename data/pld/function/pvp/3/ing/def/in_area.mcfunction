@@ -7,7 +7,7 @@ function pld:pvp/3/ing/def/equipment_reset
 #更新守点奖励
 scoreboard players set @s pvp3_defense_reward 2
 
-#关闭原有属性
+#关闭原有屬性
 scoreboard players set @s raceeffect -1
 effect clear @s
 function pld:system/attribute/clear

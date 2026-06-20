@@ -8,8 +8,8 @@ give @s minecraft:potion{id:"panling:killpotion",CustomPotionColor:4393481,Custo
 give @s minecraft:pink_dye{display:{Lore:['{"translate":"pl.item.lore.npcbubblea"}','{"translate":"pl.item.lore.npcbubbleb"}'],Name:'{"translate":"pl.item.name.npcbubble"}'},id:"panling:NPC_bubble"} 3
 #盘古大陆通则【修订版】
 give @s minecraft:written_book{title:"§6盘古大陆通则【修订版】",author:"§6天道",pages:['{"translate":"pl.book.t0.page1"}','{"translate":"pl.book.t0.page2"}','{"translate":"pl.book.t0.page3"}','{"translate":"pl.book.t0.page4"}','{"translate":"pl.book.t0.page5"}','{"translate":"pl.book.t0.page6"}']}
-#属性介绍书
-give @s minecraft:written_book{title:"§6扩展包新增属性介绍",author:"§6天道",pages:['{"translate":"pl.book.t1.page1"}','{"translate":"pl.book.t1.page2"}','{"translate":"pl.book.t1.page3"}']}
+#屬性介绍书
+give @s minecraft:written_book{title:"§6扩展包新增屬性介绍",author:"§6天道",pages:['{"translate":"pl.book.t1.page1"}','{"translate":"pl.book.t1.page2"}','{"translate":"pl.book.t1.page3"}']}
 #菜单书
 function pld:system/menubook/update/main
 
@@ -86,14 +86,14 @@ scoreboard players set @s test_cool -1
 
 #重生点标记
 scoreboard players set @s spwanpoint 8
-#给予支线任务属性奖励
+#给予支线任务屬性奖励
 attribute @s[scores={race=0,ex_shen=1}] minecraft:generic.max_health modifier add 0-0-0-2-0 "神族支线奖励-生命" 2 add 
 attribute @s[scores={race=0,ex_shen=1}] minecraft:generic.armor_toughness modifier add 0-0-0-2-0 "神族支线奖励-韧性" 1 add
 attribute @s[scores={race=1,ex_yao=1}] minecraft:generic.max_health modifier add 0-0-0-2-1 "妖族支线奖励-生命" 2 add 
 attribute @s[scores={race=1,ex_yao=1}] minecraft:generic.movement_speed modifier add 0-0-0-2-1 "妖族支线奖励-速度" 0.05 multiply_base
 attribute @s[scores={race=2,ex_xian=1}] minecraft:generic.max_health modifier add 0-0-0-2-2 "仙族支线奖励-生命" 2 add 
 attribute @s[scores={race=2,ex_xian=1}] minecraft:generic.knockback_resistance modifier add 0-0-0-2-2 "仙族支线奖励-抗性" 0.2 add
-attribute @s[scores={race=3,ex_zhan=1}] minecraft:generic.armor modifier add 0-0-0-2-3 "战神族支线奖励-护甲" 2 add 
+attribute @s[scores={race=3,ex_zhan=1}] minecraft:generic.armor modifier add 0-0-0-2-3 "战神族支线奖励-護甲" 2 add 
 attribute @s[scores={race=3,ex_zhan=1}] minecraft:generic.attack_damage modifier add 0-0-0-2-3 "战神族支线奖励-近战攻击" 1 add
 attribute @s[scores={race=4,ex_ren=1}] minecraft:generic.max_health modifier add 0-0-0-2-4 "人族支线奖励-生命" 2 add 
 attribute @s[scores={race=4,ex_ren=1}] minecraft:generic.armor_toughness modifier add 0-0-0-2-4 "人族支线奖励-韧性" 1 add
