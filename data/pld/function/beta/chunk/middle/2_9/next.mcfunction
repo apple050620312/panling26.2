@@ -4,7 +4,7 @@ data merge block 36 47 151 {front_text:{messages:['{"translate":""}','{"translat
 data merge block 31 47 156 {front_text:{messages:['{"translate":""}','{"translate":"pl.sign.middle38.text2"}','{"translate":""}','{"translate":""}']}}
 setblock 34 42 163 minecraft:command_block{Command:"function pld:npcs/middle/rentong7"} replace 
 setblock 31 45 161 minecraft:command_block{Command:"particle enchant ~ ~3 ~ 0.2 0.2 0.2 0.0 4"} replace 
-setblock 37 45 162 minecraft:repeating_command_block{Command:"/data merge block ~ ~ ~2 {Items:}"} replace
+setblock 37 45 162 minecraft:repeating_command_block{Command:"/data merge block ~ ~ ~2 {Items:[]}"} replace
 
 data merge block 37 47 164 {front_text:{messages:['{"translate":"pl.sign.middle39.text1"}','{"translate":"pl.sign.middle39.text2"}','{"translate":"pl.sign.middle39.text3"}','{"translate":""}']}}
 setblock 43 43 164 air

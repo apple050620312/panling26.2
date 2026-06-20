@@ -13,7 +13,7 @@ setblock -849 122 -134 minecraft:command_block{Command:"execute as @p[x=-849,y=1
 
 setblock -851 103 -144 minecraft:command_block{Command:"execute as @p[x=-853,y=102,z=-142,dx=4,dy=5,dz=7] run function pld:system/ex_xian/monster_check"} replace 
 
-data merge block -845 133 -138 {Items:}
+data merge block -845 133 -138 {Items:[]}
 setblock -850 122 -140 air
 setblock -849 122 -141 stone
 kill @e[type=villager,tag=!panling]

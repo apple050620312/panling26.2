@@ -5,5 +5,5 @@ execute as @p[tag=legend_check] run loot replace block ~ ~ ~ container.26 loot p
 execute store result score #system temp4 run data get block ~ ~ ~ Items[{Slot:26b}].tag.tagid
 
 #清空随机结果
-data merge block ~ ~ ~ {Items:}
+data merge block ~ ~ ~ {Items:[]}
 

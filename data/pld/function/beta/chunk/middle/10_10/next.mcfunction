@@ -8,10 +8,10 @@ data merge block 161 13 164 {front_text:{messages:['{"translate":""}','{"transla
 
 setblock 173 44 160 minecraft:command_block{Command:"execute as @p[x=173,y=47,z=160,distance=..10] run function pld:system/te71/incheck"} replace 
 setblock 173 46 162 minecraft:repeating_command_block{Command:"execute as @p[x=175,y=48,z=162,distance=..10] run function pld:system/te71/bee_found"} replace 
-data merge block 175 46 162 {Items:}
+data merge block 175 46 162 {Items:[]}
 setblock 161 11 166 minecraft:command_block{Command:"execute as @p[x=161,y=12,z=164,distance=..10] run function pld:system/te71/honey_check"} replace 
 
-data merge block 161 11 164 {Items:}
+data merge block 161 11 164 {Items:[]}
 fill 161 11 167 161 11 168 air
 
 

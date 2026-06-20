@@ -20,7 +20,7 @@ setblock 335 30 -721 minecraft:air replace
 setblock 338 31 -724 minecraft:hopper replace
 setblock 335 31 -724 minecraft:hopper replace
 
-data merge block 333 32 -715 {Items:}
+data merge block 333 32 -715 {Items:[]}
 setblock 333 32 -713 minecraft:repeating_command_block{Command:"function pld:system/truth/yao/5/check_in_room"} replace 
 fill 342 16 -718 342 17 -718 air
 data merge block 339 16 -718 {front_text:{messages:['{"translate":""}','{"translate":"pl.sign.yh5.text2"}','{"translate":"pl.sign.yh5.text3"}','{"translate":""}']}}

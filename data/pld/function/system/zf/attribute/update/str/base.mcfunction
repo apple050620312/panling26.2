@@ -27,13 +27,13 @@ scoreboard players operation @s zf_str += @s murder_zf_str
 scoreboard players operation @s[scores={race=3}] zf_str += @s exzhan_zf_str
 
 #附灵提供效果
-execute if entity @s[scores={zf_hold_ldl=1..},nbt={Inventory:[{Slot:-106b,components:{"minecraft:custom_data":{enchant_id:5,enchant_lvl:1}}}]}] run scoreboard players add @s zf_str 1
-execute if entity @s[scores={zf_hold_ldl=1..},nbt={Inventory:[{Slot:-106b,components:{"minecraft:custom_data":{enchant_id:5,enchant_lvl:2}}}]}] run scoreboard players add @s zf_str 2
-execute if entity @s[scores={zf_hold_ldl=1..},nbt={Inventory:[{Slot:-106b,components:{"minecraft:custom_data":{enchant_id:5,enchant_lvl:3}}}]}] run scoreboard players add @s zf_str 3
+execute if entity @s[scores={zf_hold_ldl=1..},nbt={Inventory:[{Slot:-106b,components:{custom_data:{enchant_id:5,enchant_lvl:1}}}]}] run scoreboard players add @s zf_str 1
+execute if entity @s[scores={zf_hold_ldl=1..},nbt={Inventory:[{Slot:-106b,components:{custom_data:{enchant_id:5,enchant_lvl:2}}}]}] run scoreboard players add @s zf_str 2
+execute if entity @s[scores={zf_hold_ldl=1..},nbt={Inventory:[{Slot:-106b,components:{custom_data:{enchant_id:5,enchant_lvl:3}}}]}] run scoreboard players add @s zf_str 3
 
-execute if entity @s[scores={zf_hold_ldl=..-1},nbt={SelectedItem:{components:{"minecraft:custom_data":{enchant_id:5,enchant_lvl:1}}}}] run scoreboard players add @s zf_str 1
-execute if entity @s[scores={zf_hold_ldl=..-1},nbt={SelectedItem:{components:{"minecraft:custom_data":{enchant_id:5,enchant_lvl:2}}}}] run scoreboard players add @s zf_str 2
-execute if entity @s[scores={zf_hold_ldl=..-1},nbt={SelectedItem:{components:{"minecraft:custom_data":{enchant_id:5,enchant_lvl:3}}}}] run scoreboard players add @s zf_str 3
+execute if entity @s[scores={zf_hold_ldl=..-1},nbt={SelectedItem:{components:{custom_data:{enchant_id:5,enchant_lvl:1}}}}] run scoreboard players add @s zf_str 1
+execute if entity @s[scores={zf_hold_ldl=..-1},nbt={SelectedItem:{components:{custom_data:{enchant_id:5,enchant_lvl:2}}}}] run scoreboard players add @s zf_str 2
+execute if entity @s[scores={zf_hold_ldl=..-1},nbt={SelectedItem:{components:{custom_data:{enchant_id:5,enchant_lvl:3}}}}] run scoreboard players add @s zf_str 3
 
 
 
@@ -49,27 +49,27 @@ scoreboard players operation @s zf_str += @s head_atk_pt_base1
 scoreboard players operation @s zf_str += @s chest_atk_pt_base1
 scoreboard players operation @s zf_str += @s legs_atk_pt_base1
 scoreboard players operation @s zf_str += @s feet_atk_pt_base1
-#execute if entity @s[nbt={Inventory:[{Slot:103b,components:{"minecraft:custom_data":{id:"panling:helmet22"}}}]}] run scoreboard players add @s zf_str 1
-#execute if entity @s[nbt={Inventory:[{Slot:103b,components:{"minecraft:custom_data":{id:"panling:helmet32"}}}]}] run scoreboard players add @s zf_str 1
-#execute if entity @s[nbt={Inventory:[{Slot:103b,components:{"minecraft:custom_data":{id:"panling:helmet42"}}}]}] run scoreboard players add @s zf_str 2
-#execute if entity @s[nbt={Inventory:[{Slot:103b,components:{"minecraft:custom_data":{id:"panling:helmet52"}}}]}] run scoreboard players add @s zf_str 2
+#execute if entity @s[nbt={Inventory:[{Slot:103b,components:{custom_data:{id:"panling:helmet22"}}}]}] run scoreboard players add @s zf_str 1
+#execute if entity @s[nbt={Inventory:[{Slot:103b,components:{custom_data:{id:"panling:helmet32"}}}]}] run scoreboard players add @s zf_str 1
+#execute if entity @s[nbt={Inventory:[{Slot:103b,components:{custom_data:{id:"panling:helmet42"}}}]}] run scoreboard players add @s zf_str 2
+#execute if entity @s[nbt={Inventory:[{Slot:103b,components:{custom_data:{id:"panling:helmet52"}}}]}] run scoreboard players add @s zf_str 2
 #
-#execute if entity @s[nbt={Inventory:[{Slot:102b,components:{"minecraft:custom_data":{id:"panling:chestplate22"}}}]}] run scoreboard players add @s zf_str 0
-#execute if entity @s[nbt={Inventory:[{Slot:102b,components:{"minecraft:custom_data":{id:"panling:chestplate32"}}}]}] run scoreboard players add @s zf_str 1
-#execute if entity @s[nbt={Inventory:[{Slot:102b,components:{"minecraft:custom_data":{id:"panling:chestplate42"}}}]}] run scoreboard players add @s zf_str 1
-#execute if entity @s[nbt={Inventory:[{Slot:102b,components:{"minecraft:custom_data":{id:"panling:chestplate52"}}}]}] run scoreboard players add @s zf_str 2
+#execute if entity @s[nbt={Inventory:[{Slot:102b,components:{custom_data:{id:"panling:chestplate22"}}}]}] run scoreboard players add @s zf_str 0
+#execute if entity @s[nbt={Inventory:[{Slot:102b,components:{custom_data:{id:"panling:chestplate32"}}}]}] run scoreboard players add @s zf_str 1
+#execute if entity @s[nbt={Inventory:[{Slot:102b,components:{custom_data:{id:"panling:chestplate42"}}}]}] run scoreboard players add @s zf_str 1
+#execute if entity @s[nbt={Inventory:[{Slot:102b,components:{custom_data:{id:"panling:chestplate52"}}}]}] run scoreboard players add @s zf_str 2
 #
-#execute if entity @s[nbt={Inventory:[{Slot:101b,components:{"minecraft:custom_data":{id:"panling:leggings22"}}}]}] run scoreboard players add @s zf_str 0
-#execute if entity @s[nbt={Inventory:[{Slot:101b,components:{"minecraft:custom_data":{id:"panling:leggings32"}}}]}] run scoreboard players add @s zf_str 1
-#execute if entity @s[nbt={Inventory:[{Slot:101b,components:{"minecraft:custom_data":{id:"panling:leggings42"}}}]}] run scoreboard players add @s zf_str 1
-#execute if entity @s[nbt={Inventory:[{Slot:101b,components:{"minecraft:custom_data":{id:"panling:leggings52"}}}]}] run scoreboard players add @s zf_str 2
+#execute if entity @s[nbt={Inventory:[{Slot:101b,components:{custom_data:{id:"panling:leggings22"}}}]}] run scoreboard players add @s zf_str 0
+#execute if entity @s[nbt={Inventory:[{Slot:101b,components:{custom_data:{id:"panling:leggings32"}}}]}] run scoreboard players add @s zf_str 1
+#execute if entity @s[nbt={Inventory:[{Slot:101b,components:{custom_data:{id:"panling:leggings42"}}}]}] run scoreboard players add @s zf_str 1
+#execute if entity @s[nbt={Inventory:[{Slot:101b,components:{custom_data:{id:"panling:leggings52"}}}]}] run scoreboard players add @s zf_str 2
 #
-#execute if entity @s[nbt={Inventory:[{Slot:100b,components:{"minecraft:custom_data":{id:"panling:boots22"}}}]}] run scoreboard players add @s zf_str 1
-#execute if entity @s[nbt={Inventory:[{Slot:100b,components:{"minecraft:custom_data":{id:"panling:boots32"}}}]}] run scoreboard players add @s zf_str 1
-#execute if entity @s[nbt={Inventory:[{Slot:100b,components:{"minecraft:custom_data":{id:"panling:boots42"}}}]}] run scoreboard players add @s zf_str 2
-#execute if entity @s[nbt={Inventory:[{Slot:100b,components:{"minecraft:custom_data":{id:"panling:boots52"}}}]}] run scoreboard players add @s zf_str 2
-#execute if entity @s[nbt={Inventory:[{Slot:100b,components:{"minecraft:custom_data":{id:"panling:boots4e1"}}}]}] run scoreboard players add @s zf_str 6
-#execute if entity @s[nbt={Inventory:[{Slot:100b,components:{"minecraft:custom_data":{id:"panling:boots5e1"}}}]}] run scoreboard players add @s zf_str 8
+#execute if entity @s[nbt={Inventory:[{Slot:100b,components:{custom_data:{id:"panling:boots22"}}}]}] run scoreboard players add @s zf_str 1
+#execute if entity @s[nbt={Inventory:[{Slot:100b,components:{custom_data:{id:"panling:boots32"}}}]}] run scoreboard players add @s zf_str 1
+#execute if entity @s[nbt={Inventory:[{Slot:100b,components:{custom_data:{id:"panling:boots42"}}}]}] run scoreboard players add @s zf_str 2
+#execute if entity @s[nbt={Inventory:[{Slot:100b,components:{custom_data:{id:"panling:boots52"}}}]}] run scoreboard players add @s zf_str 2
+#execute if entity @s[nbt={Inventory:[{Slot:100b,components:{custom_data:{id:"panling:boots4e1"}}}]}] run scoreboard players add @s zf_str 6
+#execute if entity @s[nbt={Inventory:[{Slot:100b,components:{custom_data:{id:"panling:boots5e1"}}}]}] run scoreboard players add @s zf_str 8
 
 
 

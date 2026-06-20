@@ -1,4 +1,4 @@
-summon marker ~ ~ ~ {Tags:["new_blood_marker","blood_marker"],data:{blooding:}}
+summon marker ~ ~ ~ {Tags:["new_blood_marker","blood_marker"],data:{blooding:[]}}
 
 execute store result score @s blood_uid run scoreboard players add #system blood_uid 1
 

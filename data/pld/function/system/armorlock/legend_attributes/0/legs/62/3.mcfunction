@@ -1,2 +1,2 @@
-attribute @s attack_damage modifier add 10-3-3-3-3 "神器-甲兵释司-基础攻击加成" 2 add
-attribute @s attack_damage modifier add 9-3-3-3-3 "神器-甲兵释司-攻击加成" 0.1 multiply_base
+attribute @s attack_damage modifier add panling:mod_10_3_3_3_3 2 add_value
+attribute @s attack_damage modifier add panling:mod_9_3_3_3_3 0.1 add_multiplied_base

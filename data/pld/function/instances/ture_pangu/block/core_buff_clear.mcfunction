@@ -1,1 +1,1 @@
-attribute @s movement_speed modifier remove 10-0-0-0-0
+attribute @s movement_speed modifier remove panling:mod_10_0_0_0_0

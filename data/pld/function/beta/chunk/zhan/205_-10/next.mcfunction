@@ -1,6 +1,6 @@
 
 #要做的事
-data merge block 3280 19 -129 {Items:}
+data merge block 3280 19 -129 {Items:[]}
 setblock 3284 16 -135 minecraft:command_block{Command:"function pld:npcs/zhan/zhanmain1"} replace 
 setblock 3265 16 -148 minecraft:command_block{Command:"function pld:npcs/zhan/zhanmain2"} replace 
 setblock 3266 15 -151 minecraft:command_block{Command:"function pld:npcs/zhan/chat1"} replace 

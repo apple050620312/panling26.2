@@ -1,5 +1,5 @@
 #给予增幅
-execute as @a[distance=..5,scores={job=0}] run attribute @s attack_damage modifier add 12-3-4-0-0 "火四件套光环效果" 0.25 multiply_base
+execute as @a[distance=..5,scores={job=0}] run attribute @s attack_damage modifier add panling:mod_12_3_4_0_0 0.25 add_multiplied_base
 tag @a[distance=..5] add fire_0_ring
 
 #提供生命恢复

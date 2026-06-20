@@ -1,23 +1,23 @@
-attribute @s minecraft:max_health modifier remove 0-0-0-2-0
-attribute @s minecraft:armor_toughness modifier remove 0-0-0-2-0
-attribute @s minecraft:max_health modifier remove 0-0-0-2-1
-attribute @s minecraft:movement_speed modifier remove 0-0-0-2-1
-attribute @s minecraft:max_health modifier remove 0-0-0-2-2
-attribute @s minecraft:knockback_resistance modifier remove 0-0-0-2-2
-attribute @s minecraft:armor modifier remove 0-0-0-2-3
-attribute @s minecraft:attack_damage modifier remove 0-0-0-2-3
-attribute @s minecraft:max_health modifier remove 0-0-0-2-4
-attribute @s minecraft:armor_toughness modifier remove 0-0-0-2-4
+attribute @s minecraft:max_health modifier remove panling:mod_0_0_0_2_0
+attribute @s minecraft:armor_toughness modifier remove panling:mod_0_0_0_2_0
+attribute @s minecraft:max_health modifier remove panling:mod_0_0_0_2_1
+attribute @s minecraft:movement_speed modifier remove panling:mod_0_0_0_2_1
+attribute @s minecraft:max_health modifier remove panling:mod_0_0_0_2_2
+attribute @s minecraft:knockback_resistance modifier remove panling:mod_0_0_0_2_2
+attribute @s minecraft:armor modifier remove panling:mod_0_0_0_2_3
+attribute @s minecraft:attack_damage modifier remove panling:mod_0_0_0_2_3
+attribute @s minecraft:max_health modifier remove panling:mod_0_0_0_2_4
+attribute @s minecraft:armor_toughness modifier remove panling:mod_0_0_0_2_4
 
-attribute @s minecraft:max_health modifier remove 0-0-1-0-0
-attribute @s minecraft:attack_damage modifier remove 0-0-1-0-1
-attribute @s minecraft:max_health modifier remove 0-0-1-0-2
-attribute @s minecraft:armor_toughness modifier remove 0-0-1-0-3
-attribute @s minecraft:armor modifier remove 0-0-1-0-4
+attribute @s minecraft:max_health modifier remove panling:mod_0_0_1_0_0
+attribute @s minecraft:attack_damage modifier remove panling:mod_0_0_1_0_1
+attribute @s minecraft:max_health modifier remove panling:mod_0_0_1_0_2
+attribute @s minecraft:armor_toughness modifier remove panling:mod_0_0_1_0_3
+attribute @s minecraft:armor modifier remove panling:mod_0_0_1_0_4
 
-attribute @s minecraft:max_health modifier remove 0-0-1-1-0
-attribute @s minecraft:max_health modifier remove 0-0-1-1-1
-attribute @s minecraft:max_health modifier remove 0-0-1-1-2
-attribute @s minecraft:max_health modifier remove 0-0-1-1-3
-attribute @s minecraft:max_health modifier remove 0-0-1-1-4
+attribute @s minecraft:max_health modifier remove panling:mod_0_0_1_1_0
+attribute @s minecraft:max_health modifier remove panling:mod_0_0_1_1_1
+attribute @s minecraft:max_health modifier remove panling:mod_0_0_1_1_2
+attribute @s minecraft:max_health modifier remove panling:mod_0_0_1_1_3
+attribute @s minecraft:max_health modifier remove panling:mod_0_0_1_1_4
 

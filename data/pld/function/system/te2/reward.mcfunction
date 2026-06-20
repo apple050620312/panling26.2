@@ -3,7 +3,7 @@ tellraw @s[scores={ex_doctor=1}] {"translate": "pl.info.te2_reward1"}
 execute if score @s ex_doctor matches 1 store success score @s success run function pld:system/te2/reward/check
 
 tellraw @s[scores={ex_doctor=1}] {"translate": "pl.info.te2_reward2"}
-attribute @s[scores={ex_doctor=1}] minecraft:max_health modifier add 0-0-1-0-0 "李大夫支线奖励-生命" 2 add 
+attribute @s[scores={ex_doctor=1}] minecraft:max_health modifier add panling:mod_0_0_1_0_0 2 add_value 
 tellraw @s[scores={ex_doctor=1}] {"translate": "pl.info.te2_reward3"}
 playsound entity.player.levelup ambient @s[scores={ex_doctor=1}]
 scoreboard players set @p[scores={success=1}] success 0

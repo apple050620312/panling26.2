@@ -1,3 +1,3 @@
-execute if entity @s[nbt={Item:{components:{"minecraft:custom_data":{id:"panling:enchant_stone"}}}}] run data merge entity @s {CustomName:'{"translate":"pl.item.name.enchant_stone3"}'}
-execute if entity @s[nbt={Item:{components:{"minecraft:custom_data":{id:"panling:enchant_stone"}}}}] run loot give @p[scores={success=1}] loot pld:chests/goldchests/enchant_stone
-execute if entity @s[nbt={Item:{components:{"minecraft:custom_data":{id:"panling:enchant_stone"}}}}] run tellraw @p[scores={success=1}] {"text": "","extra": [{"translate": "pl.info.goldchest_open"},{"translate":"pl.item.name.enchant_stone3"}]}
+execute if entity @s[nbt={Item:{components:{custom_data:{id:"panling:enchant_stone"}}}}] run data merge entity @s {CustomName:'{"translate":"pl.item.name.enchant_stone3"}'}
+execute if entity @s[nbt={Item:{components:{custom_data:{id:"panling:enchant_stone"}}}}] run loot give @p[scores={success=1}] loot pld:chests/goldchests/enchant_stone
+execute if entity @s[nbt={Item:{components:{custom_data:{id:"panling:enchant_stone"}}}}] run tellraw @p[scores={success=1}] {"text": "","extra": [{"translate": "pl.info.goldchest_open"},{"translate":"pl.item.name.enchant_stone3"}]}

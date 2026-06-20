@@ -13,7 +13,7 @@ setblock 3190 101 783 air
 fill 3191 100 782 3191 99 782 minecraft:stone
 setblock 3190 100 782 minecraft:command_block{Command:"function pld:npcs/xian/xianmain1"} replace 
 setblock 3187 103 776 minecraft:command_block{Command:"function pld:system/rechoose/rechoose"} replace 
-data merge block 3189 103 776 {Items:}
+data merge block 3189 103 776 {Items:[]}
 
 kill @e[type=villager,tag=!panling]
 execute as @e[type=skeleton] run function pld:system/tp_and_kill_self

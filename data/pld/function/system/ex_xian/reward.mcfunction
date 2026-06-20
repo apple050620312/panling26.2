@@ -5,8 +5,8 @@ tellraw @s {"translate":"pl.info.xe_finish1"}
 tellraw @s {"translate":"pl.info.xe_finish2"}
 execute if score @s ex_xian matches 1 run function pld:system/ex_xian/reward/check
 tellraw @s {"translate":"pl.info.xe_finish3"}
-attribute @s minecraft:max_health modifier add 0-0-0-2-2 "仙族支线奖励-生命" 2 add 
-attribute @s minecraft:knockback_resistance modifier add 0-0-0-2-2 "仙族支线奖励-抗性" 0.2 add
+attribute @s minecraft:max_health modifier add panling:mod_0_0_0_2_2 2 add_value 
+attribute @s minecraft:knockback_resistance modifier add panling:mod_0_0_0_2_2 0.2 add_value
 tellraw @s {"translate":"pl.info.xe_finish4"}
 scoreboard players add @s[scores={ex_xian=1}] racefriend2 14
 scoreboard players add @s[scores={ex_xian=1}] racefriend1 10

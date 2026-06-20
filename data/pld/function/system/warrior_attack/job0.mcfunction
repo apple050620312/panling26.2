@@ -21,7 +21,7 @@ function #pld:warrior/when_hurt_entity
 #攻击力传参
 scoreboard players operation #temp player_cause_2damage = @s player_2atk 
 scoreboard players operation #temp player_cause_2damage = attack_damage float2
-execute unless score @s attack_scool_down_tick matches 1.. unless score @s sweep_cool matches 1.. unless score @s sprinting matches 1.. if entity @s[nbt={OnGround:1b,SelectedItem:{id:"minecraft:carrot_on_a_stick",components:{"minecraft:custom_data":{can_sweep:1}}}}] run function pld:system/warrior_attack/sweep/main
+execute unless score @s attack_scool_down_tick matches 1.. unless score @s sweep_cool matches 1.. unless score @s sprinting matches 1.. if entity @s[nbt={OnGround:1b,SelectedItem:{id:"minecraft:carrot_on_a_stick",components:{custom_data:{can_sweep:1}}}}] run function pld:system/warrior_attack/sweep/main
 
 #重置
 scoreboard players set @s sprinting 0

@@ -6,7 +6,7 @@ setblock 8 43 833 minecraft:command_block{Command:"function pld:npcs/south/tong5
 setblock 8 43 827 minecraft:command_block{Command:"function pld:npcs/south/tong6"} replace 
 setblock 8 29 822 minecraft:command_block{Command:"function pld:npcs/south/ye2"} replace 
 setblock 11 47 827 minecraft:repeating_command_block{Command:"function pld:system/ex_yao/check"} replace 
-data merge block 9 47 827 {Items:}
+data merge block 9 47 827 {Items:[]}
 data merge block 3 35 823 {front_text:{messages:['{"translate":""}','{"translate":"pl.sign.ye.text2"}','{"translate":"pl.sign.ye.text3"}','{"translate":""}']}}
 
 setblock 1 35 823 minecraft:command_block{Command:"execute as @p[x=3,y=35,z=822,distance=..10] run function pld:system/ex_yao/reward"} replace 

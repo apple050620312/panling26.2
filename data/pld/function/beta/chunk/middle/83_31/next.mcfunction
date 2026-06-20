@@ -35,7 +35,7 @@ data merge block 1351 39 494 {CustomName:'{"translate":"pl.info.honor_enchant_ho
 setblock 1343 35 506 minecraft:command_block{Command:"execute as @e[x=1345,y=42,z=511,type=armor_stand,distance=..3,limit=1] at @s run particle flame ~0.7 ~2.0 ~0.05 0 0 0 0 10"} replace
 
 setblock 1353 34 505 minecraft:command_block{Command:"function pld:npcs/middle/ex_sword1"} replace 
-data merge block 1354 36 507 {Items:}
+data merge block 1354 36 507 {Items:[]}
 setblock 1351 33 507 air
 setblock 1352 36 507 minecraft:repeating_command_block{Command:"execute as @p[x=1354,y=38,z=507,distance=..3] run function pld:system/ex_sword/check"} replace 
 

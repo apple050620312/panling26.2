@@ -1,5 +1,5 @@
 #最大生命值提升20%
-attribute @s max_health modifier add 12-2-4-0-0 "水四件套战士最大生命值" 0.2 multiply_base
+attribute @s max_health modifier add panling:mod_12_2_4_0_0 0.2 add_multiplied_base
 
 #抗性提升2 15秒
 effect give @s resistance 15 1

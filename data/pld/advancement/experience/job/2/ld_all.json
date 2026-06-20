@@ -25,7 +25,8 @@
             "trigger": "minecraft:tick",
             "conditions": {
                 "player": {
-                    "minecraft:player": {
+                    "type_specific": {
+                        "type": "minecraft:player",
                         "advancements": {
                             "pld:experience/job/2/ld_book": "true"
                         }

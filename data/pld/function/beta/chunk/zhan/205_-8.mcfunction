@@ -1,7 +1,7 @@
 #区块强加载
 forceload add 3281 -125
 #要做的事
-data merge block 3280 19 -129 {Items:}
+data merge block 3280 19 -129 {Items:[]}
 setblock 3280 19 -127 minecraft:command_block{Command:"function pld:system/rechoose/rechoose"} replace 
 
 #区块卸载

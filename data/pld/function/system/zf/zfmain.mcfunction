@@ -20,14 +20,14 @@ execute if predicate pld:offhand/furnace6 unless entity @s[level=50..] run tellr
 execute if predicate pld:mainhand/furnace4 unless entity @s[level=30..] run tellraw @s [{"translate":"pl.info.equip_level_limited"},{"translate":"pl.item.name.furnace4"}]
 execute if predicate pld:mainhand/furnace5 unless entity @s[level=40..] run tellraw @s [{"translate":"pl.info.equip_level_limited"},{"translate":"pl.item.name.furnace5"}]
 execute if predicate pld:mainhand/furnace6 unless entity @s[level=50..] run tellraw @s [{"translate":"pl.info.equip_level_limited"},{"translate":"pl.item.name.furnace6"}]
-#scoreboard players set @s[nbt={SelectedItem:{components:{"minecraft:custom_data":{id:"panling:furnace6",awake:0}}}}] weapon6_awake 0
-#scoreboard players set @s[nbt={SelectedItem:{components:{"minecraft:custom_data":{id:"panling:furnace6",awake:1}}}}] weapon6_awake 1
-#scoreboard players set @s[nbt={SelectedItem:{components:{"minecraft:custom_data":{id:"panling:furnace6",awake:2}}}}] weapon6_awake 2
-#scoreboard players set @s[nbt={SelectedItem:{components:{"minecraft:custom_data":{id:"panling:furnace6",awake:3}}}}] weapon6_awake 3
-#scoreboard players set @s[nbt={Inventory:[{Slot:-106b,components:{"minecraft:custom_data":{id:"panling:furnace6",awake:0}}}]}] weapon6_awake 0
-#scoreboard players set @s[nbt={Inventory:[{Slot:-106b,components:{"minecraft:custom_data":{id:"panling:furnace6",awake:1}}}]}] weapon6_awake 1
-#scoreboard players set @s[nbt={Inventory:[{Slot:-106b,components:{"minecraft:custom_data":{id:"panling:furnace6",awake:2}}}]}] weapon6_awake 2
-#scoreboard players set @s[nbt={Inventory:[{Slot:-106b,components:{"minecraft:custom_data":{id:"panling:furnace6",awake:3}}}]}] weapon6_awake 3
+#scoreboard players set @s[nbt={SelectedItem:{components:{custom_data:{id:"panling:furnace6",awake:0}}}}] weapon6_awake 0
+#scoreboard players set @s[nbt={SelectedItem:{components:{custom_data:{id:"panling:furnace6",awake:1}}}}] weapon6_awake 1
+#scoreboard players set @s[nbt={SelectedItem:{components:{custom_data:{id:"panling:furnace6",awake:2}}}}] weapon6_awake 2
+#scoreboard players set @s[nbt={SelectedItem:{components:{custom_data:{id:"panling:furnace6",awake:3}}}}] weapon6_awake 3
+#scoreboard players set @s[nbt={Inventory:[{Slot:-106b,components:{custom_data:{id:"panling:furnace6",awake:0}}}]}] weapon6_awake 0
+#scoreboard players set @s[nbt={Inventory:[{Slot:-106b,components:{custom_data:{id:"panling:furnace6",awake:1}}}]}] weapon6_awake 1
+#scoreboard players set @s[nbt={Inventory:[{Slot:-106b,components:{custom_data:{id:"panling:furnace6",awake:2}}}]}] weapon6_awake 2
+#scoreboard players set @s[nbt={Inventory:[{Slot:-106b,components:{custom_data:{id:"panling:furnace6",awake:3}}}]}] weapon6_awake 3
 
 #接口-空
 function #pld:zf/zfmain

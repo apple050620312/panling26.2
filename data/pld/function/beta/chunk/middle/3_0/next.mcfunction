@@ -17,7 +17,7 @@ setblock 57 4 32 minecraft:command_block{Command:"tp @p[distance=..5] 56 48 34"}
 setblock 57 45 32 minecraft:command_block{Command:"playsound random.door_open ambient @p 57 7 30 3"} replace 
 setblock 56 45 32 minecraft:command_block{Command:"tp @p[distance=..5] 57 7 30"} replace 
 clone 52 5 24 51 6 24 51 5 21
-data merge block 53 6 24 {Items:} 
+data merge block 53 6 24 {Items:[]} 
 setblock 51 6 24 minecraft:repeating_command_block{Command:"execute as @p[x=53,y=7,z=24,distance=..5] run function pld:system/racefriend/query"} replace 
 setblock 51 6 21 minecraft:repeating_command_block{Command:"execute as @p[x=53,y=7,z=21,distance=..5] run function pld:system/racefriend/levelup"} replace 
 setblock 63 7 22 air

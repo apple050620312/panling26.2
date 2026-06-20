@@ -20,7 +20,7 @@ data modify storage pld:system enderitems_temp2[{Slot:17b}].Slot set value 4b
 data modify storage pld:system enderitems_temp2[{Slot:18b}].Slot set value 5b
 data modify storage pld:system enderitems_temp2[{Slot:26b}].Slot set value 6b
 
-data modify storage pld:system data_temp set value {chests:[{Slot:0b,pages:{page1_Items:,page2_Items:}}],mails:}
+data modify storage pld:system data_temp set value {chests:[{Slot:0b,pages:{page1_Items:[],page2_Items:[]}}],mails:[]}
 data modify storage pld:system data_temp.chests[{Slot:0b}].pages.page1_Items set from storage pld:system enderitems_temp1
 data modify storage pld:system data_temp.chests[{Slot:0b}].pages.page2_Items set from storage pld:system enderitems_temp2
 

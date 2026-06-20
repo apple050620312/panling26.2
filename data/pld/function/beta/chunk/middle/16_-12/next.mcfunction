@@ -10,7 +10,7 @@ data merge block 272 46 -188 {front_text:{messages:['{"translate":""}','{"transl
 data merge block 258 62 -186 {front_text:{messages:['{"translate":""}','{"translate":"pl.sign.middle22.text2"}','{"translate":"pl.sign.middle22.text3"}','{"translate":""}']}}
 data merge block 258 62 -181 {front_text:{messages:['{"translate":""}','{"translate":"pl.sign.middle22.text2"}','{"translate":"pl.sign.middle22.text3"}','{"translate":""}']}}
 data merge block 254 37 -239 {front_text:{messages:['{"translate":""}','{"translate":"pl.sign.middle23.text2"}','{"translate":""}','{"translate":""}']}}
-data merge block 272 45 -187 {Items:}
+data merge block 272 45 -187 {Items:[]}
 
 kill @e[type=villager,tag=!panling]
 execute positioned 273 41 -188 run function pld:npcs/middle/zhanmain5

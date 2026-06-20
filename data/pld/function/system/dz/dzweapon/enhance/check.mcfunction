@@ -20,7 +20,7 @@ scoreboard players operation #system temp /= 10 int
 scoreboard players operation @p[tag=enhance_check] dzrare = #system temp
 scoreboard players operation @p[tag=enhance_check] dzrare %= 10 int
 
-#获取武器数据比对 {Slot:6b,components:{"minecraft:custom_data":{type:1}}}
+#获取武器数据比对 {Slot:6b,components:{custom_data:{type:1}}}
 execute store result score #system dzbranch run data get block ~ ~ ~ Items[{Slot:6b}].tag.branch
 execute store result score #system dzlimit run data get block ~ ~ ~ Items[{Slot:6b}].tag.limit
 execute store result score #system dzrare run data get block ~ ~ ~ Items[{Slot:6b}].tag.rare

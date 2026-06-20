@@ -4,7 +4,8 @@
             "trigger": "minecraft:tick",
             "conditions": {
                 "player": {
-                    "minecraft:player": {
+                    "type_specific": {
+                        "type": "minecraft:player",
                         "level": {
                             "min": 100
                         },

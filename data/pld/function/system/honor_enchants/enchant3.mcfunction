@@ -1,4 +1,4 @@
-attribute @s max_health modifier add 7-7-7-7-7 "时装附灵生命值" 5 add
+attribute @s max_health modifier add panling:mod_7_7_7_7_7 5 add_value
 #计算血量换算
 execute store result score @s max_hp run attribute @s max_health get
 scoreboard players operation @s hp_damage = @s max_hp

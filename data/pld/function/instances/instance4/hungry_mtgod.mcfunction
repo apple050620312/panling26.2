@@ -39,5 +39,5 @@ execute if score #system instance4_food matches -10 as @p[tag=food_mtgod] run fu
 #回收玩家标记
 tag @a[tag=food_mtgod] remove food_mtgod
 
-data merge block 1259 79 1399 {Items:}
+data merge block 1259 79 1399 {Items:[]}
 tellraw @a[x=1259,y=80,z=1398,distance=..5,scores={instance4_mouth=0}] {"translate":"pl.info.instance4.full"}

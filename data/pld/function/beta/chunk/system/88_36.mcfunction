@@ -29,7 +29,7 @@ forceload add 1418 568 1405 576
 setblock 1416 40 577 air
 setblock 1416 41 574 air
 setblock 1416 40 568 air
-#data merge block 1416 40 568 {Items:}
+#data merge block 1416 40 568 {Items:[]}
 #
 #setblock 1416 40 565 minecraft:command_block{Command:"function pld:selections/training/example_item"} replace
 #
@@ -38,7 +38,7 @@ setblock 1412 41 574 air
 #setblock 1412 39 574 minecraft:command_block{Command:'data merge block 1412 41 574 {Items:[{Slot:13b,id:"minecraft:nether_star",Count:1b,tag:{display:{Name:\'{"translate":"pl.item.name.relifestone"}\'},id:"panling:relive_stone"}}]}'} replace
 #data merge block 1410 41 574 {CustomName:'{"translate":"pl.sign.training_system6.text1"}'}
 #
-#data merge block 1410 40 574 {Items:}
+#data merge block 1410 40 574 {Items:[]}
 setblock 1410 40 574 air
 #setblock 1410 39 578 air
 #setblock 1410 40 577 minecraft:command_block{Command:"function pld:selections/training/relive_stone"} replace

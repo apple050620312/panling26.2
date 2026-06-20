@@ -2,7 +2,7 @@
 scoreboard players set #temp temp3 0
 scoreboard players set #temp temp2 0
 #抓取元素数量
-execute store result score #temp temp2 run data get block ~ ~ ~ Items[{Slot:0b,components:{"minecraft:custom_data":{refined_element:1}}}].Count
+execute store result score #temp temp2 run data get block ~ ~ ~ Items[{Slot:0b,components:{custom_data:{refined_element:1}}}].Count
 #检查元素数量 #元素数量正确即通过
 execute if score #temp temp matches 2 if score #temp temp2 matches 1 run scoreboard players set #temp temp3 1
 execute if score #temp temp matches 3 if score #temp temp2 matches 2 run scoreboard players set #temp temp3 1

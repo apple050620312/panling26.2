@@ -5,7 +5,7 @@ data merge block 20 46 -8 {front_text:{messages:['{"translate":"pl.sign.middle62
 data merge block 21 53 -7 {front_text:{messages:['{"translate":""}','{"translate":"pl.sign.middle63.text2"}','{"translate":"pl.sign.middle63.text3"}','{"translate":""}']}}
 
 setblock 22 56 -6 air
-data merge block 20 57 -2 {Items:}
+data merge block 20 57 -2 {Items:[]}
 setblock 20 57 -2 air
 setblock 20 56 -2 air
 

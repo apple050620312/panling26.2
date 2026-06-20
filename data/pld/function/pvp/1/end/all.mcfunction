@@ -40,8 +40,8 @@ scoreboard players set @a[team=attack] inpvp_area 0
 scoreboard players set @a[team=attack] inbuy_area 0
 scoreboard players set @a[team=attack] pvp_relife_tick -1
 
-execute as @a[team=attack] run attribute @s attack_damage modifier add 101-0-0-0-0 "近战傷害屏蔽" -0.99999 multiply
-execute as @a[team=defence] run attribute @s attack_damage modifier add 101-0-0-0-0 "近战傷害屏蔽" -0.99999 multiply
+execute as @a[team=attack] run attribute @s attack_damage modifier add panling:mod_101_0_0_0_0 -0.99999 add_multiplied_total
+execute as @a[team=defence] run attribute @s attack_damage modifier add panling:mod_101_0_0_0_0 -0.99999 add_multiplied_total
 
 team join normal @a[team=attack]
 team join normal @a[team=defence]

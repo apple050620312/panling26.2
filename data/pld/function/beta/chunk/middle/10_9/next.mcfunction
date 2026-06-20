@@ -10,7 +10,7 @@ setblock 170 44 159 minecraft:command_block{Command:"tp @p[x=170,y=47,z=160,dist
 setblock 161 11 141 minecraft:command_block{Command:"execute as @p[x=161,y=12,z=139,distance=..5] run function pld:system/te71/material_check"} replace 
 setblock 161 11 142 air
 setblock 161 11 143 air
-data merge block 161 11 139 {Items:}
+data merge block 161 11 139 {Items:[]}
 setblock 159 11 142 air
 kill @e[type=villager,tag=!panling]
 execute positioned 162 7 139 run function pld:npcs/middle/chat70

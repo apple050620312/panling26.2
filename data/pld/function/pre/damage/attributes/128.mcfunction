@@ -1,2 +1,2 @@
-attribute @s max_health modifier add 100-0-0-0-128 "-1.28" -1.28 add
+attribute @s max_health modifier add panling:mod_100_0_0_0_128 -1.28 add_value
 scoreboard players remove #max_hp_reduction damage 128

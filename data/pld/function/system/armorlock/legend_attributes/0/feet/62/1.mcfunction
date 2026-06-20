@@ -1,1 +1,1 @@
-attribute @s attack_damage modifier add 10-4-4-4-4 "神器-韦驮天-基础攻击加成" 1.5 add
+attribute @s attack_damage modifier add panling:mod_10_4_4_4_4 1.5 add_value

@@ -1,6 +1,6 @@
 #要做的事
 setblock 2810 44 846 minecraft:command_block{Command:"function pld:system/rechoose/rechoose"} replace 
-data merge block 2812 44 846 {Items:}
+data merge block 2812 44 846 {Items:[]}
 setblock 2822 40 844 minecraft:command_block{Command:"function pld:npcs/yao/chat2"} replace 
 
 setblock 2802 49 851 minecraft:command_block{Command:"function pld:npcs/yao/guard"} replace 

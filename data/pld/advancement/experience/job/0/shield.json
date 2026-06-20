@@ -25,7 +25,8 @@
                     }
                 ],
                 "player": {
-                    "minecraft:player": {
+                    "type_specific": {
+                        "type": "minecraft:player",
                         "advancements": {
                             "pld:experience/job/0/base": "true"
                         }

@@ -1,2 +1,2 @@
-attribute @s[scores={zf_fire_tick=0..}] attack_damage modifier add 12-5-5-5-5 "烈火印额外近战傷害" 0.2 multiply
-execute unless score @s zf_fire_tick matches 0.. run attribute @s attack_damage modifier remove 12-5-5-5-5
+attribute @s[scores={zf_fire_tick=0..}] attack_damage modifier add panling:mod_12_5_5_5_5 0.2 add_multiplied_total
+execute unless score @s zf_fire_tick matches 0.. run attribute @s attack_damage modifier remove panling:mod_12_5_5_5_5

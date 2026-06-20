@@ -28,26 +28,26 @@ scoreboard players reset @s rechoose_trigger
 #item replace entity @s enderchest.26 with air
 
 
-attribute @s minecraft:max_health modifier remove 0-0-0-2-0
-attribute @s minecraft:max_health modifier remove 0-0-0-2-1
-attribute @s minecraft:max_health modifier remove 0-0-0-2-2
-attribute @s minecraft:armor modifier remove 0-0-0-2-3
-attribute @s minecraft:armor modifier remove 0-0-0-2-4
-attribute @s minecraft:armor_toughness modifier remove 0-0-0-2-0
-attribute @s minecraft:armor_toughness modifier remove 0-0-0-2-4
-attribute @s minecraft:movement_speed modifier remove 0-0-0-2-1
-attribute @s minecraft:knockback_resistance modifier remove 0-0-0-2-2
-attribute @s minecraft:attack_damage modifier remove 0-0-0-2-3
-attribute @s minecraft:max_health modifier remove 13-0-0-0-1
-attribute @s minecraft:max_health modifier remove 13-0-0-0-2
-attribute @s minecraft:max_health modifier remove 13-0-0-0-3
-attribute @s minecraft:max_health modifier remove 13-0-0-0-4
-attribute @s minecraft:max_health modifier remove 13-0-0-0-5
-attribute @s minecraft:max_health modifier remove 13-0-0-0-6
-attribute @s minecraft:max_health modifier remove 13-0-0-0-7
-attribute @s minecraft:max_health modifier remove 13-0-0-0-8
-attribute @s minecraft:max_health modifier remove 13-0-0-0-9
-attribute @s minecraft:max_health modifier remove 13-0-0-0-1
+attribute @s minecraft:max_health modifier remove panling:mod_0_0_0_2_0
+attribute @s minecraft:max_health modifier remove panling:mod_0_0_0_2_1
+attribute @s minecraft:max_health modifier remove panling:mod_0_0_0_2_2
+attribute @s minecraft:armor modifier remove panling:mod_0_0_0_2_3
+attribute @s minecraft:armor modifier remove panling:mod_0_0_0_2_4
+attribute @s minecraft:armor_toughness modifier remove panling:mod_0_0_0_2_0
+attribute @s minecraft:armor_toughness modifier remove panling:mod_0_0_0_2_4
+attribute @s minecraft:movement_speed modifier remove panling:mod_0_0_0_2_1
+attribute @s minecraft:knockback_resistance modifier remove panling:mod_0_0_0_2_2
+attribute @s minecraft:attack_damage modifier remove panling:mod_0_0_0_2_3
+attribute @s minecraft:max_health modifier remove panling:mod_13_0_0_0_1
+attribute @s minecraft:max_health modifier remove panling:mod_13_0_0_0_2
+attribute @s minecraft:max_health modifier remove panling:mod_13_0_0_0_3
+attribute @s minecraft:max_health modifier remove panling:mod_13_0_0_0_4
+attribute @s minecraft:max_health modifier remove panling:mod_13_0_0_0_5
+attribute @s minecraft:max_health modifier remove panling:mod_13_0_0_0_6
+attribute @s minecraft:max_health modifier remove panling:mod_13_0_0_0_7
+attribute @s minecraft:max_health modifier remove panling:mod_13_0_0_0_8
+attribute @s minecraft:max_health modifier remove panling:mod_13_0_0_0_9
+attribute @s minecraft:max_health modifier remove panling:mod_13_0_0_0_1
 
 scoreboard players set @s gotten_helmet61 0
 scoreboard players set @s gotten_helmet62 0

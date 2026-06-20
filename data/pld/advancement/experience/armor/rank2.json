@@ -32,7 +32,8 @@
                             "nbt": "{rare:2,act:1}"
                         }
                     },
-                    "minecraft:player": {
+                    "type_specific": {
+                        "type": "minecraft:player",
                         "advancements": {
                             "pld:experience/root": true
                         }
