@@ -25,7 +25,7 @@
                 "player": {
                     "type_specific/player": {
                         "advancements": {
-                            "pld:experience/job/0/base": "true"
+                            "pld:experience/job/0/base": true
                         }
                     }
                 }

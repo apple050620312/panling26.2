@@ -27,7 +27,7 @@
                 "player": {
                     "type_specific/player": {
                         "advancements": {
-                            "pld:experience/job/2/ld_book": "true"
+                            "pld:experience/job/2/ld_book": true
                         }
                     }
                 }

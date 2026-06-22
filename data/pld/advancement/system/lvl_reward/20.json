@@ -9,7 +9,7 @@
                             "min": 20
                         },
                         "advancements": {
-                            "pld:experience/root": "true"
+                            "pld:experience/root": true
                         }
                     }
                 }
