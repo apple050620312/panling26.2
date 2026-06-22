@@ -122,7 +122,7 @@
 		"minecraft:carved_pumpkin",
 		"minecraft:cauldron",
 		"minecraft:cave_air",
-		"minecraft:chain",
+		
 		"minecraft:chain_command_block",
 		"minecraft:chest",
 		"minecraft:chipped_anvil",
@@ -278,7 +278,7 @@
 		"minecraft:granite_slab",
 		"minecraft:granite_stairs",
 		"minecraft:granite_wall",
-		"minecraft:grass",
+		"minecraft:short_grass",
 		"minecraft:grass_block",
 		"minecraft:gravel",
 		"minecraft:gray_banner",

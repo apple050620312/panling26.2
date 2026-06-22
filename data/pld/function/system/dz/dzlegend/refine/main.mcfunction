@@ -15,7 +15,8 @@ execute if block ~-3 ~2 ~ chest positioned ~-3 ~2 ~ run function pld:system/dz/d
 #根据tagid追加词条&legend_id
 # #system temp4 = tagid
 execute if score #system temp4 matches 0..6 store result storage pld:macro id int 1 run scoreboard players get #system temp4
-execute if score #system temp4 matches 0..6 run function pld:system/dz/dzlegend/refine/macro_call with storage pld:macro\n#处理后缀
+execute if score #system temp4 matches 0..6 run function pld:system/dz/dzlegend/refine/macro_call with storage pld:macro
+#处理后缀
 # #system temp = limit
 execute store result score #system temp run data get block ~ ~ ~ Items[{Slot:5b}].tag.limit
 # #system temp2 = element

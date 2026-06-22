@@ -2,7 +2,7 @@
     "function":"set_attributes",
     "modifiers":[
         {
-            "attribute":"minecraft:generic.luck",
+            "attribute":"minecraft:luck",
             "id":"pld:100random",
             "operation":"add_value",
             "amount":{

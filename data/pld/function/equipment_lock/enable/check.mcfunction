@@ -6,7 +6,7 @@ execute store result score #temp temp2 run data get block ~ 255 ~ Items[0].tag.l
 execute store result score #temp temp3 run scoreboard players get @s level
 execute if score #temp temp3 >= #temp temp2 if score @s job = #temp temp run function pld:equipment_lock/enable/main
 execute if score #temp temp3 >= #temp temp2 if score #temp temp matches 3 run function pld:equipment_lock/enable/main
-execute if score @s job = #temp temp if score #temp temp3 < #temp temp2 run tellraw @s [{"translate": "pl.info.equip_level_limited"},{"nbt":"Items[0].components."minecraft:custom_name"","block":"~ 255 ~","interpret":true}]
+execute if score @s job = #temp temp if score #temp temp3 < #temp temp2 run tellraw @s [{"translate": "pl.info.equip_level_limited"},{"nbt":"Items[0].components.\\\"minecraft:custom_name\\\"","block":"~ 255 ~","interpret":true}]
 
 #limit
 #rare

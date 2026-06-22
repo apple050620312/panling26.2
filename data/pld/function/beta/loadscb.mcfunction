@@ -18,7 +18,7 @@ scoreboard objectives add temp4 dummy
 #玩家个人计分板 
 scoreboard objectives add level level
 scoreboard objectives add hp health ["生命值"]
-scoreboard objectives setdisplay belowName hp
+scoreboard objectives setdisplay below_name hp
 
 scoreboard objectives add player_uuid0 dummy ["玩家uuid第一位"]
 scoreboard objectives add player_uuid1 dummy ["玩家uuid第二位"]

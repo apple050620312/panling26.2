@@ -32,7 +32,7 @@
                             "nbt": "{rare:1}"
                         }
                     },
-                    "player": {
+                    "type_specific/player": {
                         "advancements": {
                             "pld:experience/root": true
                         }

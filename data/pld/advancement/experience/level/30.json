@@ -17,7 +17,7 @@
             "trigger": "minecraft:tick",
             "conditions": {
                 "player": {
-                    "player": {
+                    "type_specific/player": {
                         "level": {
                             "min": 30
                         },

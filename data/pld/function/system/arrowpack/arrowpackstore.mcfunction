@@ -9,6 +9,6 @@ execute if score @s arrowinpack matches ..639 store success score @s arrowsucces
 scoreboard players add @s[scores={arrowsuccess=1..}] arrowinpack 32
 #箭支存入提示
 tellraw @s[scores={arrowsuccess=1..}] {"translate":"pl.info.arrowstore","color":"yellow"}
-title @s[scores={arrowsuccess=1..}] actionbar {"text":"","extra":[{"translate":"pl.info.arrowinpack1","color":"red","bold":"true"},{"score":{"name":"@s","objective":"arrowinpack"}},{"translate":"pl.info.arrowinpack2","color":"red","bold":"true"}]}
+title @s[scores={arrowsuccess=1..}] actionbar {"text":"","extra":[{"translate":"pl.info.arrowinpack1","color":"red","bold":true},{"score":{"name":"@s","objective":"arrowinpack"}},{"translate":"pl.info.arrowinpack2","color":"red","bold":true}]}
 scoreboard players reset @s arrowsuccess
 

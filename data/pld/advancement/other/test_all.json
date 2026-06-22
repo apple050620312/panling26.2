@@ -17,7 +17,7 @@
             "trigger": "minecraft:tick",
             "conditions": {
                 "player": {
-                    "player": {
+                    "type_specific/player": {
                         "advancements": {
                             "pld:other/test_shen": true
                         }
@@ -29,7 +29,7 @@
             "trigger": "minecraft:tick",
             "conditions": {
                 "player": {
-                    "player": {
+                    "type_specific/player": {
                         "advancements": {
                             "pld:other/test_ren": true
                         }
@@ -41,7 +41,7 @@
             "trigger": "minecraft:tick",
             "conditions": {
                 "player": {
-                    "player": {
+                    "type_specific/player": {
                         "advancements": {
                             "pld:other/test_zhan": true
                         }
