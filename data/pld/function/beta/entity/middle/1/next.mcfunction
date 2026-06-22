@@ -1,4 +1,4 @@
-data merge entity ea6babdc-911b-4626-bf13-779a411bd129 {Item:{tag:{display:{Name:'{"translate":"pl.frame.qz"}'}}}}
+data merge entity ea6babdc-911b-4626-bf13-779a411bd129 {Item:{components:{display:{Name:'{"translate":"pl.frame.qz"}'}}}}
 
 forceload remove 34 148
 #记分板数值增加以及bossbar修改

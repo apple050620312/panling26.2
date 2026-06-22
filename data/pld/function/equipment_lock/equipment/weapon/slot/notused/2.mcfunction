@@ -1,6 +1,6 @@
 #复制物品
-data modify block ~ 255 ~ Items[0].id set from entity @s Inventory[{Slot:1b}].id
-data modify block ~ 255 ~ Items[0].tag set from entity @s Inventory[{Slot:1b}].tag
+data modify block ~ 255 ~ Items[0].id set from entity @s Inventory[{slot:1}].id
+data modify block ~ 255 ~ Items[0].tag set from entity @s Inventory[{slot:1}].tag
 
 #特殊加工
 execute as @s[scores={job=0}] run function pld:system/weaponlock/unlock/weapon/0

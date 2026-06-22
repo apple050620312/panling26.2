@@ -11,9 +11,9 @@ item modify entity @s enderchest.0 pld:chest_menu/set_data
 item modify entity @s enderchest.9 pld:chest_menu/set_data
 
 #如果右三有需要返还的内容，那么返还玩家 pld:system Temp_chest
-execute if data storage pld:system Temp_chest[{Slot:8b}] run function pld:system/chest_menu/clear_chest/return_items/slot8
-execute if data storage pld:system Temp_chest[{Slot:17b}] run function pld:system/chest_menu/clear_chest/return_items/slot17
-execute if data storage pld:system Temp_chest[{Slot:26b}] run function pld:system/chest_menu/clear_chest/return_items/slot26
+execute if data storage pld:system Temp_chest[{slot:8}] run function pld:system/chest_menu/clear_chest/return_items/slot8
+execute if data storage pld:system Temp_chest[{slot:17}] run function pld:system/chest_menu/clear_chest/return_items/slot17
+execute if data storage pld:system Temp_chest[{slot:26}] run function pld:system/chest_menu/clear_chest/return_items/slot26
 
 
-#tellraw yl_jiu_qiu {"nbt":"EnderItems[{Slot:0b}]","entity":"@s"}
+#tellraw yl_jiu_qiu {"nbt":"EnderItems[{slot:0}]","entity":"@s"}

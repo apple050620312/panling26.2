@@ -19,7 +19,7 @@ execute if score #system temp4 matches 0..6 run function pld:system/dz/dzlegend/
 
 #名称处理
 execute if block ~-3 ~2 ~ chest positioned ~-3 ~3 ~ run function pld:system/dz/dzlegend/tagset/name/summon
-execute if block ~-3 ~4 ~ oak_sign run data modify block ~ ~ ~ Items.[{Slot:5b}].tag.display.Name set from block ~-3 ~4 ~ front_text.messages[0]
+execute if block ~-3 ~4 ~ oak_sign run data modify block ~ ~ ~ Items.[{slot:5}].tag.display.Name set from block ~-3 ~4 ~ front_text.messages[0]
 execute if block ~-3 ~4 ~ oak_sign run setblock ~-3 ~4 ~ air
 
 tag @a[tag=legend_check] remove legend_check

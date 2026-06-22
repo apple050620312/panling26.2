@@ -7,7 +7,7 @@ scoreboard players reset @s equipment_consume_reduce_multiply_base
 
 data modify storage pld:system Temp_zf_weapon set value {}
 execute if score @s zf_hold_ldl matches ..0 run data modify storage pld:system Temp_zf_weapon set from entity @s SelectedItem
-execute if score @s zf_hold_ldl matches 0.. run data modify storage pld:system Temp_zf_weapon set from entity @s Inventory[{Slot:-106b}]
+execute if score @s zf_hold_ldl matches 0.. run data modify storage pld:system Temp_zf_weapon set from entity @s Inventory[{slot:-106}]
 
 #武器数据
 execute if data storage pld:system Temp_zf_weapon.tag.PLattributes.base run function pld:system/zf/attribute/weapon/base/check

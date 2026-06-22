@@ -5,7 +5,7 @@ scoreboard players remove @s[scores={element_time=1..}] element_time 1
 #execute if entity @s[scores={element_time=4500}] run setblock 1373 135 436 chest 
 #execute if entity @s[scores={element_time=4500}] run playsound block.anvil.use ambient @s 1373 135 436 1.0
 #execute if entity @s[scores={element_time=4000}] run setblock 1373 135 436 air
-#execute if entity @s[scores={element_time=3200}] run summon item 1373 135 436 {Item:{id:"minecraft:yellow_dye",Count:1b},PickupDelay:32767s,Age:-32768s}
+#execute if entity @s[scores={element_time=3200}] run summon item 1373 135 436 {Item:{id:"minecraft:yellow_dye",count:1},PickupDelay:32767s,Age:-32768s}
 #execute if entity @s[scores={element_time=3200}] run playsound entity.player.levelup ambient @s 1373 135 436 1.0
 #execute if entity @s[scores={element_time=2500}] run kill @e[type=item,x=1373,y=135,z=436,distance=..3]
 #execute if entity @s[scores={element_time=1600..,element_kill=1..}] as @s run function pld:system/zftest/testfailure
@@ -20,7 +20,7 @@ execute if score @s element_time matches 1600 run execute as @e[type=creeper,x=1
 execute if score @s element_time matches 1125 run setblock 1373 135 436 chest 
 execute if score @s element_time matches 1125 run playsound block.anvil.use ambient @s 1373 135 436 1.0
 execute if score @s element_time matches 1000 run setblock 1373 135 436 air
-execute if score @s element_time matches 800 run summon item 1373 135 436 {Item:{id:"minecraft:yellow_dye",Count:1b},PickupDelay:32767s,Age:-32768s}
+execute if score @s element_time matches 800 run summon item 1373 135 436 {Item:{id:"minecraft:yellow_dye",count:1},PickupDelay:32767s,Age:-32768s}
 execute if score @s element_time matches 800 run playsound entity.player.levelup ambient @s 1373 135 436 1.0
 execute if score @s element_time matches 625 run kill @e[type=item,x=1373,y=135,z=436,distance=..3]
 execute if score @s element_time matches 400.. if score @s element_kill matches 1.. run function pld:system/zftest/testfailure

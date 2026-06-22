@@ -1,6 +1,6 @@
 #复制物品
-data modify block ~ 255 ~ Items[0].id set from entity @s Inventory[{Slot:3b}].id
-data modify block ~ 255 ~ Items[0].tag set from entity @s Inventory[{Slot:3b}].tag
+data modify block ~ 255 ~ Items[0].id set from entity @s Inventory[{slot:3}].id
+data modify block ~ 255 ~ Items[0].tag set from entity @s Inventory[{slot:3}].tag
 
 #激活物品
 function pld:equipment_lock/enable/check

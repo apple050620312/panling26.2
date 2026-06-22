@@ -1,7 +1,7 @@
 # #关闭激活
 #data remove block ~ 255 ~ Items[{components:{custom_data:{act:1,modify:1}}}].tag.Enchantments
 #data remove block ~ 255 ~ Items[{components:{custom_data:{act:1,modify:1}}}].tag.display.Lore[-1]
-#execute if block ~ 255 ~ chest{Items:[{components:{custom_data:{act:1,modify:1}}}]} run data modify block ~ 255 ~ Items[{components:{custom_data:{act:1,modify:1}}}].tag.AttributeModifiers set value [{Slot:"mainhand",UUID:[I;5,5,5,6],Operation:0,AttributeName:"minecraft:attack_damage",Amount:0},{Slot:"mainhand",UUID:[I;1,1,1,9],Operation:0,AttributeName:"minecraft:armor",Amount:0}]
+#execute if block ~ 255 ~ chest{Items:[{components:{custom_data:{act:1,modify:1}}}]} run data modify block ~ 255 ~ Items[{components:{custom_data:{act:1,modify:1}}}].tag.AttributeModifiers set value [{slot:"mainhand",UUID:[I;5,5,5,6],Operation:0,AttributeName:"minecraft:attack_damage",Amount:0},{slot:"mainhand",UUID:[I;1,1,1,9],Operation:0,AttributeName:"minecraft:armor",Amount:0}]
 #execute if block ~ 255 ~ chest{Items:[{components:{custom_data:{act:1,modify:1}}}]} run data modify block ~ 255 ~ Items[{components:{custom_data:{act:1,modify:1}}}].tag.display.Lore append value '{"translate":"pl.lore.weaponinfo2a"}'
 # #弓弩锁定
 #execute if block ~ 255 ~ chest{Items:[{id:"minecraft:bow",components:{custom_data:{act:1,modify:1}}}]} run data modify block ~ 255 ~ Items[{id:"minecraft:bow",components:{custom_data:{act:1,modify:1}}}].tag.CustomModelData set value 1

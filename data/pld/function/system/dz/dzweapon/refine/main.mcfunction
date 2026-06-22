@@ -1,4 +1,4 @@
-#根据#temp temp洗炼对应的词条 {Slot:3b}
+#根据#temp temp洗炼对应的词条 {slot:3}
 
 #选择幸运玩家@p 来配合随机
 tag @p add enhance_check
@@ -6,9 +6,9 @@ tag @p add enhance_check
 execute as @p[tag=enhance_check] run function pld:system/dz/dzweapon/refine/check_id
 
 #获取武器数据
-execute store result score @p[tag=enhance_check] dzbranch run data get block ~ ~ ~ Items[{Slot:3b}].tag.branch
-execute store result score @p[tag=enhance_check] dzlimit run data get block ~ ~ ~ Items[{Slot:3b}].tag.limit
-execute store result score @p[tag=enhance_check] dzrare run data get block ~ ~ ~ Items[{Slot:3b}].tag.rare
+execute store result score @p[tag=enhance_check] dzbranch run data get block ~ ~ ~ Items[{slot:3}].tag.branch
+execute store result score @p[tag=enhance_check] dzlimit run data get block ~ ~ ~ Items[{slot:3}].tag.limit
+execute store result score @p[tag=enhance_check] dzrare run data get block ~ ~ ~ Items[{slot:3}].tag.rare
 scoreboard players operation @p[tag=enhance_check] dzenhance_lvl = #temp temp
 #根据武器数据 选择池子进行随机
 #进行随机 @p[tag=enhance_check] dzrare dzlimit dzbranch dzenhance_lvl
@@ -20,17 +20,17 @@ function pld:system/dz/dzweapon/enhance/list
 
 #system temp 合并对应标签的id
 execute store result storage pld:system Temp2 int 1.0 run scoreboard players get #system temp
-execute if score #temp temp matches 1 run data modify block ~ ~ ~ Items[{Slot:3b}].tag.enhance1_id set from storage pld:system Temp2
-execute if score #temp temp matches 2 run data modify block ~ ~ ~ Items[{Slot:3b}].tag.enhance2_id set from storage pld:system Temp2
-execute if score #temp temp matches 3 run data modify block ~ ~ ~ Items[{Slot:3b}].tag.enhance3_id set from storage pld:system Temp2
-execute if score #temp temp matches 4 run data modify block ~ ~ ~ Items[{Slot:3b}].tag.enhance4_id set from storage pld:system Temp2
+execute if score #temp temp matches 1 run data modify block ~ ~ ~ Items[{slot:3}].tag.enhance1_id set from storage pld:system Temp2
+execute if score #temp temp matches 2 run data modify block ~ ~ ~ Items[{slot:3}].tag.enhance2_id set from storage pld:system Temp2
+execute if score #temp temp matches 3 run data modify block ~ ~ ~ Items[{slot:3}].tag.enhance3_id set from storage pld:system Temp2
+execute if score #temp temp matches 4 run data modify block ~ ~ ~ Items[{slot:3}].tag.enhance4_id set from storage pld:system Temp2
 
 #现在要编辑的文本位置
 #max=now+1 -5 temp2-temp=0
 #max=now+2 -6 temp2-temp=1
 #max=now+3 -7 temp2-temp=2
 #max=now+4 -8 temp2-temp=3
-execute store result score #temp temp2 run data get block ~ ~ ~ Items[{Slot:3b}].tag.enhance_lvl_max
+execute store result score #temp temp2 run data get block ~ ~ ~ Items[{slot:3}].tag.enhance_lvl_max
 
 scoreboard players operation #temp temp2 -= #temp temp
 
@@ -44,9 +44,9 @@ execute if score #system temp matches 29..32 if score @p[tag=enhance_check] dzli
 
 
 #把0、3位置清理掉
-data remove block ~ ~ ~ Items.[{Slot:0b}]
+data remove block ~ ~ ~ Items.[{slot:0}]
 #把物品丢到5
-data modify block ~ ~ ~ Items[{Slot:3b}].Slot set value 5b
+data modify block ~ ~ ~ Items[{slot:3}].Slot set value 5b
 
 #关闭物品的激活
 execute unless score @p[tag=enhance_check] dzlimit matches 2 run function pld:system/dz/dzweapon/lock_do

@@ -18,7 +18,7 @@ item replace entity @s enderchest.26 with minecraft:clock[custom_name='{"transla
 
 #将pld:system Temp_chest中的数据读取到中当前页中
 data modify block 0 -1 0 Items set value []
-data modify block 0 -1 0 Items set from storage pld:system Temp_ender_data.chests[{Slot:4b}].pages.page3_Items
+data modify block 0 -1 0 Items set from storage pld:system Temp_ender_data.chests[{slot:4}].pages.page3_Items
 function pld:system/chest_menu/screen/2_chests/screens/chests/chest_cover
 
 #将储存数据储存到俩个按钮中 

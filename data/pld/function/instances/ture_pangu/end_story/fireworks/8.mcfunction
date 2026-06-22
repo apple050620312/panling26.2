@@ -1,3 +1,3 @@
-summon minecraft:firework_rocket 179 43 17 {LifeTime:30,FireworksItem:{id:"minecraft:firework_rocket",Count:1b,tag:{Fireworks:{Flight:1,Explosions:[{Type:1,Colors:[I;16711680]},{Flicker:2,Colors:[I;16744448]},{Flicker:3,Colors:[I;16776960]},{Flicker:4,Colors:[I;65280]},{Flicker:5,Colors:[I;128]},{Flicker:6,Colors:[I;65535]},{Type:1,Colors:[I;8388736]}]}}}} 
+summon minecraft:firework_rocket 179 43 17 {LifeTime:30,FireworksItem:{id:"minecraft:firework_rocket",count:1,components:{Fireworks:{Flight:1,Explosions:[{Type:1,Colors:[I;16711680]},{Flicker:2,Colors:[I;16744448]},{Flicker:3,Colors:[I;16776960]},{Flicker:4,Colors:[I;65280]},{Flicker:5,Colors:[I;128]},{Flicker:6,Colors:[I;65535]},{Type:1,Colors:[I;8388736]}]}}}} 
 
 schedule function pld:instances/ture_pangu/end_story/fireworks/9 1s

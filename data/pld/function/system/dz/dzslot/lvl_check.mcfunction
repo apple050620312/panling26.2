@@ -1,8 +1,8 @@
 #获取防具等级 #temp temp
-execute store result score #temp temp run data get block ~ ~ ~ Items[{Slot:6b}].tag.rare
+execute store result score #temp temp run data get block ~ ~ ~ Items[{slot:6}].tag.rare
 
 #获取锻造核心等级
-execute store result score #temp temp2 run data get block ~ ~ ~ Items[{Slot:3b}].tag.level
+execute store result score #temp temp2 run data get block ~ ~ ~ Items[{slot:3}].tag.level
 
 #锻造等级=防具等级 或 锻造等级=防具等级+1 #temp temp3 为1 条件通过
 scoreboard players set #temp temp3 0

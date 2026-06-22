@@ -25,7 +25,7 @@ execute if block 1259 79 1399 minecraft:hopper{Items:[{id:"minecraft:golden_carr
 
 #杂物类（惩罚，并没有奖励）
 execute if block 1259 79 1399 minecraft:hopper{Items:[{id:"minecraft:arrow"}]} run scoreboard players set #system instance4_food -1
-execute if block 1259 79 1399 minecraft:hopper{Items:[{tag:{id:"panling:killpotion"}}]} run scoreboard players set #system instance4_food -10
+execute if block 1259 79 1399 minecraft:hopper{Items:[{components:{id:"panling:killpotion"}}]} run scoreboard players set #system instance4_food -10
 
 #根据权重，给予玩家奖励
 execute if score #system instance4_food matches 0 as @p[tag=food_mtgod] run function pld:instances/instance4/mtgod/0

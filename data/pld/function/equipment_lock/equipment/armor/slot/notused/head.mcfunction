@@ -1,15 +1,15 @@
 #复制物品
-data modify block ~ 255 ~ Items[0].id set from entity @s Inventory[{Slot:103b}].id
-data modify block ~ 255 ~ Items[0].tag set from entity @s Inventory[{Slot:103b}].tag
+data modify block ~ 255 ~ Items[0].id set from entity @s Inventory[{slot:103}].id
+data modify block ~ 255 ~ Items[0].tag set from entity @s Inventory[{slot:103}].tag
 
 #特殊加工
-#execute if block ~ 255 ~ chest{Items:[{components:{custom_data:{act:1,modify:1}}}]} run data modify block ~ 255 ~ Items[{components:{custom_data:{act:1,modify:1}}}].tag.AttributeModifiers set value [{Slot:"mainhand",UUID:[I;1,2,3,4],Operation:0,AttributeName:"minecraft:armor",Amount:0}]
+#execute if block ~ 255 ~ chest{Items:[{components:{custom_data:{act:1,modify:1}}}]} run data modify block ~ 255 ~ Items[{components:{custom_data:{act:1,modify:1}}}].tag.AttributeModifiers set value [{slot:"mainhand",UUID:[I;1,2,3,4],Operation:0,AttributeName:"minecraft:armor",Amount:0}]
 
 #基础属性加工
 execute as @s[scores={job=0}] run function #pld:armor_unlock/0/head
 execute as @s[scores={job=1}] run function #pld:armor_unlock/1/head
 execute as @s[scores={job=2}] run function #pld:armor_unlock/2/head
-execute as @s[nbt={Inventory:[{Slot:103b,components:{custom_data:{limit:3}}}]}] run function #pld:armor_unlock/3/head
+execute as @s[nbt={Inventory:[{slot:103,components:{custom_data:{limit:3}}}]}] run function #pld:armor_unlock/3/head
 #通用加工
 #附灵属性
 execute if entity @s[scores={success=1}] run function #pld:armor_unlock/enchant

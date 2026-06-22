@@ -6,7 +6,7 @@
     },
     "ops":[
         {
-            "source":"EnderItems[{Slot:0b}].tag.data",
+            "source":"EnderItems[{slot:0}].tag.data",
             "target":"data",
             "op":"replace"
         }

@@ -5,7 +5,7 @@ execute unless score @s screen matches -1.. run function pld:system/chest_menu/s
 
 #抛出玩家数据
 data modify storage pld:system Temp set from entity @s {}
-data modify storage pld:system Temp_ender_data set from storage pld:system Temp.EnderItems[{Slot:0b}].data
+data modify storage pld:system Temp_ender_data set from storage pld:system Temp.EnderItems[{slot:0}].data
 
 #重置为主菜单
 function pld:system/chest_menu/screen/0_main_menu/main

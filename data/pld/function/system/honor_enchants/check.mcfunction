@@ -1,4 +1,4 @@
-execute store result score @s temp run data get entity @s Inventory[{Slot:103b}].tag.enchanted
+execute store result score @s temp run data get entity @s Inventory[{slot:103}].tag.enchanted
 execute if score @s temp matches 1 at @s run function pld:system/honor_enchants/enchant1
 
 execute if score @s temp matches 2 at @s run function pld:system/honor_enchants/enchant2

@@ -24,8 +24,8 @@ execute positioned 2834.5 31 -838.5 if entity @e[distance=..4.5,type=item,nbt={I
 execute positioned 2834.5 31 -838.5 if entity @e[distance=..4.5,type=item,nbt={Item:{components:{custom_data:{instance:31}}}}] run function pld:instances/instance3_0/floors/-4/skill/explode/eye/1/1
 execute as @e[type=item,nbt={Item:{components:{custom_data:{instance:31}}}}] run kill @s
 execute as @e[type=item,nbt={Item:{components:{custom_data:{instance:30}}}}] run kill @s
-execute as @a[nbt={Inventory:[{tag:{instance:30}}]}] run function pld:instances/instance3_0/floors/-4/skill/explode/eye/player/0
-execute as @a[nbt={Inventory:[{tag:{instance:31}}]}] run function pld:instances/instance3_0/floors/-4/skill/explode/eye/player/1
+execute as @a[nbt={Inventory:[{components:{instance:30}}]}] run function pld:instances/instance3_0/floors/-4/skill/explode/eye/player/0
+execute as @a[nbt={Inventory:[{components:{instance:31}}]}] run function pld:instances/instance3_0/floors/-4/skill/explode/eye/player/1
 #bossbar
 execute if score #system in3_skill_ep_load matches 0..100 store result bossbar pld:instance3_0_ep_loading value run scoreboard players get #system in3_skill_ep_load
 execute if score #system in3_skill_ep2_load matches 0..600 store result bossbar pld:instance3_0_ep_loading value run scoreboard players get #system in3_skill_ep2_load

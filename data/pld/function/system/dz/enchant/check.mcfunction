@@ -1,1 +1,1 @@
-execute unless data block ~ ~ ~ Items[{Slot:5b}] if block ~ ~ ~ minecraft:dispenser{Items:[{Slot:0b,id:"minecraft:blue_dye",Count:1b,components:{custom_data:{id:"panling:enchant_stone"}}}]} run function pld:system/dz/enchant/main
+execute unless data block ~ ~ ~ Items[{slot:5}] if block ~ ~ ~ minecraft:dispenser{Items:[{slot:0,id:"minecraft:blue_dye",count:1,components:{custom_data:{id:"panling:enchant_stone"}}}]} run function pld:system/dz/enchant/main

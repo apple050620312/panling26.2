@@ -19,7 +19,7 @@ setblock 1382 37 511 minecraft:command_block{Command:"execute as @p[x=1381,y=38,
 
 setblock 1380 37 522 minecraft:command_block{Command:"tp @p[distance=..3] 1356 91 525 180 ~"} replace
 
-data merge block 1377 36 522 {Lock:"1",Items:[{Slot:0b,id:"minecraft:iron_ingot",Count:64b,tag:{display:{Name:'{"translate":"pl.item.name.silver"}'},id:"panling:silver_ticket"}},{Slot:1b,id:"minecraft:iron_ingot",Count:64b,tag:{display:{Name:'{"translate":"pl.item.name.silver"}'},id:"panling:silver_ticket"}},{Slot:2b,id:"minecraft:iron_ingot",Count:64b,tag:{display:{Name:'{"translate":"pl.item.name.silver"}'},id:"panling:silver_ticket"}},{Slot:3b,id:"minecraft:iron_ingot",Count:64b,tag:{display:{Name:'{"translate":"pl.item.name.silver"}'},id:"panling:silver_ticket"}},{Slot:4b,id:"minecraft:iron_ingot",Count:32b,tag:{display:{Name:'{"translate":"pl.item.name.silver"}'},id:"panling:silver_ticket"}}]}
+data merge block 1377 36 522 {Lock:"1",Items:[{slot:0,id:"minecraft:iron_ingot",count:64,components:{display:{Name:'{"translate":"pl.item.name.silver"}'},id:"panling:silver_ticket"}},{slot:1,id:"minecraft:iron_ingot",count:64,components:{display:{Name:'{"translate":"pl.item.name.silver"}'},id:"panling:silver_ticket"}},{slot:2,id:"minecraft:iron_ingot",count:64,components:{display:{Name:'{"translate":"pl.item.name.silver"}'},id:"panling:silver_ticket"}},{slot:3,id:"minecraft:iron_ingot",count:64,components:{display:{Name:'{"translate":"pl.item.name.silver"}'},id:"panling:silver_ticket"}},{slot:4,id:"minecraft:iron_ingot",count:32,components:{display:{Name:'{"translate":"pl.item.name.silver"}'},id:"panling:silver_ticket"}}]}
 setblock 1375 36 522 minecraft:repeating_command_block{Command:"function pld:system/honor_shop/door"} replace
 
 #区块卸载

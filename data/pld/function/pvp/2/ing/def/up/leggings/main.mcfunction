@@ -4,7 +4,7 @@ scoreboard players remove @s pvp_point 2
 scoreboard players set @s up_legs 1
 #更新物品
 clear @s leather_leggings[custom_data={id:"panling:pvp2_def_leggings"}]
-item replace entity @s armor.legs with leather_leggings[custom_name='[{"translate":"pl.pvp2.item.name.def_leggings"},{"text":"+","color":"aqua","italic":false}]',lore=['{"translate":"pl.pvp.item.limit"}','{"translate":""}','[{"translate":"pl.attribute.armor"},{"text":"3","color":"white","italic":false}]','{"translate":"pl.pvp.item.lore.arrow_protection"}','{"translate":"pl.pvp.item.lore.protection"}','{"translate":""}','{"translate":"pl.pvp.item.uped"}'],unbreakable={},minecraft:enchantments={binding_curse:1,protection:1,projectile_protection:1},custom_data={id:"panling:pvp2_def_leggings",pvp:1,AttributeModifiers:[{Slot:"legs",UUID:[I;3,3,3,3],Operation:0,AttributeName:"minecraft:armor",Amount:3}]}]
+item replace entity @s armor.legs with leather_leggings[custom_name='[{"translate":"pl.pvp2.item.name.def_leggings"},{"text":"+","color":"aqua","italic":false}]',lore=['{"translate":"pl.pvp.item.limit"}','{"translate":""}','[{"translate":"pl.attribute.armor"},{"text":"3","color":"white","italic":false}]','{"translate":"pl.pvp.item.lore.arrow_protection"}','{"translate":"pl.pvp.item.lore.protection"}','{"translate":""}','{"translate":"pl.pvp.item.uped"}'],unbreakable={},minecraft:enchantments={binding_curse:1,protection:1,projectile_protection:1},custom_data={id:"panling:pvp2_def_leggings",pvp:1,AttributeModifiers:[{slot:"legs",UUID:[I;3,3,3,3],Operation:0,AttributeName:"minecraft:armor",Amount:3}]}]
 
 #重置按钮
 clear @s leather_leggings[custom_data={id:"panling:pvp_leggings_up"}]

@@ -1,4 +1,4 @@
-data modify block ~ 255 ~ Items[0].tag.AttributeModifiers set value [{Slot:"legs",UUID:[I;3,3,3,3],Operation:0,AttributeName:"minecraft:armor",Amount:3},{Slot:"legs",UUID:[I;3,3,3,3],Operation:0,AttributeName:"minecraft:max_health",Amount:3},{Slot:"legs",UUID:[I;3,3,3,3],Operation:0,AttributeName:"minecraft:armor_toughness",Amount:0.5},{Slot:"legs",UUID:[I;3,3,3,3],Operation:1,AttributeName:"minecraft:movement_speed",Amount:0.025},{Slot:"legs",UUID:[I;3,3,3,3],Operation:0,AttributeName:"minecraft:knockback_resistance",Amount:0.075}]
+data modify block ~ 255 ~ Items[0].tag.AttributeModifiers set value [{slot:"legs",UUID:[I;3,3,3,3],Operation:0,AttributeName:"minecraft:armor",Amount:3},{slot:"legs",UUID:[I;3,3,3,3],Operation:0,AttributeName:"minecraft:max_health",Amount:3},{slot:"legs",UUID:[I;3,3,3,3],Operation:0,AttributeName:"minecraft:armor_toughness",Amount:0.5},{slot:"legs",UUID:[I;3,3,3,3],Operation:1,AttributeName:"minecraft:movement_speed",Amount:0.025},{slot:"legs",UUID:[I;3,3,3,3],Operation:0,AttributeName:"minecraft:knockback_resistance",Amount:0.075}]
 scoreboard players set @s armor_rare_legs 62
 scoreboard players set @s armor6_awake_legs 0
 

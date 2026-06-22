@@ -20,16 +20,16 @@ scoreboard players operation #system temp /= 10 int
 scoreboard players operation @p[tag=enhance_check] dzrare = #system temp
 scoreboard players operation @p[tag=enhance_check] dzrare %= 10 int
 
-#获取武器数据比对 {Slot:6b,components:{custom_data:{type:1}}}
-execute store result score #system dzbranch run data get block ~ ~ ~ Items[{Slot:6b}].tag.branch
-execute store result score #system dzlimit run data get block ~ ~ ~ Items[{Slot:6b}].tag.limit
-execute store result score #system dzrare run data get block ~ ~ ~ Items[{Slot:6b}].tag.rare
+#获取武器数据比对 {slot:6,components:{custom_data:{type:1}}}
+execute store result score #system dzbranch run data get block ~ ~ ~ Items[{slot:6}].tag.branch
+execute store result score #system dzlimit run data get block ~ ~ ~ Items[{slot:6}].tag.limit
+execute store result score #system dzrare run data get block ~ ~ ~ Items[{slot:6}].tag.rare
 
 #条件二：可以升级强化
 #获取当前强化等级 enhance_lvl
-execute store result score #temp temp run data get block ~ ~ ~ Items[{Slot:6b}].tag.enhance_lvl
+execute store result score #temp temp run data get block ~ ~ ~ Items[{slot:6}].tag.enhance_lvl
 #获取最大强化等级 enhance_lvl_max
-execute store result score #temp temp2 run data get block ~ ~ ~ Items[{Slot:6b}].tag.enhance_lvl_max
+execute store result score #temp temp2 run data get block ~ ~ ~ Items[{slot:6}].tag.enhance_lvl_max
 
 #通过 
 execute if score #temp temp < #temp temp2 if score #system dzbranch = @p[tag=enhance_check] dzbranch if score #system dzlimit = @p[tag=enhance_check] dzlimit if score #system dzrare = @p[tag=enhance_check] dzrare run function pld:system/dz/dzweapon/enhance/main

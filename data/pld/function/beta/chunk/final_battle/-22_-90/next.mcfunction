@@ -16,7 +16,7 @@ setblock -342 202 -1446 minecraft:command_block{Command:"function pld:npcs/final
 setblock -343 202 -1446 minecraft:command_block{Command:"function pld:npcs/final_story/12"} replace
 #-23_-92
 setblock -361 197 -1462 minecraft:command_block{Command:"function pld:instances/ture_pangu/in_stage_check"} replace
-setblock -368 95 -1464 minecraft:spawner{SpawnPotentials:[{data:{entity:{id:"minecraft:falling_block",NoGravity:1,Pos:[-367.5,101.0,-1463.5],Tags:["final_battle","wither_skeleton"],Silent:1,DropItem:0,HurtEntities:0,BlockState:{Name:"barrier"}}},weight:1}],MaxNearbyEntities:2s,RequiredPlayerRange:18s,SpawnCount:1s,MaxSpawnDelay:800s,MinSpawnDelay:200s,SpawnRange:4s,Delay:10s} destroy
+setblock -368 95 -1464 minecraft:spawner{SpawnPotentials:[{data:{entity:{id:"minecraft:falling_block",NoGravity:1,Pos:[-367.5,101.0,-1463.5],Tags:["final_battle","wither_skeleton"],Silent:1,DropItem:0,HurtEntities:0,BlockState:{Name:"barrier"}}},weight:1}],MaxNearbyEntities:2s,RequiredPlayerRange:18s,Spawncount:1,MaxSpawnDelay:800s,MinSpawnDelay:200s,SpawnRange:4s,Delay:10s} destroy
 
 kill @e[type=villager,tag=!panling]
 execute positioned -347 202 -1448 run function pld:npcs/final_story/1

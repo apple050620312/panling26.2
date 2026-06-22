@@ -1,5 +1,5 @@
 #落日本体初始化
-execute at @s run summon minecraft:armor_stand ~ ~2 ~ {Tags:["entity_tick","fall_sun","no_init"],Pose:{Head:[-27.0f,-28.0f,-40.0f]},ArmorItems:[{},{},{},{id:"minecraft:shroomlight",Count:1b}],Invisible: 1b,Invulnerable: 1b,NoGravity:1b,Marker:1b}
+execute at @s run summon minecraft:armor_stand ~ ~2 ~ {Tags:["entity_tick","fall_sun","no_init"],Pose:{Head:[-27.0f,-28.0f,-40.0f]},ArmorItems:[{},{},{},{id:"minecraft:shroomlight",count:1}],Invisible: 1b,Invulnerable: 1b,NoGravity:1b,Marker:1b}
 function pld:system/archer_damage/weapon_skill/bow6/fall_sun/sun_init
 #绘定范围圈 以中心5格半径
 execute at @s run function pld:system/archer_damage/weapon_skill/bow6/fall_sun/circle/main

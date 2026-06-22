@@ -24,10 +24,10 @@ execute if predicate pld:mainhand/furnace6 unless entity @s[level=50..] run tell
 #scoreboard players set @s[nbt={SelectedItem:{components:{custom_data:{id:"panling:furnace6",awake:1}}}}] weapon6_awake 1
 #scoreboard players set @s[nbt={SelectedItem:{components:{custom_data:{id:"panling:furnace6",awake:2}}}}] weapon6_awake 2
 #scoreboard players set @s[nbt={SelectedItem:{components:{custom_data:{id:"panling:furnace6",awake:3}}}}] weapon6_awake 3
-#scoreboard players set @s[nbt={Inventory:[{Slot:-106b,components:{custom_data:{id:"panling:furnace6",awake:0}}}]}] weapon6_awake 0
-#scoreboard players set @s[nbt={Inventory:[{Slot:-106b,components:{custom_data:{id:"panling:furnace6",awake:1}}}]}] weapon6_awake 1
-#scoreboard players set @s[nbt={Inventory:[{Slot:-106b,components:{custom_data:{id:"panling:furnace6",awake:2}}}]}] weapon6_awake 2
-#scoreboard players set @s[nbt={Inventory:[{Slot:-106b,components:{custom_data:{id:"panling:furnace6",awake:3}}}]}] weapon6_awake 3
+#scoreboard players set @s[nbt={Inventory:[{slot:-106,components:{custom_data:{id:"panling:furnace6",awake:0}}}]}] weapon6_awake 0
+#scoreboard players set @s[nbt={Inventory:[{slot:-106,components:{custom_data:{id:"panling:furnace6",awake:1}}}]}] weapon6_awake 1
+#scoreboard players set @s[nbt={Inventory:[{slot:-106,components:{custom_data:{id:"panling:furnace6",awake:2}}}]}] weapon6_awake 2
+#scoreboard players set @s[nbt={Inventory:[{slot:-106,components:{custom_data:{id:"panling:furnace6",awake:3}}}]}] weapon6_awake 3
 
 #接口-空
 function #pld:zf/zfmain

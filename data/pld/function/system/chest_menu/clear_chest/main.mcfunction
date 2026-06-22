@@ -7,18 +7,18 @@ data modify storage pld:system Temp_chest set from storage pld:system Temp.Ender
 #清理按钮们
 data remove storage pld:system Temp_chest[{components:{custom_data:{clickable:1}}}]
 #清理左三,不在這裡返还
-data remove storage pld:system Temp_chest[{Slot:0b}]
-data remove storage pld:system Temp_chest[{Slot:9b}]
-data remove storage pld:system Temp_chest[{Slot:18b}]
+data remove storage pld:system Temp_chest[{slot:0}]
+data remove storage pld:system Temp_chest[{slot:9}]
+data remove storage pld:system Temp_chest[{slot:18}]
 
 
 #根据当前菜单页面，判断情况
 execute if score @s screen matches 200..225 run function pld:system/chest_menu/clear_chest/if_in_chests
 
 #清理右三,不在這裡返还
-data remove storage pld:system Temp_chest[{Slot:8b}]
-data remove storage pld:system Temp_chest[{Slot:17b}]
-#data remove storage pld:system Temp_chest[{Slot:26b}]
+data remove storage pld:system Temp_chest[{slot:8}]
+data remove storage pld:system Temp_chest[{slot:17}]
+#data remove storage pld:system Temp_chest[{slot:26}]
 
     #不是储存页面，看看是否有被遗忘的物品
 execute if score @s screen matches 0.. unless score @s screen matches 200..225 if data storage pld:system Temp_chest[0] run function pld:system/chest_menu/clear_chest/send_items_back

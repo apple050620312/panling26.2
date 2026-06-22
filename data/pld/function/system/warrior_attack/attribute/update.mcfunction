@@ -37,13 +37,13 @@ function #pld:attack_damage/final_add
 
 
 #如果没有激活 清理数据
-execute if score @s WeaponSlot matches 1 unless entity @s[nbt={Inventory:[{Slot:0b,components:{custom_data:{act:1}}}]}] run scoreboard players set @s weapon_atk_pt_base1 0
-execute if score @s WeaponSlot matches 2 unless entity @s[nbt={Inventory:[{Slot:1b,components:{custom_data:{act:1}}}]}] run scoreboard players set @s weapon_atk_pt_base1 0
-execute if score @s WeaponSlot matches 3 unless entity @s[nbt={Inventory:[{Slot:2b,components:{custom_data:{act:1}}}]}] run scoreboard players set @s weapon_atk_pt_base1 0
-execute if score @s WeaponSlot matches 4 unless entity @s[nbt={Inventory:[{Slot:3b,components:{custom_data:{act:1}}}]}] run scoreboard players set @s weapon_atk_pt_base1 0
-execute if score @s WeaponSlot matches 5 unless entity @s[nbt={Inventory:[{Slot:4b,components:{custom_data:{act:1}}}]}] run scoreboard players set @s weapon_atk_pt_base1 0
-execute if score @s WeaponSlot matches 6 unless entity @s[nbt={Inventory:[{Slot:5b,components:{custom_data:{act:1}}}]}] run scoreboard players set @s weapon_atk_pt_base1 0
-execute if score @s WeaponSlot matches 7 unless entity @s[nbt={Inventory:[{Slot:6b,components:{custom_data:{act:1}}}]}] run scoreboard players set @s weapon_atk_pt_base1 0
-execute if score @s WeaponSlot matches 8 unless entity @s[nbt={Inventory:[{Slot:7b,components:{custom_data:{act:1}}}]}] run scoreboard players set @s weapon_atk_pt_base1 0
-execute if score @s WeaponSlot matches 9 unless entity @s[nbt={Inventory:[{Slot:8b,components:{custom_data:{act:1}}}]}] run scoreboard players set @s weapon_atk_pt_base1 0
-execute if score @s WeaponSlot matches -1 unless entity @s[nbt={Inventory:[{Slot:-106b,components:{custom_data:{act:1}}}]}] run scoreboard players set @s weapon_atk_pt_base1 0
+execute if score @s WeaponSlot matches 1 unless entity @s[nbt={Inventory:[{slot:0,components:{custom_data:{act:1}}}]}] run scoreboard players set @s weapon_atk_pt_base1 0
+execute if score @s WeaponSlot matches 2 unless entity @s[nbt={Inventory:[{slot:1,components:{custom_data:{act:1}}}]}] run scoreboard players set @s weapon_atk_pt_base1 0
+execute if score @s WeaponSlot matches 3 unless entity @s[nbt={Inventory:[{slot:2,components:{custom_data:{act:1}}}]}] run scoreboard players set @s weapon_atk_pt_base1 0
+execute if score @s WeaponSlot matches 4 unless entity @s[nbt={Inventory:[{slot:3,components:{custom_data:{act:1}}}]}] run scoreboard players set @s weapon_atk_pt_base1 0
+execute if score @s WeaponSlot matches 5 unless entity @s[nbt={Inventory:[{slot:4,components:{custom_data:{act:1}}}]}] run scoreboard players set @s weapon_atk_pt_base1 0
+execute if score @s WeaponSlot matches 6 unless entity @s[nbt={Inventory:[{slot:5,components:{custom_data:{act:1}}}]}] run scoreboard players set @s weapon_atk_pt_base1 0
+execute if score @s WeaponSlot matches 7 unless entity @s[nbt={Inventory:[{slot:6,components:{custom_data:{act:1}}}]}] run scoreboard players set @s weapon_atk_pt_base1 0
+execute if score @s WeaponSlot matches 8 unless entity @s[nbt={Inventory:[{slot:7,components:{custom_data:{act:1}}}]}] run scoreboard players set @s weapon_atk_pt_base1 0
+execute if score @s WeaponSlot matches 9 unless entity @s[nbt={Inventory:[{slot:8,components:{custom_data:{act:1}}}]}] run scoreboard players set @s weapon_atk_pt_base1 0
+execute if score @s WeaponSlot matches -1 unless entity @s[nbt={Inventory:[{slot:-106,components:{custom_data:{act:1}}}]}] run scoreboard players set @s weapon_atk_pt_base1 0

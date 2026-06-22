@@ -4,7 +4,7 @@ scoreboard players remove @s pvp_point 2
 scoreboard players set @s up_chest 1
 #更新物品
 clear @s golden_chestplate[custom_data={id:"panling:pvp3_atk_chestplate"}]
-item replace entity @s armor.chest with golden_chestplate[custom_name='[{"translate":"pl.pvp3.item.name.atk_chestplate"},{"text":"+","color":"aqua","italic":false}]',lore=['{"translate":"pl.pvp.item.limit"}','{"translate":""}','[{"translate":"pl.attribute.armor"},{"text":"4","color":"white","italic":false}]','{"translate":"pl.pvp.item.lore.arrow_protection"}','{"translate":"pl.pvp.item.lore.protection"}','{"translate":""}','{"translate":"pl.pvp.item.uped"}'],unbreakable={},minecraft:enchantments={binding_curse:1,protection:1,projectile_protection:1},custom_data={id:"panling:pvp3_atk_chestplate",pvp:1,AttributeModifiers:[{Slot:"chest",UUID:[I;2,2,2,2],Operation:0,AttributeName:"minecraft:armor",Amount:4}]}]
+item replace entity @s armor.chest with golden_chestplate[custom_name='[{"translate":"pl.pvp3.item.name.atk_chestplate"},{"text":"+","color":"aqua","italic":false}]',lore=['{"translate":"pl.pvp.item.limit"}','{"translate":""}','[{"translate":"pl.attribute.armor"},{"text":"4","color":"white","italic":false}]','{"translate":"pl.pvp.item.lore.arrow_protection"}','{"translate":"pl.pvp.item.lore.protection"}','{"translate":""}','{"translate":"pl.pvp.item.uped"}'],unbreakable={},minecraft:enchantments={binding_curse:1,protection:1,projectile_protection:1},custom_data={id:"panling:pvp3_atk_chestplate",pvp:1,AttributeModifiers:[{slot:"chest",UUID:[I;2,2,2,2],Operation:0,AttributeName:"minecraft:armor",Amount:4}]}]
 
 #重置按钮
 clear @s leather_chestplate[custom_data={id:"panling:pvp_chestplate_up"}]

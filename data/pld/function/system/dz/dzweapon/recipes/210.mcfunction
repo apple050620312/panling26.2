@@ -1,3 +1,3 @@
-execute if data block ~ ~ ~ {Items:[{Slot:3b,id:"minecraft:phantom_membrane",Count:1b,components:{custom_data:{level:2s,job:1b,branch:0b}}},{Slot:0b,id:"minecraft:bone",Count:2b,components:{custom_data:{id:"panling:refined_wood"}}}]} run scoreboard players set #system dzoutput 210
+execute if data block ~ ~ ~ {Items:[{slot:3,id:"minecraft:phantom_membrane",count:1,components:{custom_data:{level:2s,job:1b,branch:0b}}},{slot:0,id:"minecraft:bone",count:2,components:{custom_data:{id:"panling:refined_wood"}}}]} run scoreboard players set #system dzoutput 210
 
 
